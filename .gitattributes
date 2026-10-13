@@ -1,0 +1,10 @@
+# Keep every text file with LF line endings on every computer (no CRLF warnings on Windows),
+# and never change images, fonts or the Android app.
+* text=auto eol=lf
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.woff2 binary
+*.apk binary
+*.zip binary
+*.keystore binary

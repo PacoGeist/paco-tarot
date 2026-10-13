@@ -1,0 +1,4595 @@
+[
+  {
+    "id": "tarot-yule-return-of-light",
+    "name": "Yule: Return of the Light",
+    "description": "A solstice spread for the longest night, when the old sun dies and the new one is reborn. It honors what the dark half of the year has taught you and kindles a small flame of hope to carry toward spring.",
+    "cardCount": 5,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "new beginnings",
+      "reflection",
+      "sun magic",
+      "wisdom",
+      "release"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Longest Night",
+        "meaning": "What the darkness of this past season has asked of you; the hardship or stillness you have endured.",
+        "x": 0,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Honour the dark you have come through. What did this past season ask you to endure, and how does this card reflect it?"
+      },
+      {
+        "n": 2,
+        "name": "Gift of the Dark",
+        "meaning": "The wisdom, rest or hidden strength you gained while the light was low.",
+        "x": 1.2,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Even the longest night leaves something behind. What wisdom or rest did you gain while the light was low?"
+      },
+      {
+        "n": 3,
+        "name": "What to Leave in the Old Year",
+        "meaning": "The habit, fear or burden to let die with the old sun.",
+        "x": 2.4,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Imagine setting this card on the dying embers of the old sun. Which burden or fear are you ready to let go with it?"
+      },
+      {
+        "n": 4,
+        "name": "The Newborn Sun",
+        "meaning": "The fresh hope or seed of light being born in you now.",
+        "x": 1.2,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Look for the smallest glimmer in this card. What fresh hope is being born in you on this longest night?"
+      },
+      {
+        "n": 5,
+        "name": "Light to Carry Forward",
+        "meaning": "How to tend that small flame through the rest of winter.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Cup your hands as if around a candle. What daily act of care will keep this new flame alive until spring?"
+      }
+    ],
+    "howToUse": "Read on the solstice night by a single candle, ideally after a moment of sitting in full darkness. Lay the first three cards in a low row, then the newborn sun card centered above them and the final card at the top, like a flame rising. Read the bottom row as the closing of the old year and the upper cards as the returning light. Keep the top card on your altar until Imbolc.",
+    "intention": "In the longest night I honor the dark and welcome the returning sun. Show me what to release and what light to carry.",
+    "bestTime": "Winter Solstice / Yule (Dec 20–23), or any night in December",
+    "moonPhases": [
+      "Dark Moon",
+      "New Moon",
+      "Waning Crescent"
+    ],
+    "guided": true,
+    "backdrop": "winter"
+  },
+  {
+    "id": "tarot-imbolc-first-stirrings",
+    "name": "Imbolc: First Stirrings",
+    "description": "A gentle spread for Brigid's festival, when the first lambs are born and the earth quickens beneath the snow. It reveals the seeds already stirring in your life and how to nurture them with Brigid's gifts of hearth, healing and inspiration.",
+    "cardCount": 4,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "divination",
+      "new beginnings",
+      "purification",
+      "healing",
+      "inspiration"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "Beneath the Snow",
+        "meaning": "The dream or project quietly stirring under the surface of your life.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Picture this card sleeping under snow. What quiet dream have you been keeping warm through the winter months?"
+      },
+      {
+        "n": 2,
+        "name": "Brigid's Flame",
+        "meaning": "The inspiration or creative fire available to you now.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Imagine Brigid's flame flickering in this card. Where does it light up your creativity, and what wants to be made?"
+      },
+      {
+        "n": 3,
+        "name": "The Healing Well",
+        "meaning": "What needs cleansing or healing before new growth can begin.",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Dip your hands into the well with this card. What old hurt or heaviness needs washing before you can begin?"
+      },
+      {
+        "n": 4,
+        "name": "First Green Shoot",
+        "meaning": "The first small, practical step that lets the seed break through.",
+        "x": 3.6,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Look for the smallest, greenest thing in this card. What one simple step could you take before the week is out?"
+      }
+    ],
+    "howToUse": "Sweep your space and light a white candle for Brigid before reading. Lay the four cards in a row from left to right, like the earth waking from winter. Pay attention to Aces, Pages and the suit of Wands, which often mark new beginnings at this season. Write the final card's advice on a strip of cloth or paper and tie it near your door as a Brigid's ribbon.",
+    "intention": "Brigid of the flame and the well, show me what is waking within me and how to tend it.",
+    "bestTime": "Imbolc (Feb 1–2), late winter (late Jan–Feb)",
+    "moonPhases": [
+      "Waxing Crescent",
+      "New Moon"
+    ],
+    "guided": true,
+    "backdrop": "winter"
+  },
+  {
+    "id": "tarot-ostara-balance-and-bloom",
+    "name": "Ostara: Balance and Bloom",
+    "description": "A spring equinox spread built on the moment day and night stand equal. Two pairs of cards weigh light against dark and then reveal what is ready to blossom as the light begins to win.",
+    "cardCount": 4,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "divination",
+      "balance",
+      "fertility",
+      "new beginnings",
+      "abundance"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "Light in Balance",
+        "meaning": "What is thriving and well-supported in your life right now.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Look for the sunlight in this card. What in your life is thriving right now, and who or what is helping it grow?"
+      },
+      {
+        "n": 2,
+        "name": "Dark in Balance",
+        "meaning": "What still needs rest, patience or attention in the shadows.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Let your eyes rest in the card's shadows. What part of you still needs rest or patience before it is ready?"
+      },
+      {
+        "n": 3,
+        "name": "The Egg",
+        "meaning": "The potential waiting to hatch: a plan, relationship or self you are growing into.",
+        "x": 0,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Imagine cupping this card like a warm egg. What plan, bond or self is quietly growing inside, waiting for its moment?"
+      },
+      {
+        "n": 4,
+        "name": "First Blossom",
+        "meaning": "How that potential begins to bloom over the coming season.",
+        "x": 1.2,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Picture the first green shoots of spring opening in this card. What small, real sign of blooming could you look for this season?"
+      }
+    ],
+    "howToUse": "Read at the equinox, ideally at sunrise or sunset. Lay the first two cards side by side as the balance, then the egg and blossom cards in a row beneath them. Compare the top pair for equilibrium: if one card feels much heavier, that area of life needs rebalancing before the bottom row can flourish. Plant a seed or decorate an egg with a symbol from the last card.",
+    "intention": "As day and night stand equal, show me my balance and the bloom that waits within me.",
+    "bestTime": "Spring Equinox / Ostara (Mar 19–22), early spring (Mar–Apr)",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ],
+    "guided": true,
+    "backdrop": "spring"
+  },
+  {
+    "id": "tarot-beltane-fire-and-flower",
+    "name": "Beltane: Fire and Flower",
+    "description": "A May Eve spread of passion, union and vitality, laid in the shape of a maypole. It explores desire, creative fire and the joyful partnerships that make life fertile.",
+    "cardCount": 5,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "love",
+      "lust",
+      "fertility",
+      "vitality",
+      "attraction"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Maypole",
+        "meaning": "The central desire or passion rooting you to the earth this season.",
+        "x": 1.2,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Stand tall like the maypole. What desire does this card show rooting you to the earth and lifting you skyward this season?"
+      },
+      {
+        "n": 2,
+        "name": "The Bonfire",
+        "meaning": "What to leap through: the fear or hesitation to burn away.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Picture the bonfire in front of you. What fear or hesitation in this card are you ready to leap over and burn away?"
+      },
+      {
+        "n": 3,
+        "name": "The Flower Crown",
+        "meaning": "The beauty, pleasure or joy asking to be celebrated.",
+        "x": 0,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Let yourself smile at this card. What beauty or pleasure in your life is asking to be crowned and celebrated?"
+      },
+      {
+        "n": 4,
+        "name": "The Ribbon Dance",
+        "meaning": "The partnership, collaboration or union that weaves your life together.",
+        "x": 2.4,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Think of the ribbons weaving round the pole. Who in your life does this card show you dancing with, in love, friendship or work?"
+      },
+      {
+        "n": 5,
+        "name": "The Greenwood Blessing",
+        "meaning": "What will grow from honoring your passion: the fruit of the season.",
+        "x": 1.2,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Imagine the greenwood heavy with fruit. If you honour your passion, what does this card say will grow from it?"
+      }
+    ],
+    "howToUse": "Read outdoors or beside a fire if you can, with fresh flowers nearby. Place the maypole card in the center, the bonfire card above, the flower crown to the left, the ribbon dance to the right and the blessing below. Read the outer four cards as the energies circling your central desire. Cups and Wands here speak strongly of love and creative heat.",
+    "intention": "By fire and flower, show me what I desire, what I must leap through, and what will bloom.",
+    "bestTime": "Beltane / May Eve (Apr 30–May 1), late spring (May)",
+    "moonPhases": [
+      "Waxing Gibbous",
+      "Full Moon"
+    ],
+    "guided": true,
+    "backdrop": "spring"
+  },
+  {
+    "id": "tarot-litha-height-of-the-sun",
+    "name": "Litha: Height of the Sun",
+    "description": "A midsummer spread laid as a radiant sun: one central card ringed by six rays. At the peak of the light it shows where you shine, what you have achieved and how to make the most of the long bright days before the wheel turns toward harvest.",
+    "cardCount": 7,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "sun magic",
+      "success",
+      "confidence",
+      "vitality",
+      "power"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "Ray of Strength",
+        "meaning": "Where your power and confidence are strongest right now.",
+        "x": 1.82,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Stand tall as you look at this card. Where in your life do you feel most sure of your own power right now?"
+      },
+      {
+        "n": 2,
+        "name": "Ray of Achievement",
+        "meaning": "What you have accomplished since the dark of the year.",
+        "x": 3.64,
+        "y": 1.3,
+        "rotate": 0,
+        "guide": "Think back to the darkest days of winter. What has grown since then that this card helps you see and celebrate?"
+      },
+      {
+        "n": 3,
+        "name": "Ray of Joy",
+        "meaning": "What brings you warmth and delight; how to have more of it.",
+        "x": 3.64,
+        "y": 3.9,
+        "rotate": 0,
+        "guide": "Let this card warm you like sunlight on skin. What delights you here, and how could you invite more of it in?"
+      },
+      {
+        "n": 4,
+        "name": "Ray of Shadow",
+        "meaning": "What the bright light reveals that you would rather not see.",
+        "x": 1.82,
+        "y": 5.2,
+        "rotate": 0,
+        "guide": "Bright light casts sharp shadows. Gently ask what this card shows you that you would prefer not to see."
+      },
+      {
+        "n": 5,
+        "name": "Ray of Abundance",
+        "meaning": "What is ripening and will soon be ready to harvest.",
+        "x": 0,
+        "y": 3.9,
+        "rotate": 0,
+        "guide": "Look at this card like a ripening field. What in your life is almost ready to be gathered in?"
+      },
+      {
+        "n": 6,
+        "name": "Ray of Turning",
+        "meaning": "What to prepare as the days begin to shorten again.",
+        "x": 0,
+        "y": 1.3,
+        "rotate": 0,
+        "guide": "The wheel is already turning toward harvest. What does this card suggest you prepare while the days are still long?"
+      },
+      {
+        "n": 7,
+        "name": "The Midsummer Sun",
+        "meaning": "The heart of the reading: your own inner sun and how it wants to shine.",
+        "x": 1.82,
+        "y": 2.6,
+        "rotate": 0,
+        "guide": "Close your eyes and feel a sun glowing in your chest. How does this card want that inner light to shine?"
+      }
+    ],
+    "howToUse": "Read at noon on the solstice or in the long evening light. Lay the six rays clockwise from the top in a circle, then place the central sun card last. Read the rays in order, then interpret the center as the force that unites them. The Sun, Strength and the suit of Wands appearing here are especially blessed.",
+    "intention": "At the height of the sun, show me where I shine and how to carry this light through the turning year.",
+    "bestTime": "Summer Solstice / Litha (Jun 20–22), midsummer (Jun–Jul)",
+    "moonPhases": [
+      "Full Moon",
+      "Waxing Gibbous"
+    ],
+    "guided": true,
+    "backdrop": "summer"
+  },
+  {
+    "id": "tarot-lammas-first-harvest",
+    "name": "Lammas: First Harvest",
+    "description": "A Lughnasadh spread for the first grain harvest, when the first loaf is baked and thanks are given. It counts what your efforts have yielded, what must be sacrificed for the harvest to continue and what to save as seed for next year.",
+    "cardCount": 5,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "divination",
+      "abundance",
+      "prosperity",
+      "gratitude",
+      "success"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The First Sheaf",
+        "meaning": "The first fruit of your labors this year; what has already come in.",
+        "x": 0,
+        "y": 1.2,
+        "rotate": 0,
+        "guide": "Count your blessings like sheaves of grain. What has already come in from your hard work this year that you have not fully noticed?"
+      },
+      {
+        "n": 2,
+        "name": "The Sickle",
+        "meaning": "What must be cut away or sacrificed so the harvest can be gathered.",
+        "x": 1.2,
+        "y": 0.4,
+        "rotate": 0,
+        "guide": "Every harvest needs a blade. What does this card say must be cut away so you can gather what is ripe?"
+      },
+      {
+        "n": 3,
+        "name": "The Loaf",
+        "meaning": "What to share, celebrate or give thanks for.",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Imagine breaking bread with people you love. What in this card deserves to be shared, celebrated or thanked?"
+      },
+      {
+        "n": 4,
+        "name": "The Remaining Field",
+        "meaning": "The work still ripening that needs more time and effort.",
+        "x": 3.6,
+        "y": 0.4,
+        "rotate": 0,
+        "guide": "Walk the rows still standing. What work in this card needs more time and tending before it is ready?"
+      },
+      {
+        "n": 5,
+        "name": "Seed for Next Year",
+        "meaning": "What to save and carry forward as the seed of future growth.",
+        "x": 4.8,
+        "y": 1.2,
+        "rotate": 0,
+        "guide": "Hold this card like a handful of seed. What lesson or hope will you save and plant again next year?"
+      }
+    ],
+    "howToUse": "Bake or buy a loaf of bread and set it beside your deck. Lay the five cards in a gentle arch from left to right, like a sheaf bending in the wind. Pentacles here speak directly of earned rewards. After reading, break the bread and leave the first piece outside as an offering of thanks.",
+    "intention": "At the first harvest I give thanks. Show me what I have reaped and what I must sow again.",
+    "bestTime": "Lammas / Lughnasadh (Jul 31–Aug 2), late summer (Aug)",
+    "moonPhases": [
+      "Full Moon",
+      "Waning Gibbous"
+    ],
+    "guided": true,
+    "backdrop": "summer"
+  },
+  {
+    "id": "tarot-mabon-second-harvest",
+    "name": "Mabon: Second Harvest",
+    "description": "An autumn equinox spread of gratitude and balance. As day and night stand equal once more, it weighs your gains and losses and prepares you to descend gracefully into the dark half of the year.",
+    "cardCount": 4,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "divination",
+      "balance",
+      "gratitude",
+      "abundance",
+      "release"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "What I Have Gathered",
+        "meaning": "The blessings, lessons and abundance this year has given you.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Gather your thanks. What blessings and lessons from this year does this card bring to mind? Name at least one aloud."
+      },
+      {
+        "n": 2,
+        "name": "What I Have Lost",
+        "meaning": "What has fallen away, and the peace to be found in letting it go.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Day and night stand equal now. Look at what this card shows falling away, and ask where peace might be found in its leaving."
+      },
+      {
+        "n": 3,
+        "name": "Storing for Winter",
+        "meaning": "What to preserve and protect as the nights grow long.",
+        "x": 0,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Imagine filling your larder for winter. What in this card is worth preserving and protecting as the nights grow long?"
+      },
+      {
+        "n": 4,
+        "name": "Into the Dark",
+        "meaning": "The inner work and rest awaiting you in the coming season.",
+        "x": 1.2,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Feel the year beginning its descent. What quiet inner work or rest does this card invite you into?"
+      }
+    ],
+    "howToUse": "Set apples, gourds or autumn leaves on your altar. Lay the first two cards side by side as the scales of the equinox, then the two lower cards beneath them. Read the top pair for the balance of gain and loss, and the lower pair as guidance for the descent into winter. Write three things you are grateful for after the reading.",
+    "intention": "At the turning of the year I give thanks and find my balance. Show me what to keep and what to release.",
+    "bestTime": "Autumn Equinox / Mabon (Sep 21–23), early autumn (Sep–Oct)",
+    "moonPhases": [
+      "Waning Gibbous",
+      "Last Quarter"
+    ],
+    "guided": true,
+    "backdrop": "autumn"
+  },
+  {
+    "id": "tarot-yes-or-no-two-paths",
+    "name": "Yes or No: Two Paths",
+    "description": "A quick two-card spread for yes-or-no questions that does not reduce the tarot to a coin toss. Instead of one blunt answer, it shows what unfolds if you say yes and what unfolds if you say no, so you choose with open eyes.",
+    "cardCount": 2,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "divination",
+      "clarity",
+      "decision making",
+      "focus"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "If Yes",
+        "meaning": "What happens, or what you experience, if you say yes or take this step.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Imagine saying yes out loud and step into this card. How does your body react: lighter, tighter, excited, afraid?"
+      },
+      {
+        "n": 2,
+        "name": "If No",
+        "meaning": "What happens, or what you experience, if you say no or hold back.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Now imagine saying no and step into this card instead. Is there relief here, or a quiet sense of something missed?"
+      }
+    ],
+    "howToUse": "Phrase your question so it can be answered yes or no, then shuffle while holding it in mind. Lay the two cards side by side. Compare them honestly: which outcome feels more nourishing, more aligned, more alive? As a simple rule of thumb, bright and flowing cards (the Sun, the Star, aces, many Cups) lean toward a happy result, while heavy or blocked cards (the Tower, many Swords) urge caution. The choice remains yours.",
+    "intention": "Show me both paths clearly, so that I may choose the one that serves my highest good.",
+    "bestTime": "Any time of year, whenever a decision is pressing",
+    "moonPhases": [
+      "First Quarter",
+      "Full Moon",
+      "Waxing Gibbous"
+    ],
+    "guided": true
+  },
+  {
+    "id": "tarot-obstacle",
+    "name": "Obstacle Spread",
+    "description": "A five-card spread for when you feel stuck. It names the obstacle, uncovers its root, and reveals both the hidden help and the action that will move you past it.",
+    "cardCount": 5,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "road opening",
+      "clarity",
+      "courage",
+      "uncrossing"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Situation",
+        "meaning": "Where you stand and what you are trying to achieve.",
+        "x": 0,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Start by naming it plainly. What are you trying to reach, and where does this card show you standing right now?"
+      },
+      {
+        "n": 2,
+        "name": "The Obstacle",
+        "meaning": "What is blocking your way right now.",
+        "x": 1.2,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Look straight at what blocks you. What in this card feels like the wall, and how big is it really?"
+      },
+      {
+        "n": 3,
+        "name": "The Root",
+        "meaning": "Where the obstacle truly comes from: inside you, in others or in circumstance.",
+        "x": 1.2,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Dig beneath the block. Does this card point to something inside you, in someone else, or simply in circumstance?"
+      },
+      {
+        "n": 4,
+        "name": "Hidden Help",
+        "meaning": "An ally, resource or strength you have overlooked.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Look at the edges and background of this card. What ally or strength have you been walking right past?"
+      },
+      {
+        "n": 5,
+        "name": "The Way Through",
+        "meaning": "The action or shift in perspective that clears the path.",
+        "x": 2.4,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Imagine yourself already on the other side. What one action or change of view does this card suggest to get you there?"
+      }
+    ],
+    "howToUse": "Lay the situation card on the left and the obstacle card directly to its right, as if standing in the way. Place the root beneath the obstacle and hidden help above it, then the way through on the far right. Read left to right as a journey: you, the wall, and what lies beyond it. If the way-through card is unclear, draw one clarifier and lay it beside it.",
+    "intention": "Show me what stands in my way, where it comes from, and how I may pass.",
+    "bestTime": "Any time of year; especially helpful at the turn of a season",
+    "moonPhases": [
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waxing Crescent"
+    ],
+    "guided": true
+  },
+  {
+    "id": "tarot-healing",
+    "name": "Healing Spread",
+    "description": "A compassionate spread for any wound of body, heart or spirit. It does not replace medical care; it helps you understand what is asking for healing and how to support your own recovery.",
+    "cardCount": 5,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "healing",
+      "emotional healing",
+      "self-love",
+      "release"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Wound",
+        "meaning": "What is hurting and asking for attention.",
+        "x": 1.2,
+        "y": 5.1,
+        "rotate": 0,
+        "guide": "Be very gentle here. Look at this card and simply name what hurts, without needing to fix it yet."
+      },
+      {
+        "n": 2,
+        "name": "The Lesson",
+        "meaning": "What this pain is teaching you or asking you to understand.",
+        "x": 0,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Pain can be a teacher. What is this card trying to help you understand about yourself or your needs?"
+      },
+      {
+        "n": 3,
+        "name": "What to Release",
+        "meaning": "The belief, habit or memory that keeps the wound open.",
+        "x": 2.4,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Breathe out slowly. What belief or habit in this card keeps the wound open, and are you ready to set it down?"
+      },
+      {
+        "n": 4,
+        "name": "Medicine",
+        "meaning": "What nourishes and restores you: a practice, person or change.",
+        "x": 1.2,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Look for what nourishes in this card. Is your medicine a practice, a person, or a change you have been putting off?"
+      },
+      {
+        "n": 5,
+        "name": "Healed Self",
+        "meaning": "Who you are becoming as you heal.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Picture yourself a season from now, healing well. Does this card show who you are becoming, and can you welcome them?"
+      }
+    ],
+    "howToUse": "Hold a piece of Rose Quartz or a cup of warm herbal tea while you shuffle. Lay the wound card at the bottom center, the lesson and release cards to its upper left and upper right, the medicine card above, and the healed self at the top. Read upward from the wound to wholeness. Be gentle with yourself; difficult cards here simply show where care is needed. For physical concerns, always see a qualified healthcare provider.",
+    "intention": "Show me with kindness where I am hurting and how I may heal.",
+    "bestTime": "Any time of year; late winter and spring for renewal",
+    "moonPhases": [
+      "Waning Crescent",
+      "Waning Gibbous",
+      "Waxing Crescent"
+    ],
+    "guided": true,
+    "backdrop": "grove"
+  },
+  {
+    "id": "tarot-money-and-abundance",
+    "name": "Money & Abundance",
+    "description": "A practical prosperity spread that looks at money honestly: what you have, how it flows, what blocks it and where new abundance can come from. It is grounding rather than wishful, pairing magic with real action.",
+    "cardCount": 6,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "money",
+      "prosperity",
+      "abundance",
+      "success",
+      "manifestation"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "Current Finances",
+        "meaning": "The true state of your money and resources right now.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Take a steady breath and look without flinching. What does this card say about your money as it truly is, not as you fear or wish?"
+      },
+      {
+        "n": 2,
+        "name": "Money Beliefs",
+        "meaning": "The beliefs or family patterns shaping how you earn, spend and save.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Listen for an old family saying about money as you look. Which belief does this card echo, and is it really yours?"
+      },
+      {
+        "n": 3,
+        "name": "What Drains",
+        "meaning": "Where money or energy is leaking away.",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Look for anything spilling, broken or wasted in this card. Where is money or energy leaking out of your days?"
+      },
+      {
+        "n": 4,
+        "name": "What Grows",
+        "meaning": "Where your resources are already multiplying and could be nurtured.",
+        "x": 0,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Find what is flourishing in this card. Which resource of yours is already multiplying, and how could you tend it?"
+      },
+      {
+        "n": 5,
+        "name": "New Opportunity",
+        "meaning": "A new source of income, skill or opening to watch for.",
+        "x": 1.2,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Scan this card for a figure, path or tool you had not expected. What new skill, contact or income stream might it point to?"
+      },
+      {
+        "n": 6,
+        "name": "Abundant Action",
+        "meaning": "The concrete step to take this month to invite prosperity.",
+        "x": 2.4,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Make it practical. What is one concrete step this card suggests you take before the month is out?"
+      }
+    ],
+    "howToUse": "Place a coin or a sprig of Basil on your table. Lay the cards in two rows of three: the top row (current finances, beliefs, drains) shows where you stand, and the bottom row (grows, opportunity, action) shows the way forward. Watch for Pentacles and how they interact with other suits. Commit to the action card in a real, practical way within seven days.",
+    "intention": "Show me the truth of my resources and the path to steady, lasting abundance.",
+    "bestTime": "Any time of year; especially harvest season (Aug–Sep) and the start of a new year",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ],
+    "guided": true
+  },
+  {
+    "id": "tarot-creativity-muse",
+    "name": "Creativity: Calling the Muse",
+    "description": "A spread for artists, writers and makers of every kind. It helps you understand your creative well, unblock stalled projects and hear what your muse is trying to bring through.",
+    "cardCount": 5,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "divination",
+      "inspiration",
+      "creativity",
+      "communication",
+      "focus"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Creative Well",
+        "meaning": "The state of your creative energy right now.",
+        "x": 2.4,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Lower an imaginary bucket into your creative well. Does this card bring it up full, half-empty or muddy today?"
+      },
+      {
+        "n": 2,
+        "name": "The Block",
+        "meaning": "What is dampening your inspiration or stopping you from beginning.",
+        "x": 1.2,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Be curious rather than critical. What in this card mirrors the thing that stops you before you begin?"
+      },
+      {
+        "n": 3,
+        "name": "The Muse Speaks",
+        "meaning": "The idea, image or theme that wants to be expressed.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Let your eyes wander the card's images and colours. Which detail catches you? That might be what your muse wants made."
+      },
+      {
+        "n": 4,
+        "name": "The Craft",
+        "meaning": "The skill or discipline to develop to bring it to life.",
+        "x": 3.6,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Think of the hands that make things. What skill or practice does this card ask you to sharpen, a little each day?"
+      },
+      {
+        "n": 5,
+        "name": "The Work Revealed",
+        "meaning": "What your creation may become if you honor the muse.",
+        "x": 4.8,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Picture the finished piece. If you trust the muse, what might your work become, according to this card?"
+      }
+    ],
+    "howToUse": "Read near your workspace, perhaps with a lit orange or yellow candle. Lay the five cards in a V shape: the well at the bottom point, the block and the muse rising on the left, the craft and the finished work rising on the right. Let the images spark free association; write or sketch for ten minutes immediately afterward without editing.",
+    "intention": "Muse of my heart, show me what wants to be made and how I may bring it into the world.",
+    "bestTime": "Any time of year; spring and Imbolc for fresh inspiration",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "Full Moon"
+    ],
+    "guided": true
+  },
+  {
+    "id": "tarot-spirit-guide",
+    "name": "Meeting Your Spirit Guide",
+    "description": "A four-card spread for contacting the guides, allies and helping spirits who walk with you. It reveals something of their nature, their message and how to strengthen the connection.",
+    "cardCount": 4,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "spirit work",
+      "psychic powers",
+      "spirituality",
+      "meditation"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "Who Walks With Me",
+        "meaning": "The nature or quality of the guide drawing near.",
+        "x": 0.6,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Sit still and sense who draws near. Is the presence in this card fierce, tender, playful or wise?"
+      },
+      {
+        "n": 2,
+        "name": "Their Message",
+        "meaning": "What your guide most wants you to know right now.",
+        "x": 0,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Listen as if a friend is leaning close to whisper. What is the simplest message this card carries for you today?"
+      },
+      {
+        "n": 3,
+        "name": "How They Speak",
+        "meaning": "The signs, dreams or symbols through which they reach you.",
+        "x": 1.2,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Notice the symbols in this card: animals, colours, objects. Have any of them crossed your path or your dreams lately?"
+      },
+      {
+        "n": 4,
+        "name": "Deepening the Bond",
+        "meaning": "A practice or offering that strengthens your connection.",
+        "x": 0.6,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "What small offering or practice does this card suggest? A candle, a walk, a moment of thanks each night could be enough."
+      }
+    ],
+    "howToUse": "Cast a circle or simply ground and center, then meditate for a few minutes inviting only helpful, loving guides to come forward. Lay the first card at the top, the message and how-they-speak cards side by side below it, and the bond card at the bottom, forming a diamond. Court cards often describe the guide's personality; Major Arcana suggest a powerful or long-standing ally. Thank your guide aloud when finished.",
+    "intention": "I call only to those guides who come in love and for my highest good. Show yourself to me and share your message.",
+    "bestTime": "Autumn into winter (Oct–Dec), especially around Samhain; any quiet night",
+    "moonPhases": [
+      "Full Moon",
+      "Waning Gibbous",
+      "Dark Moon"
+    ],
+    "guided": true
+  },
+  {
+    "id": "tarot-hecates-crossroads",
+    "name": "Hecate's Crossroads",
+    "description": "A spread dedicated to Hecate, keeper of the keys and goddess of the three-way crossroads. Where a simple decision spread weighs two options, this one opens three paths and lets you see the gift and the cost of each before her torchlight.",
+    "cardCount": 9,
+    "difficulty": "Advanced",
+    "metaphysical": [
+      "divination",
+      "wisdom",
+      "shadow work",
+      "decision making",
+      "road opening",
+      "moon magic"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "Where I Stand",
+        "meaning": "You at the crossroads: your situation and state of mind.",
+        "x": 2.4,
+        "y": 5.1,
+        "rotate": 0,
+        "guide": "Stand still at the meeting of three roads. How does this card show you right now: calm, torn, tired or eager?"
+      },
+      {
+        "n": 2,
+        "name": "Hecate's Torch",
+        "meaning": "The light Hecate offers: the insight you most need to choose well.",
+        "x": 2.4,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Imagine Hecate raising her torch over this card. What does her light reveal that you most need to see before choosing?"
+      },
+      {
+        "n": 3,
+        "name": "First Path: The Road",
+        "meaning": "Where the first option leads.",
+        "x": 1.2,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Walk the first road in your mind as you study this card. Where does it take you, and how do you feel when you arrive?"
+      },
+      {
+        "n": 4,
+        "name": "First Path: The Price",
+        "meaning": "What the first option asks of you or costs.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Nothing at the crossroads is free. What does this card say the first path will ask you to give up or carry?"
+      },
+      {
+        "n": 5,
+        "name": "Second Path: The Road",
+        "meaning": "Where the second option leads.",
+        "x": 2.4,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Turn toward the second road and let this card unfold ahead of you. Which part of it tugs at you, and which makes you hesitate?"
+      },
+      {
+        "n": 6,
+        "name": "Second Path: The Price",
+        "meaning": "What the second option asks of you or costs.",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Weigh the cost honestly. Is the price in this card one you could pay with an open heart?"
+      },
+      {
+        "n": 7,
+        "name": "Third Path: The Road",
+        "meaning": "Where the third option leads, often the one not yet considered.",
+        "x": 3.6,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "This may be the road you had not thought of. What surprises you in this card, and why might you have overlooked it?"
+      },
+      {
+        "n": 8,
+        "name": "Third Path: The Price",
+        "meaning": "What the third option asks of you or costs.",
+        "x": 4.8,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Look closely at what the third path demands. Compare it with the other two prices: is it lighter, heavier or simply different?"
+      },
+      {
+        "n": 9,
+        "name": "Hecate's Key",
+        "meaning": "The key that unlocks the right choice; advice for walking any path.",
+        "x": 2.4,
+        "y": 6.8,
+        "rotate": 0,
+        "guide": "Picture Hecate placing this key in your palm. What door does it open, and how will it help you walk whichever road you choose?"
+      }
+    ],
+    "howToUse": "Read at night, ideally at a crossroads or with three candles lit, and leave an offering such as garlic, bread or honey. Lay where-I-stand at the bottom center and Hecate's torch above it. Then fan out three paths: the first rising to the upper left, the second straight up and the third to the upper right, each with its road card and its price card beyond. Place the key at the very bottom. Name the options before drawing, or leave the third path unnamed so the cards can reveal it.",
+    "intention": "Hecate, lady of the crossroads, light my way. Show me each road and its price, and grant me the key to choose.",
+    "bestTime": "Hecate's Night (Nov 16), Samhain season (Oct–Nov), or any dark night of the year",
+    "moonPhases": [
+      "Dark Moon",
+      "New Moon",
+      "Waning Crescent"
+    ],
+    "guided": true,
+    "backdrop": "altar"
+  },
+  {
+    "id": "tarot-triple-goddess",
+    "name": "Triple Goddess",
+    "description": "A spread honoring the Maiden, Mother and Crone, the three faces of the Goddess and of the moon. Each card speaks with one of her voices, and a fourth card shows how they unite in you.",
+    "cardCount": 4,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "moon magic",
+      "wisdom",
+      "spirituality",
+      "transformation"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Maiden",
+        "meaning": "Waxing moon. What is new, curious and beginning in you; the potential to embrace.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Meet the Maiden with curiosity. What new beginning in this card makes you feel young, eager, or a little nervous?"
+      },
+      {
+        "n": 2,
+        "name": "The Mother",
+        "meaning": "Full moon. What you are nurturing, creating and bringing to fullness.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "The Mother holds the full moon in her arms. What are you nurturing, and does this card show it coming to fullness?"
+      },
+      {
+        "n": 3,
+        "name": "The Crone",
+        "meaning": "Waning moon. The wisdom of endings; what to let go and what you already know deep down.",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Sit with the Crone and her quiet knowing. What does this card ask you to release, and what do you already know deep down?"
+      },
+      {
+        "n": 4,
+        "name": "The Goddess Within",
+        "meaning": "How all three faces unite in you now; the guidance of the whole moon.",
+        "x": 1.2,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Imagine all three faces gathered in you. How does this card weave beginning, fullness and ending into one guidance?"
+      }
+    ],
+    "howToUse": "Lay the Maiden on the left, the Mother in the center and the Crone on the right, echoing the waxing, full and waning moon symbol. Place the Goddess Within card beneath the Mother. Read each card in the voice of that aspect, then read the bottom card as their combined counsel. The High Priestess, Empress and Moon appearing here are especially significant.",
+    "intention": "Maiden, Mother and Crone, speak to me with your three voices and show me the Goddess within.",
+    "bestTime": "Any time of year; Beltane (Maiden), Lammas (Mother) and Samhain (Crone) are especially potent",
+    "moonPhases": [
+      "Full Moon",
+      "Waxing Crescent",
+      "Waning Crescent"
+    ],
+    "guided": true
+  },
+  {
+    "id": "tarot-solar-return",
+    "name": "Birthday: Solar Return",
+    "description": "A personal new-year spread to read on or near your birthday, when the sun returns to the place it held when you were born. It reviews the year behind you and sets the theme, gifts and challenges of your coming year.",
+    "cardCount": 7,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "new beginnings",
+      "self-love",
+      "sun magic",
+      "wisdom"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Year Behind",
+        "meaning": "The main theme or lesson of the year just ending.",
+        "x": 0,
+        "y": 0.85,
+        "rotate": 0,
+        "guide": "Look back over the past twelve months. What lesson or theme does this card sum up about the year just ending?"
+      },
+      {
+        "n": 2,
+        "name": "What I Outgrew",
+        "meaning": "What you can lovingly leave behind as you turn a new age.",
+        "x": 0,
+        "y": 2.55,
+        "rotate": 0,
+        "guide": "Like a coat that no longer fits, what in this card can you lovingly leave behind as you turn a new age?"
+      },
+      {
+        "n": 3,
+        "name": "The Birthday Self",
+        "meaning": "Who you are now, at the beginning of this new solar year.",
+        "x": 1.2,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Meet yourself on this birthday. Do you recognise who you are now in this card, or someone you are stepping into?"
+      },
+      {
+        "n": 4,
+        "name": "Theme of the Year",
+        "meaning": "The central energy or story of your coming year.",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Imagine this card as the title of your coming year's story. What chapters do you see unfolding beneath it?"
+      },
+      {
+        "n": 5,
+        "name": "Gift of the Year",
+        "meaning": "A blessing, talent or opportunity the year will bring.",
+        "x": 2.4,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Open your hands to receive. What gift or opportunity in this card would you love to say yes to this year?"
+      },
+      {
+        "n": 6,
+        "name": "Challenge of the Year",
+        "meaning": "The lesson or test to prepare for.",
+        "x": 2.4,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Every year brings a test. What does this card ask you to prepare for, and what will help you meet it?"
+      },
+      {
+        "n": 7,
+        "name": "Birthday Wish",
+        "meaning": "The wish the universe supports; what to blow your candles out for.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Close your eyes as if before your birthday candles. What wish does this card say the universe will gladly support?"
+      }
+    ],
+    "howToUse": "Read on your birthday or within the week around it. Lay the first two cards on the left as the past, the birthday self in the center, and the theme, gift and challenge cards in a column on the right as the year ahead. Place the wish card above the birthday self. Make your birthday wish with the last card in mind, and revisit the reading on your next birthday.",
+    "intention": "As the sun returns to my birth, show me the year I leave and the year I enter.",
+    "bestTime": "On or within a week of your birthday, any time of year",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "Full Moon"
+    ],
+    "guided": true
+  },
+  {
+    "id": "tarot-month-ahead-moon-phases",
+    "name": "Month Ahead by Moon Phases",
+    "description": "A lunar calendar spread that lays one card for each of the eight phases of the coming moon cycle. Read it at the New Moon to see how the month will unfold and when to begin, push, celebrate, release and rest.",
+    "cardCount": 8,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "moon magic",
+      "manifestation",
+      "release",
+      "focus"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "New Moon",
+        "meaning": "The seed of the month: the intention to plant now.",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0,
+        "guide": "In the dark of the new moon, hold this card like a seed. What intention do you want to plant for the month?"
+      },
+      {
+        "n": 2,
+        "name": "Waxing Crescent",
+        "meaning": "The first steps and early support as the intention takes root.",
+        "x": 4.1,
+        "y": 0.85,
+        "rotate": 0,
+        "guide": "A thin crescent appears. What first step or helping hand does this card show as your intention takes root?"
+      },
+      {
+        "n": 3,
+        "name": "First Quarter",
+        "meaning": "The challenge or decision point that tests your commitment.",
+        "x": 4.8,
+        "y": 2.9,
+        "rotate": 0,
+        "guide": "At the half moon comes a test. What choice in this card will ask you to prove how much you want this?"
+      },
+      {
+        "n": 4,
+        "name": "Waxing Gibbous",
+        "meaning": "What to refine, adjust and keep working on.",
+        "x": 4.1,
+        "y": 4.95,
+        "rotate": 0,
+        "guide": "The moon is nearly full. What in this card needs tweaking, polishing or a little more patience?"
+      },
+      {
+        "n": 5,
+        "name": "Full Moon",
+        "meaning": "What comes to fullness, is revealed or celebrated.",
+        "x": 2.4,
+        "y": 5.8,
+        "rotate": 0,
+        "guide": "Bathe this card in full moonlight. What comes to fullness or is revealed, and how will you celebrate it?"
+      },
+      {
+        "n": 6,
+        "name": "Waning Gibbous",
+        "meaning": "What to share, teach or give thanks for.",
+        "x": 0.7,
+        "y": 4.95,
+        "rotate": 0,
+        "guide": "As the light begins to wane, what does this card invite you to share, teach, or give thanks for?"
+      },
+      {
+        "n": 7,
+        "name": "Last Quarter",
+        "meaning": "What to release, forgive or clear away.",
+        "x": 0,
+        "y": 2.9,
+        "rotate": 0,
+        "guide": "Breathe out with the half moon. What does this card ask you to forgive, clear away or finally let go?"
+      },
+      {
+        "n": 8,
+        "name": "Waning Crescent",
+        "meaning": "How to rest, reflect and prepare for the next cycle.",
+        "x": 0.7,
+        "y": 0.85,
+        "rotate": 0,
+        "guide": "In the last sliver of light, slow down. How does this card suggest you rest and ready yourself for the next cycle?"
+      }
+    ],
+    "howToUse": "Read on or just after the New Moon. Lay the eight cards in a circle beginning at the top and moving clockwise, following the moon around its cycle. Read each card when its phase arrives as well as all together at the start. Mark the phase dates in a calendar beside each card, and journal at each phase to see how the reading unfolds.",
+    "intention": "Moon of the coming month, show me your path through each phase, from seed to rest.",
+    "bestTime": "Any month of the year, read at the start of a lunar cycle",
+    "moonPhases": [
+      "New Moon"
+    ],
+    "guided": true,
+    "backdrop": "moon"
+  },
+  {
+    "id": "tarot-inner-child",
+    "name": "Inner Child",
+    "description": "A tender spread for reconnecting with the child you once were. It reveals old hurts that still echo, the joys that were set aside, and how to become the loving guardian your younger self needed.",
+    "cardCount": 5,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "shadow work",
+      "emotional healing",
+      "self-love",
+      "happiness"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "My Inner Child",
+        "meaning": "How your inner child feels and appears to you today.",
+        "x": 1.2,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Picture yourself at seven or eight years old looking at this card with you. How do they feel, and how do they want to be seen?"
+      },
+      {
+        "n": 2,
+        "name": "The Old Hurt",
+        "meaning": "A wound from childhood that still shapes you.",
+        "x": 0,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Go gently. What childhood hurt does this card stir, and where do you still feel it showing up in your life today?"
+      },
+      {
+        "n": 3,
+        "name": "The Lost Joy",
+        "meaning": "A delight, game or dream your younger self loved and you set aside.",
+        "x": 2.4,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Remember a game or dream you loved when you were small. Does this card remind you of it, and could you bring it back?"
+      },
+      {
+        "n": 4,
+        "name": "What They Need",
+        "meaning": "What your inner child needs from you now to feel safe and loved.",
+        "x": 1.2,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Ask your younger self quietly what they need to feel safe. Let this card answer, even if the answer is simple."
+      },
+      {
+        "n": 5,
+        "name": "The Loving Guardian",
+        "meaning": "How to care for and reparent yourself going forward.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Imagine yourself as the grown-up you once needed. What does this card show you doing to care for that child now?"
+      }
+    ],
+    "howToUse": "Make the space cozy: a blanket, a childhood photo, perhaps something sweet. Lay the inner child card in the center, the old hurt to the left, the lost joy to the right, what they need below and the loving guardian above, so the guardian watches over the child. Speak to your inner child aloud as you read. Pages and the Six of Cups often appear in this spread with special warmth. If deep trauma surfaces, consider support from a counselor.",
+    "intention": "Little one within me, I am listening. Show me what you need and how I can care for you.",
+    "bestTime": "Any time of year; spring and summer for play, autumn for healing work",
+    "moonPhases": [
+      "Waxing Crescent",
+      "Full Moon",
+      "Waning Crescent"
+    ],
+    "guided": true
+  },
+  {
+    "id": "tarot-new-love-soulmate",
+    "name": "New Love & Soulmate",
+    "description": "A spread for those seeking love, or wondering about a new connection. It looks at your readiness, what you truly want and the qualities of the love that is drawing near, without promising names or dates.",
+    "cardCount": 6,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "divination",
+      "love",
+      "attraction",
+      "self-love",
+      "new beginnings"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "My Heart Now",
+        "meaning": "Your readiness for love and the state of your heart.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Place a hand over your heart. Does this card show a heart that feels open and ready, or one still healing?"
+      },
+      {
+        "n": 2,
+        "name": "What I Truly Desire",
+        "meaning": "The kind of love and partnership your soul is seeking.",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Set aside what you think you should want. What kind of love does this card say your soul is truly seeking?"
+      },
+      {
+        "n": 3,
+        "name": "What Blocks Love",
+        "meaning": "A fear, pattern or belief keeping love at a distance.",
+        "x": 0,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Be gentle with what you find. What fear or old pattern in this card might be keeping love at arm's length?"
+      },
+      {
+        "n": 4,
+        "name": "The Love Approaching",
+        "meaning": "The qualities of the person or connection coming toward you.",
+        "x": 2.4,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Rather than a name or a face, notice qualities. What warmth, energy or character does this card bring toward you?"
+      },
+      {
+        "n": 5,
+        "name": "Where We Meet",
+        "meaning": "The setting, activity or path that brings you together.",
+        "x": 1.2,
+        "y": 1.15,
+        "rotate": 0,
+        "guide": "Look at the setting in this card. What place, activity or path might lead you across love's way?"
+      },
+      {
+        "n": 6,
+        "name": "How to Open the Door",
+        "meaning": "The step that makes room for love to arrive.",
+        "x": 1.2,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Imagine your hand on the doorknob. What small step does this card suggest to make room for love to arrive?"
+      }
+    ],
+    "howToUse": "Light a pink or red candle and place a Rose Quartz or rose petals near your deck. Lay the cards in a heart shape: the first two at the top lobes, the next two below them, the meeting card nestled in the center between them, and the door card at the point. Read the left side as you and the right as the love approaching. Court cards in this spread often describe a person; the Lovers and Two of Cups are especially promising.",
+    "intention": "Show me my heart, the love I seek, and how to open the door for it to find me.",
+    "bestTime": "Spring into summer, Ostara to Litha (Mar–Jun), especially Beltane; or any Friday",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ],
+    "guided": true
+  },
+  {
+    "id": "tarot-breakup-healing",
+    "name": "Breakup Healing",
+    "description": "A gentle spread for the end of a relationship. It helps you grieve honestly, understand what happened without blame, take your power back and open slowly to the future.",
+    "cardCount": 5,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "divination",
+      "emotional healing",
+      "release",
+      "endings",
+      "grief",
+      "self-love"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "What Ended",
+        "meaning": "The truth of what this relationship was and why it ended.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Look at this card without looking for someone to blame. What was this relationship truly, and what does the card say about why it ended?"
+      },
+      {
+        "n": 2,
+        "name": "What I Grieve",
+        "meaning": "The loss that hurts most and deserves to be mourned.",
+        "x": 1.2,
+        "y": 0.85,
+        "rotate": 0,
+        "guide": "Let yourself feel it. What loss in this card aches the most, and can you give it a moment of honest grief?"
+      },
+      {
+        "n": 3,
+        "name": "The Lesson",
+        "meaning": "What this relationship taught you about love and yourself.",
+        "x": 2.4,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Think of who you were before and who you are now. What has this card got to teach you about love and about yourself?"
+      },
+      {
+        "n": 4,
+        "name": "Reclaiming My Power",
+        "meaning": "The part of yourself to call back and strengthen.",
+        "x": 3.6,
+        "y": 0.85,
+        "rotate": 0,
+        "guide": "Sit up a little straighter as you look. What part of yourself did you set aside, and how is this card calling it home?"
+      },
+      {
+        "n": 5,
+        "name": "The Open Road",
+        "meaning": "What lies ahead as your heart heals.",
+        "x": 4.8,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Let this card be a window, not a promise. What hopeful thing do you see on the road ahead as your heart mends?"
+      }
+    ],
+    "howToUse": "Read when you feel ready, with tissues and a cup of Chamomile or Lemon Balm tea. Lay the five cards in a descending-then-rising line: what ended and what I grieve sloping down, the lesson at the low point, and reclaiming my power and the open road climbing up again. Let yourself feel the bottom card fully before moving upward. Repeat this spread a month later to see how far you have come.",
+    "intention": "Help me grieve what was, learn what it taught me, and walk freely into what comes next.",
+    "bestTime": "Any time of year; autumn and winter suit grieving, spring suits moving on",
+    "moonPhases": [
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent"
+    ],
+    "guided": true
+  },
+  {
+    "id": "tarot-moving-house",
+    "name": "Moving House",
+    "description": "A spread for anyone moving, or thinking of moving, to a new home. It honors the home you are leaving, explores the spirit of the new place, and advises on a smooth transition and a happy hearth.",
+    "cardCount": 6,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "home blessing",
+      "new beginnings",
+      "protection",
+      "travel"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Old Home",
+        "meaning": "What your current home has given you and how to say goodbye.",
+        "x": 0,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Walk through your old rooms in your mind. What has this home given you that this card helps you thank it for?"
+      },
+      {
+        "n": 2,
+        "name": "What to Leave Behind",
+        "meaning": "Habits, clutter or energy that should not make the move.",
+        "x": 1.2,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Look at this card as you would a box marked 'do not pack'. What habit or energy should stay behind?"
+      },
+      {
+        "n": 3,
+        "name": "The Journey",
+        "meaning": "How the move itself will go and what to watch for.",
+        "x": 0,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Picture the boxes, the van, the long day. What does this card advise you to watch for along the way?"
+      },
+      {
+        "n": 4,
+        "name": "The Spirit of the New Home",
+        "meaning": "The character and energy of the new place and its land.",
+        "x": 1.2,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Imagine standing on the new doorstep and feeling the land beneath. What kind of spirit does this card say lives there?"
+      },
+      {
+        "n": 5,
+        "name": "Blessing the Threshold",
+        "meaning": "How to cleanse, protect and claim the new space.",
+        "x": 2.4,
+        "y": 2.55,
+        "rotate": 0,
+        "guide": "Think of salt, smoke, a sprig of rosemary at the door. How does this card suggest you cleanse and claim the space?"
+      },
+      {
+        "n": 6,
+        "name": "Life in the New Home",
+        "meaning": "What awaits you once you settle in.",
+        "x": 0.6,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Picture a quiet evening once the boxes are gone. What does this card promise your life in the new home will hold?"
+      }
+    ],
+    "howToUse": "Lay the cards in the shape of a little house: the old home and what to leave behind side by side at the base, the journey and the spirit of the new home as the walls above, the threshold blessing beside them, and life in the new home as the roof peak. Read from the foundation up. Perform the threshold card's advice the day you get the keys, perhaps with salt, Rosemary and a new broom.",
+    "intention": "Bless the home I leave and the home I go to. Show me how to make my new house a true home.",
+    "bestTime": "Any time of year; spring and early summer are traditional moving seasons",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "First Quarter"
+    ],
+    "guided": true
+  },
+  {
+    "id": "tarot-wheel-of-the-year",
+    "name": "Wheel of the Year",
+    "description": "An eight-card year-ahead spread that follows the witch's Wheel of the Year rather than the calendar. Each card is laid at one of the eight sabbats, revealing the energy and lessons of every season as the wheel turns, with a ninth card at the hub.",
+    "cardCount": 9,
+    "difficulty": "Advanced",
+    "metaphysical": [
+      "divination",
+      "spirituality",
+      "transformation",
+      "wisdom",
+      "new beginnings"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "Samhain",
+        "meaning": "Endings, ancestors and what you are ready to let die. The witch's new year.",
+        "x": 2.7,
+        "y": 0,
+        "rotate": 0,
+        "guide": "The witch's new year begins in the dark. What in this card are you ready to let die, and which ancestors might walk with you?"
+      },
+      {
+        "n": 2,
+        "name": "Yule",
+        "meaning": "The return of the light: hope, rest and the small flame you will nurture through winter.",
+        "x": 4.61,
+        "y": 0.94,
+        "rotate": 0,
+        "guide": "Picture a single candle on the longest night. What hope or rest does this card ask you to nurture through winter?"
+      },
+      {
+        "n": 3,
+        "name": "Imbolc",
+        "meaning": "First stirrings: the seed or idea quietly waking and how to purify for new growth.",
+        "x": 5.4,
+        "y": 3.2,
+        "rotate": 0,
+        "guide": "Feel the first stirring under frozen ground. What seed or idea is quietly waking in this card, and what needs clearing for it?"
+      },
+      {
+        "n": 4,
+        "name": "Ostara",
+        "meaning": "Balance and blossoming: what begins to grow and flourish in spring.",
+        "x": 4.61,
+        "y": 5.46,
+        "rotate": 0,
+        "guide": "Light and dark stand in balance at spring. What does this card show beginning to bud and flourish for you?"
+      },
+      {
+        "n": 5,
+        "name": "Beltane",
+        "meaning": "Passion and union: love, creativity and the fire that drives you at the height of spring.",
+        "x": 2.7,
+        "y": 6.4,
+        "rotate": 0,
+        "guide": "Feel the warmth of the Beltane fire. What love, creativity or passion does this card say will drive you at spring's height?"
+      },
+      {
+        "n": 6,
+        "name": "Litha",
+        "meaning": "The peak of the sun: success, power and what will shine brightest.",
+        "x": 0.79,
+        "y": 5.46,
+        "rotate": 0,
+        "guide": "Imagine the sun at its highest. Where does this card say you will shine brightest this year?"
+      },
+      {
+        "n": 7,
+        "name": "Lammas",
+        "meaning": "First harvest: the early rewards of your work and what must be sacrificed.",
+        "x": 0,
+        "y": 3.2,
+        "rotate": 0,
+        "guide": "The first sheaves are cut. What early reward does this card promise, and what might you need to give up for it?"
+      },
+      {
+        "n": 8,
+        "name": "Mabon",
+        "meaning": "Second harvest: gratitude, balance and preparing for the descent into dark.",
+        "x": 0.79,
+        "y": 0.94,
+        "rotate": 0,
+        "guide": "Pause in gratitude at the second harvest. What does this card ask you to give thanks for before the descent into dark?"
+      },
+      {
+        "n": 9,
+        "name": "The Hub",
+        "meaning": "The heart of your whole year: the theme that turns the wheel.",
+        "x": 2.7,
+        "y": 3.2,
+        "rotate": 0,
+        "guide": "Look at the centre of the wheel. How does this card's theme connect the eight seasons around it?"
+      }
+    ],
+    "howToUse": "Read at Samhain (the witch's new year) or at any sabbat, starting with the sabbat that comes next. Lay the eight cards in a circle clockwise from the top, beginning with Samhain, then place the hub card in the center. Read each card as the energy of the season around that sabbat. Return to the spread at each sabbat to reflect on how it has unfolded.",
+    "intention": "As the great wheel turns, show me the gifts and lessons of each season of the year to come.",
+    "bestTime": "Samhain (Oct 31–Nov 1), or any of the eight sabbats",
+    "moonPhases": [
+      "New Moon",
+      "Dark Moon",
+      "Full Moon"
+    ],
+    "guided": true
+  },
+  {
+    "id": "tarot-seven-planets",
+    "name": "Seven Planets",
+    "description": "A spread built on the seven classical planets of traditional astrology and magic. Laid in a seven-pointed star, it surveys every major area of life under its planetary ruler, from the Sun's vitality to Saturn's lessons.",
+    "cardCount": 7,
+    "difficulty": "Advanced",
+    "metaphysical": [
+      "divination",
+      "wisdom",
+      "knowledge",
+      "astrology",
+      "balance"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "Sun",
+        "meaning": "Vitality, identity and success. Where you shine and what gives you life.",
+        "x": 2.24,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Let the Sun warm this card. Where do you feel most alive and most yourself, and does this card show you shining or hiding?"
+      },
+      {
+        "n": 2,
+        "name": "Moon",
+        "meaning": "Emotions, intuition and the home. What your inner tides are telling you.",
+        "x": 4.04,
+        "y": 1.05,
+        "rotate": 0,
+        "guide": "Feel the Moon's tide in this card. What is your inner world whispering, and how does your home feel right now?"
+      },
+      {
+        "n": 3,
+        "name": "Mars",
+        "meaning": "Courage, conflict and drive. Where to fight and where to stand down.",
+        "x": 4.48,
+        "y": 3.42,
+        "rotate": 0,
+        "guide": "Look for the warrior's stance in this card. Which battle is worth your fire, and which one could you lay down?"
+      },
+      {
+        "n": 4,
+        "name": "Mercury",
+        "meaning": "Thought, communication and travel. What to learn, say or study.",
+        "x": 3.24,
+        "y": 5.32,
+        "rotate": 0,
+        "guide": "Let quick-footed Mercury read this card with you. Is there something to learn, a message to send or a journey to plan?"
+      },
+      {
+        "n": 5,
+        "name": "Jupiter",
+        "meaning": "Growth, luck and abundance. Where blessings and expansion come from.",
+        "x": 1.24,
+        "y": 5.32,
+        "rotate": 0,
+        "guide": "Jupiter opens wide hands. Where does this card show blessings arriving, and are you letting yourself receive them?"
+      },
+      {
+        "n": 6,
+        "name": "Venus",
+        "meaning": "Love, beauty and pleasure. The state of your relationships and joys.",
+        "x": 0,
+        "y": 3.42,
+        "rotate": 0,
+        "guide": "Look for beauty and pleasure in this card. How are your relationships and simple joys doing, and what would sweeten them?"
+      },
+      {
+        "n": 7,
+        "name": "Saturn",
+        "meaning": "Limits, discipline and time. The lesson, responsibility or boundary to honor.",
+        "x": 0.44,
+        "y": 1.05,
+        "rotate": 0,
+        "guide": "Saturn teaches through limits. What lesson, duty or boundary does this card ask you to honor patiently?"
+      }
+    ],
+    "howToUse": "Lay the seven cards in a circle clockwise from the top in the Chaldean order of the days of the week: Sun (Sunday), Moon (Monday), Mars (Tuesday), Mercury (Wednesday), Jupiter (Thursday), Venus (Friday) and Saturn (Saturday). Read each card in the light of its planet. For a week-long practice, revisit one card on its planetary day and work a small spell or meditation to that planet.",
+    "intention": "By the seven wandering stars, show me the state of each realm of my life and how to bring them into harmony.",
+    "bestTime": "Any time of year; begin on a Sunday",
+    "moonPhases": [
+      "Full Moon",
+      "Waxing Gibbous",
+      "New Moon"
+    ],
+    "guided": true
+  },
+  {
+    "id": "tarot-mirror",
+    "name": "Mirror Spread",
+    "description": "A spread of reflections laid in two facing columns. It compares how you see yourself with how others see you, and the face you show the world with the self you hide, revealing where your inner and outer images agree and where they diverge.",
+    "cardCount": 6,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "shadow work",
+      "self-love",
+      "clarity",
+      "glamour"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "How I See Myself",
+        "meaning": "Your own self-image right now.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Look at this card as if into a mirror. Do you like who you see, and is it kinder or harsher than the truth?"
+      },
+      {
+        "n": 2,
+        "name": "How Others See Me",
+        "meaning": "The impression you make on those around you.",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Think of a friend describing you to a stranger. Would they choose this card, and does that surprise you?"
+      },
+      {
+        "n": 3,
+        "name": "The Face I Show",
+        "meaning": "The mask or persona you present to the world.",
+        "x": 0,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Notice the costume or pose in this card. What mask do you put on at work, online or in company?"
+      },
+      {
+        "n": 4,
+        "name": "The Self I Hide",
+        "meaning": "What you keep behind the mask, from others or from yourself.",
+        "x": 2.4,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Breathe slowly and be tender. What are you keeping behind the mask, and who are you hiding it from?"
+      },
+      {
+        "n": 5,
+        "name": "The Blind Spot",
+        "meaning": "What neither you nor others see clearly yet.",
+        "x": 0,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Look at the corners and background of this card. What small detail did you almost overlook, in the card and in yourself?"
+      },
+      {
+        "n": 6,
+        "name": "The True Reflection",
+        "meaning": "The deeper truth that unites every image; who you truly are.",
+        "x": 1.2,
+        "y": 5.1,
+        "rotate": 0,
+        "guide": "Lay this card beside the others. What thread runs through every reflection, the you that stays when the masks come off?"
+      }
+    ],
+    "howToUse": "Read in front of a mirror if possible, with a candle lit beside it. Lay the cards in two facing columns: the left column (1, 3, 5) is your inner view, and the right column (2, 4) is the outer view, with the true reflection set between the columns at the bottom. Compare each pair across the gap: similar cards show integrity, contrasting cards show where the image is distorted. Close by looking into your own eyes and speaking the true reflection card's message aloud.",
+    "intention": "Mirror, show me true: how I am seen, how I see, and who I really am.",
+    "bestTime": "Any time of year; autumn and winter suit inner reflection",
+    "moonPhases": [
+      "Full Moon",
+      "Dark Moon"
+    ],
+    "guided": true
+  },
+  {
+    "id": "tarot-witchs-pyramid",
+    "name": "Witch's Pyramid",
+    "description": "A spread built on the Witch's Pyramid, the four powers of the Magus: To Know, To Will, To Dare and To Keep Silent, crowned by Spirit. It is ideal before working an important spell, testing whether each foundation of the magic is strong.",
+    "cardCount": 5,
+    "difficulty": "Advanced",
+    "metaphysical": [
+      "divination",
+      "manifestation",
+      "power",
+      "wisdom",
+      "focus",
+      "spirituality"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "To Know (Air)",
+        "meaning": "What you must understand about the situation and yourself before working magic.",
+        "x": 0,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Clear your mind like a cool breeze. What does this card say you must understand about the situation, or yourself, before you cast?"
+      },
+      {
+        "n": 2,
+        "name": "To Will (Fire)",
+        "meaning": "The strength and clarity of your intent; where your will is focused or scattered.",
+        "x": 1.2,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Feel your intent as a flame. Is this card showing your will burning steady and focused, or flickering in many directions?"
+      },
+      {
+        "n": 3,
+        "name": "To Dare (Water)",
+        "meaning": "The courage required; what you must be brave enough to feel, risk or act upon.",
+        "x": 2.4,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Water asks for courage. What feeling, risk or action does this card dare you to face for this working?"
+      },
+      {
+        "n": 4,
+        "name": "To Keep Silent (Earth)",
+        "meaning": "What to hold privately and let gestate in quiet so its power is not spent.",
+        "x": 3.6,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Press your palms to the earth. What in this card should be kept private so its power can quietly grow?"
+      },
+      {
+        "n": 5,
+        "name": "To Go (Spirit)",
+        "meaning": "The apex: how the four powers unite, and the likely outcome of your working.",
+        "x": 1.8,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Look at the four cards below as one foundation. Are they strong together, and what does this final card say your working will become?"
+      }
+    ],
+    "howToUse": "Read before casting an important spell or beginning a long magical undertaking. Lay the four foundation cards in a row as the base of the pyramid, from Air on the left to Earth on the right, then place the Spirit card above the center as the apex. Any weak or troubled base card shows which pillar to strengthen before you work. Keep this reading to yourself, honoring the power of silence.",
+    "intention": "To know, to will, to dare, to keep silent. Show me the strength of each foundation and the shape of the magic they will raise.",
+    "bestTime": "Any time of year, before a major spell or initiation",
+    "moonPhases": [
+      "New Moon",
+      "First Quarter",
+      "Full Moon"
+    ],
+    "guided": true,
+    "backdrop": "altar"
+  },
+  {
+    "id": "tarot-witches-road",
+    "name": "The Witches' Road",
+    "cardCount": 7,
+    "difficulty": "Intermediate",
+    "description": "A seven-card journey spread for a long or uncertain undertaking, inspired by the 'Safe Passage' reading on the Witches' Road in the series Agatha All Along. You are the traveller; the cards map what you carry, what you lack, the road behind and ahead, the trials along the way, the unexpected boon, and where the road truly ends. Read it before a big change, a move, a new path of study or any quest of the heart.",
+    "metaphysical": [
+      "divination",
+      "travel",
+      "road opening",
+      "transformation",
+      "courage",
+      "wisdom"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Traveller",
+        "meaning": "Who you are as you set out on this road: your state, your strengths and the role you play in the journey.",
+        "x": 2.3,
+        "y": 2.4,
+        "rotate": 0,
+        "guide": "Look at this card as a portrait of you setting out. What do you carry well, and what role are you playing on this journey?"
+      },
+      {
+        "n": 2,
+        "name": "What's Missing",
+        "meaning": "What you lack or have not yet claimed; the gift, skill or companion the road will ask you to find.",
+        "x": 2.3,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Notice what seems absent in this card. What gift, skill or companion is the road going to ask you to find?"
+      },
+      {
+        "n": 3,
+        "name": "The Path Behind",
+        "meaning": "The ground already travelled: past choices and experiences that brought you here and still walk with you.",
+        "x": 0.889,
+        "y": 4.342,
+        "rotate": 0,
+        "guide": "Glance over your shoulder at the ground behind. Which past choice in this card still walks beside you?"
+      },
+      {
+        "n": 4,
+        "name": "The Path Ahead",
+        "meaning": "The next stretch of road: the energy and events coming toward you.",
+        "x": 4.583,
+        "y": 1.658,
+        "rotate": 0,
+        "guide": "Look down the road just ahead. What energy is coming toward you, and how can you meet it on your feet?"
+      },
+      {
+        "n": 5,
+        "name": "The Obstacles",
+        "meaning": "The trial, test or danger on the road that must be faced rather than avoided.",
+        "x": 0.017,
+        "y": 1.658,
+        "rotate": 0,
+        "guide": "Every road has its trial. What does this card ask you to face, and what would it cost to keep avoiding it?"
+      },
+      {
+        "n": 6,
+        "name": "The Windfall",
+        "meaning": "The unexpected help, blessing or turn of fortune waiting along the way.",
+        "x": 3.711,
+        "y": 4.342,
+        "rotate": 0,
+        "guide": "Keep your eyes open for a gift you did not plan for. Where might help or good fortune appear like the one in this card?"
+      },
+      {
+        "n": 7,
+        "name": "The Destination",
+        "meaning": "Where this road truly leads, laid across the Traveller: the end of the journey and who you become by walking it.",
+        "x": 2.3,
+        "y": 2.775,
+        "rotate": 90,
+        "guide": "Read this card across the Traveller. Where does this road truly end, and who do you become by walking all of it?"
+      }
+    ],
+    "howToUse": "Shuffle while picturing a winding road at dusk and asking for safe passage. Lay the Traveller in the centre, then lay the Destination sideways across its lower half, because who you are and where you are going are bound together. Around them, place five cards on the points of a pentagram: What's Missing at the top, the Path Behind at the bottom left, the Path Ahead at the far right, the Obstacles at the far left and the Windfall at the bottom right. Laid in that order, the five cards trace the star itself. Read the Traveller first, follow the star from point to point, and finish with the Destination.",
+    "intention": "Down the Witches' Road I go; show me the way and what I need to know. Grant me safe passage, step by step, and show me true where the road leads.",
+    "bestTime": "Any time you stand at the start of a journey; especially potent in autumn, from Mabon to Samhain, when the veil thins and the old roads open.",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "Dark Moon"
+    ],
+    "guided": true,
+    "lines": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        2
+      ]
+    ],
+    "backdrop": "altar"
+  },
+  {
+    "id": "tarot-daily-three",
+    "name": "Daily Three: What to Know Today",
+    "cardCount": 3,
+    "difficulty": "Beginner",
+    "description": "A quick morning spread that tells you what you need to know for the day ahead: the energy surrounding you, the opportunity to embrace, and what to be mindful of. Draw it with your morning tea and keep it in your journal to see how each day unfolds.",
+    "metaphysical": [
+      "divination",
+      "clarity",
+      "focus",
+      "guidance",
+      "balance"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "Today's Energy",
+        "meaning": "The main theme and atmosphere of your day: the energy you will be working with.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Sip your tea and take in this card's colours and mood. What kind of weather does it suggest for your day?"
+      },
+      {
+        "n": 2,
+        "name": "Embrace Today",
+        "meaning": "The opportunity, gift or attitude to lean into today.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Find the gift in this card. What attitude or opportunity could you lean into, even in one small moment today?"
+      },
+      {
+        "n": 3,
+        "name": "Be Mindful Today",
+        "meaning": "What to watch for, handle with care or avoid today, and the advice that keeps you on track.",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Note this card in your journal as a gentle warning. Where might you need to slow down or take extra care today?"
+      }
+    ],
+    "howToUse": "Each morning, before checking your phone, take three slow breaths and shuffle while asking, 'What do I need to know today?' Lay three cards left to right. Read the first as the day's weather, the second as the door to walk through and the third as the stone in your shoe. Write one sentence for each card, then return in the evening to note what actually happened under Results in your Journal.",
+    "intention": "Spirits of this new day, show me what I need to know: the energy around me, the gift to embrace, and the step to take with care.",
+    "bestTime": "Every morning, all year round; especially helpful on Mondays (the Moon's day) and at the start of a new moon cycle.",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon",
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent"
+    ],
+    "guided": true
+  },
+  {
+    "id": "tarot-moonlit-path",
+    "name": "The Moonlit Path: A Guided Celtic Cross",
+    "cardCount": 10,
+    "difficulty": "Beginner",
+    "guided": true,
+    "description": "The classic ten-card Celtic Cross retold as a walk along a moonlit path, with a gentle guiding prompt at every step. It keeps the shape and depth of the traditional spread but names each position after the moon's light and shadow, so it is easier to remember and to feel. Perfect if the Celtic Cross has ever felt overwhelming: use the guided walk-through to reveal and reflect on one card at a time.",
+    "metaphysical": [
+      "divination",
+      "moon magic",
+      "clarity",
+      "wisdom",
+      "shadow work",
+      "guidance"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Moon Within",
+        "meaning": "The heart of the matter: where you stand right now and the energy at the centre of your question.",
+        "guide": "Breathe and look at this card first. What feeling rises before you even think about its meaning? That feeling is your starting point.",
+        "x": 1.6,
+        "y": 1.7,
+        "rotate": 0
+      },
+      {
+        "n": 2,
+        "name": "The Crossing Shadow",
+        "meaning": "Laid across the first card: the obstacle, tension or shadow that crosses your path right now.",
+        "guide": "Every path by moonlight has shadows. Ask: is this shadow outside me, or one I am casting myself?",
+        "x": 1.6,
+        "y": 1.7,
+        "rotate": 90
+      },
+      {
+        "n": 3,
+        "name": "Roots Beneath the Water",
+        "meaning": "The foundation below the surface: the deeper cause, buried feeling or old pattern feeding the situation.",
+        "guide": "Imagine your roots reaching into dark water. What is down there that you have not wanted to look at?",
+        "x": 1.6,
+        "y": 3.4,
+        "rotate": 0
+      },
+      {
+        "n": 4,
+        "name": "The Waning Light",
+        "meaning": "The recent past that is now fading: what is leaving your life or loosening its hold.",
+        "guide": "As the moon wanes, it lets go. What is this card asking you to stop holding onto?",
+        "x": 0,
+        "y": 1.7,
+        "rotate": 0
+      },
+      {
+        "n": 5,
+        "name": "The Silver Crown",
+        "meaning": "Above you, lit by the full moon: your highest aim, conscious hope or the best that can come of this.",
+        "guide": "Look up. If everything went as well as it could, what would this card look like in your life?",
+        "x": 1.6,
+        "y": 0,
+        "rotate": 0
+      },
+      {
+        "n": 6,
+        "name": "The Waxing Light",
+        "meaning": "The near future growing toward you: the next phase that is gathering strength.",
+        "guide": "Like the crescent filling night by night, this is already on its way. How can you make room for it?",
+        "x": 3.2,
+        "y": 1.7,
+        "rotate": 0
+      },
+      {
+        "n": 7,
+        "name": "The Seeker on the Path",
+        "meaning": "You as you walk this path: your attitude, your strengths and how you are meeting the situation.",
+        "guide": "Be honest and gentle with yourself. Do you recognise yourself in this card, or who you are becoming?",
+        "x": 4.8,
+        "y": 5.1,
+        "rotate": 0
+      },
+      {
+        "n": 8,
+        "name": "The Night Around You",
+        "meaning": "Your surroundings: the people, places and influences around you, and how others see you.",
+        "guide": "Who walks beside you in the dark? Notice which helping or hindering hands this card points to.",
+        "x": 4.8,
+        "y": 3.4,
+        "rotate": 0
+      },
+      {
+        "n": 9,
+        "name": "Whispers in the Dark",
+        "meaning": "Your hopes and fears, often tangled together: what you secretly long for and what you dread.",
+        "guide": "Hopes and fears often wear the same face. Which is this card for you tonight, or is it both?",
+        "x": 4.8,
+        "y": 1.7,
+        "rotate": 0
+      },
+      {
+        "n": 10,
+        "name": "Where the Moonlit Path Leads",
+        "meaning": "The outcome if you keep walking as you are: where this path is heading.",
+        "guide": "This is a destination, not a doom. Read it alongside The Silver Crown: do they agree, and if not, what would you change?",
+        "x": 4.8,
+        "y": 0,
+        "rotate": 0
+      }
+    ],
+    "howToUse": "Read at night if you can, by candle or moonlight. Hold your question in mind and shuffle until the deck feels ready. Lay the first card at the centre and the second across it. Then place Roots Beneath the Water below, The Waning Light to the left, The Silver Crown above and The Waxing Light to the right, forming the cross. Finally, lay a staff of four cards up the right side, from The Seeker on the Path at the bottom to Where the Moonlit Path Leads at the top. After drawing, tap 'Walk the path, card by card' to turn over and reflect on one position at a time with its guiding prompt, then read the whole spread together.",
+    "intention": "Moon above and path below, light my way and let me know: what is now, what lies beneath, and where this silver road will lead.",
+    "bestTime": "Any night, but most powerful on the full moon, and in autumn and winter when the nights are long.",
+    "moonPhases": [
+      "Full Moon",
+      "Waxing Gibbous",
+      "Waning Gibbous"
+    ],
+    "backdrop": "moon"
+  },
+  {
+    "id": "tarot-daily-morning-afternoon-evening",
+    "name": "Daily Three: Morning, Afternoon, Evening",
+    "description": "A simple timeline of your day: one card for each part of it, so you can see how the day is likely to flow and plan your energy.",
+    "cardCount": 3,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "clarity",
+      "guidance",
+      "balance",
+      "divination"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "Morning",
+        "meaning": "How your day begins: the mood, energy or event that greets you in the first hours.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Picture yourself waking up inside this card. How does it set the tone for your first few hours?"
+      },
+      {
+        "n": 2,
+        "name": "Afternoon",
+        "meaning": "The middle of your day: what you will be working with, meeting or dealing with as the day unfolds.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Midday is for getting things done. What task, person or challenge in this card might you meet after lunch?"
+      },
+      {
+        "n": 3,
+        "name": "Evening",
+        "meaning": "How your day closes: what you carry home, how you wind down, and what the night brings.",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Imagine the lamps coming on as you look. What will you carry home tonight, and how can you let the day go?"
+      }
+    ],
+    "howToUse": "Shuffle as you wake and ask, 'How will today unfold?' Lay three cards left to right like the sun crossing the sky. Read them as a little story; if one part looks heavy, plan extra kindness for yourself at that time of day. Check back at bedtime and note under Results which card proved truest.",
+    "intention": "Show me the path of the sun today, from dawn to dusk, and light my way.",
+    "bestTime": "Every day, all year round — morning is traditional, but any quiet moment works.",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon",
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent"
+    ],
+    "guided": true
+  },
+  {
+    "id": "tarot-daily-focus",
+    "name": "Daily Three: Focus, Challenge, Advice",
+    "description": "A practical morning pull: what to concentrate on, what may trip you up, and the best way to handle the day.",
+    "cardCount": 3,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "focus",
+      "clarity",
+      "guidance",
+      "success"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "Today's Focus",
+        "meaning": "Where to put your attention and energy today.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Take a breath before the day rushes in. Where does this card ask you to put your attention and energy today?"
+      },
+      {
+        "n": 2,
+        "name": "Today's Challenge",
+        "meaning": "The obstacle, mood or temptation most likely to trip you up today.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Forewarned is forearmed. What mood or temptation in this card might trip you up, and how will you spot it coming?"
+      },
+      {
+        "n": 3,
+        "name": "Today's Advice",
+        "meaning": "How to meet the day well: the attitude or action that helps most.",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Read this one as kindly advice from a friend. What attitude or small action will help you meet today well?"
+      }
+    ],
+    "howToUse": "Draw with your coffee or tea. Read the first card as your one priority, the second as the thing to watch for, and the third as your strategy. Write the advice card's key phrase somewhere you will see it during the day.",
+    "intention": "Show me where to look, what to beware, and how to walk well today.",
+    "bestTime": "Every day, all year round — morning is traditional, but any quiet moment works.",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon",
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent"
+    ],
+    "guided": true
+  },
+  {
+    "id": "tarot-daily-head-heart-hands",
+    "name": "Daily Three: Head, Heart & Hands",
+    "description": "Think, feel, do: a beloved three-card check-in that looks at your thoughts, your emotions and your actions for the day so all three can work together.",
+    "cardCount": 3,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "balance",
+      "clarity",
+      "emotional healing",
+      "guidance"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "Head",
+        "meaning": "Your thoughts today: what is on your mind and how to think about it clearly.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Tap your forehead lightly as you look. What thought keeps circling, and how might this card help you see it clearly?"
+      },
+      {
+        "n": 2,
+        "name": "Heart",
+        "meaning": "Your feelings today: what your heart needs and is trying to tell you.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Rest a hand on your heart. What feeling in this card is asking to be heard today, even if it is quiet?"
+      },
+      {
+        "n": 3,
+        "name": "Hands",
+        "meaning": "Your actions today: the practical step to take or the work to put your hands to.",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Look at your own hands, then at the card. What practical thing will you put them to today?"
+      }
+    ],
+    "howToUse": "Shuffle while taking three breaths, one into your head, one into your heart and one into your hands. Lay the cards from left to right. Notice where they agree and where they pull in different directions; harmony between head, heart and hands is the day's quiet magic.",
+    "intention": "Clear be my mind, open my heart, and steady my hands for what today asks.",
+    "bestTime": "Every day, all year round — morning is traditional, but any quiet moment works.",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon",
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent"
+    ],
+    "guided": true
+  },
+  {
+    "id": "tarot-daily-start-stop-continue",
+    "name": "Daily Three: Start, Stop, Continue",
+    "description": "A coaching-style daily spread, popular for personal growth: something new to begin, something to let go of, and something that is already working.",
+    "cardCount": 3,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "new beginnings",
+      "release",
+      "success",
+      "transformation"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "Start",
+        "meaning": "Something to begin, try or say yes to today.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Look for an open door in this card. What new thing could you try or say yes to before the day is out?"
+      },
+      {
+        "n": 2,
+        "name": "Stop",
+        "meaning": "A habit, thought or behaviour to let go of today.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Notice what in this card feels heavy or familiar. Which habit or thought could you set down just for today?"
+      },
+      {
+        "n": 3,
+        "name": "Continue",
+        "meaning": "What is already working; keep doing it and trust it.",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Something is already working. What does this card affirm that you should keep doing, and can you trust it?"
+      }
+    ],
+    "howToUse": "Ask, 'What does today need from me?' Lay three cards in a row. Take the Start card as a tiny experiment for the day, the Stop card as one thing to notice and release, and the Continue card as encouragement. Track them for a week in your Journal to see your growth.",
+    "intention": "Show me what to begin, what to release, and what to keep tending.",
+    "bestTime": "Every day, all year round — morning is traditional, but any quiet moment works.",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon",
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent"
+    ],
+    "guided": true
+  },
+  {
+    "id": "tarot-daily-gratitude-growth-guidance",
+    "name": "Daily Three: Gratitude, Growth & Guidance",
+    "description": "A gentle, uplifting daily spread for mindful mornings or evenings: something to be grateful for, an area to grow in, and a word of guidance from spirit.",
+    "cardCount": 3,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "happiness",
+      "spirituality",
+      "self-love",
+      "guidance"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "Gratitude",
+        "meaning": "A blessing in your life right now to notice and give thanks for.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Take a soft breath and smile at this card. What small blessing in your life today does it remind you to thank?"
+      },
+      {
+        "n": 2,
+        "name": "Growth",
+        "meaning": "Where you are being invited to stretch, learn or heal today.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Ask where you are being stretched today. Is this card inviting you to learn something, try something or heal something?"
+      },
+      {
+        "n": 3,
+        "name": "Guidance",
+        "meaning": "A message from your guides, ancestors or higher self for today.",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Imagine your guides or ancestors placing this card in your hands. What single sentence of advice would they give you for today?"
+      }
+    ],
+    "howToUse": "Light a candle if you like. Hold the deck to your heart and ask to be shown the day's blessings and lessons. Read the Gratitude card first and say thank you aloud; let the Growth card be a gentle intention; keep the Guidance card on your altar or as your phone wallpaper for the day.",
+    "intention": "With a thankful heart I ask: show me my blessings, my growing edge, and the word I need today.",
+    "bestTime": "Every day, all year round — morning is traditional, but any quiet moment works.",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon",
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent"
+    ],
+    "guided": true
+  },
+  {
+    "id": "tarot-jack-o-lantern-carved-face",
+    "name": "Jack-o'-Lantern: The Carved Face",
+    "description": "A nine-card Halloween spread laid out as a glowing jack-o'-lantern, from its curling stem to its wide carved grin. Old lore says the lantern's face frightens off wandering spirits while its candle guides friendly ones home. Read it on Halloween night to see what you are guarding against, what you are lighting the way for, and what joy is grinning back at you.",
+    "cardCount": 9,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "protection",
+      "celebration",
+      "shadow work",
+      "self-discovery"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Curling Stem",
+        "meaning": "What roots this season of your life and keeps you connected to the vine you grew from.",
+        "guide": "Picture the stem still attached to the vine. What in this card keeps you nourished and connected as the year darkens?",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0
+      },
+      {
+        "n": 2,
+        "name": "The Watchful Left Eye",
+        "meaning": "What you are keeping an eye on in your own life: the inner matter that needs your attention.",
+        "guide": "Look through this carved eye inward. What part of your own life is this card asking you to watch more closely this autumn?",
+        "x": 1.2,
+        "y": 1.7,
+        "rotate": 0
+      },
+      {
+        "n": 3,
+        "name": "The Watchful Right Eye",
+        "meaning": "What you are keeping an eye on in the world around you: people, signs and outside forces.",
+        "guide": "Look through this eye outward. Which person, sign or situation around you does this card say deserves a careful watch?",
+        "x": 3.6,
+        "y": 1.7,
+        "rotate": 0
+      },
+      {
+        "n": 4,
+        "name": "The Candle Within",
+        "meaning": "The steady flame burning inside you that keeps the whole lantern glowing.",
+        "guide": "Imagine a candle flickering behind this card. What inner light keeps you shining, and how can you protect that flame tonight?",
+        "x": 2.4,
+        "y": 2.6,
+        "rotate": 0
+      },
+      {
+        "n": 5,
+        "name": "The Grin's Left Corner",
+        "meaning": "A small fear or worry you can laugh at now that you see it in the lantern light.",
+        "guide": "Every grin starts at one corner. What worry in this card looks smaller and sillier once you shine a light on it?",
+        "x": 0,
+        "y": 3.8,
+        "rotate": 0
+      },
+      {
+        "n": 6,
+        "name": "The First Carved Tooth",
+        "meaning": "What you have cut away this year to make room for light.",
+        "guide": "Think of the pumpkin flesh you scooped out. What did you remove this year, and how has it let more light through?",
+        "x": 1.2,
+        "y": 4.3,
+        "rotate": 0
+      },
+      {
+        "n": 7,
+        "name": "The Middle Tooth",
+        "meaning": "The protection this lantern offers: what wards off unwelcome energy from your doorstep.",
+        "guide": "This is the lantern's fiercest tooth. What does this card guard against, and how can you set it on your doorstep tonight?",
+        "x": 2.4,
+        "y": 4.3,
+        "rotate": 0
+      },
+      {
+        "n": 8,
+        "name": "The Last Carved Tooth",
+        "meaning": "The friendly spirit, ancestor or helper your light is calling home.",
+        "guide": "Lanterns guide kindly spirits home. Who or what is this card welcoming back to your hearth this Halloween?",
+        "x": 3.6,
+        "y": 4.3,
+        "rotate": 0
+      },
+      {
+        "n": 9,
+        "name": "The Grin's Right Corner",
+        "meaning": "The delight, mischief or celebration waiting for you as the season turns.",
+        "guide": "Let the grin finish its curl. What fun or playful joy does this card promise once the spooky night is through?",
+        "x": 4.8,
+        "y": 3.8,
+        "rotate": 0
+      }
+    ],
+    "howToUse": "Light a candle, or a real jack-o'-lantern if you have one, and shuffle while tracing a smiling face on the deck with your finger. Lay the Curling Stem at the top centre, then the two eyes side by side below it, and the Candle Within in the middle as the nose. Lay the grin along the bottom from left to right: the left corner raised slightly, the three carved teeth in a row, and the right corner raised to match. Read from the stem down through the eyes and candle, then follow the grin from corner to corner, letting the faint gold line trace the smile.",
+    "intention": "Carved face and candle bright, guard my door this Halloween night. Light the way for friends to come, and show me what I'm grinning from.",
+    "bestTime": "Halloween night (Oct 31), or any evening in late October once the pumpkins are carved.",
+    "moonPhases": [
+      "Waning Crescent",
+      "New Moon",
+      "Full Moon"
+    ],
+    "guided": true,
+    "backdrop": "halloween",
+    "lines": [
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ]
+    ]
+  },
+  {
+    "id": "tarot-trick-or-treat-doorstep",
+    "name": "Trick or Treat: The Doorstep",
+    "description": "A simple three-card Halloween spread for knocking on the door of the coming season. Behind the costume, ask what is tricking you and what sweet treat is waiting to be shared. Perfect for a quick reading between visitors on Halloween night or for beginners just learning to read.",
+    "cardCount": 3,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "divination",
+      "celebration",
+      "self-discovery",
+      "clarity"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Costume You Wear",
+        "meaning": "The role or disguise you are wearing right now, and what it lets you be.",
+        "guide": "Look at this card as tonight's costume. Who are you pretending to be lately, and what does the disguise let you get away with?",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0
+      },
+      {
+        "n": 2,
+        "name": "The Trick at the Door",
+        "meaning": "What is fooling you, testing you or playing a prank on your expectations.",
+        "guide": "Every doorstep has a trickster. What in this card might be fooling you, and how can you laugh and see through it?",
+        "x": 0,
+        "y": 1.7,
+        "rotate": 0
+      },
+      {
+        "n": 3,
+        "name": "The Treat in the Bowl",
+        "meaning": "The sweet reward, kindness or good surprise coming your way.",
+        "guide": "Reach into the bowl and take what is offered. What sweet thing does this card promise, and who could you share it with?",
+        "x": 2.4,
+        "y": 1.7,
+        "rotate": 0
+      }
+    ],
+    "howToUse": "Shuffle while knocking three times on the deck and saying 'trick or treat'. Lay the Costume You Wear at the top centre, then the Trick at the Door below it on the left and the Treat in the Bowl below it on the right, like a little doorstep with two paths. Read the Costume first, then the Trick, and finish with the Treat so the reading ends on something sweet.",
+    "intention": "Knock, knock, at the door; show me what the night's in store. Help me see the trick that's true, and share the treat that's coming through.",
+    "bestTime": "Halloween night (Oct 31), or any evening in the last week of October.",
+    "moonPhases": [
+      "Waxing Gibbous",
+      "Full Moon",
+      "Waning Gibbous"
+    ],
+    "guided": true,
+    "backdrop": "halloween"
+  },
+  {
+    "id": "tarot-haunted-house-black-cat",
+    "name": "The Haunted House and the Black Cat",
+    "description": "A seven-card Halloween spread shaped like a creaky old house with a black cat waiting on the step. Wander from the dusty attic to the cellar stair to meet the ghosts of your own story and learn which ones are ready to be laid to rest. Read it on Halloween when you feel haunted by old habits, memories or worries and want a familiar to guide you through.",
+    "cardCount": 7,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "shadow work",
+      "divination",
+      "release",
+      "protection",
+      "self-discovery"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Dusty Attic",
+        "meaning": "Something forgotten and stored away that still holds meaning or power.",
+        "guide": "Climb the attic stairs and lift the sheet off this card. What did you pack away long ago that wants to be remembered now?",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0
+      },
+      {
+        "n": 2,
+        "name": "The Lit Window",
+        "meaning": "What you show to passers-by: the face of your life you let others see.",
+        "guide": "Imagine neighbours glancing up at this glowing window. What do they see of you, and is it the whole truth?",
+        "x": 1.2,
+        "y": 1.7,
+        "rotate": 0
+      },
+      {
+        "n": 3,
+        "name": "The Shuttered Window",
+        "meaning": "What you keep hidden behind closed shutters, even from yourself.",
+        "guide": "Ease open the shutter on this card. What have you been keeping out of sight, and would a little light really hurt?",
+        "x": 3.6,
+        "y": 1.7,
+        "rotate": 0
+      },
+      {
+        "n": 4,
+        "name": "The Parlour Ghost",
+        "meaning": "An old memory, habit or relationship that still lingers in your everyday rooms.",
+        "guide": "Sit with this gentle ghost in the parlour. What lingering memory or habit does it show, and is it ready to rest?",
+        "x": 1.2,
+        "y": 3.4,
+        "rotate": 0
+      },
+      {
+        "n": 5,
+        "name": "The Creaking Door",
+        "meaning": "The threshold you are being invited to cross, despite the creak and the nerves.",
+        "guide": "Hear the hinge groan as this door opens. What threshold is in front of you, and what would help you step through?",
+        "x": 2.4,
+        "y": 3.4,
+        "rotate": 0
+      },
+      {
+        "n": 6,
+        "name": "The Cellar Stair",
+        "meaning": "The deeper fear or shadow beneath the house that steadies you once faced.",
+        "guide": "Take one step down the cellar stair with this card. What fear lives below, and what strength might you find there?",
+        "x": 3.6,
+        "y": 3.4,
+        "rotate": 0
+      },
+      {
+        "n": 7,
+        "name": "The Black Cat on the Step",
+        "meaning": "Your familiar's message: the wise, lucky guidance that sees you safely through the haunting.",
+        "guide": "The black cat waits for you outside. What advice does this card purr to you about leaving the haunted house wiser?",
+        "x": 2.4,
+        "y": 5.1,
+        "rotate": 0
+      }
+    ],
+    "howToUse": "Shuffle by candlelight and knock gently on the deck as if at an old front door. Lay the Dusty Attic at the very top as the roof peak, then the Lit Window below it on the left and the Shuttered Window below it on the right. Lay the ground floor in a row beneath them: the Parlour Ghost on the left, the Creaking Door in the centre and the Cellar Stair on the right. Finally, set the Black Cat on the Step below the Creaking Door. Read from the attic down through the house, room by room, and let the cat have the last word.",
+    "intention": "Creaking stair and candle's glow, show me the ghosts I need to know. Black cat, guide me through the door, and let me be haunted nevermore.",
+    "bestTime": "Halloween night (Oct 31), or any dark evening in October when old memories come knocking.",
+    "moonPhases": [
+      "Waning Crescent",
+      "Last Quarter",
+      "New Moon"
+    ],
+    "guided": true,
+    "backdrop": "halloween",
+    "lines": [
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        3
+      ]
+    ]
+  },
+  {
+    "id": "tarot-christmas-tree-star",
+    "name": "Christmas Tree: Star on Top",
+    "description": "A nine-card Christmas and Yuletide spread laid out as an evergreen tree, from its sturdy trunk to the shining star on top, with two gifts tucked underneath. The evergreen has been brought indoors in midwinter for centuries as a promise that life endures. Read it while you decorate or on Christmas Eve to celebrate what has grown in you this year and what you hope to crown it with.",
+    "cardCount": 9,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "celebration",
+      "gratitude",
+      "abundance",
+      "hope",
+      "reflection"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Evergreen Trunk",
+        "meaning": "What has kept you standing through the whole year: your steady core.",
+        "guide": "Rest your hand on the trunk. What in this card held you upright through this year's storms, and how can you honour it?",
+        "x": 2.4,
+        "y": 5.1,
+        "rotate": 0
+      },
+      {
+        "n": 2,
+        "name": "The Low Bough of Memory",
+        "meaning": "A treasured memory from the year that deserves a place on the tree.",
+        "guide": "Hang this card like an old ornament. Which moment from this year do you most want to keep and remember?",
+        "x": 1.2,
+        "y": 3.4,
+        "rotate": 0
+      },
+      {
+        "n": 3,
+        "name": "The Tinsel Bough",
+        "meaning": "What made this year sparkle: the joys, lights and little celebrations.",
+        "guide": "Let the tinsel catch the light. What made your year glitter, even briefly, and how can you invite more of it?",
+        "x": 2.4,
+        "y": 3.4,
+        "rotate": 0
+      },
+      {
+        "n": 4,
+        "name": "The Low Bough of Lessons",
+        "meaning": "A hard-won lesson from the year that now makes you stronger.",
+        "guide": "Some ornaments are heavy. What lesson does this card hang here, and how has carrying it made your branches stronger?",
+        "x": 3.6,
+        "y": 3.4,
+        "rotate": 0
+      },
+      {
+        "n": 5,
+        "name": "The Garland of Kin",
+        "meaning": "The people and loved ones woven around you this season.",
+        "guide": "Follow the garland from branch to branch. Who does this card wrap you up with, and how can you show them warmth?",
+        "x": 1.8,
+        "y": 1.7,
+        "rotate": 0
+      },
+      {
+        "n": 6,
+        "name": "The Bough of Wishes",
+        "meaning": "The heartfelt wish you hang on the tree for the year to come.",
+        "guide": "Tie your wish onto this bough like a ribbon. What does this card hint you truly want the new year to bring?",
+        "x": 3,
+        "y": 1.7,
+        "rotate": 0
+      },
+      {
+        "n": 7,
+        "name": "The Star at the Top",
+        "meaning": "The guiding light that crowns your year and points the way forward.",
+        "guide": "Look up to the very top. What bright hope or guidance does this star offer to lead you into the new year?",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0
+      },
+      {
+        "n": 8,
+        "name": "The Gift You Give",
+        "meaning": "The gift of yourself that you are ready to offer others this season.",
+        "guide": "Wrap this card in your mind. What gift of time, talent or kindness are you ready to give, and to whom?",
+        "x": 1.2,
+        "y": 5.1,
+        "rotate": 0
+      },
+      {
+        "n": 9,
+        "name": "The Gift You Receive",
+        "meaning": "The blessing waiting under the tree for you, if you are willing to unwrap it.",
+        "guide": "Untie the ribbon slowly. What blessing does this card hold for you, and are you ready to accept it gratefully?",
+        "x": 3.6,
+        "y": 5.1,
+        "rotate": 0
+      }
+    ],
+    "howToUse": "Shuffle with a sprig of evergreen, a pine cone or a string of lights nearby, breathing in the scent of the season. Lay the Evergreen Trunk at the bottom centre, then the three lower boughs in a row above it from left to right, then the two upper boughs above those. Crown the tree with the Star at the Top, and tuck the Gift You Give to the left of the trunk and the Gift You Receive to its right. Read from the trunk upward to the star, then open the two gifts last.",
+    "intention": "Evergreen and shining star, show me who and where we are. Bless the gifts I give and take, and light the year for all our sake.",
+    "bestTime": "While trimming the tree, on Christmas Eve (Dec 24) or any evening between the Winter Solstice and New Year.",
+    "moonPhases": [
+      "Waxing Gibbous",
+      "Full Moon"
+    ],
+    "guided": true,
+    "backdrop": "yuletide",
+    "lines": [
+      [
+        7,
+        5
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  },
+  {
+    "id": "tarot-hearthside-stocking",
+    "name": "The Hearthside Stocking",
+    "description": "A gentle four-card Christmas and Yuletide spread laid out in the shape of a stocking hung by the fire. Whether Saint Nicholas, the Yule spirits or simple family love fills it, a stocking is a promise that someone remembers you. Read it on Christmas Eve or any winter night to see what you are ready to receive and what little surprise is tucked in the toe.",
+    "cardCount": 4,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "gratitude",
+      "abundance",
+      "celebration",
+      "self-love"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Woollen Cuff",
+        "meaning": "What you are hanging up hopefully: the openness you bring to the season.",
+        "guide": "Hang your stocking by the fire. What does this card say you are hoping for, and how open are you to receiving it?",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0
+      },
+      {
+        "n": 2,
+        "name": "The Long Wool Leg",
+        "meaning": "What already fills your life and keeps you warm, though you may overlook it.",
+        "guide": "Reach down the stocking. What good thing in this card is already filling your life that you might be taking for granted?",
+        "x": 1.2,
+        "y": 1.7,
+        "rotate": 0
+      },
+      {
+        "n": 3,
+        "name": "The Heel's Turn",
+        "meaning": "The bend in the road this year: the change you have walked through.",
+        "guide": "Feel the heel curve. What turning point from this year does this card show, and what did it teach your feet?",
+        "x": 1.2,
+        "y": 3.4,
+        "rotate": 0
+      },
+      {
+        "n": 4,
+        "name": "The Treat in the Toe",
+        "meaning": "The small, sweet surprise waiting at the very end of the season.",
+        "guide": "Wiggle your fingers all the way into the toe. What small, delightful surprise does this card tuck in for you?",
+        "x": 2.4,
+        "y": 3.4,
+        "rotate": 0
+      }
+    ],
+    "howToUse": "Warm your hands by a fire, candle or mug of something hot, and shuffle while thinking of someone who once filled a stocking for you. Lay the Woollen Cuff at the top, then the Long Wool Leg directly below it and the Heel's Turn below that. Lay the Treat in the Toe to the right of the Heel's Turn so the four cards form a stocking. Read from the cuff down to the toe, saving the surprise for last.",
+    "intention": "By the hearth my stocking hung, warm with songs the old year sung. Fill me up with what is true, and tuck a little joy in too.",
+    "bestTime": "Christmas Eve (Dec 24), Saint Nicholas' Eve (Dec 5), or any cosy winter evening by the fire.",
+    "moonPhases": [
+      "Waxing Crescent",
+      "Waxing Gibbous",
+      "Full Moon"
+    ],
+    "guided": true,
+    "backdrop": "yuletide",
+    "lines": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  },
+  {
+    "id": "tarot-star-of-wonder",
+    "name": "Star of Wonder: The Guiding Light",
+    "description": "A six-card Christmas and Yuletide spread laid out as a five-pointed star with your sense of wonder at its heart. In the old carols, travellers followed a bright star through the longest nights carrying gifts to an unknown destination. Read it in the deep of winter, from the Solstice to Twelfth Night, when you need to rediscover wonder and find the light worth following.",
+    "cardCount": 6,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "hope",
+      "guidance",
+      "new beginnings",
+      "wonder"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Wonder Within",
+        "meaning": "The childlike sense of awe that still lives in you, waiting to be rekindled.",
+        "guide": "Gaze at this card as you once gazed at winter lights. Where does wonder still live in you, and how can you rekindle it?",
+        "x": 2.3,
+        "y": 2.4,
+        "rotate": 0
+      },
+      {
+        "n": 2,
+        "name": "The Star Rising",
+        "meaning": "The light calling you forward this season: the hope or vision worth following.",
+        "guide": "Look up at the rising star in this card. What hope or vision is calling you, and are you willing to follow it?",
+        "x": 2.3,
+        "y": 0,
+        "rotate": 0
+      },
+      {
+        "n": 3,
+        "name": "The Long Winter Night",
+        "meaning": "The darkness you are travelling through and what it is teaching you.",
+        "guide": "Walk through the long night of this card. What darkness are you crossing, and what is it quietly teaching you?",
+        "x": 0.889,
+        "y": 4.342,
+        "rotate": 0
+      },
+      {
+        "n": 4,
+        "name": "The Gift You Carry",
+        "meaning": "The treasure, talent or offering you bring with you on the journey.",
+        "guide": "Open your travelling bag. What treasure in this card are you carrying, and who is it really meant for?",
+        "x": 4.583,
+        "y": 1.658,
+        "rotate": 0
+      },
+      {
+        "n": 5,
+        "name": "The Fellow Travellers",
+        "meaning": "The companions, guides or kindred spirits walking beside you.",
+        "guide": "Glance at who rides beside you. Which companion or guide does this card show, and how might you thank them?",
+        "x": 0.017,
+        "y": 1.658,
+        "rotate": 0
+      },
+      {
+        "n": 6,
+        "name": "The Arrival at Dawn",
+        "meaning": "Where the star is leading you and the blessing waiting at the journey's end.",
+        "guide": "Imagine the sky turning gold as you arrive. What blessing waits where this star leads, and how will you greet it?",
+        "x": 3.711,
+        "y": 4.342,
+        "rotate": 0
+      }
+    ],
+    "howToUse": "Turn down the lights and shuffle by a single candle or a string of fairy lights, picturing one bright star over a snowy road. Lay the Wonder Within in the centre, then the Star Rising at the top point, the Long Winter Night at the bottom left point, the Gift You Carry at the far right point, the Fellow Travellers at the far left point and the Arrival at Dawn at the bottom right point. Laid in that order, the five outer cards trace the star in one stroke, shown by the faint gold line. Read the centre first, then follow the star from point to point.",
+    "intention": "Star of wonder, shining bright, guide me through the longest night. Show me the gift I carry true, and the dawn I'm walking to.",
+    "bestTime": "Any night from the Winter Solstice (around Dec 21) to Twelfth Night (Jan 5), especially on a clear, starry night.",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent"
+    ],
+    "guided": true,
+    "backdrop": "yuletide",
+    "lines": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        2
+      ]
+    ]
+  },
+  {
+    "id": "tarot-midnight-clock",
+    "name": "New Year's Eve: The Midnight Clock",
+    "description": "A ring of cards laid like a clock face for New Year's Eve, with the heart of the coming year at its centre. As the old year ticks down to midnight, each hour on the dial shows a different part of the twelve months ahead: where things begin, what powers you, what tests you and where joy is waiting. Read it in the last hours of December 31st to greet the new year with clear eyes.",
+    "cardCount": 9,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "new beginnings",
+      "celebration",
+      "intention setting",
+      "time magic"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The First Chime",
+        "meaning": "What truly begins for you as the new year strikes.",
+        "guide": "Listen for the first chime of the year. What fresh start does this card ring in, and what is the very first step you could take toward it in January?",
+        "x": 2.5,
+        "y": 0,
+        "rotate": 0
+      },
+      {
+        "n": 2,
+        "name": "The Winding Key",
+        "meaning": "The source of energy and motivation that will keep you going all year.",
+        "guide": "Every clock needs winding. What in this card keeps your spring tight and your hands moving? Name one way to wind yourself up when you run slow.",
+        "x": 4.27,
+        "y": 1.06,
+        "rotate": 0
+      },
+      {
+        "n": 3,
+        "name": "The Swinging Pendulum",
+        "meaning": "Where balance will be needed between two pulls in the year ahead.",
+        "guide": "Watch the pendulum swing between two sides. What two pulls does this card show you, and where is the steady middle you can return to?",
+        "x": 5,
+        "y": 2.75,
+        "rotate": 0
+      },
+      {
+        "n": 4,
+        "name": "The Slow Hour",
+        "meaning": "The area of life where patience is asked and progress comes gradually.",
+        "guide": "Some hours drag. Where does this card ask you to wait without giving up? Promise yourself one small, patient habit for this part of the year.",
+        "x": 4.27,
+        "y": 4.44,
+        "rotate": 0
+      },
+      {
+        "n": 5,
+        "name": "The Half-Past Lesson",
+        "meaning": "The challenge at the year's midpoint and the lesson hidden inside it.",
+        "guide": "Imagine the clock at half past, the year half spent. What test does this card bring, and what wiser person will you be on the other side of it?",
+        "x": 2.5,
+        "y": 5.5,
+        "rotate": 0
+      },
+      {
+        "n": 6,
+        "name": "The Ticking Doubt",
+        "meaning": "The worry or fear that may tick away in the background of your year.",
+        "guide": "Hear the quiet ticking you try to ignore. What doubt lives in this card? Say it out loud, then decide whether it deserves your time.",
+        "x": 0.73,
+        "y": 4.44,
+        "rotate": 0
+      },
+      {
+        "n": 7,
+        "name": "The Gilded Hour",
+        "meaning": "A golden stretch of joy, luck or celebration coming in the new year.",
+        "guide": "Every year holds a golden hour. What happiness does this card promise? Picture the moment clearly and raise an imaginary glass to it now.",
+        "x": 0,
+        "y": 2.75,
+        "rotate": 0
+      },
+      {
+        "n": 8,
+        "name": "The Last Chime of the Year",
+        "meaning": "Where the year is heading as it comes full circle to next December.",
+        "guide": "Let the hands sweep all the way round. Looking at this card, who do you hope to be when the clock strikes twelve again next December?",
+        "x": 0.73,
+        "y": 1.06,
+        "rotate": 0
+      },
+      {
+        "n": 9,
+        "name": "The Stroke of Twelve",
+        "meaning": "The central theme and spirit of the whole new year.",
+        "guide": "This card sits where the clock's hands meet. What single word or image sums up the year ahead? Write it down and keep it somewhere you will see it.",
+        "x": 2.5,
+        "y": 2.75,
+        "rotate": 0
+      }
+    ],
+    "howToUse": "Shuffle as the evening deepens on New Year's Eve, counting down from twelve under your breath. Lay the First Chime at the top of the clock, then continue clockwise round the dial: the Winding Key at half past one, the Swinging Pendulum at three, the Slow Hour at half past four, the Half-Past Lesson at six, the Ticking Doubt at half past seven, the Gilded Hour at nine and the Last Chime of the Year at half past ten. Place the Stroke of Twelve in the very centre where the hands meet. Read clockwise round the ring from the top, then finish with the centre card as the theme that ties the year together.",
+    "intention": "As the old year ends and the new bells chime, I open my eyes to the turning of time. Show me the hours that are coming my way, and bless every one from night into day.",
+    "bestTime": "New Year's Eve (Dec 31), ideally in the hour before midnight, or any time in the first week of January.",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "Full Moon"
+    ],
+    "guided": true,
+    "backdrop": "newyear",
+    "lines": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "tarot-champagne-toast",
+    "name": "New Year's Day: The Champagne Toast",
+    "description": "A simple five-card spread laid in the shape of a raised champagne glass, perfect for New Year's Day resolutions. From the foot to the rim, the cards show what holds you up, what fills your glass and the bubbling intention rising to the top, ending with the clink of glasses from those who cheer you on. Pour yourself something sparkling and toast the year you are choosing.",
+    "cardCount": 5,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "celebration",
+      "intention setting",
+      "new beginnings",
+      "gratitude",
+      "abundance"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Foot of the Glass",
+        "meaning": "The strength or lesson from last year that gives you a steady base.",
+        "guide": "A glass needs a firm foot. What did last year give you that you can stand on now? Thank it out loud before you look up the stem.",
+        "x": 2.5,
+        "y": 5.1,
+        "rotate": 0
+      },
+      {
+        "n": 2,
+        "name": "The Slender Stem",
+        "meaning": "The habit or quality that will keep your resolution upright.",
+        "guide": "Hold the glass by its stem so the bubbles stay bright. What steady habit in this card will help you keep your resolution through February and beyond?",
+        "x": 2.5,
+        "y": 3.4,
+        "rotate": 0
+      },
+      {
+        "n": 3,
+        "name": "The Golden Pour",
+        "meaning": "What will fill your year with richness, pleasure and plenty.",
+        "guide": "Watch the glass fill with gold. What abundance is pouring in from this card? Notice where in your life there is room to receive it.",
+        "x": 2.5,
+        "y": 1.7,
+        "rotate": 0
+      },
+      {
+        "n": 4,
+        "name": "The Rising Bubble",
+        "meaning": "The resolution or intention that wants to rise to the top this year.",
+        "guide": "Bubbles rise all on their own. What intention keeps floating up in this card? Turn it into one clear sentence beginning with \"This year I will\".",
+        "x": 1.9,
+        "y": 0,
+        "rotate": 0
+      },
+      {
+        "n": 5,
+        "name": "The Clink of Glasses",
+        "meaning": "The people, allies or support who will celebrate your success with you.",
+        "guide": "A toast is better shared. Who does this card bring to mind as someone who will cheer you on? Consider telling them your resolution today.",
+        "x": 3.1,
+        "y": 0,
+        "rotate": 0
+      }
+    ],
+    "howToUse": "Shuffle while holding a glass of something sparkling, whether champagne, cider or fizzy water, and think about the year you want. Build the glass from the bottom up: lay the Foot of the Glass at the base, the Slender Stem just above it and the Golden Pour above that as the bowl. Place the Rising Bubble and the Clink of Glasses side by side across the top as the rim, the Rising Bubble on the left. Read from the foot upward, finishing at the rim, then take a sip and speak your resolution as a toast.",
+    "intention": "I raise my glass to the year that is new; let every bright bubble of hope come true. Steady my hand and fill up my cup, and lift me as surely as bubbles rise up.",
+    "bestTime": "New Year's Day (Jan 1), or whenever you sit down to write your resolutions in early January.",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "First Quarter"
+    ],
+    "guided": true,
+    "backdrop": "newyear",
+    "lines": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ]
+    ]
+  },
+  {
+    "id": "tarot-new-year-doorway",
+    "name": "New Year: The Year's Doorway",
+    "description": "A seven-card spread shaped like an open doorway between the old year and the new, inspired by the old custom of opening the door at midnight to let the old year out and the new year in. The left side of the frame holds what you are leaving behind, the right side what comes in to greet you, and the key in the middle shows how to cross well. Use it between Christmas and the first days of January to close one chapter with grace.",
+    "cardCount": 7,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "release",
+      "new beginnings",
+      "transition",
+      "protection",
+      "cleansing"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Last Ember of the Old Year",
+        "meaning": "What is still burning from the old year and is ready to be honoured and let go.",
+        "guide": "See the last ember glowing on the old hearth. What in this card are you ready to thank and let burn out? Blow gently, as if cooling it.",
+        "x": 1.3,
+        "y": 1.7,
+        "rotate": 0
+      },
+      {
+        "n": 2,
+        "name": "What Stays Behind the Door",
+        "meaning": "The burden, habit or story you will not carry into the new year.",
+        "guide": "Some things are left in the old room. What weight in this card will you set down here? Picture closing the door softly on it.",
+        "x": 1.3,
+        "y": 3.4,
+        "rotate": 0
+      },
+      {
+        "n": 3,
+        "name": "The Blessing Over the Lintel",
+        "meaning": "The protection and blessing that watches over your crossing.",
+        "guide": "Imagine a sprig of greenery hung above the door. What blessing does this card place over your head as you step through? Accept it with thanks.",
+        "x": 2.5,
+        "y": 0,
+        "rotate": 0
+      },
+      {
+        "n": 4,
+        "name": "The Key in Your Hand",
+        "meaning": "The attitude or action that unlocks the new year for you.",
+        "guide": "Feel the cool weight of a key in your palm. What quality in this card opens the way forward? Name one place you can use it this week.",
+        "x": 2.5,
+        "y": 2.55,
+        "rotate": 0
+      },
+      {
+        "n": 5,
+        "name": "The Threshold Stone",
+        "meaning": "The step you must take, however small, to leave the old year truly behind.",
+        "guide": "The threshold is a single step, but you must take it. What does this card ask you to do to cross? Decide when you will do it.",
+        "x": 2.5,
+        "y": 5.1,
+        "rotate": 0
+      },
+      {
+        "n": 6,
+        "name": "The First Footer",
+        "meaning": "The first new energy, person or opportunity to enter your year.",
+        "guide": "Old custom says the first guest over the threshold brings the year's luck. Who or what does this card show arriving first? How will you welcome them?",
+        "x": 3.7,
+        "y": 1.7,
+        "rotate": 0
+      },
+      {
+        "n": 7,
+        "name": "The Warm Room Within",
+        "meaning": "The comfort, growth and belonging waiting on the new side of the door.",
+        "guide": "Step into the warm, lamplit room of the new year. What comfort or growth is waiting for you in this card? Let yourself feel at home there.",
+        "x": 3.7,
+        "y": 3.4,
+        "rotate": 0
+      }
+    ],
+    "howToUse": "Before you begin, open a door or window for a moment to let fresh winter air move through the room, then shuffle. Lay the Blessing Over the Lintel at the top, then build the left side of the frame with the Last Ember of the Old Year above What Stays Behind the Door, and the right side with the First Footer above the Warm Room Within. Place the Key in Your Hand in the open doorway between them and the Threshold Stone at the bottom. Read the left side first, then the lintel, the key and the threshold, and finish on the right side as you step into the new year. Close the door afterwards as a sign the crossing is done.",
+    "intention": "Old year, go gently out the door; I will not carry you anymore. New year, step in and bring your light; I cross the threshold, blessed tonight.",
+    "bestTime": "The quiet days between Christmas and New Year's, on New Year's Eve at midnight, or any time in the first week of January.",
+    "moonPhases": [
+      "Waning Crescent",
+      "Last Quarter",
+      "New Moon"
+    ],
+    "guided": true,
+    "backdrop": "newyear",
+    "lines": [
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        7,
+        5
+      ]
+    ]
+  },
+  {
+    "id": "tarot-valentines-heart",
+    "name": "Valentine's Day: The Valentine's Heart",
+    "description": "A nine-card spread laid in the shape of a Valentine's heart, tracing how love flows through your whole life and not just one romance. The outline follows love from what you give and receive, through old hurts and sweet surprises, down to the point where it is headed, with the beating heart of it all at the centre. Read it on Valentine's Day whether you are partnered, single or somewhere in between.",
+    "cardCount": 9,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "love",
+      "divination",
+      "heart healing",
+      "connection",
+      "self-reflection"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Lace Edge",
+        "meaning": "How love is offered to you, and how open you are to receiving it.",
+        "guide": "Like the lace trim on an old valentine, this card shows love reaching toward you. Where are you letting it in, and where are you brushing it off?",
+        "x": 1.3,
+        "y": 0,
+        "rotate": 0
+      },
+      {
+        "n": 2,
+        "name": "The Paper Heart",
+        "meaning": "How you give love and express affection to others.",
+        "guide": "Think of a heart you once cut out of paper for someone. How does this card describe the way you give love? Is it reaching the right people?",
+        "x": 3.7,
+        "y": 0,
+        "rotate": 0
+      },
+      {
+        "n": 3,
+        "name": "The Cleft of the Heart",
+        "meaning": "The tender dip where love and longing meet: what you most desire in love right now.",
+        "guide": "Every heart has a soft dip at the top. What longing rests in this card? Let yourself admit it without judging it.",
+        "x": 2.5,
+        "y": 1,
+        "rotate": 0
+      },
+      {
+        "n": 4,
+        "name": "The Old Love Letter",
+        "meaning": "A past love or relationship whose influence you still carry.",
+        "guide": "Unfold an old letter in your mind. What past love does this card bring back, and what did it teach you about what you want now?",
+        "x": 0.1,
+        "y": 1,
+        "rotate": 0
+      },
+      {
+        "n": 5,
+        "name": "The Sweet Surprise",
+        "meaning": "An unexpected joy or tenderness coming your way in love.",
+        "guide": "Like a box of sweets left on the doorstep, this card brings a surprise. What unexpected affection could arrive soon? Stay curious enough to notice it.",
+        "x": 4.9,
+        "y": 1,
+        "rotate": 0
+      },
+      {
+        "n": 6,
+        "name": "The Thorn on the Rose",
+        "meaning": "The fear, wound or pattern that pricks you when you try to love.",
+        "guide": "Roses come with thorns. What hurt or habit in this card makes you pull your hand back? Breathe into it gently and ask what it needs.",
+        "x": 1,
+        "y": 2.7,
+        "rotate": 0
+      },
+      {
+        "n": 7,
+        "name": "The Ribbon and Bow",
+        "meaning": "What ties love together for you: commitment, trust or shared joy.",
+        "guide": "A bow holds the gift together. What does this card say keeps love tied securely in your life? How can you tie that bow a little tighter?",
+        "x": 4,
+        "y": 2.7,
+        "rotate": 0
+      },
+      {
+        "n": 8,
+        "name": "The Beating Heart",
+        "meaning": "The truth at the centre of your love life right now.",
+        "guide": "Place a hand over your own heart as you look at this card. What is the honest heartbeat of your love life today?",
+        "x": 2.5,
+        "y": 2.7,
+        "rotate": 0
+      },
+      {
+        "n": 9,
+        "name": "The Point of the Heart",
+        "meaning": "Where your love life is heading in the season ahead.",
+        "guide": "All lines of a heart meet at its point. Where is this card leading your love? What one small act this week moves you toward it?",
+        "x": 2.5,
+        "y": 4.4,
+        "rotate": 0
+      }
+    ],
+    "howToUse": "Light a red or pink candle and shuffle while thinking of every kind of love in your life: romantic, family, friendship and the love you hold for yourself. Lay the Lace Edge and the Paper Heart as the two rounded tops of the heart, with the Cleft of the Heart in the dip between them. Place the Old Love Letter at the far left and the Sweet Surprise at the far right, then the Thorn on the Rose and the Ribbon and Bow lower down as the heart narrows, and the Point of the Heart at the very bottom. The Beating Heart sits in the centre. Read the two tops and the cleft first, then follow the sides down to the point, and finish with the Beating Heart.",
+    "intention": "Heart of my heart, open and true, show me the love that is flowing through. All that I give and all I receive, let me see clearly and let me believe.",
+    "bestTime": "Valentine's Day (Feb 14), or any Friday evening in February, Friday being the day of Venus.",
+    "moonPhases": [
+      "Waxing Crescent",
+      "Waxing Gibbous",
+      "Full Moon"
+    ],
+    "guided": true,
+    "backdrop": "valentine",
+    "lines": [
+      [
+        9,
+        6
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        7,
+        9
+      ]
+    ]
+  },
+  {
+    "id": "tarot-cupids-arrow",
+    "name": "Valentine's Day: Cupid's Arrow",
+    "description": "A six-card spread laid as Cupid's arrow in flight, striking a heart at its tip. Use it on Valentine's Day to ask where love's arrow is aimed: what feathers its flight, what carries it forward and what happens when it lands. It suits anyone wondering about an attraction, a crush or the spark they hope is coming.",
+    "cardCount": 6,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "love",
+      "attraction",
+      "divination",
+      "romance",
+      "courage"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Upper Fletching",
+        "meaning": "The hope or wish that sends love on its way.",
+        "guide": "Feathers guide an arrow straight. What hope in this card steers your heart? Say the wish quietly to yourself, as if whispering it to Cupid.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0
+      },
+      {
+        "n": 2,
+        "name": "The Lower Fletching",
+        "meaning": "The hidden fear or hesitation that could send the arrow off course.",
+        "guide": "One crooked feather can bend the flight. What hesitation does this card reveal? Ask whether it is protecting you or simply holding you back.",
+        "x": 0,
+        "y": 3.4,
+        "rotate": 0
+      },
+      {
+        "n": 3,
+        "name": "The Drawn Bowstring",
+        "meaning": "The courage and energy you put behind your feelings.",
+        "guide": "Feel the tension of a bowstring pulled back. How much courage does this card show you putting behind your feelings? Is it time to let go and loose the arrow?",
+        "x": 1.2,
+        "y": 1.7,
+        "rotate": 0
+      },
+      {
+        "n": 4,
+        "name": "The Arrow in Flight",
+        "meaning": "How the attraction or connection is unfolding right now.",
+        "guide": "The arrow is in the air. What does this card say about how the spark is moving between you and another? Notice its speed and direction.",
+        "x": 2.4,
+        "y": 1.7,
+        "rotate": 0
+      },
+      {
+        "n": 5,
+        "name": "The Struck Heart",
+        "meaning": "The heart the arrow is aimed at: the person or love you are drawn to.",
+        "guide": "Look at the heart waiting at the arrow's tip. What does this card tell you about the one you are drawn to, and how open is their heart?",
+        "x": 3.9,
+        "y": 1.7,
+        "rotate": 0
+      },
+      {
+        "n": 6,
+        "name": "The Arrowhead's Mark",
+        "meaning": "Laid across the Struck Heart: what happens when love finds its mark.",
+        "guide": "See the arrow land across the heart. What does this card say will come of the connection? Ask yourself if this is the outcome you truly want.",
+        "x": 3.9,
+        "y": 2.075,
+        "rotate": 90
+      }
+    ],
+    "howToUse": "Shuffle with a red ribbon or a single rose beside you, picturing the person or kind of love you are wondering about. Lay the Upper Fletching at the top left and the Lower Fletching at the bottom left as the arrow's feathers. Lay the Drawn Bowstring and the Arrow in Flight in a row between them, running to the right, then the Struck Heart at the far right. Lay the Arrowhead's Mark sideways across the lower half of the Struck Heart, as if the arrow has pierced it. Read from the feathers along the shaft to the heart, and finish with the Arrowhead's Mark.",
+    "intention": "Feathered and true, let Cupid's arrow fly; show me where it lands and show me why. Guide my heart with courage, aim it clear and kind, and let me know the love I am meant to find.",
+    "bestTime": "Valentine's Day (Feb 14), or the days just before it when a spark is on your mind.",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ],
+    "guided": true,
+    "backdrop": "valentine",
+    "lines": [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  },
+  {
+    "id": "tarot-valentine-to-myself",
+    "name": "Valentine's Day: A Valentine to Myself",
+    "description": "A gentle five-card spread laid like a sealed valentine envelope, written from you to you. Made for single folks, or anyone who wants to spend Valentine's Day courting their own heart, it reveals the sweet words you deserve to hear, the gift you can give yourself and the promise sealed at the centre. A cosy, celebratory reading to pair with a treat and a candle.",
+    "cardCount": 5,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "self-love",
+      "love",
+      "celebration",
+      "self-care",
+      "confidence"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "Dear Me",
+        "meaning": "How you are greeting yourself this Valentine's Day: the tone of your inner voice.",
+        "guide": "Every valentine begins with a greeting. How does this card say you speak to yourself lately? Try greeting yourself warmly, out loud, by name.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0
+      },
+      {
+        "n": 2,
+        "name": "The Sweet Nothing",
+        "meaning": "The loving words or compliment you most need to hear from yourself.",
+        "guide": "What tender words does this card whisper to you? Write them on a small heart of paper and tuck it somewhere you will find later.",
+        "x": 0,
+        "y": 1.7,
+        "rotate": 0
+      },
+      {
+        "n": 3,
+        "name": "The Box of Chocolates",
+        "meaning": "The treat, pleasure or act of care you can gift yourself today.",
+        "guide": "Lift the lid and look inside. What delight does this card suggest you give yourself today? Choose one and actually do it before bed.",
+        "x": 2.4,
+        "y": 1.7,
+        "rotate": 0
+      },
+      {
+        "n": 4,
+        "name": "With Love, From Me",
+        "meaning": "The quality you love in yourself and how to let it shine more.",
+        "guide": "Sign the valentine with your own name. What quality in this card are you proud of? How could you let it be seen this year?",
+        "x": 1.2,
+        "y": 3.4,
+        "rotate": 0
+      },
+      {
+        "n": 5,
+        "name": "The Wax Seal",
+        "meaning": "The promise of self-love you seal into your heart this year.",
+        "guide": "Press the seal into warm wax. What promise to yourself does this card ask you to keep? Make it simple enough to hold to.",
+        "x": 1.2,
+        "y": 1.7,
+        "rotate": 0
+      }
+    ],
+    "howToUse": "Run a bath, make a cup of something sweet or light a pink candle, then shuffle while telling yourself one thing you love about who you are. Lay the cards in a diamond like a valentine envelope: Dear Me at the top, the Sweet Nothing on the left, the Box of Chocolates on the right and With Love, From Me at the bottom. Place the Wax Seal in the centre to close the envelope. Read the four points from the top, round the left, right and bottom, then read the Wax Seal last as your promise.",
+    "intention": "This valentine is written to me, sealed with the love I am learning to see. I am worthy, I am whole, I am dear; I choose myself this day and all year.",
+    "bestTime": "Valentine's Day (Feb 14), especially if you are spending it solo, or any evening you need a little self-romance.",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "Full Moon"
+    ],
+    "guided": true,
+    "backdrop": "valentine",
+    "lines": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "tarot-st-patricks-shamrock",
+    "name": "St. Patrick's Shamrock",
+    "description": "A gentle St. Patrick's Day spread laid in the shape of a shamrock: three leaves for heart, home and hope, a stem that roots you, and a lucky fourth leaf tucked into the centre. Read it on March 17th to take stock of the green, growing things in your life and to invite a little luck in as spring arrives.",
+    "cardCount": 5,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "divination",
+      "luck",
+      "new beginnings",
+      "growth",
+      "celebration"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Leaf of the Heart",
+        "meaning": "The love, warmth and connection quietly growing in your life right now.",
+        "guide": "Look for the warmth in this card. Who or what is your heart reaching toward this spring?",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0
+      },
+      {
+        "n": 2,
+        "name": "The Leaf of the Hearth",
+        "meaning": "Your home, family and the daily ground you stand on.",
+        "guide": "Picture this card sitting at your own kitchen table. What does your home need from you this season?",
+        "x": 0.6,
+        "y": 1.9,
+        "rotate": 0
+      },
+      {
+        "n": 3,
+        "name": "The Leaf of Hope",
+        "meaning": "The wish or dream that is unfurling toward the light.",
+        "guide": "Name one hope out loud while you study this card. What first green shoot of it can you already see?",
+        "x": 4.2,
+        "y": 1.9,
+        "rotate": 0
+      },
+      {
+        "n": 4,
+        "name": "The Shamrock Stem",
+        "meaning": "What roots and steadies you, the strength that feeds all three leaves.",
+        "guide": "Trace this card like a stem going down into soil. What steady habit or belief keeps all three leaves fed?",
+        "x": 2.4,
+        "y": 3.7,
+        "rotate": 0
+      },
+      {
+        "n": 5,
+        "name": "The Lucky Fourth Leaf",
+        "meaning": "The rare stroke of luck or blessing that is ready to find you.",
+        "guide": "This is your four-leaf find. What small, rare blessing is hiding in plain sight, and how can you say yes to it?",
+        "x": 2.4,
+        "y": 1.85,
+        "rotate": 0
+      }
+    ],
+    "howToUse": "Shuffle with a sprig of clover, a green candle or a pinch of salt nearby, thinking of what you would like to grow. Lay the Leaf of the Heart at the top, the Leaf of the Hearth to the lower left and the Leaf of Hope to the lower right, then set the Shamrock Stem below them. Last, tuck the Lucky Fourth Leaf into the centre where the three leaves meet. Read the three leaves first, then the stem, and save the lucky card for last.",
+    "intention": "Three leaves for heart, hearth and hope, and one more for luck; let what is green in me grow.",
+    "bestTime": "St. Patrick's Day (March 17), or any morning in mid-March when the first green shoots appear.",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ],
+    "guided": true,
+    "backdrop": "shamrock",
+    "lines": [
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        4
+      ]
+    ]
+  },
+  {
+    "id": "tarot-pot-of-gold-rainbow",
+    "name": "Pot of Gold at the End of the Rainbow",
+    "description": "A St. Patrick's Day spread that follows a rainbow from the first raindrop, up and over its arc, and down to the pot of gold waiting at its end. Use it to trace a goal from where it begins to the reward it promises, and to spot the colours of help along the way. A cheerful reading for March 17th, or for any time a rainbow catches your eye.",
+    "cardCount": 7,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "abundance",
+      "luck",
+      "manifestation",
+      "prosperity"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The First Raindrop",
+        "meaning": "The small trouble, longing or storm that set this goal in motion.",
+        "guide": "Every rainbow needs rain first. What storm or longing in this card started you on this path?",
+        "x": 0,
+        "y": 4.9,
+        "rotate": 0
+      },
+      {
+        "n": 2,
+        "name": "The Red Band",
+        "meaning": "The passion and courage that lift you off the ground.",
+        "guide": "Feel the fire in this card. Where does your courage come from, and how can you stoke it today?",
+        "x": 0,
+        "y": 3.2,
+        "rotate": 0
+      },
+      {
+        "n": 3,
+        "name": "The Golden Band",
+        "meaning": "The confidence and joy that carry your effort higher.",
+        "guide": "Let this card warm you like sunlight. What brings you joy in the work itself, not only the reward?",
+        "x": 1.2,
+        "y": 1.4,
+        "rotate": 0
+      },
+      {
+        "n": 4,
+        "name": "The Green Band",
+        "meaning": "The peak of the arc: growth, health and the steady work at the top of the climb.",
+        "guide": "This is the highest point of your rainbow. What steady, green work is needed right now to keep it shining?",
+        "x": 2.4,
+        "y": 0.6,
+        "rotate": 0
+      },
+      {
+        "n": 5,
+        "name": "The Blue Band",
+        "meaning": "The calm truth or honest word that guides your descent toward the goal.",
+        "guide": "Read this card as cool, clear water. What honest truth do you need to speak or hear as you come down the arc?",
+        "x": 3.6,
+        "y": 1.4,
+        "rotate": 0
+      },
+      {
+        "n": 6,
+        "name": "The Violet Band",
+        "meaning": "The intuition, magic and quiet faith that bring you the last stretch.",
+        "guide": "Close your eyes for a breath before reading this card. What is your intuition whispering about the final stretch?",
+        "x": 4.8,
+        "y": 3.2,
+        "rotate": 0
+      },
+      {
+        "n": 7,
+        "name": "The Pot of Gold",
+        "meaning": "The reward that waits at the end of the rainbow and what it is truly worth.",
+        "guide": "Lift the lid on this card. What treasure is really waiting for you, and is it the gold you expected?",
+        "x": 4.8,
+        "y": 4.9,
+        "rotate": 0
+      }
+    ],
+    "howToUse": "Shuffle while holding a coin, ideally a gold-coloured one, and picture a rainbow after rain. Lay the First Raindrop at the bottom left, then build the arc from left to right: the Red Band above it, the Golden Band, the Green Band at the very top, the Blue Band and the Violet Band coming down the right side. Set the Pot of Gold at the bottom right, under the end of the rainbow. Read from the raindrop, over the arc, and finish with the gold.",
+    "intention": "From the first drop of rain to the gold at the rainbow's end, I follow every colour and welcome the treasure meant for me.",
+    "bestTime": "St. Patrick's Day (March 17), or right after a spring rain shower; lovely in any week of March.",
+    "moonPhases": [
+      "Waxing Gibbous",
+      "Full Moon"
+    ],
+    "guided": true,
+    "backdrop": "shamrock",
+    "lines": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  },
+  {
+    "id": "tarot-luck-of-the-irish-celtic-knot",
+    "name": "Luck of the Irish: Celtic Knot",
+    "description": "An eight-card St. Patrick's Day spread woven like a Celtic trinity knot, where three loops of luck, love and wisdom pass through one heart and never break. It shows how the threads of your life bind together, where luck is tangled and where it flows freely. Best for deep reflection on March 17th, or whenever you want to understand how the pieces of your fortune connect.",
+    "cardCount": 8,
+    "difficulty": "Advanced",
+    "metaphysical": [
+      "divination",
+      "luck",
+      "connection",
+      "wisdom",
+      "ancestors",
+      "self-reflection"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Heart of the Knot",
+        "meaning": "Your core self, the centre through which every thread of your luck passes.",
+        "guide": "Sit with this card as the heart of your weave. What part of you do all your threads keep returning to?",
+        "x": 2.4,
+        "y": 2.6,
+        "rotate": 0
+      },
+      {
+        "n": 2,
+        "name": "The Tangle",
+        "meaning": "The snag or crossed thread that is knotting up your luck right now.",
+        "guide": "Read this card laid across your heart. Which thread is pulling tight, and what would loosen it gently?",
+        "x": 2.4,
+        "y": 2.975,
+        "rotate": 90
+      },
+      {
+        "n": 3,
+        "name": "The Loop of Fortune",
+        "meaning": "The point of the knot where luck, chance and opportunity gather.",
+        "guide": "Look at this card as your lucky loop. Where is chance gathering for you, and are you watching for it?",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0
+      },
+      {
+        "n": 4,
+        "name": "The Thread to Fortune",
+        "meaning": "The connection carrying luck toward love and loyalty.",
+        "guide": "Follow this thread with your finger. How does your good fortune flow toward the people you care about?",
+        "x": 4.2,
+        "y": 2.2,
+        "rotate": 0
+      },
+      {
+        "n": 5,
+        "name": "The Loop of Kinship",
+        "meaning": "The love, friendship and kin who are woven into your luck.",
+        "guide": "See the faces in this card. Whose love is woven into your luck, and how can you honour them this week?",
+        "x": 4.8,
+        "y": 4.6,
+        "rotate": 0
+      },
+      {
+        "n": 6,
+        "name": "The Thread Beneath",
+        "meaning": "The hidden connection between love and wisdom, often an inheritance or old story.",
+        "guide": "This thread runs under everything. What old family story or inherited gift does this card bring up?",
+        "x": 2.4,
+        "y": 4.6,
+        "rotate": 0
+      },
+      {
+        "n": 7,
+        "name": "The Loop of Wisdom",
+        "meaning": "The knowledge and hard-won sense that guide how you use your luck.",
+        "guide": "Let this card speak like an old storyteller. What lesson would help you spend your luck wisely?",
+        "x": 0,
+        "y": 4.6,
+        "rotate": 0
+      },
+      {
+        "n": 8,
+        "name": "The Thread Returning",
+        "meaning": "How wisdom loops back into fortune, closing the knot and beginning it again.",
+        "guide": "Every knot returns to its start. What have you learned that will bring fresh luck around again?",
+        "x": 0.6,
+        "y": 2.2,
+        "rotate": 0
+      }
+    ],
+    "howToUse": "Shuffle slowly while tracing a knot shape on the deck with your finger, or while winding a green thread around your hand. Place the Heart of the Knot in the centre and lay the Tangle sideways across its lower half. Set the Loop of Fortune at the top, the Loop of Kinship at the bottom right and the Loop of Wisdom at the bottom left, then lay the three threads between them: the Thread to Fortune on the right, the Thread Beneath at the bottom centre and the Thread Returning on the left. Read the heart and tangle first, then travel clockwise around the knot from the top loop, finishing with the Thread Returning.",
+    "intention": "Three loops, one heart, no end and no beginning; may the threads of my luck run clear and strong.",
+    "bestTime": "St. Patrick's Day evening (March 17), or any quiet night in March when you want to reflect on how your blessings connect.",
+    "moonPhases": [
+      "Full Moon",
+      "Waning Gibbous"
+    ],
+    "guided": true,
+    "backdrop": "shamrock",
+    "lines": [
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        7
+      ]
+    ]
+  },
+  {
+    "id": "tarot-easter-painted-egg",
+    "name": "Easter Egg: The Painted Shell",
+    "description": "A seven-card spring spread laid in the shape of an egg, with six cards for the painted shell and one golden yolk hidden inside. The shell shows the colours you show the world and the protection around you, while the yolk reveals the new life quietly forming within. Read it at Easter, or on any spring morning when you sense something new about to hatch; it is a warm fit for Ostara-keeping witches too.",
+    "cardCount": 7,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "new beginnings",
+      "rebirth",
+      "fertility",
+      "protection",
+      "growth"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Crown of the Shell",
+        "meaning": "The highest hope or spiritual message painted at the top of your spring.",
+        "guide": "Look at the very top of your egg. What hope do you want painted brightest on your season?",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0
+      },
+      {
+        "n": 2,
+        "name": "The Left Brushstroke",
+        "meaning": "The colours of your past that still show on the shell.",
+        "guide": "Notice the colours here. Which part of your past still shows on your shell, and do you want to keep it?",
+        "x": 1.2,
+        "y": 1.7,
+        "rotate": 0
+      },
+      {
+        "n": 3,
+        "name": "The Right Brushstroke",
+        "meaning": "The new colour you are adding to your life this spring.",
+        "guide": "Pick up an imaginary brush. What fresh colour does this card invite you to add to your life?",
+        "x": 3.6,
+        "y": 1.7,
+        "rotate": 0
+      },
+      {
+        "n": 4,
+        "name": "The Shell's Strength",
+        "meaning": "What protects the new life in you while it is still fragile.",
+        "guide": "Run your thumb along this card like an eggshell. What keeps you safe while you are still growing?",
+        "x": 0.6,
+        "y": 3.4,
+        "rotate": 0
+      },
+      {
+        "n": 5,
+        "name": "The Golden Yolk",
+        "meaning": "The new life, idea or self forming quietly inside you.",
+        "guide": "This is the heart of the egg. What new part of you is quietly forming, and what does it need to grow?",
+        "x": 2.4,
+        "y": 3.4,
+        "rotate": 0
+      },
+      {
+        "n": 6,
+        "name": "The Hairline Crack",
+        "meaning": "The first sign of change, the place where the shell is ready to give.",
+        "guide": "Every hatching starts with a tiny crack. Where is your life ready to open, and can you let it?",
+        "x": 4.2,
+        "y": 3.4,
+        "rotate": 0
+      },
+      {
+        "n": 7,
+        "name": "The Hatching",
+        "meaning": "What emerges when the egg finally opens and the new thing steps into the light.",
+        "guide": "Picture the shell falling away. What steps out into the light, and how will you welcome it?",
+        "x": 2.4,
+        "y": 5.1,
+        "rotate": 0
+      }
+    ],
+    "howToUse": "Shuffle with a painted or hard-boiled egg, a flower or a bowl of seeds beside you, breathing in the feeling of spring. Lay the Crown of the Shell at the top, the two Brushstrokes on the row below, then the Shell's Strength, the Golden Yolk and the Hairline Crack across the widest row. Place the Hatching at the bottom to round off the egg. Read the shell around its edge from the crown downward, then turn to the Golden Yolk at the centre, and finish with the Hatching.",
+    "intention": "Inside this shell, new life is stirring; I keep it safe, I paint it bright, and I welcome what hatches.",
+    "bestTime": "Easter Sunday morning, or any spring morning around the vernal equinox and Easter.",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "Full Moon"
+    ],
+    "guided": true,
+    "backdrop": "easter",
+    "lines": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        3,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "tarot-easter-egg-hunt",
+    "name": "Easter Egg Hunt: Hidden Gifts",
+    "description": "A playful four-card Easter spread for finding the gifts tucked away in your life, like eggs hidden in the garden. Three cards are eggs hidden in different places, and the basket shows what you carry home once they are found. Perfect for Easter weekend, a spring picnic or any day you need reminding that good things are hidden all around you.",
+    "cardCount": 4,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "divination",
+      "gratitude",
+      "joy",
+      "abundance",
+      "celebration"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Egg Under the Hedge",
+        "meaning": "A gift hidden in your everyday routine that you keep walking past.",
+        "guide": "Get down low and look under the hedge. Which ordinary moment in your day holds a treat you have overlooked?",
+        "x": 0,
+        "y": 0.8,
+        "rotate": 0
+      },
+      {
+        "n": 2,
+        "name": "The Egg in the Tall Grass",
+        "meaning": "A strength or talent of yours that has grown over and needs uncovering.",
+        "guide": "Part the grass around this card. What talent of yours has been hidden too long, and how can you use it?",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0
+      },
+      {
+        "n": 3,
+        "name": "The Egg by the Garden Gate",
+        "meaning": "A gift or opportunity arriving through another person or a new opening.",
+        "guide": "Peek through the gate. Who or what is bringing you a gift, and are you ready to open the latch?",
+        "x": 4.8,
+        "y": 0.8,
+        "rotate": 0
+      },
+      {
+        "n": 4,
+        "name": "The Brimming Basket",
+        "meaning": "What you gather and carry home once all the hidden gifts are found.",
+        "guide": "Lift your full basket. What will you do with everything you found, and who will you share it with?",
+        "x": 2.4,
+        "y": 2.6,
+        "rotate": 0
+      }
+    ],
+    "howToUse": "Shuffle while thinking of a garden in spring, or hide three small treats around the room and find them first. Lay the Egg Under the Hedge on the left, the Egg in the Tall Grass a little higher in the middle and the Egg by the Garden Gate on the right. Set the Brimming Basket below the middle egg. Read the eggs from left to right, as if hunting across the garden, then finish with the basket.",
+    "intention": "Good things are hidden all around me; I look with curious eyes and gather every gift.",
+    "bestTime": "Easter weekend, especially Easter Sunday, or any bright spring afternoon in March or April.",
+    "moonPhases": [
+      "Waxing Crescent",
+      "Waxing Gibbous",
+      "Full Moon"
+    ],
+    "guided": true,
+    "backdrop": "easter"
+  },
+  {
+    "id": "tarot-spring-hare-at-dawn",
+    "name": "The Spring Hare at Dawn",
+    "description": "A six-card Easter and springtime spread laid in the shape of a hare, the swift and lucky creature that has long danced through spring fields and folk stories. Its long ears listen, its heart races, its paws keep it grounded, and its strong hind leg shows where to leap. Read it at Easter or through the spring season when you need to know whether to wait, listen or jump.",
+    "cardCount": 6,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "intuition",
+      "fertility",
+      "courage",
+      "new beginnings"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Listening Ear",
+        "meaning": "What you are hearing from the world around you: news, signs and other people's voices.",
+        "guide": "Turn this ear outward. What sounds or messages from others do you need to listen to more closely?",
+        "x": 1.8,
+        "y": 0,
+        "rotate": 0
+      },
+      {
+        "n": 2,
+        "name": "The Inward Ear",
+        "meaning": "What your own inner voice and intuition are telling you.",
+        "guide": "Turn this ear inward. What is your intuition saying that you have not yet said out loud?",
+        "x": 3,
+        "y": 0,
+        "rotate": 0
+      },
+      {
+        "n": 3,
+        "name": "The Hare's Bright Eye",
+        "meaning": "How clearly you are seeing your situation this spring.",
+        "guide": "Look through the hare's eye. What do you see clearly now, and what is still at the edge of your vision?",
+        "x": 2.4,
+        "y": 1.7,
+        "rotate": 0
+      },
+      {
+        "n": 4,
+        "name": "The Racing Heart",
+        "meaning": "What excites, frightens or quickens you as the season turns.",
+        "guide": "Feel your pulse while reading this card. Is your heart racing with excitement, nerves or both?",
+        "x": 2.4,
+        "y": 3.4,
+        "rotate": 0
+      },
+      {
+        "n": 5,
+        "name": "The Grounded Forepaws",
+        "meaning": "What keeps you steady and still when you need to pause.",
+        "guide": "Press your palms to the floor. What keeps you steady when it is wiser to sit still and wait?",
+        "x": 2.4,
+        "y": 5.1,
+        "rotate": 0
+      },
+      {
+        "n": 6,
+        "name": "The Leaping Hind Leg",
+        "meaning": "Where and when to spring forward with all your strength.",
+        "guide": "Feel the coiled strength in this card. Where should you leap, and what tells you the moment is right?",
+        "x": 3.6,
+        "y": 4.3,
+        "rotate": 0
+      }
+    ],
+    "howToUse": "Shuffle at sunrise if you can, with a window open to the morning air, imagining a hare sitting up in a dewy field. Lay the Listening Ear and the Inward Ear side by side at the top, then place the Hare's Bright Eye below them, the Racing Heart below that and the Grounded Forepaws at the bottom. Tuck the Leaping Hind Leg to the right of the heart and paws. Read the ears first, then travel down the body, and finish with the hind leg for your next move.",
+    "intention": "Swift hare of springtime, lend me your ears to listen, your stillness to wait and your strength to leap.",
+    "bestTime": "Easter morning at dawn, or any early spring sunrise between the equinox and May.",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Full Moon"
+    ],
+    "guided": true,
+    "backdrop": "easter",
+    "lines": [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ]
+    ]
+  },
+  {
+    "id": "tarot-thanksgiving-cornucopia",
+    "name": "Thanksgiving Cornucopia: Horn of Plenty",
+    "description": "A seven-card Thanksgiving spread shaped like a cornucopia, the curling horn of plenty spilling over with harvest goods. The horn traces how your abundance has gathered, from its narrow tip to its wide open mouth, and the spilled harvest shows what is overflowing to be shared. Read it during Thanksgiving week to count your blessings and see where plenty flows next.",
+    "cardCount": 7,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "abundance",
+      "gratitude",
+      "prosperity",
+      "harvest"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Curled Tip",
+        "meaning": "The small beginning or humble seed from which your current plenty grew.",
+        "guide": "Go back to the very tip of the horn. What small beginning grew into the abundance you have now?",
+        "x": 4.8,
+        "y": 0.2,
+        "rotate": 0
+      },
+      {
+        "n": 2,
+        "name": "The Widening Horn",
+        "meaning": "The effort and support that helped your blessings grow.",
+        "guide": "Follow the horn as it widens. Whose help or which effort of yours made your harvest bigger?",
+        "x": 3.6,
+        "y": 0.9,
+        "rotate": 0
+      },
+      {
+        "n": 3,
+        "name": "The Woven Rim",
+        "meaning": "What holds your abundance together and keeps it from slipping away.",
+        "guide": "Feel the weave of this card. What habit or value holds your blessings together so they do not slip away?",
+        "x": 2.4,
+        "y": 1.8,
+        "rotate": 0
+      },
+      {
+        "n": 4,
+        "name": "The Open Mouth",
+        "meaning": "Your capacity to receive: how open you are to the plenty arriving now.",
+        "guide": "Is your horn open wide or half-closed? What would help you receive good things without guilt?",
+        "x": 1.2,
+        "y": 2.9,
+        "rotate": 0
+      },
+      {
+        "n": 5,
+        "name": "The Spilled Apples",
+        "meaning": "The everyday blessings tumbling out that you may have taken for granted.",
+        "guide": "Pick up each apple in your mind. Which simple, daily blessing deserves a proper thank you today?",
+        "x": 0,
+        "y": 4.6,
+        "rotate": 0
+      },
+      {
+        "n": 6,
+        "name": "The Gourd and the Grain",
+        "meaning": "The lasting nourishment that will carry you through the colder months.",
+        "guide": "Think of food stored for winter. What in this card will keep feeding you long after the feast?",
+        "x": 1.4,
+        "y": 4.8,
+        "rotate": 0
+      },
+      {
+        "n": 7,
+        "name": "The Overflowing Share",
+        "meaning": "What you have in excess and are called to give to others.",
+        "guide": "Your horn is overflowing. What can you share this season, and who would be glad to receive it?",
+        "x": 2.8,
+        "y": 4.6,
+        "rotate": 0
+      }
+    ],
+    "howToUse": "Shuffle with a bowl of fruit, nuts or a few dried leaves on the table, saying thank you for one thing with each cut of the deck. Lay the Curled Tip at the top right, then curve down and to the left with the Widening Horn, the Woven Rim and the Open Mouth, so the horn opens toward the lower left. Spill the last three cards along the bottom: the Spilled Apples, the Gourd and the Grain, and the Overflowing Share. Read the horn from tip to mouth, then read the spilled harvest from left to right.",
+    "intention": "My horn is full and my heart is fuller; I give thanks for all I have and share what overflows.",
+    "bestTime": "Thanksgiving week, especially Thanksgiving Day itself (the fourth Thursday in November in the US, the second Monday in October in Canada), or any late autumn evening.",
+    "moonPhases": [
+      "Full Moon",
+      "Waning Gibbous"
+    ],
+    "guided": true,
+    "backdrop": "harvest",
+    "lines": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  },
+  {
+    "id": "tarot-thanksgiving-gratitude-table",
+    "name": "Thanksgiving: The Gratitude Table",
+    "description": "A seven-card Thanksgiving spread laid out like a long feast table, with a host at the head, guests along both sides, a centrepiece in the middle and an empty chair at the foot. It is a reading about the people, gifts and memories that nourish you, and about who and what you are making room for. Lay it during Thanksgiving week, before or after the feast, as a quiet ritual of thanks.",
+    "cardCount": 7,
+    "difficulty": "Advanced",
+    "metaphysical": [
+      "divination",
+      "gratitude",
+      "family",
+      "ancestors",
+      "community",
+      "celebration"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Head of the Table",
+        "meaning": "The role you play in your circle right now, as host, guest or keeper of the feast.",
+        "guide": "Take your seat at the head. Are you the one hosting, serving or being served, and how does that feel?",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0
+      },
+      {
+        "n": 2,
+        "name": "The Guest Who Feeds You",
+        "meaning": "A person or presence who nourishes you and deserves your thanks.",
+        "guide": "Look across the table at this card. Who nourishes you, and how will you thank them this week?",
+        "x": 0.6,
+        "y": 1.7,
+        "rotate": 0
+      },
+      {
+        "n": 3,
+        "name": "The Seat of Old Memories",
+        "meaning": "A memory, tradition or departed loved one still present at your table.",
+        "guide": "Pull out this chair for someone or something from the past. What tradition or loved one still sits with you?",
+        "x": 0.6,
+        "y": 3.4,
+        "rotate": 0
+      },
+      {
+        "n": 4,
+        "name": "The Guest Who Challenges",
+        "meaning": "The difficult relationship or tension at the table that asks for patience.",
+        "guide": "Every table has a tricky guest. What tension does this card show, and how can you meet it with grace?",
+        "x": 4.2,
+        "y": 1.7,
+        "rotate": 0
+      },
+      {
+        "n": 5,
+        "name": "The Unspoken Grace",
+        "meaning": "The thanks you feel but have not yet said aloud.",
+        "guide": "What gratitude is sitting on your tongue unspoken? Practise saying it while you look at this card.",
+        "x": 4.2,
+        "y": 3.4,
+        "rotate": 0
+      },
+      {
+        "n": 6,
+        "name": "The Harvest Centrepiece",
+        "meaning": "The shared blessing at the heart of your circle that everyone gathers around.",
+        "guide": "This is what everyone gathers around. What shared blessing holds your circle together this year?",
+        "x": 2.4,
+        "y": 2.55,
+        "rotate": 0
+      },
+      {
+        "n": 7,
+        "name": "The Empty Chair",
+        "meaning": "Who or what you are making room for in the year ahead.",
+        "guide": "Look at the empty chair at the foot of the table. Who or what are you making room for next?",
+        "x": 2.4,
+        "y": 5.1,
+        "rotate": 0
+      }
+    ],
+    "howToUse": "Shuffle at your own table if you can, with a candle lit and a cup of something warm, naming one person you are grateful for. Lay the Head of the Table at the top, then set the guests down both sides: the Guest Who Feeds You and the Seat of Old Memories on the left, the Guest Who Challenges and the Unspoken Grace on the right. Place the Harvest Centrepiece in the middle of the table and the Empty Chair at the bottom, at the foot. Read the head first, then the left side, the right side and the centrepiece, and finish at the Empty Chair.",
+    "intention": "I set a table of thanks for those who feed me, those who test me and those I remember; there is always room for one more.",
+    "bestTime": "Thanksgiving Day or the evening before (the fourth Thursday in November in the US, the second Monday in October in Canada), or any shared meal in late autumn.",
+    "moonPhases": [
+      "Full Moon",
+      "Waning Gibbous",
+      "Last Quarter"
+    ],
+    "guided": true,
+    "backdrop": "harvest",
+    "lines": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "tarot-thanksgiving-wishbone",
+    "name": "Thanksgiving Wishbone",
+    "description": "A simple three-card Thanksgiving spread inspired by the old custom of two people pulling a wishbone after the feast. One prong holds what you are thankful for, the other what you are ready to let go, and the joint where they meet reveals the wish that snaps free. Quick enough to do at the table after dinner, and lovely to share with a friend.",
+    "cardCount": 3,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "divination",
+      "gratitude",
+      "wishes",
+      "manifestation",
+      "release"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Thankful Prong",
+        "meaning": "What you are grateful for and want to hold onto.",
+        "guide": "Grip this side of the wishbone. What are you most grateful for this year, and how will you keep it close?",
+        "x": 0.9,
+        "y": 0,
+        "rotate": 0
+      },
+      {
+        "n": 2,
+        "name": "The Letting-Go Prong",
+        "meaning": "What you are ready to release as the year winds down.",
+        "guide": "Feel this side loosen in your hand. What are you ready to let go of before the year ends?",
+        "x": 3.9,
+        "y": 0,
+        "rotate": 0
+      },
+      {
+        "n": 3,
+        "name": "The Wish That Snaps Free",
+        "meaning": "The wish or blessing that comes to you when gratitude and release meet.",
+        "guide": "Hear the snap. What wish rises in you now, and what is one small step to help it come true?",
+        "x": 2.4,
+        "y": 2,
+        "rotate": 0
+      }
+    ],
+    "howToUse": "Shuffle after the feast, ideally with the wishbone itself (or a twig) on the table and a friend to pull it with. Lay the Thankful Prong at the top left and the Letting-Go Prong at the top right, then place the Wish That Snaps Free below and between them, where the two prongs join. Read the thankful prong first, then the letting-go prong, and finish with the wish.",
+    "intention": "With thanks in one hand and release in the other, I pull, I let go, and my wish breaks free.",
+    "bestTime": "Thanksgiving night after dinner, or any evening of late autumn harvest gatherings.",
+    "moonPhases": [
+      "Full Moon",
+      "Waning Gibbous",
+      "Waning Crescent"
+    ],
+    "guided": true,
+    "backdrop": "harvest",
+    "lines": [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ]
+  }
+]
