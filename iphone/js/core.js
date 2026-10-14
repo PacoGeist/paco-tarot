@@ -93,13 +93,16 @@ async function saveFile(name, mime, dataUrlOrText) {
   try {
     const bin = atob(b64), bytes = new Uint8Array(bin.length);
     for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
-    const file = new File([bytes], name, { type: mime });
-    if (navigator.canShare && navigator.canShare({ files: [file] })) {
-      try { await navigator.share({ files: [file], title: name }); return true; }
-      catch (e) { if (e && e.name === 'AbortError') return false; }
+    // some phones only share certain kinds of file, so a JSON file is offered as plain text too
+    for (const type of [mime, 'text/plain']) {
+      const file = new File([bytes], name, { type });
+      if (navigator.canShare && navigator.canShare({ files: [file] })) {
+        try { await navigator.share({ files: [file], title: name }); return true; }
+        catch (e) { if (e && e.name === 'AbortError') return false; break; }
+      }
     }
-    if (!/iPhone|iPad|iPod/.test(navigator.userAgent)) {
-      const u = URL.createObjectURL(file), a = document.createElement('a'); a.href = u; a.download = name; document.body.appendChild(a); a.click(); a.remove();
+    {   // a normal download (iPhone Safari offers to save it to Files)
+      const u = URL.createObjectURL(new Blob([bytes], { type: mime })), a = document.createElement('a'); a.href = u; a.download = name; document.body.appendChild(a); a.click(); a.remove();
       setTimeout(() => URL.revokeObjectURL(u), 60000); return true;
     }
   } catch (e) { }

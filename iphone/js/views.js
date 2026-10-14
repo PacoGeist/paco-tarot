@@ -560,6 +560,7 @@ route('settings', async v => {
     const f = await pickFile('application/json,.json,text/plain,*/*'); if (!f) return;
     try {
       const data = JSON.parse(await f.text());
+      if (isDeckFile(data)) { const d = await importDeck(data); if (d) location.hash = `#/mydecks/${d.id}`; return; }   // a shared deck, not a backup
       if (!Array.isArray(data.items)) throw 0;
       // tarot only: backups from Paco Morningstar's Witches' Companion work too; their other sections are skipped
       const items = data.items.filter(it => it && it.id && it.type === 'tarot'), nr = arr(data.readings).length;

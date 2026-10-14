@@ -1,10 +1,10 @@
 {
-  "version": "1.6",
-  "androidVersionCode": 7,
-  "date": "2026-10-13",
+  "version": "1.7",
+  "androidVersionCode": 8,
+  "date": "2026-10-14",
   "notes": [
-    "My Decks: photograph your own deck card by card and draw your readings with it",
-    "Choose whether your deck reads like Rider–Waite–Smith, Marseille or Thoth",
-    "Lessons, Tarot School and flashcards keep the built-in decks"
+    "Share your own decks: export a deck as one file, and import decks friends send you",
+    "Position every card photo before saving: drag, pinch to zoom, twist or slide to rotate, center and fit",
+    "Adjust a card's saved photo any time"
   ]
 }
