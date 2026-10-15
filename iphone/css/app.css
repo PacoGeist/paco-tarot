@@ -642,3 +642,14 @@ img[src*="img/marseille/"]{object-fit:contain!important;background:transparent}
 .sc-row .btn{padding:6px 11px}
 .scanner .btn.ghost{color:#f0d48a;border-color:rgba(212,173,90,.55)}
 .sc-view canvas{touch-action:none;cursor:grab}
+/* Tarot Basics */
+.basics{display:grid;gap:12px;margin-top:12px}
+.basics-item{display:flex;align-items:flex-start;gap:12px;color:inherit;padding:16px 14px}
+.basics-ic{flex:none;width:52px;height:52px;border-radius:14px;display:grid;place-items:center;background:var(--card2);border:1px solid var(--line2)}
+.basics-ic svg{width:32px;height:32px;color:var(--gold)}
+.basics-item b{display:block;font-family:"Cinzel Decorative";color:var(--gold2);font-size:1.05rem}
+.basics-item small{display:block;color:var(--violet);font-size:.8rem;margin:1px 0 4px}
+.basics-item p{margin:0;font-size:.95rem;color:var(--ink2);line-height:1.4}
+.basics-item>div{flex:1;min-width:0}
+.basics-go{align-self:center;color:var(--gold);font-size:1.6rem;line-height:1}
+.basics-item:active{transform:scale(.99)}

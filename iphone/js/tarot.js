@@ -13,7 +13,7 @@ document.addEventListener('click', e => {
 
 /* ---------- the deck ---------- */
 route('deck', async (v, a, qs) => {
-  setTitle('The Deck');
+  setTitle('Card by Card');
   let arc = qs.a || '', f = '';
   const d = DECKS[qs.d] ? qs.d : baseDeck(deckId()); window.__deckOverride = d;
   const mine = baseDeck(Store.settings.deck || 'rws') === d;
@@ -286,23 +286,21 @@ const SUIT_GROUPS = [['Major', 'Major Arcana', 'The 22 great archetypes — the 
 function cardTile(c) { return `<a class="deck-card" href="#/card/${encodeURIComponent(c.name)}"><img src="${tarotImg(c.name)}" alt="" loading="lazy"><b>${esc(shortName(c.name))}</b></a>`; }
 const symAnchor = s => 'sym-' + norm(s).replace(/[^a-z0-9]+/g, '-');
 route('learn', async v => {
-  setTitle('Learn Tarot');
-  const L = window.TAROT_LESSONS || [];
-  v.innerHTML = `<div class="hero" style="padding-top:4px"><h1 style="font-size:1.35rem">Learning the Tarot</h1><div class="sub">The classic Rider–Waite–Smith deck, card by card and symbol by symbol</div></div>
-    <div class="grid home-grid" style="margin:12px 0">
-      <a class="tile" href="#/learn/lessons">${ART.book}<b>Lessons</b><span>${L.length} beginner lessons</span></a>
-      <a class="tile" href="#/learn/symbols">${ART.eye}<b>Symbols</b><span>${(window.SYMBOL_DICT || []).length} meanings</span></a>
-      <a class="tile" href="#/learn/flash">${ART.shuffle}<b>Flashcards</b><span>test yourself</span></a>
+  setTitle('Tarot Basics');
+  const L = window.TAROT_LESSONS || [], nSym = (window.SYMBOL_DICT || []).length;
+  const fd = baseDeck(deckId()), mastered = Object.entries(CardStore.flash).filter(([k, r]) => k.startsWith(fd + '|') && r.box >= 4).length;
+  const item = (href, icon, title, count, text) => `<a class="frame basics-item" href="${href}"><span class="basics-ic">${ART[icon]}</span><div><b>${title}</b><small>${count}</small><p>${text}</p></div><span class="basics-go">›</span></a>`;
+  v.innerHTML = `<div class="hero" style="padding-top:4px"><h1 style="font-size:1.35rem">Tarot Basics</h1><div class="sub">Everything you need to start reading the cards</div></div>
+    <div class="basics">
+      ${item('#/learn/lessons', 'book', 'Basics', `${L.length} short lessons`, 'Start here. How the deck is built, what the four suits and their elements mean, the numbers Ace to Ten, the court cards, how to read a card’s pictures and positions, and your first reading step by step.')}
+      ${item('#/learn/symbols', 'eye', 'Symbols', `${nSym} symbols explained`, 'A dictionary of the pictures that repeat across the Rider–Waite–Smith deck: skies, colours, mountains, water, animals, plants and more. Search for one, or browse by kind, and see every card it appears on.')}
+      ${item('#/deck', 'tarot', 'Card by Card', `all 78 cards · ${esc(DECKS[fd].name)}`, 'Look up any card: its keywords, element and astrology, what its picture shows, its full meaning and how it reads in each position of a spread. Switch between the Rider–Waite–Smith, Marseille and Thoth decks.')}
+      ${item('#/learn/flash', 'shuffle', 'Flashcards', mastered ? `${mastered} of 78 mastered · ${esc(DECKS[fd].name)}` : `all 78 cards · ${esc(DECKS[fd].name)}`, 'Test yourself one card at a time: see the picture, name it and recall its meaning, then reveal the answer. Your progress is saved, and cards you know come back less often.')}
     </div>
-    <a class="frame sch-promo" href="#/school">${ART.star}<div><b>Tarot School</b><span>The learning game: study each card a little at a time, answer quizzes as you go, and work your way from the Fool to the King of Pentacles.</span></div></a>
-    <div class="chips scroll" id="lj">${SUIT_GROUPS.map(g => `<a class="chip gold" href="javascript:void 0" data-j="${g[0]}">${g[0] === 'Major' ? 'Major Arcana' : g[0]}</a>`).join('')}</div>
-    ${SUIT_GROUPS.map(([k, title, sub]) => `<div class="section-title" id="g-${k}"><h2>${esc(title)}</h2></div><p class="small muted" style="margin:-4px 0 8px">${esc(sub)}</p>
-      <div class="deck-grid">${TAROT_DECK.filter(c => c.arcana === k).map(cardTile).join('')}</div>`).join('')}
-    <p class="disclaimer">Rider–Waite–Smith artwork by Pamela Colman Smith (1909), public domain. All cards are read upright.</p>`;
-  $('#lj', v).onclick = e => { const a = e.target.closest('[data-j]'); if (!a) return; const t = $('#g-' + a.dataset.j, v); if (t) window.scrollTo({ top: t.getBoundingClientRect().top + scrollY - 70, behavior: 'smooth' }); };
+    <p class="small muted center" style="margin:14px 6px 0">Ready for more? <a href="#/school">Tarot School</a> teaches every card in depth, with quizzes as you go.</p>`;
 });
 route('learn/lessons', async v => {
-  setTitle('Lessons');
+  setTitle('Basics');
   v.innerHTML = `<div class="list">${(window.TAROT_LESSONS || []).map((l, i) => `<a class="row" href="#/learn/lesson/${i}"><div class="thumb" style="font-family:'Cinzel Decorative';color:var(--gold);font-size:1.3rem">${i + 1}</div><div class="txt"><div class="nm">${esc(l.title)}</div><div class="sb">${esc(l.body.split('\n')[0])}</div></div></a>`).join('')}</div>`;
 });
 route('learn/lesson/:i', async (v, [i]) => {

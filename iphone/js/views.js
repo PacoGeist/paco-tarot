@@ -41,9 +41,10 @@ function timingBlock(it) {
 /* home grid tiles: order and visibility can be changed in Settings */
 const HOME_TILES = [
   ['tarot', 'All Layouts'], ['daily', 'Daily Spreads'], ['holiday', 'Holiday & Seasonal'],
-  ['deck', 'The Deck'], ['learn', 'Learn Tarot'], ['record', 'Record Reading'],
-  ['journal', 'Journal'], ['moon', 'Moon Tracker'], ['favs', 'Favourites'],
-  ['mine', 'My Spreads'], ['flash', 'Flashcards'], ['school', 'Tarot School'], ['stats', 'Card Stats'], ['mydecks', 'My Decks'], ['more', 'More'],
+  ['deck', 'Card by Card'], ['learn', 'Tarot Basics'], ['school', 'Tarot School'],
+  ['record', 'Record Reading'], ['journal', 'Journal'], ['moon', 'Moon Tracker'],
+  ['favs', 'Favourites'], ['mine', 'My Spreads'], ['flash', 'Flashcards'],
+  ['stats', 'Card Stats'], ['mydecks', 'My Decks'], ['more', 'More'],
 ];
 const HOME_DEFAULT_HIDDEN = [];
 function homeTileOrder() {
@@ -70,8 +71,8 @@ route('', async v => {
     tarot: tile('#/list/tarot', 'tarot', 'All Layouts', `${layouts.length} spreads`),
     daily: tile('#/list/tarot?d=1', 'sun', 'Daily Spreads', `${nDaily} quick draws`),
     holiday: tile('#/list/tarot?h=1', 'leaf', 'Holiday & Seasonal', `${nHol} themed spreads`),
-    deck: tile('#/deck', 'eye', 'The Deck', DECKS[baseDeck(deckId())].name),
-    learn: tile('#/learn', 'book', 'Learn Tarot', 'cards, symbols & lessons'),
+    deck: tile('#/deck', 'eye', 'Card by Card', `all 78 · ${DECKS[baseDeck(deckId())].name}`),
+    learn: tile('#/learn', 'book', 'Tarot Basics', 'basics, symbols & flashcards'),
     record: tile('#/record', 'edit', 'Record Reading', 'from your own deck'),
     journal: tile('#/journal', 'book', 'Journal', nWait ? `${nWait} awaiting results` : `${nRead} reading${nRead === 1 ? '' : 's'}`),
     moon: tile('#/moon', 'triplemoon', 'Moon Tracker', 'phases & full moons'),
@@ -123,7 +124,7 @@ route('list/:type', async (v, [type], q) => {
     <div class="chips scroll" id="kws"><button class="chip gold ${phaseOnly ? 'on' : ''}" data-phase>${esc(nowPhase)} now</button>${topKw.map(k => `<button class="chip ${k === kw ? 'on' : ''}" data-k="${esc(k)}">${esc(k)}</button>`).join('')}</div>
     ${type === 'herb' ? `<div class="actions" style="margin:6px 0 10px"><a class="btn small ghost" href="#/tables/meta">${ART.table} Magical uses table</a><a class="btn small ghost" href="#/tables/med">${ART.table} Medical uses table</a></div>` : ''}
     ${type === 'tarot' ? `<div class="daily-row"><button class="btn ${dailyOnly ? 'primary' : ''} daily-btn" id="dailyBtn">${ART.sun} Daily <span class="small">(${items.filter(isDaily).length})</span></button><button class="btn ${holOnly ? 'primary' : ''} daily-btn" id="holBtn">${ART.leaf} Holiday &amp; Seasonal <span class="small">(${items.filter(isHoliday).length})</span></button></div>` : ''}
-    ${type === 'tarot' ? `<div class="actions" style="margin:6px 0 10px"><a class="btn small ghost" href="#/journal?t=tarot">${ART.book} Tarot Journal</a><a class="btn small ghost" href="#/record">${ART.edit} Record a reading</a><a class="btn small ghost" href="#/deck">${ART.tarot} The Deck</a><a class="btn small ghost" href="#/learn">${ART.book} Learn Tarot</a></div>` : ''}
+    ${type === 'tarot' ? `<div class="actions" style="margin:6px 0 10px"><a class="btn small ghost" href="#/journal?t=tarot">${ART.book} Tarot Journal</a><a class="btn small ghost" href="#/record">${ART.edit} Record a reading</a><a class="btn small ghost" href="#/deck">${ART.tarot} Card by Card</a><a class="btn small ghost" href="#/learn">${ART.book} Tarot Basics</a></div>` : ''}
     ${type === 'crystal' ? `<div class="actions" style="margin:6px 0 10px"><a class="btn small ghost" href="#/tables/meta?s=crystal">${ART.table} Crystals by magical use</a></div>` : ''}
     <div class="count" id="cnt"></div><div class="list" id="lst"></div>
     <a class="fab" href="#/edit/${type}" aria-label="Add">${ART.plus}</a>`;
@@ -453,7 +454,7 @@ route('more', async v => {
     ${L('#/list/tarot', 'tarot', 'All Layouts', 'Every spread, from one card to the Celtic Cross')}
     ${L('#/list/tarot?d=1', 'sun', 'Daily Spreads', 'Quick morning and evening draws')}
     ${L('#/list/tarot?h=1', 'leaf', 'Holiday & Seasonal Spreads', 'Sabbats, seasons and holidays')}
-    ${L('#/learn', 'book', 'Learn Tarot', 'Every card, its symbols, lessons and flashcards')}
+    ${L('#/learn', 'book', 'Tarot Basics', 'Basics, symbols and flashcards')}
     ${L('#/stats', 'eye', 'Card Stats', 'Your Card of the Day patterns and favourite cards')}
     ${L('#/mydecks', 'image', 'My Decks', 'Photograph your own deck and draw with it')}
     ${L('#/deck', 'eye', 'The Tarot Deck', 'All 78 Rider–Waite–Smith cards with their meanings')}

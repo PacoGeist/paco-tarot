@@ -1,8 +1,9 @@
 {
-  "version": "1.8",
-  "androidVersionCode": 9,
+  "version": "1.9",
+  "androidVersionCode": 10,
   "date": "2026-10-14",
   "notes": [
-    "Fixes Check for updates on Android"
+    "Learn Tarot is now Tarot Basics: Basics, Symbols, Card by Card and Flashcards on one simple page",
+    "The Deck is now called Card by Card"
   ]
 }
