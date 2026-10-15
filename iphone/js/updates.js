@@ -27,7 +27,7 @@ const Updates = (() => {
     if (isAndroid()) return new Promise((res, rej) => {
       const t = setTimeout(() => { window.onAppUpdate = null; rej(new Error('No answer from the update site')); }, 20000);
       window.onAppUpdate = (body, err) => { clearTimeout(t); window.onAppUpdate = null; if (err || !body) rej(new Error(err || 'No answer')); else { try { res(JSON.parse(body)); } catch (e) { rej(new Error('The update file could not be read')); } } };
-      AndroidBridge.checkUpdate();
+      AndroidBridge.checkUpdateAt ? AndroidBridge.checkUpdateAt(site()) : AndroidBridge.checkUpdate();
     });
     return fetch('version.json?t=' + Date.now(), { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('The update site answered ' + r.status); return r.json(); });
   }

@@ -192,10 +192,17 @@ public class MainActivity extends Activity {
         }
 
         @JavascriptInterface
-        public void checkUpdate() {
+        public void checkUpdate() { checkUpdateAt(null); }
+
+        // the page passes its update address (worked out from js/config.js); only an https address is accepted
+        @JavascriptInterface
+        public void checkUpdateAt(String site) {
             new Thread(() -> {
                 String body = null, err = null;
-                try { body = fetchText(siteUrl() + "version.json"); }
+                try {
+                    String base = site != null && site.matches("https://[A-Za-z0-9.-]+(/[A-Za-z0-9._~/-]*)?") ? (site.endsWith("/") ? site : site + "/") : siteUrl();
+                    body = fetchText(base + "version.json");
+                }
                 catch (Exception e) { err = e.getMessage() == null ? "No connection" : e.getMessage(); }
                 final String js = "window.onAppUpdate && window.onAppUpdate(" + (body == null ? "null" : JSONObject.quote(body)) + "," + (err == null ? "null" : JSONObject.quote(err)) + ")";
                 runOnUiThread(() -> web.evaluateJavascript(js, null));
@@ -317,7 +324,8 @@ public class MainActivity extends Activity {
 
     /* the app's web address comes from www/js/config.js (repo: 'user/name', or an explicit site: 'https://…/') */
     private String siteUrl() throws Exception {
-        String cfg = readAsset("www/js/config.js");
+        // ignore comments, so an example address in a comment is never used
+        String cfg = readAsset("www/js/config.js").replaceAll("(?s)/\\*.*?\\*/", "");
         Matcher m = Pattern.compile("site\\s*:\\s*'(https://[^']+)'").matcher(cfg);
         if (m.find()) { String s = m.group(1); return s.endsWith("/") ? s : s + "/"; }
         m = Pattern.compile("repo\\s*:\\s*'([^'/]+)/([^']+)'").matcher(cfg);
