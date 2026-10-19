@@ -80,12 +80,163 @@ const starHTML = n => `<span class="sq-stars">${[0, 1, 2].map(i => i < n ? '★'
 const sentences = t => String(t || '').split(/(?<=[.!?])\s+(?=[A-Z“"‘'])/).filter(Boolean);
 const firstSent = (t, n = 1) => sentences(t).slice(0, n).join(' ');
 const reEsc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-const leaks = (text, name) => { const b = rwsShort(name).replace(/^The /, ''); return new RegExp(`\\b${reEsc(b)}\\b`, 'i').test(text); };
+/* ---------- keeping answers from giving themselves away ----------
+   A question never shows the words that name its answer. Instead of blanks, the telling words are swapped for
+   vaguer ones: a symbol's own feature becomes "it" / "they" ("The mountains stand for…" → "They stand for…"),
+   a card's number, rank and suit become plain words ("nine golden cups" → "several golden vessels"),
+   and words that name a kind of position become neutral ones ("In love, …" → "In matters of affection, …"). */
+const WORD_STOP = new Set(('the and for his her its are was but not all him she has out who way may can our you one top set end '
+  + 'this that with from into your their there they them have been were what which when where while about above below over under after before '
+  + 'other some such only same than very just also more most much many each every both these those card cards here shows held holds hand hands '
+  + 'figure figures stands standing behind front left right centre center side back upon through toward towards around across along beneath within '
+  + 'without itself himself herself single pair part').split(' '));
+const stemOf = w => (w.length > 5 ? w.replace(/(ings?|edly|ed|es|s|ly)$/, '') : w.replace(/(es|s)$/, '')).replace(/([b-df-hj-np-tv-z])\1$/, '$1');
+function contentWords(text) {
+  const out = new Set();
+  for (const w of String(text || '').toLowerCase().replace(/[’']s\b/g, '').match(/[a-z]+(?:-[a-z]+)*/g) || [])
+    for (const p of w.split('-')) if (p.length >= 3 && !WORD_STOP.has(p)) out.add(stemOf(p));
+  return [...out].filter(w => w.length >= 3);
+}
+const _wre = new Map();
+const wordRe = st => { let r = _wre.get(st); if (!r) _wre.set(st, r = new RegExp(`^${reEsc(st)}${st.length <= 3 ? '(?:s|es)?' : '[a-z]{0,4}'}$`, 'i')); return r; };
+const keepCase = (src, out) => /^[A-Z]/.test(src) ? out[0].toUpperCase() + out.slice(1) : out;
+
+// swap the words of a feature (or any matching words) for "it" / "they" / "this" / "these"
+const JOIN = new Set(['and', 'with', 'of', 'or']);
+// describing words: dropped when they sit in front of another noun ("the small red cap" → "the small cap")
+const DESCRIBE = new Set(['red', 'white', 'blue', 'yellow', 'green', 'black', 'grey', 'gray', 'gold', 'golden', 'silver', 'purple', 'orange', 'pink', 'brown', 'violet', 'dark', 'bright', 'pale',
+  'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'twelve', 'small', 'large', 'tall', 'great', 'distant', 'single', 'double']);
+// small words that never follow a describing word as its noun
+const AFTER = new Set(['open', 'closed', 'apart', 'upright', 'aloft', 'high', 'low', 'down', 'up', 'out', 'away', 'alone', 'behind', 'ahead', 'below', 'above', 'together', 'again', 'still', 'too']);
+const FUNC = new Set(['is', 'are', 'was', 'were', 'be', 'been', 'being', 'has', 'have', 'had', 'and', 'or', 'but', 'nor', 'with', 'of', 'in', 'on', 'at', 'to', 'for', 'as', 'by', 'from', 'that', 'which', 'who',
+  'can', 'may', 'might', 'will', 'would', 'could', 'should', 'must', 'do', 'does', 'not', 'here', 'there', 'traditionally', 'often', 'also', 'together', 'all', 'both', 'too', 'itself', 'themselves']);
+// verbs that commonly follow a symbol in a meaning ("Red signifies…", "Mountains mean…")
+const VERBS = new Set(['mean', 'stand', 'speak', 'show', 'point', 'suggest', 'echo', 'represent', 'signal', 'signify', 'symbolise', 'symbolize', 'hint', 'carry', 'link', 'add', 'give', 'mark', 'evoke',
+  'recall', 'reflect', 'convey', 'repeat', 'tie', 'connect', 'relate', 'belong', 'remind', 'invite', 'lead', 'make', 'keep', 'offer', 'bring', 'express', 'emphasise', 'emphasize', 'highlight',
+  'indicate', 'denote', 'imply', 'underline', 'reinforce', 'warn', 'announce', 'declare', 'promise', 'mirror', 'serve', 'act', 'stress', 'set', 'frame', 'create', 'join', 'unite', 'divide',
+  'separate', 'protect', 'guard', 'support', 'hold', 'rise', 'appear', 'seem', 'remain', 'sit', 'face', 'look', 'surround', 'flank', 'contrast', 'balance', 'stretch', 'grow', 'flow', 'pour', 'shine', 'glow']);
+const isVerb = w => !!w && (VERBS.has(w) || VERBS.has(w.replace(/s$/, '')) || VERBS.has(w.replace(/es$/, '')) || VERBS.has(w.replace(/ies$/, 'y')));
+const PREPS = new Set(['to', 'from', 'beneath', 'under', 'over', 'on', 'in', 'at', 'with', 'by', 'into', 'of', 'for', 'around', 'toward', 'towards', 'behind', 'above', 'below', 'between', 'through',
+  'like', 'upon', 'across', 'beside', 'near', 'onto', 'about', 'against', 'among', 'carries', 'holds', 'shows', 'sees', 'has', 'wears', 'raises', 'carry', 'hold', 'wear']);
+// action words from the features, and other words for them
+const ACTION_SWAP = { pointing: 'gesturing', points: 'gestures', pointed: 'aimed', kneeling: 'crouching', kneels: 'crouches', bending: 'swaying', bent: 'curved', dancing: 'lively',
+  looping: 'winding', hanging: 'suspended', hangs: 'is suspended', hung: 'suspended', flowing: 'streaming', flows: 'streams', rippling: 'moving', crossing: 'spanning', crossed: 'folded',
+  planning: 'preparation', offered: 'presented', offering: 'presenting', offers: 'presents', carved: 'decorated', carving: 'decoration', carvings: 'decorations', raised: 'lifted', raising: 'lifting',
+  raises: 'lifts', spilled: 'lost', spilling: 'pouring', spills: 'pours', resting: 'lying', rests: 'lays', rest: 'ease', walking: 'heading', walk: 'head', walks: 'heads', rears: 'lifts', rearing: 'lifting',
+  turned: 'angled', turning: 'shifting', fixed: 'set', grounded: 'rooted', coloured: 'tinted', angled: 'tilted', closed: 'sealed', armoured: 'protected', patterned: 'decorated', patched: 'worn',
+  hooded: 'covered', flowering: 'blooming', ploughed: 'tilled', winged: 'feathered', seated: 'enthroned', sitting: 'positioned', standing: 'positioned', holding: 'gripping', held: 'gripped',
+  gazing: 'staring', looking: 'staring', blindfolded: 'unseeing', bound: 'tied', floating: 'drifting', leaping: 'springing', riding: 'mounted', lying: 'stretched', burning: 'blazing', rising: 'climbing',
+  falling: 'dropping', reaching: 'stretching', flying: 'soaring', running: 'hurrying', weeping: 'grieving', sleeping: 'resting', praying: 'kneeling', climbing: 'ascending', sailing: 'drifting' };
+function vagueWords(text, words) {
+  if (!words.length) return String(text || '');
+  const hit = w => w.toLowerCase().split(/[-’']/).some(p => p.length >= 3 && words.some(st => wordRe(st).test(p)));
+  const tk = String(text || '').split(/([A-Za-z]+(?:[-’'][A-Za-z]+)*)/);   // odd indexes are words
+  const isW = i => i % 2 === 1, word = i => (tk[i] || '').toLowerCase(), sep = j => tk[j] || '';
+  const runIsDescribing = (a, b) => { for (let j = a; j <= b; j += 2) if (!JOIN.has(word(j)) && !DESCRIBE.has(word(j)) && !/(ed|ing)$/.test(word(j)) && !/-/.test(word(j))) return false; return true; };
+  let out = '', i = 0;
+  while (i < tk.length) {
+    if (!isW(i) || !hit(tk[i])) { out += tk[i]; i++; continue; }
+    // an action word: say it another way ("pointing" → "gesturing")
+    const sw = ACTION_SWAP[word(i)];
+    if (sw && !words.some(st => wordRe(st).test(sw.split(' ').pop()))) { out += keepCase(tk[i], sw); i++; continue; }
+    // a run of hits, joined by spaces, commas or small words
+    let end = i, joined = false;
+    for (let j = i + 2; j < tk.length; j += 2) {
+      if (!/^[\s,]*$/.test(sep(j - 1))) break;
+      if (hit(tk[j])) { end = j; continue; }
+      if (JOIN.has(word(j)) && j + 2 < tk.length && /^[\s,]*$/.test(sep(j + 1)) && hit(tk[j + 2])) { end = j + 2; joined = joined || word(j) === 'and'; j += 2; continue; }
+      break;
+    }
+    const lastW = word(end), nextW = /^ +$/.test(sep(end + 1)) ? word(end + 2) : '', nextNoun = nextW && /^[a-z]/.test(tk[end + 2]) && !FUNC.has(nextW) && !PREPS.has(nextW) && !isVerb(nextW) && !/ly$/.test(nextW);
+    // a describing word in front of another noun ("the small red cap", "the five senses", "other carved figures"): leave it out
+    if (nextNoun && (runIsDescribing(i, end) || (i === end && !/[^s]s$/.test(lastW)))) {   // also a noun used to describe another ("the flower chain")
+      const sentStart = /(^|[.!?;:]\s*|[“"]\s*)$/.test(out);
+      out = out.replace(/\s+$/, out.trim() ? ' ' : ''); tk[end + 1] = ''; if (sentStart && /^[.!?]?\s*$/.test(out.slice(-2))) tk[end + 2] = keepCase('X', tk[end + 2]);
+      i = end + 1; continue;
+    }
+    // take in a leading "the", "his", "two" … and any describing words after it ("the deep, heavy browns", "Distant mountains")
+    const okAdj = w => w && !PREPS.has(w) && !FUNC.has(w) && !isVerb(w) && !/ly$/.test(w);
+    // words before a comma must look like describing words ("the deep, heavy browns"), not nouns ("his clothing, red robe")
+    const okChain = ch => !/([a-z-]+),/i.test(ch) || [...ch.matchAll(/([a-z-]+),/gi)].every(x => { const w = x[1].toLowerCase(); return DESCRIBE.has(w) || (/(y|ful|ous|al|ic|ive|ent|ant|ish|less|ed|deep|warm|soft|rich|light|long|broad|wide|thin|thick)$/.test(w) && !/ing$/.test(w)); });
+    const DET = '(?:the|a|an|his|her|its|their|this|these|those|that|two|three|four|five|six|seven|eight|nine|ten)';
+    let start = out, m = start.match(new RegExp(`(?:^|[\\s(“"])(${DET}\\s+(?:[a-z]+(?:-[a-z]+)*,?\\s+){0,3})$`, 'i'));
+    if (m && (!okChain(m[1]) || !m[1].toLowerCase().split(/[\s,]+/).slice(1).every(w => !w || okAdj(w)))) m = start.match(new RegExp(`(?:^|[\\s(“"])((?:${DET}\\s+)+)$`, 'i'));
+    if (!m) { const m2 = start.match(/(?:^|[.!?;:]\s+|[(“"])((?:[A-Za-z]+(?:-[a-z]+)*,?\s+){1,2})$/); if (m2 && okChain(m2[1]) && m2[1].toLowerCase().split(/[\s,]+/).every(w => !w || okAdj(w))) m = m2; }
+    if (m) start = start.slice(0, start.length - m[1].length);
+    const runW = []; for (let j = i; j <= end; j += 2) runW.push(word(j).replace(/[’']s$/, ''));
+    const pl = w => /[^su]s$/.test(w) || /^(men|women|feet|teeth|people|children|geese|mice)$/.test(w);
+    const plural = /^(are|were|have)$/.test(nextW) ? true : /^(is|was|has)$/.test(nextW) ? false
+      : joined || runW.some(pl) || /\b(two|three|four|five|six|seven|eight|nine|ten)\s+/i.test(m ? m[1] : '');
+    const poss = /[’']s$/.test(tk[end]) || /^[’']s?\b/.test(sep(end + 1));
+    let rest = sep(end + 1); if (/^[’']s?\b/.test(rest) && !/[’']s$/.test(tk[end])) rest = rest.replace(/^[’']s?/, '');
+    const atStart = /(^|[.!?;:]\s*|[“"]\s*)$/.test(start) || /(^|[.!?]\s+)(often|commonly|traditionally|here|together|also)\s+$/i.test(start), prevW = (start.match(/([A-Za-z]+)\s*$/) || [])[1];
+    let r;
+    if (poss) r = plural ? 'their' : 'its';
+    else if (atStart) r = plural ? 'they' : 'it';
+    else if (prevW && PREPS.has(prevW.toLowerCase())) r = plural ? 'them' : 'it';
+    else r = plural ? 'these' : 'this';
+    if (/(^|[.!?]\s*|[“"]\s*)$/.test(start)) r = r[0].toUpperCase() + r.slice(1);
+    out = start + r; tk[end + 1] = rest; i = end + 1;
+  }
+  return out.replace(/\s*\((?:it|they|this|these|them)\)/gi, '').replace(/\b([Aa]) ([aeiou])/g, '$1n $2').replace(/\b([Aa])n ([b-df-hj-np-tv-z])/g, '$1 $2').replace(/\b(it|they|this|these|them|its|their)\s+(it|they|this|these|them|its|their)\b/gi, '$1');
+}
+
+// a card's own words, and plainer words to use instead
+const MINOR_SWAP = { ace: 'single', two: 'a pair of', three: 'several', four: 'several', five: 'several', six: 'several', seven: 'several', eight: 'several', nine: 'several', ten: 'many',
+  page: 'youth', pages: 'youths', knight: 'rider', knights: 'riders', queen: 'woman', queens: 'women', king: 'man', kings: 'men',
+  wand: 'rod', wands: 'rods', cup: 'vessel', cups: 'vessels', sword: 'blade', swords: 'blades', pentacle: 'disc', pentacles: 'discs' };
+const MAJOR_SWAP = { fool: 'wanderer', fools: 'wanderers', foolish: 'naive', magician: 'figure', priestess: 'figure', empress: 'woman', emperor: 'ruler', hierophant: 'teacher',
+  lovers: 'couple', lover: 'partner', chariot: 'carriage', strength: 'power', strengths: 'powers', hermit: 'recluse', wheel: 'circle', wheels: 'circles', fortune: 'luck',
+  justice: 'fairness', hang: 'dangle', hangs: 'dangles', hanging: 'dangling', hanged: 'suspended', death: 'ending', deaths: 'endings', temperance: 'moderation',
+  devil: 'horned figure', devils: 'horned figures', tower: 'structure', towers: 'structures', star: 'light', stars: 'lights', starry: 'glittering', moon: 'pale orb', moons: 'pale orbs',
+  moonlight: 'pale light', sun: 'radiant orb', suns: 'radiant orbs', sunlight: 'bright light', judgement: 'reckoning', judgment: 'reckoning', world: 'cosmos', worlds: 'realms' };
+const ID_SKIP = new Set(['the', 'of', 'high', 'man']);
+function idWords(name) {
+  const sn = rwsShort(name).toLowerCase(), c = TAROT_BY_NAME[name] || {};
+  if (c.arcana === 'Major') return sn.split(/\s+/).filter(w => !ID_SKIP.has(w)).map(stemOf);
+  const [num, , suit] = sn.split(' ');
+  return [num, stemOf(suit)];
+}
+function swapIdWords(text, name) {
+  const ids = idWords(name), swap = (TAROT_BY_NAME[name] || {}).arcana === 'Major' ? MAJOR_SWAP : MINOR_SWAP;
+  return String(text || '').replace(/[A-Za-z]+/g, w => {
+    const lw = w.toLowerCase(); if (!ids.some(st => wordRe(st).test(lw))) return w;
+    const r = swap[lw] || swap[stemOf(lw)] || (swap === MINOR_SWAP ? 'several' : 'it');
+    return keepCase(w, r);
+  }).replace(/\ba pair of (several|many)\b/gi, '$1').replace(/\b(a|an) (several|many)\b/gi, '$2');
+}
+const hasWords = (text, words) => (String(text || '').toLowerCase().match(/[a-z]+/g) || []).some(p => words.some(w => wordRe(w).test(p)));
+const leaks = (text, name) => hasWords(text, idWords(name));
 function maskCard(text, name) {
   const sn = rwsShort(name), bare = sn.replace(/^The /, '');
   let t = String(text || '');
-  [sn, bare].filter((x, i, a) => x.length > 2 && a.indexOf(x) === i).forEach(x => { t = t.replace(new RegExp(`\\b(the )?${reEsc(x)}('s)?\\b`, 'gi'), (m0, the, s) => s ? 'this card’s' : 'this card'); });
+  // the card's name only when written as a name (capitalised): "the material world" is not The World
+  [sn, bare].filter((x, i, a) => x.length > 2 && a.indexOf(x) === i).forEach(x => { t = t.replace(new RegExp(`\\b([Tt]he )?${reEsc(x)}(['’]s)?\\b`, 'g'), (m0, the, s) => s ? 'this card’s' : 'this card'); });
+  t = swapIdWords(t, name);
   return t.replace(/(^|[.!?]\s+)this card/g, (m0, p) => p + 'This card');
+}
+// words that name a kind of position, and neutral words to use instead
+const POS_SWAP = [
+  [/\bin the past\b/gi, 'earlier'], [/\bthe past\b/gi, 'what came before'], [/\bpast\b/gi, 'earlier'], [/\blooking back\b/gi, 'looking around'], [/\blooked back\b/gi, 'looked around'], [/\blooking\b/gi, 'gazing'], [/\blook at\b/gi, 'face'], [/\btoday\b/gi, 'at this point'],
+  [/\bright now\b/gi, 'at this point'], [/\bat the moment\b/gi, 'at this point'], [/\bcurrently\b/gi, 'at this point'], [/\bthe present\b/gi, 'this point'], [/\bhere and now\b/gi, 'at this point'],
+  [/\bthe future\b/gi, 'what comes next'], [/\bfuture\b/gi, 'later'], [/\bunfolds\b/gi, 'develops'], [/\bunfolding\b/gi, 'developing'], [/\bunfold\b/gi, 'develop'], [/\bahead\b/gi, 'on the way'],
+  [/\bchallenges\b/gi, 'difficulties'], [/\bchallenge\b/gi, 'difficulty'], [/\bchallenging\b/gi, 'demanding'], [/\bobstacles\b/gi, 'hurdles'], [/\bobstacle\b/gi, 'hurdle'],
+  [/\badvice\b/gi, 'suggestion'], [/\badvises\b/gi, 'suggests'], [/\badvise\b/gi, 'suggest'], [/\bguidance\b/gi, 'direction'], [/\bcounsel\b/gi, 'suggestion'],
+  [/\byourself\b/gi, 'you'], [/\bthose around you\b/gi, 'people nearby'], [/\bpeople around you\b/gi, 'people nearby'], [/\baround you\b/gi, 'nearby'], [/\bothers\b/gi, 'people'],
+  [/\bhopes\b/gi, 'longings'], [/\bhoping\b/gi, 'longing'], [/\bhoped\b/gi, 'longed'], [/\bhope\b/gi, 'long'], [/\bfears\b/gi, 'dreads'], [/\bfearing\b/gi, 'dreading'], [/\bfeared\b/gi, 'dreaded'], [/\bfear\b/gi, 'dread'], [/\bwish(es)?\b/gi, 'want$1'],
+  [/\b(in|at) work and money\b/gi, 'in practical matters'], [/\b(in|at) work\b/gi, 'in practical matters'], [/\bwork\b/gi, 'effort'], [/\bmoney\b/gi, 'resources'], [/\bcareers?\b/gi, 'path'], [/\bjobs?\b/gi, 'role'],
+  [/\bfinances\b/gi, 'resources'], [/\bfinancial\b/gi, 'material'], [/\bbusiness\b/gi, 'affairs'], [/\bcraft\b/gi, 'skill'],
+  [/\bin love\b/gi, 'in matters of affection'], [/\blove\b/gi, 'affection'], [/\bromance\b/gi, 'affection'], [/\bromantic\b/gi, 'tender'], [/\brelationships\b/gi, 'bonds'], [/\brelationship\b/gi, 'bond'], [/\bpartners\b/gi, 'companions'], [/\bpartner\b/gi, 'companion'],
+  [/\bspirituality\b/gi, 'inner life'], [/\bspiritual\b/gi, 'inner'], [/\bspirit\b/gi, 'the inner life'], [/\bsoul\b/gi, 'inner self'],
+  [/\breleasing\b/gi, 'setting down'], [/\breleased\b/gi, 'set down'], [/\brelease\b/gi, 'set down'], [/\bletting go\b/gi, 'setting down'], [/\blet go\b/gi, 'set down'], [/\bsurrender\b/gi, 'yield'],
+  [/\bhidden\b/gi, 'unseen'], [/\bshadows?\b/gi, 'darker side'], [/\bbeneath\b/gi, 'under'], [/\bunconsciously\b/gi, 'unawares'], [/\bunconscious\b/gi, 'unaware'],
+  [/\bfoundations?\b/gi, 'groundwork'], [/\broots?\b/gi, 'source'], [/\bat the base\b/gi, 'at the source'],
+  [/\bgifts\b/gi, 'assets'], [/\bgift\b/gi, 'asset'], [/\btalents?\b/gi, 'knack'],
+];
+function maskPosition(text) {
+  let t = String(text || '');
+  for (const [r, w] of POS_SWAP) t = t.replace(r, (m0, ...g) => keepCase(m0, w.replace('$1', typeof g[0] === 'string' ? g[0] : '')));
+  return t.replace(/^the inner life\b/, 'The inner life');
 }
 const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const pickN = (a, n) => shuffle(a).slice(0, n);
@@ -124,7 +275,7 @@ function weightedPick(name, facts, n) {
 }
 
 /* ---------- three ways to ask about every fact ---------- */
-function makeQuestion(name, fact, avoidV) {
+function makeQuestion(name, fact, avoidV, forceV) {
   const c = TAROT_BY_NAME[name], m = M_(name), sn = rwsShort(name), syms = S_(name);
   const V = [];
   const nameOpts = right => [right, ...otherCards(right, 3)].map(n => ({ t: rwsShort(n), ok: n === right }));
@@ -133,12 +284,12 @@ function makeQuestion(name, fact, avoidV) {
     V.push(() => ({ prompt: `Which of these is ${sn}?`, opts: [name, ...otherCards(name, 3)].map(n => ({ img: TAROT_BY_NAME[n].img, t: rwsShort(n), ok: n === name })), imgOpts: true, hideTitle: true, explain: firstSent(m.imagery) }));
     V.push(() => ({ prompt: 'Which card shows this scene?', quote: maskCard(firstSent(m.imagery, 1), name), opts: nameOpts(name), explain: m.imagery }));
   } else if (fact === 'kw') {
-    const kw = m.keywords || [];
-    const three = n => pickN(M_(n).keywords || [], 3).join(', ');
+    const kw = m.keywords || [], safeKw = n => { const k = M_(n).keywords || [], ok = k.filter(x => !leaks(x, n)); return ok.length >= 3 ? ok : k; };
+    const three = n => pickN(safeKw(n), 3).join(', ');
     V.push(() => { const right = three(name); return { prompt: `Which keywords belong to ${sn}?`, opts: [{ t: right, ok: true }, ...distinctFrom(right, otherCards(name, 6).map(three), 3).map(t => ({ t }))], explain: `${sn}: ${kw.join(', ')}.` }; });
     const kwSafe = kw.filter(k => !leaks(k, name));
     V.push(() => ({ prompt: 'Which card is known for these keywords?', quote: pickN(kwSafe.length >= 3 ? kwSafe : kw, 3).join(' · '), opts: nameOpts(name), explain: `${sn}: ${kw.join(', ')}.` }));
-    V.push(() => { const right = pickN(kw, 1)[0], other = TAROT_DECK.filter(x => x.name !== name).flatMap(x => M_(x.name).keywords || []).filter(k => !kw.map(norm).includes(norm(k))); return { prompt: `Which of these is a keyword of ${sn}?`, opts: [{ t: right, ok: true }, ...distinctFrom(right, other, 3).map(t => ({ t }))], explain: `${sn}: ${kw.join(', ')}.` }; });
+    V.push(() => { const right = pickN(safeKw(name), 1)[0], other = TAROT_DECK.filter(x => x.name !== name).flatMap(x => M_(x.name).keywords || []).filter(k => !kw.map(norm).includes(norm(k))); return { prompt: `Which of these is a keyword of ${sn}?`, opts: [{ t: right, ok: true }, ...distinctFrom(right, other, 3).map(t => ({ t }))], explain: `${sn}: ${kw.join(', ')}.` }; });
   } else if (fact === 'mean') {
     const ss = sentences(m.meaning), idx = ss.length > 2 ? 1 : 0, key = n => maskCard(sentences(M_(n).meaning)[idx] || firstSent(M_(n).meaning), n);
     V.push(() => { const right = key(name); return { prompt: `What is the heart of ${sn}’s message?`, opts: [{ t: right, ok: true }, ...distinctFrom(right, otherCards(name, 6).map(key), 3).map(t => ({ t }))], explain: m.meaning }; });
@@ -148,27 +299,40 @@ function makeQuestion(name, fact, avoidV) {
   } else if (fact === 'attr') {
     const all = k => [...new Set(TAROT_DECK.map(x => M_(x.name)[k]).filter(Boolean))];
     if (m.element) V.push(() => ({ prompt: `Which element is linked to ${sn}?`, opts: [{ t: m.element, ok: true }, ...distinctFrom(m.element, [...new Set(['Fire', 'Water', 'Air', 'Earth', ...all('element')])], 3).map(t => ({ t }))], explain: `${sn} belongs to ${m.element}.${m.astrology ? ` Astrology: ${m.astrology}.` : ''}` }));
-    if (m.astrology) V.push(() => ({ prompt: `Which astrological link belongs to ${sn}?`, opts: [{ t: m.astrology, ok: true }, ...distinctFrom(m.astrology, all('astrology'), 3).map(t => ({ t }))], explain: `${sn}: ${m.astrology}.` }));
+    if (m.astrology) { const ast = n => maskCard(M_(n).astrology, n), right = ast(name), pool = TAROT_DECK.filter(x => x.name !== name && M_(x.name).astrology).map(x => ast(x.name)); V.push(() => ({ prompt: `Which astrological link belongs to ${sn}?`, opts: [{ t: right, ok: true }, ...distinctFrom(right, pool, 3).map(t => ({ t }))], explain: `${sn}: ${m.astrology}.` })); }
     if (m.yesNo) V.push(() => ({ prompt: `Asked a yes-or-no question, how does ${sn} usually answer?`, opts: ['Yes', 'No', 'Maybe'].map(t => ({ t, ok: t === m.yesNo })), explain: `${sn} leans “${m.yesNo}”.` }));
   } else if (fact.startsWith('sym:')) {
     const s = syms[+fact.slice(4)]; if (!s) return null;
-    const meanKey = x => firstSent(x.meaning);
+    const fw = contentWords(s.feature);
+    // a meaning, with the words of its own feature (and the card's name) blanked out
+    const meanKey = (x, n) => vagueWords(maskCard(firstSent(x.meaning), n), contentWords(x.feature));
     const explain = `${s.feature}${s.where ? ` (${s.where})` : ''}: ${s.meaning}`;
-    const otherFeat = () => distinctFrom(s.feature, syms.map(x => x.feature), 3).map(t => ({ t }));
-    V.push(() => { const pool = TAROT_DECK.filter(x => x.name !== name).flatMap(x => S_(x.name).filter(y => norm(y.feature) !== norm(s.feature)).map(meanKey)); return { prompt: `On ${sn}, what does this feature mean?`, quote: s.feature, opts: [{ t: meanKey(s), ok: true }, ...distinctFrom(meanKey(s), pool, 3).map(t => ({ t }))], explain }; });
-    V.push(() => ({ prompt: `Which feature of ${sn} carries this meaning?`, quote: meanKey(s), opts: [{ t: s.feature, ok: true }, ...otherFeat()], explain }));
-    if (s.where) V.push(() => ({ prompt: `Look at ${sn}. Which feature is found here?`, img: c.img, quote: s.where, opts: [{ t: s.feature, ok: true }, ...otherFeat()], explain }));
-    else V.push(() => { const mine = syms.map(x => norm(x.feature)), pool = TAROT_DECK.filter(x => x.name !== name).flatMap(x => S_(x.name).map(y => y.feature)).filter(f => !mine.includes(norm(f))); return { prompt: `Which of these features appears on ${sn}?`, img: c.img, opts: [{ t: s.feature, ok: true }, ...distinctFrom(s.feature, pool, 3).map(t => ({ t }))], explain }; });
+    // wrong features must not share words with the right one, or two answers would both be right
+    const unlike = f => !contentWords(f).some(w => fw.includes(w));
+    const otherFeat = () => {
+      const own = distinctFrom(s.feature, syms.map(x => x.feature).filter(unlike), 3);
+      // not enough different features on this card: borrow ones from other cards that aren't on it
+      const mine = syms.map(x => norm(x.feature)), more = own.length < 3 ? distinctFrom(s.feature, TAROT_DECK.filter(x => x.name !== name).flatMap(x => S_(x.name).map(y => y.feature)).filter(f => unlike(f) && !mine.includes(norm(f)) && !own.includes(f)), 3 - own.length) : [];
+      return [...own, ...more].map(t => ({ t }));
+    };
+    V.push(() => { const right = meanKey(s, name), pool = TAROT_DECK.filter(x => x.name !== name).flatMap(x => S_(x.name).filter(y => unlike(y.feature)).map(y => meanKey(y, x.name))); return { prompt: `On ${sn}, what does this feature mean?`, quote: s.feature, opts: [{ t: right, ok: true }, ...distinctFrom(right, pool, 3).map(t => ({ t }))], explain }; });
+    V.push(() => ({ prompt: `Which feature of ${sn} carries this meaning?`, quote: meanKey(s, name), opts: [{ t: s.feature, ok: true }, ...otherFeat()], explain }));
+    if (s.where) V.push(() => ({ prompt: `Look at ${sn}. Which feature is found here?`, img: c.img, quote: vagueWords(s.where, fw), opts: [{ t: s.feature, ok: true }, ...otherFeat()], explain }));
+    else V.push(() => { const pool = TAROT_DECK.filter(x => x.name !== name).flatMap(x => S_(x.name).map(y => y.feature)).filter(unlike); return { prompt: `Which of these features appears on ${sn}?`, img: c.img, opts: [{ t: s.feature, ok: true }, ...distinctFrom(s.feature, pool, 3).map(t => ({ t }))], explain }; });
   } else if (fact.startsWith('pos:')) {
     const k = fact.slice(4), txt = (m.ctx || {})[k]; if (!txt) return null;
     const lab = CTX_LABEL[k], key = n => maskCard(firstSent((M_(n).ctx || {})[k]), n);
-    V.push(() => { const right = key(name); return { prompt: `${sn} falls in a “${lab}” position. What does it suggest?`, opts: [{ t: right, ok: true }, ...distinctFrom(right, otherCards(name, 6).map(key), 3).map(t => ({ t }))], explain: `${lab}: ${txt}` }; });
-    V.push(() => { const others = CTX_KEYS().filter(x => x !== k && !(CTX_NEAR[k] || []).includes(x)); return { prompt: `This is how ${sn} reads in one kind of position. Which position?`, quote: firstSent(txt, 2), opts: [{ t: lab, ok: true }, ...pickN(others, 3).map(x => ({ t: CTX_LABEL[x] }))], explain: `${lab}: ${txt}` }; });
+    V.push(() => {
+      // the question names the position, so no answer may use the position's own words
+      const right = maskPosition(key(name)), pool = TAROT_DECK.filter(x => x.name !== name && (M_(x.name).ctx || {})[k]).map(x => maskPosition(key(x.name)));
+      return { prompt: `${sn} falls in a “${lab}” position. What does it suggest?`, opts: [{ t: right, ok: true }, ...distinctFrom(right, pool, 3).map(t => ({ t }))], explain: `${lab}: ${txt}` };
+    });
+    V.push(() => { const others = CTX_KEYS().filter(x => x !== k && !(CTX_NEAR[k] || []).includes(x)); return { prompt: `This is how ${sn} reads in one kind of position. Which position?`, quote: maskPosition(maskCard(firstSent(txt, 2), name)), opts: [{ t: lab, ok: true }, ...pickN(others, 3).map(x => ({ t: CTX_LABEL[x] }))], explain: `${lab}: ${txt}` }; });
     V.push(() => ({ prompt: `Which card, falling in a “${lab}” position, would say this?`, quote: maskCard(firstSent(txt, 2), name), opts: nameOpts(name), explain: `${sn} · ${lab}: ${txt}` }));
   }
   if (!V.length) return null;
-  let vi = Math.floor(Math.random() * V.length);
-  if (V.length > 1 && vi === avoidV) vi = (vi + 1 + Math.floor(Math.random() * (V.length - 1))) % V.length;
+  let vi = forceV != null ? forceV : Math.floor(Math.random() * V.length);
+  if (forceV == null && V.length > 1 && vi === avoidV) vi = (vi + 1 + Math.floor(Math.random() * (V.length - 1))) % V.length;
   const q = V[vi]();
   if (!q || q.opts.length < 2) return null;
   q.opts = shuffle(q.opts); q.name = name; q.fact = fact; q.v = vi;

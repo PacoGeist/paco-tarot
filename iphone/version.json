@@ -1,9 +1,9 @@
 {
-  "version": "1.9",
-  "androidVersionCode": 10,
-  "date": "2026-10-14",
+  "version": "1.10",
+  "androidVersionCode": 11,
+  "date": "2026-10-15",
   "notes": [
-    "Learn Tarot is now Tarot Basics: Basics, Symbols, Card by Card and Flashcards on one simple page",
-    "The Deck is now called Card by Card"
+    "Tarot School questions no longer give their answers away: words in a question never appear in its answers",
+    "Symbol questions say \"it\" or \"they\" instead of naming the symbol, and card scenes no longer name the card's number or suit"
   ]
 }
