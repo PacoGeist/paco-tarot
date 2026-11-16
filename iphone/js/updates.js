@@ -20,7 +20,7 @@ const Updates = (() => {
     return n.toLowerCase() === user + '.github.io' ? `https://${user}.github.io/` : `https://${user}.github.io/${n}/`;
   }
   const configured = () => !!site() && !/^your-username\//i.test(cfg().repo || '');
-  const apkUrl = () => `https://github.com/${cfg().repo}/raw/${cfg().branch || 'main'}/android/releases/PacoTarot.apk`;
+  const apkUrl = () => `https://github.com/${cfg().repo}/releases/latest/download/PacoTarot.apk`;   // built and published by .github/workflows/android.yml
   function installed() {
     if (isAndroid()) { try { const i = JSON.parse(AndroidBridge.appInfo()); return { version: i.name || '?', code: +i.code || 0 }; } catch (e) { } }
     const v = window.APP_VERSION || {}; return { version: v.version || '?', code: +v.code || 0 };

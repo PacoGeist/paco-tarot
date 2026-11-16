@@ -9,3 +9,5 @@ android/build/
 tools/preview/
 .DS_Store
 Thumbs.db
+# the Android app is built and published by GitHub (Actions → Build the Android app → Releases)
+android/releases/

@@ -12,7 +12,7 @@ Tarot spreads and readings in three decks (Rider–Waite–Smith, Tarot de Marse
 3. Open it from the new icon on your Home Screen. After the first visit it works offline.
 
 ### Android
-1. On the phone, download **[PacoTarot.apk](https://github.com/PacoGeist/paco-tarot/raw/main/android/releases/PacoTarot.apk)**.
+1. On the phone, download **[PacoTarot.apk](https://github.com/PacoGeist/paco-tarot/releases/latest/download/PacoTarot.apk)**.
 2. Open the downloaded file. If Android asks, allow your browser or Files app to **install unknown apps**.
 3. Tap **Install**.
 
@@ -93,17 +93,16 @@ Send people the link to this repository. The "Get the app" section at the top te
    - raise `"version"` (for example `1.0` → `1.1`)
    - raise `"androidVersionCode"` by one (for example `12` → `13`; it started at 12 so the old Android app is pointed to the new one)
    - update `"date"` and `"notes"`. People see the notes when they check for updates.
-3. Build the new Android app. This puts the new `PacoTarot.apk` into `android/releases/`:
-   ```
-   bash android/build.sh
-   ```
-   You need the Android SDK (build-tools 35, platform 35) and Java 17 or newer. You also need the signing key in a `keys` folder **next to** the repository folder (not inside it):
-   - `keys/tarot.keystore`
-   - `keys/signing.env`, containing `KS_PASS=...`
+3. Commit and push in GitHub Desktop. That's all: GitHub does the rest.
+   - **iPhone:** "Publish the iPhone app" republishes the website.
+   - **Android:** "Build the Android app" builds and signs `PacoTarot.apk` and publishes it as a **Release** (for example `v1.1`). The newest one is always at https://github.com/PacoGeist/paco-tarot/releases/latest/download/PacoTarot.apk.
 
-   If you'd rather not set this up yourself, Claude can do the build for you.
-4. Commit and push in GitHub Desktop. GitHub republishes the iPhone version automatically.
-5. Android phones update themselves (Automatic updates); iPhones get it when they tap **Check for updates → Update now**.
+   The Android build needs two **repository secrets** (Settings → Secrets and variables → Actions), set up once:
+   - `KEYSTORE_BASE64`: the signing key `keys/tarot.keystore` as base64 text
+   - `KS_PASS`: the password from `keys/signing.env`
+
+   GitHub encrypts secrets; they never appear in the repository or the logs. (You can still build on your own computer with `bash android/build.sh` and the `keys` folder next to the repository folder.)
+4. Android phones update themselves (Automatic updates); iPhones get it when they tap **Check for updates → Update now**.
 
 > **Keep the signing key safe and private.** Android only accepts an update signed with the same key as the installed app. If the key is lost, people have to uninstall (losing their data unless they made a backup) and install again. If someone else gets it, they could make a fake update. The `.gitignore` file stops keystores from being uploaded by mistake.
 
@@ -118,7 +117,7 @@ Send people the link to this repository. The "Get the app" section at the top te
 | `iphone/version.json` | The current version number and release notes. Both apps check against it. |
 | `iphone/js/config.js` | Your GitHub username and repository name (the one setting to change). |
 | `android/` | The Android project: a small Java wrapper around the same app, plus moon notifications and the update check. |
-| `android/releases/PacoTarot.apk` | The latest Android app, for people to download. |
+| `.github/workflows/android.yml` | Builds and signs the Android app and publishes it under **Releases**. |
 | `tools/` | Build scripts, the card data (`tools/data/*.json`) and tests. |
 | `.github/workflows/pages.yml` | Publishes `iphone/` to GitHub Pages on every push. |
 
