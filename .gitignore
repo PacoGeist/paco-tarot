@@ -1,0 +1,11 @@
+# never upload signing keys or passwords
+*.keystore
+*.jks
+keys/
+signing.env
+# build leftovers
+android/build/
+*.idsig
+tools/preview/
+.DS_Store
+Thumbs.db

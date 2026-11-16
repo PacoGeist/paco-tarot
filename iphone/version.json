@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "androidVersionCode": 12,
+  "date": "2026-11-12",
+  "notes": [
+    "Paco Morningstar's Tarot starts fresh at version 1.0.",
+    "iPhone: nothing to do. The app moves to the new version by itself.",
+    "Android: this is a NEW app that installs next to the old one. BEFORE downloading, open ☰ → Settings & Backup → Export backup and save the file. Then install the new app, open it, use Import backup and choose that file. When your readings are there, uninstall the old app.",
+    "New on Android: updates download and install inside the app, and with Automatic updates on (Settings & Backup → Updates) they happen by themselves."
+  ]
+}

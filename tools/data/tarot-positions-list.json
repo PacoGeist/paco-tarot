@@ -1,0 +1,1070 @@
+{
+ "Card of the Day": {
+  "spread": "One Card Daily",
+  "meaning": "The energy, lesson or advice that will color your day. Notice where it shows up by evening."
+ },
+ "Past": {
+  "spread": "Past, Present, Future",
+  "meaning": "The roots of the situation: past events or influences still shaping it."
+ },
+ "Present": {
+  "spread": "Past, Present, Future",
+  "meaning": "Where things stand now and the energy most active around you."
+ },
+ "Future": {
+  "spread": "Past, Present, Future",
+  "meaning": "The likely direction if the current path continues. Not fixed; a forecast, not a sentence."
+ },
+ "Spirit": {
+  "spread": "Mind, Body, Spirit",
+  "meaning": "The state of your soul and spiritual connection; what feeds or starves it."
+ },
+ "Mind": {
+  "spread": "Mind, Body, Spirit",
+  "meaning": "Your thoughts, mental patterns and emotional climate."
+ },
+ "Body": {
+  "spread": "Mind, Body, Spirit",
+  "meaning": "Your physical health, energy and material circumstances."
+ },
+ "Situation": {
+  "spread": "Situation, Action, Outcome",
+  "meaning": "The heart of the matter as it truly stands, including what you may not see."
+ },
+ "Action": {
+  "spread": "Situation, Action, Outcome",
+  "meaning": "The approach or step that is most aligned right now."
+ },
+ "Outcome": {
+  "spread": "Situation, Action, Outcome",
+  "meaning": "The probable result if you take the advised action."
+ },
+ "The Present": {
+  "spread": "Celtic Cross",
+  "meaning": "The heart of the matter; the current situation and your state within it."
+ },
+ "The Challenge": {
+  "spread": "Celtic Cross",
+  "meaning": "Crossing card: the immediate obstacle or influence that must be worked with."
+ },
+ "The Foundation": {
+  "spread": "Celtic Cross",
+  "meaning": "The root beneath the situation: deeper causes, the unconscious basis."
+ },
+ "The Recent Past": {
+  "spread": "Celtic Cross",
+  "meaning": "What is passing away; events that have just shaped this."
+ },
+ "The Crown": {
+  "spread": "Celtic Cross",
+  "meaning": "The conscious goal or best possible outcome; what you aspire to."
+ },
+ "The Near Future": {
+  "spread": "Celtic Cross",
+  "meaning": "What is approaching in the coming weeks."
+ },
+ "Yourself": {
+  "spread": "Celtic Cross",
+  "meaning": "Your attitude, how you see yourself and your role in the matter."
+ },
+ "Environment": {
+  "spread": "Celtic Cross",
+  "meaning": "Outside influences: other people, surroundings, how others see you."
+ },
+ "Hopes and Fears": {
+  "spread": "Celtic Cross",
+  "meaning": "What you hope for or dread; often the same thing."
+ },
+ "The Outcome": {
+  "spread": "Celtic Cross",
+  "meaning": "The likely culmination if things continue as they are."
+ },
+ "The Past": {
+  "spread": "Horseshoe",
+  "meaning": "Past influences bearing on the question."
+ },
+ "Hidden Influences": {
+  "spread": "Horseshoe",
+  "meaning": "Factors you are unaware of or overlooking."
+ },
+ "Obstacles": {
+  "spread": "Horseshoe",
+  "meaning": "What stands in the way."
+ },
+ "Outside Influences": {
+  "spread": "Horseshoe",
+  "meaning": "Other people and external conditions."
+ },
+ "Advice": {
+  "spread": "Horseshoe",
+  "meaning": "The best course of action."
+ },
+ "You: How You See It": {
+  "spread": "Relationship Spread",
+  "meaning": "How you perceive the relationship."
+ },
+ "You: What You Feel": {
+  "spread": "Relationship Spread",
+  "meaning": "Your true feelings and emotional state."
+ },
+ "You: What You Need": {
+  "spread": "Relationship Spread",
+  "meaning": "What you need to feel fulfilled in this bond."
+ },
+ "Them: How They See It": {
+  "spread": "Relationship Spread",
+  "meaning": "How the other person perceives the relationship."
+ },
+ "Them: What They Feel": {
+  "spread": "Relationship Spread",
+  "meaning": "Their feelings and emotional state."
+ },
+ "Them: What They Need": {
+  "spread": "Relationship Spread",
+  "meaning": "What they need from the relationship."
+ },
+ "The Bond": {
+  "spread": "Relationship Spread",
+  "meaning": "The nature, strength and potential of the connection between you."
+ },
+ "Where You Stand": {
+  "spread": "Career Path",
+  "meaning": "Your current work situation and feelings about it."
+ },
+ "Your Strengths": {
+  "spread": "Career Path",
+  "meaning": "Talents and assets you can build on."
+ },
+ "Your Obstacles": {
+  "spread": "Career Path",
+  "meaning": "What is holding you back, inner or outer."
+ },
+ "Hidden Opportunity": {
+  "spread": "Career Path",
+  "meaning": "A door you have not noticed."
+ },
+ "Next Step": {
+  "spread": "Career Path",
+  "meaning": "The most aligned action to take now."
+ },
+ "Where This Leads": {
+  "spread": "Career Path",
+  "meaning": "The direction your career is moving if you act."
+ },
+ "House 1 / January": {
+  "spread": "Year Ahead (Zodiac Wheel)",
+  "meaning": "The ascendant, laid at the left. As houses: self, identity and new beginnings. As months: the energy of January (or the first month from now)."
+ },
+ "House 2 / February": {
+  "spread": "Year Ahead (Zodiac Wheel)",
+  "meaning": "As houses: money, possessions and values. As months: the energy of February (or the second month from now)."
+ },
+ "House 3 / March": {
+  "spread": "Year Ahead (Zodiac Wheel)",
+  "meaning": "As houses: communication, learning and siblings. As months: the energy of March (or the third month from now)."
+ },
+ "House 4 / April": {
+  "spread": "Year Ahead (Zodiac Wheel)",
+  "meaning": "As houses: home, family and roots. As months: the energy of April (or the fourth month from now)."
+ },
+ "House 5 / May": {
+  "spread": "Year Ahead (Zodiac Wheel)",
+  "meaning": "As houses: creativity, romance and joy. As months: the energy of May (or the fifth month from now)."
+ },
+ "House 6 / June": {
+  "spread": "Year Ahead (Zodiac Wheel)",
+  "meaning": "As houses: health, work and daily routine. As months: the energy of June (or the sixth month from now)."
+ },
+ "House 7 / July": {
+  "spread": "Year Ahead (Zodiac Wheel)",
+  "meaning": "As houses: partnerships and close relationships. As months: the energy of July (or the seventh month from now)."
+ },
+ "House 8 / August": {
+  "spread": "Year Ahead (Zodiac Wheel)",
+  "meaning": "As houses: shared resources, intimacy and transformation. As months: the energy of August (or the eighth month from now)."
+ },
+ "House 9 / September": {
+  "spread": "Year Ahead (Zodiac Wheel)",
+  "meaning": "As houses: travel, study, beliefs and expansion. As months: the energy of September (or the ninth month from now)."
+ },
+ "House 10 / October": {
+  "spread": "Year Ahead (Zodiac Wheel)",
+  "meaning": "As houses: career, reputation and ambition. As months: the energy of October (or the tenth month from now)."
+ },
+ "House 11 / November": {
+  "spread": "Year Ahead (Zodiac Wheel)",
+  "meaning": "As houses: friends, community and hopes. As months: the energy of November (or the eleventh month from now)."
+ },
+ "House 12 / December": {
+  "spread": "Year Ahead (Zodiac Wheel)",
+  "meaning": "As houses: the hidden, the spiritual and endings. As months: the energy of December (or the twelfth month from now)."
+ },
+ "Theme of the Year": {
+  "spread": "Year Ahead (Zodiac Wheel)",
+  "meaning": "The overarching lesson, gift or energy of the year ahead."
+ },
+ "The Seed": {
+  "spread": "New Moon Intentions",
+  "meaning": "The intention or desire most ready to be planted now."
+ },
+ "The Soil": {
+  "spread": "New Moon Intentions",
+  "meaning": "What within you supports this intention."
+ },
+ "The Weeds": {
+  "spread": "New Moon Intentions",
+  "meaning": "What could choke it: doubts, habits or distractions."
+ },
+ "The Water": {
+  "spread": "New Moon Intentions",
+  "meaning": "How to nurture it through the waxing moon."
+ },
+ "The First Sprout": {
+  "spread": "New Moon Intentions",
+  "meaning": "A sign or result to watch for by the full moon."
+ },
+ "What Has Come to Light": {
+  "spread": "Full Moon Release",
+  "meaning": "What the full moon is illuminating in your life."
+ },
+ "What Has Grown": {
+  "spread": "Full Moon Release",
+  "meaning": "What has come to fruition since the new moon."
+ },
+ "What to Celebrate": {
+  "spread": "Full Moon Release",
+  "meaning": "A success or blessing to honor."
+ },
+ "What to Release": {
+  "spread": "Full Moon Release",
+  "meaning": "The habit, fear or tie you are ready to let go."
+ },
+ "What Blocks Release": {
+  "spread": "Full Moon Release",
+  "meaning": "Why you have been holding on."
+ },
+ "How to Let Go": {
+  "spread": "Full Moon Release",
+  "meaning": "The best way to release it gracefully."
+ },
+ "The Moon's Gift": {
+  "spread": "Full Moon Release",
+  "meaning": "What fills the space once it is released."
+ },
+ "The Mask": {
+  "spread": "Shadow Work",
+  "meaning": "The face you show the world to protect yourself."
+ },
+ "The Shadow": {
+  "spread": "Shadow Work",
+  "meaning": "The part of yourself you hide, deny or project onto others."
+ },
+ "The Core Wound": {
+  "spread": "Shadow Work",
+  "meaning": "Where this shadow began."
+ },
+ "The Trigger": {
+  "spread": "Shadow Work",
+  "meaning": "What brings it to the surface now."
+ },
+ "The Hidden Gift": {
+  "spread": "Shadow Work",
+  "meaning": "The strength or wisdom locked inside the shadow."
+ },
+ "Integration": {
+  "spread": "Shadow Work",
+  "meaning": "How to welcome this part home with compassion."
+ },
+ "Root": {
+  "spread": "Chakra Spread",
+  "meaning": "Safety, grounding, survival and the body."
+ },
+ "Sacral": {
+  "spread": "Chakra Spread",
+  "meaning": "Creativity, pleasure, sexuality and emotion."
+ },
+ "Solar Plexus": {
+  "spread": "Chakra Spread",
+  "meaning": "Will, confidence and personal power."
+ },
+ "Heart": {
+  "spread": "Chakra Spread",
+  "meaning": "Love, compassion and connection."
+ },
+ "Throat": {
+  "spread": "Chakra Spread",
+  "meaning": "Communication, truth and self-expression."
+ },
+ "Third Eye": {
+  "spread": "Chakra Spread",
+  "meaning": "Intuition, vision and insight."
+ },
+ "Crown": {
+  "spread": "Chakra Spread",
+  "meaning": "Spiritual connection and higher consciousness."
+ },
+ "Kether (Crown)": {
+  "spread": "Tree of Life",
+  "meaning": "Your highest spiritual aim; the divine spark in the matter."
+ },
+ "Chokmah (Wisdom)": {
+  "spread": "Tree of Life",
+  "meaning": "Creative force and initiative; what you are driven to begin."
+ },
+ "Binah (Understanding)": {
+  "spread": "Tree of Life",
+  "meaning": "Form, limitation and what you must come to understand."
+ },
+ "Chesed (Mercy)": {
+  "spread": "Tree of Life",
+  "meaning": "Gifts, help, generosity and expansion."
+ },
+ "Geburah (Severity)": {
+  "spread": "Tree of Life",
+  "meaning": "Challenges, discipline and what must be cut away."
+ },
+ "Tiphareth (Beauty)": {
+  "spread": "Tree of Life",
+  "meaning": "The heart of the matter; harmony and the true self."
+ },
+ "Netzach (Victory)": {
+  "spread": "Tree of Life",
+  "meaning": "Emotions, desire, love and artistic drive."
+ },
+ "Hod (Splendor)": {
+  "spread": "Tree of Life",
+  "meaning": "Intellect, communication and reasoning."
+ },
+ "Yesod (Foundation)": {
+  "spread": "Tree of Life",
+  "meaning": "The unconscious, dreams and imagination."
+ },
+ "Malkuth (Kingdom)": {
+  "spread": "Tree of Life",
+  "meaning": "The material outcome; how it all manifests in daily life."
+ },
+ "Water": {
+  "spread": "Pentagram Spread",
+  "meaning": "Emotions, relationships and intuition."
+ },
+ "Fire": {
+  "spread": "Pentagram Spread",
+  "meaning": "Passion, will, drive and action."
+ },
+ "Earth": {
+  "spread": "Pentagram Spread",
+  "meaning": "Body, home, money and practical matters."
+ },
+ "Air": {
+  "spread": "Pentagram Spread",
+  "meaning": "Thoughts, plans and communication."
+ },
+ "The Crossroads": {
+  "spread": "Crossroads Decision",
+  "meaning": "The situation and what is truly at stake in the choice."
+ },
+ "Path A: The Approach": {
+  "spread": "Crossroads Decision",
+  "meaning": "What choosing the first path involves."
+ },
+ "Path A: The Journey": {
+  "spread": "Crossroads Decision",
+  "meaning": "What you will meet along the first path."
+ },
+ "Path A: The Destination": {
+  "spread": "Crossroads Decision",
+  "meaning": "Where the first path leads."
+ },
+ "Path B: The Approach": {
+  "spread": "Crossroads Decision",
+  "meaning": "What choosing the second path involves."
+ },
+ "Path B: The Journey": {
+  "spread": "Crossroads Decision",
+  "meaning": "What you will meet along the second path."
+ },
+ "Path B: The Destination": {
+  "spread": "Crossroads Decision",
+  "meaning": "Where the second path leads."
+ },
+ "What I Love About Myself": {
+  "spread": "Self-Love",
+  "meaning": "A strength or beauty to celebrate."
+ },
+ "What Others Love in Me": {
+  "spread": "Self-Love",
+  "meaning": "What those close to you see and value."
+ },
+ "My Heart Now": {
+  "spread": "Self-Love",
+  "meaning": "How your heart truly feels at this moment."
+ },
+ "The Old Wound": {
+  "spread": "Self-Love",
+  "meaning": "A belief or hurt that blocks self-love."
+ },
+ "How to Heal It": {
+  "spread": "Self-Love",
+  "meaning": "A gentle way to soften that wound."
+ },
+ "My Self-Love Practice": {
+  "spread": "Self-Love",
+  "meaning": "A ritual, habit or affirmation to take into daily life."
+ },
+ "The Ancestor Who Comes Forward": {
+  "spread": "Ancestor Message",
+  "meaning": "The energy or nature of the ancestor speaking to you."
+ },
+ "Gift of the Mother Line": {
+  "spread": "Ancestor Message",
+  "meaning": "A strength inherited through the maternal line."
+ },
+ "Gift of the Father Line": {
+  "spread": "Ancestor Message",
+  "meaning": "A strength inherited through the paternal line."
+ },
+ "Pattern to Heal": {
+  "spread": "Ancestor Message",
+  "meaning": "A family pattern you can transform for those who follow."
+ },
+ "Their Message": {
+  "spread": "Ancestor Message",
+  "meaning": "What your ancestors want you to know now."
+ },
+ "How to Honor Them": {
+  "spread": "Ancestor Message",
+  "meaning": "An offering, practice or way to keep their memory alive."
+ },
+ "From Beyond: A Message": {
+  "spread": "Samhain: Thin Veil",
+  "meaning": "A message from the spirit world."
+ },
+ "From Beyond: A Warning": {
+  "spread": "Samhain: Thin Veil",
+  "meaning": "Something spirit wishes you to be aware of."
+ },
+ "From Beyond: A Blessing": {
+  "spread": "Samhain: Thin Veil",
+  "meaning": "A blessing offered from the other side."
+ },
+ "The Veil": {
+  "spread": "Samhain: Thin Veil",
+  "meaning": "What separates you from spirit, and how thin it is for you now. Laid sideways."
+ },
+ "This Side: What Ends": {
+  "spread": "Samhain: Thin Veil",
+  "meaning": "What is dying away with the old year."
+ },
+ "This Side: What Remains": {
+  "spread": "Samhain: Thin Veil",
+  "meaning": "What you carry into the dark half of the year."
+ },
+ "This Side: What Awaits": {
+  "spread": "Samhain: Thin Veil",
+  "meaning": "What is waiting to be born at the turning of the year."
+ },
+ "Spirit (Center)": {
+  "spread": "Elemental Cross",
+  "meaning": "The core of the matter and your spiritual state."
+ },
+ "Air (East)": {
+  "spread": "Elemental Cross",
+  "meaning": "Thoughts, plans and communication."
+ },
+ "Fire (South)": {
+  "spread": "Elemental Cross",
+  "meaning": "Passion, energy and action."
+ },
+ "Water (West)": {
+  "spread": "Elemental Cross",
+  "meaning": "Emotions, love and intuition."
+ },
+ "Earth (North)": {
+  "spread": "Elemental Cross",
+  "meaning": "Body, money, home and stability."
+ },
+ "Monday (Moon)": {
+  "spread": "Week Ahead",
+  "meaning": "Emotions, home and intuition for the day."
+ },
+ "Tuesday (Mars)": {
+  "spread": "Week Ahead",
+  "meaning": "Action, courage and conflict for the day."
+ },
+ "Wednesday (Mercury)": {
+  "spread": "Week Ahead",
+  "meaning": "Communication, errands and learning for the day."
+ },
+ "Thursday (Jupiter)": {
+  "spread": "Week Ahead",
+  "meaning": "Growth, luck and opportunity for the day."
+ },
+ "Friday (Venus)": {
+  "spread": "Week Ahead",
+  "meaning": "Love, pleasure and beauty for the day."
+ },
+ "Saturday (Saturn)": {
+  "spread": "Week Ahead",
+  "meaning": "Responsibility, boundaries and rest for the day."
+ },
+ "Sunday (Sun)": {
+  "spread": "Week Ahead",
+  "meaning": "Joy, success and renewal for the day."
+ },
+ "The Dream's Theme": {
+  "spread": "Dream Interpretation",
+  "meaning": "The central subject of the dream."
+ },
+ "The Key Symbol": {
+  "spread": "Dream Interpretation",
+  "meaning": "The most important image and what it represents."
+ },
+ "The Hidden Feeling": {
+  "spread": "Dream Interpretation",
+  "meaning": "The emotion beneath the dream."
+ },
+ "Its Source": {
+  "spread": "Dream Interpretation",
+  "meaning": "What in waking life or the unconscious stirred this dream."
+ },
+ "What It Asks": {
+  "spread": "Dream Interpretation",
+  "meaning": "What the dream is asking you to see or do."
+ },
+ "The Waking Message": {
+  "spread": "Dream Interpretation",
+  "meaning": "The guidance to carry into your days."
+ },
+ "The Longest Night": {
+  "spread": "Yule: Return of the Light",
+  "meaning": "What the darkness of this past season has asked of you; the hardship or stillness you have endured."
+ },
+ "Gift of the Dark": {
+  "spread": "Yule: Return of the Light",
+  "meaning": "The wisdom, rest or hidden strength you gained while the light was low."
+ },
+ "What to Leave in the Old Year": {
+  "spread": "Yule: Return of the Light",
+  "meaning": "The habit, fear or burden to let die with the old sun."
+ },
+ "The Newborn Sun": {
+  "spread": "Yule: Return of the Light",
+  "meaning": "The fresh hope or seed of light being born in you now."
+ },
+ "Light to Carry Forward": {
+  "spread": "Yule: Return of the Light",
+  "meaning": "How to tend that small flame through the rest of winter."
+ },
+ "Beneath the Snow": {
+  "spread": "Imbolc: First Stirrings",
+  "meaning": "The dream or project quietly stirring under the surface of your life."
+ },
+ "Brigid's Flame": {
+  "spread": "Imbolc: First Stirrings",
+  "meaning": "The inspiration or creative fire available to you now."
+ },
+ "The Healing Well": {
+  "spread": "Imbolc: First Stirrings",
+  "meaning": "What needs cleansing or healing before new growth can begin."
+ },
+ "First Green Shoot": {
+  "spread": "Imbolc: First Stirrings",
+  "meaning": "The first small, practical step that lets the seed break through."
+ },
+ "Light in Balance": {
+  "spread": "Ostara: Balance and Bloom",
+  "meaning": "What is thriving and well-supported in your life right now."
+ },
+ "Dark in Balance": {
+  "spread": "Ostara: Balance and Bloom",
+  "meaning": "What still needs rest, patience or attention in the shadows."
+ },
+ "The Egg": {
+  "spread": "Ostara: Balance and Bloom",
+  "meaning": "The potential waiting to hatch: a plan, relationship or self you are growing into."
+ },
+ "First Blossom": {
+  "spread": "Ostara: Balance and Bloom",
+  "meaning": "How that potential begins to bloom over the coming season."
+ },
+ "The Maypole": {
+  "spread": "Beltane: Fire and Flower",
+  "meaning": "The central desire or passion rooting you to the earth this season."
+ },
+ "The Bonfire": {
+  "spread": "Beltane: Fire and Flower",
+  "meaning": "What to leap through: the fear or hesitation to burn away."
+ },
+ "The Flower Crown": {
+  "spread": "Beltane: Fire and Flower",
+  "meaning": "The beauty, pleasure or joy asking to be celebrated."
+ },
+ "The Ribbon Dance": {
+  "spread": "Beltane: Fire and Flower",
+  "meaning": "The partnership, collaboration or union that weaves your life together."
+ },
+ "The Greenwood Blessing": {
+  "spread": "Beltane: Fire and Flower",
+  "meaning": "What will grow from honoring your passion: the fruit of the season."
+ },
+ "Ray of Strength": {
+  "spread": "Litha: Height of the Sun",
+  "meaning": "Where your power and confidence are strongest right now."
+ },
+ "Ray of Achievement": {
+  "spread": "Litha: Height of the Sun",
+  "meaning": "What you have accomplished since the dark of the year."
+ },
+ "Ray of Joy": {
+  "spread": "Litha: Height of the Sun",
+  "meaning": "What brings you warmth and delight; how to have more of it."
+ },
+ "Ray of Shadow": {
+  "spread": "Litha: Height of the Sun",
+  "meaning": "What the bright light reveals that you would rather not see."
+ },
+ "Ray of Abundance": {
+  "spread": "Litha: Height of the Sun",
+  "meaning": "What is ripening and will soon be ready to harvest."
+ },
+ "Ray of Turning": {
+  "spread": "Litha: Height of the Sun",
+  "meaning": "What to prepare as the days begin to shorten again."
+ },
+ "The Midsummer Sun": {
+  "spread": "Litha: Height of the Sun",
+  "meaning": "The heart of the reading: your own inner sun and how it wants to shine."
+ },
+ "The First Sheaf": {
+  "spread": "Lammas: First Harvest",
+  "meaning": "The first fruit of your labors this year; what has already come in."
+ },
+ "The Sickle": {
+  "spread": "Lammas: First Harvest",
+  "meaning": "What must be cut away or sacrificed so the harvest can be gathered."
+ },
+ "The Loaf": {
+  "spread": "Lammas: First Harvest",
+  "meaning": "What to share, celebrate or give thanks for."
+ },
+ "The Remaining Field": {
+  "spread": "Lammas: First Harvest",
+  "meaning": "The work still ripening that needs more time and effort."
+ },
+ "Seed for Next Year": {
+  "spread": "Lammas: First Harvest",
+  "meaning": "What to save and carry forward as the seed of future growth."
+ },
+ "What I Have Gathered": {
+  "spread": "Mabon: Second Harvest",
+  "meaning": "The blessings, lessons and abundance this year has given you."
+ },
+ "What I Have Lost": {
+  "spread": "Mabon: Second Harvest",
+  "meaning": "What has fallen away, and the peace to be found in letting it go."
+ },
+ "Storing for Winter": {
+  "spread": "Mabon: Second Harvest",
+  "meaning": "What to preserve and protect as the nights grow long."
+ },
+ "Into the Dark": {
+  "spread": "Mabon: Second Harvest",
+  "meaning": "The inner work and rest awaiting you in the coming season."
+ },
+ "If Yes": {
+  "spread": "Yes or No: Two Paths",
+  "meaning": "What happens, or what you experience, if you say yes or take this step."
+ },
+ "If No": {
+  "spread": "Yes or No: Two Paths",
+  "meaning": "What happens, or what you experience, if you say no or hold back."
+ },
+ "The Situation": {
+  "spread": "Obstacle Spread",
+  "meaning": "Where you stand and what you are trying to achieve."
+ },
+ "The Obstacle": {
+  "spread": "Obstacle Spread",
+  "meaning": "What is blocking your way right now."
+ },
+ "The Root": {
+  "spread": "Obstacle Spread",
+  "meaning": "Where the obstacle truly comes from: inside you, in others or in circumstance."
+ },
+ "Hidden Help": {
+  "spread": "Obstacle Spread",
+  "meaning": "An ally, resource or strength you have overlooked."
+ },
+ "The Way Through": {
+  "spread": "Obstacle Spread",
+  "meaning": "The action or shift in perspective that clears the path."
+ },
+ "The Wound": {
+  "spread": "Healing Spread",
+  "meaning": "What is hurting and asking for attention."
+ },
+ "The Lesson": {
+  "spread": "Healing Spread",
+  "meaning": "What this pain is teaching you or asking you to understand."
+ },
+ "Medicine": {
+  "spread": "Healing Spread",
+  "meaning": "What nourishes and restores you: a practice, person or change."
+ },
+ "Healed Self": {
+  "spread": "Healing Spread",
+  "meaning": "Who you are becoming as you heal."
+ },
+ "Current Finances": {
+  "spread": "Money & Abundance",
+  "meaning": "The true state of your money and resources right now."
+ },
+ "Money Beliefs": {
+  "spread": "Money & Abundance",
+  "meaning": "The beliefs or family patterns shaping how you earn, spend and save."
+ },
+ "What Drains": {
+  "spread": "Money & Abundance",
+  "meaning": "Where money or energy is leaking away."
+ },
+ "What Grows": {
+  "spread": "Money & Abundance",
+  "meaning": "Where your resources are already multiplying and could be nurtured."
+ },
+ "New Opportunity": {
+  "spread": "Money & Abundance",
+  "meaning": "A new source of income, skill or opening to watch for."
+ },
+ "Abundant Action": {
+  "spread": "Money & Abundance",
+  "meaning": "The concrete step to take this month to invite prosperity."
+ },
+ "The Creative Well": {
+  "spread": "Creativity: Calling the Muse",
+  "meaning": "The state of your creative energy right now."
+ },
+ "The Block": {
+  "spread": "Creativity: Calling the Muse",
+  "meaning": "What is dampening your inspiration or stopping you from beginning."
+ },
+ "The Muse Speaks": {
+  "spread": "Creativity: Calling the Muse",
+  "meaning": "The idea, image or theme that wants to be expressed."
+ },
+ "The Craft": {
+  "spread": "Creativity: Calling the Muse",
+  "meaning": "The skill or discipline to develop to bring it to life."
+ },
+ "The Work Revealed": {
+  "spread": "Creativity: Calling the Muse",
+  "meaning": "What your creation may become if you honor the muse."
+ },
+ "Who Walks With Me": {
+  "spread": "Meeting Your Spirit Guide",
+  "meaning": "The nature or quality of the guide drawing near."
+ },
+ "How They Speak": {
+  "spread": "Meeting Your Spirit Guide",
+  "meaning": "The signs, dreams or symbols through which they reach you."
+ },
+ "Deepening the Bond": {
+  "spread": "Meeting Your Spirit Guide",
+  "meaning": "A practice or offering that strengthens your connection."
+ },
+ "Where I Stand": {
+  "spread": "Hecate's Crossroads",
+  "meaning": "You at the crossroads: your situation and state of mind."
+ },
+ "Hecate's Torch": {
+  "spread": "Hecate's Crossroads",
+  "meaning": "The light Hecate offers: the insight you most need to choose well."
+ },
+ "First Path: The Road": {
+  "spread": "Hecate's Crossroads",
+  "meaning": "Where the first option leads."
+ },
+ "First Path: The Price": {
+  "spread": "Hecate's Crossroads",
+  "meaning": "What the first option asks of you or costs."
+ },
+ "Second Path: The Road": {
+  "spread": "Hecate's Crossroads",
+  "meaning": "Where the second option leads."
+ },
+ "Second Path: The Price": {
+  "spread": "Hecate's Crossroads",
+  "meaning": "What the second option asks of you or costs."
+ },
+ "Third Path: The Road": {
+  "spread": "Hecate's Crossroads",
+  "meaning": "Where the third option leads, often the one not yet considered."
+ },
+ "Third Path: The Price": {
+  "spread": "Hecate's Crossroads",
+  "meaning": "What the third option asks of you or costs."
+ },
+ "Hecate's Key": {
+  "spread": "Hecate's Crossroads",
+  "meaning": "The key that unlocks the right choice; advice for walking any path."
+ },
+ "The Maiden": {
+  "spread": "Triple Goddess",
+  "meaning": "Waxing moon. What is new, curious and beginning in you; the potential to embrace."
+ },
+ "The Mother": {
+  "spread": "Triple Goddess",
+  "meaning": "Full moon. What you are nurturing, creating and bringing to fullness."
+ },
+ "The Crone": {
+  "spread": "Triple Goddess",
+  "meaning": "Waning moon. The wisdom of endings; what to let go and what you already know deep down."
+ },
+ "The Goddess Within": {
+  "spread": "Triple Goddess",
+  "meaning": "How all three faces unite in you now; the guidance of the whole moon."
+ },
+ "The Year Behind": {
+  "spread": "Birthday: Solar Return",
+  "meaning": "The main theme or lesson of the year just ending."
+ },
+ "What I Outgrew": {
+  "spread": "Birthday: Solar Return",
+  "meaning": "What you can lovingly leave behind as you turn a new age."
+ },
+ "The Birthday Self": {
+  "spread": "Birthday: Solar Return",
+  "meaning": "Who you are now, at the beginning of this new solar year."
+ },
+ "Gift of the Year": {
+  "spread": "Birthday: Solar Return",
+  "meaning": "A blessing, talent or opportunity the year will bring."
+ },
+ "Challenge of the Year": {
+  "spread": "Birthday: Solar Return",
+  "meaning": "The lesson or test to prepare for."
+ },
+ "Birthday Wish": {
+  "spread": "Birthday: Solar Return",
+  "meaning": "The wish the universe supports; what to blow your candles out for."
+ },
+ "New Moon": {
+  "spread": "Month Ahead by Moon Phases",
+  "meaning": "The seed of the month: the intention to plant now."
+ },
+ "Waxing Crescent": {
+  "spread": "Month Ahead by Moon Phases",
+  "meaning": "The first steps and early support as the intention takes root."
+ },
+ "First Quarter": {
+  "spread": "Month Ahead by Moon Phases",
+  "meaning": "The challenge or decision point that tests your commitment."
+ },
+ "Waxing Gibbous": {
+  "spread": "Month Ahead by Moon Phases",
+  "meaning": "What to refine, adjust and keep working on."
+ },
+ "Full Moon": {
+  "spread": "Month Ahead by Moon Phases",
+  "meaning": "What comes to fullness, is revealed or celebrated."
+ },
+ "Waning Gibbous": {
+  "spread": "Month Ahead by Moon Phases",
+  "meaning": "What to share, teach or give thanks for."
+ },
+ "Last Quarter": {
+  "spread": "Month Ahead by Moon Phases",
+  "meaning": "What to release, forgive or clear away."
+ },
+ "Waning Crescent": {
+  "spread": "Month Ahead by Moon Phases",
+  "meaning": "How to rest, reflect and prepare for the next cycle."
+ },
+ "My Inner Child": {
+  "spread": "Inner Child",
+  "meaning": "How your inner child feels and appears to you today."
+ },
+ "The Old Hurt": {
+  "spread": "Inner Child",
+  "meaning": "A wound from childhood that still shapes you."
+ },
+ "The Lost Joy": {
+  "spread": "Inner Child",
+  "meaning": "A delight, game or dream your younger self loved and you set aside."
+ },
+ "What They Need": {
+  "spread": "Inner Child",
+  "meaning": "What your inner child needs from you now to feel safe and loved."
+ },
+ "The Loving Guardian": {
+  "spread": "Inner Child",
+  "meaning": "How to care for and reparent yourself going forward."
+ },
+ "What I Truly Desire": {
+  "spread": "New Love & Soulmate",
+  "meaning": "The kind of love and partnership your soul is seeking."
+ },
+ "What Blocks Love": {
+  "spread": "New Love & Soulmate",
+  "meaning": "A fear, pattern or belief keeping love at a distance."
+ },
+ "The Love Approaching": {
+  "spread": "New Love & Soulmate",
+  "meaning": "The qualities of the person or connection coming toward you."
+ },
+ "Where We Meet": {
+  "spread": "New Love & Soulmate",
+  "meaning": "The setting, activity or path that brings you together."
+ },
+ "How to Open the Door": {
+  "spread": "New Love & Soulmate",
+  "meaning": "The step that makes room for love to arrive."
+ },
+ "What Ended": {
+  "spread": "Breakup Healing",
+  "meaning": "The truth of what this relationship was and why it ended."
+ },
+ "What I Grieve": {
+  "spread": "Breakup Healing",
+  "meaning": "The loss that hurts most and deserves to be mourned."
+ },
+ "Reclaiming My Power": {
+  "spread": "Breakup Healing",
+  "meaning": "The part of yourself to call back and strengthen."
+ },
+ "The Open Road": {
+  "spread": "Breakup Healing",
+  "meaning": "What lies ahead as your heart heals."
+ },
+ "The Old Home": {
+  "spread": "Moving House",
+  "meaning": "What your current home has given you and how to say goodbye."
+ },
+ "What to Leave Behind": {
+  "spread": "Moving House",
+  "meaning": "Habits, clutter or energy that should not make the move."
+ },
+ "The Journey": {
+  "spread": "Moving House",
+  "meaning": "How the move itself will go and what to watch for."
+ },
+ "The Spirit of the New Home": {
+  "spread": "Moving House",
+  "meaning": "The character and energy of the new place and its land."
+ },
+ "Blessing the Threshold": {
+  "spread": "Moving House",
+  "meaning": "How to cleanse, protect and claim the new space."
+ },
+ "Life in the New Home": {
+  "spread": "Moving House",
+  "meaning": "What awaits you once you settle in."
+ },
+ "Samhain": {
+  "spread": "Wheel of the Year",
+  "meaning": "Endings, ancestors and what you are ready to let die. The witch's new year."
+ },
+ "Yule": {
+  "spread": "Wheel of the Year",
+  "meaning": "The return of the light: hope, rest and the small flame you will nurture through winter."
+ },
+ "Imbolc": {
+  "spread": "Wheel of the Year",
+  "meaning": "First stirrings: the seed or idea quietly waking and how to purify for new growth."
+ },
+ "Ostara": {
+  "spread": "Wheel of the Year",
+  "meaning": "Balance and blossoming: what begins to grow and flourish in spring."
+ },
+ "Beltane": {
+  "spread": "Wheel of the Year",
+  "meaning": "Passion and union: love, creativity and the fire that drives you at the height of spring."
+ },
+ "Litha": {
+  "spread": "Wheel of the Year",
+  "meaning": "The peak of the sun: success, power and what will shine brightest."
+ },
+ "Lammas": {
+  "spread": "Wheel of the Year",
+  "meaning": "First harvest: the early rewards of your work and what must be sacrificed."
+ },
+ "Mabon": {
+  "spread": "Wheel of the Year",
+  "meaning": "Second harvest: gratitude, balance and preparing for the descent into dark."
+ },
+ "The Hub": {
+  "spread": "Wheel of the Year",
+  "meaning": "The heart of your whole year: the theme that turns the wheel."
+ },
+ "Sun": {
+  "spread": "Seven Planets",
+  "meaning": "Vitality, identity and success. Where you shine and what gives you life."
+ },
+ "Moon": {
+  "spread": "Seven Planets",
+  "meaning": "Emotions, intuition and the home. What your inner tides are telling you."
+ },
+ "Mars": {
+  "spread": "Seven Planets",
+  "meaning": "Courage, conflict and drive. Where to fight and where to stand down."
+ },
+ "Mercury": {
+  "spread": "Seven Planets",
+  "meaning": "Thought, communication and travel. What to learn, say or study."
+ },
+ "Jupiter": {
+  "spread": "Seven Planets",
+  "meaning": "Growth, luck and abundance. Where blessings and expansion come from."
+ },
+ "Venus": {
+  "spread": "Seven Planets",
+  "meaning": "Love, beauty and pleasure. The state of your relationships and joys."
+ },
+ "Saturn": {
+  "spread": "Seven Planets",
+  "meaning": "Limits, discipline and time. The lesson, responsibility or boundary to honor."
+ },
+ "How I See Myself": {
+  "spread": "Mirror Spread",
+  "meaning": "Your own self-image right now."
+ },
+ "How Others See Me": {
+  "spread": "Mirror Spread",
+  "meaning": "The impression you make on those around you."
+ },
+ "The Face I Show": {
+  "spread": "Mirror Spread",
+  "meaning": "The mask or persona you present to the world."
+ },
+ "The Self I Hide": {
+  "spread": "Mirror Spread",
+  "meaning": "What you keep behind the mask, from others or from yourself."
+ },
+ "The Blind Spot": {
+  "spread": "Mirror Spread",
+  "meaning": "What neither you nor others see clearly yet."
+ },
+ "The True Reflection": {
+  "spread": "Mirror Spread",
+  "meaning": "The deeper truth that unites every image; who you truly are."
+ },
+ "To Know (Air)": {
+  "spread": "Witch's Pyramid",
+  "meaning": "What you must understand about the situation and yourself before working magic."
+ },
+ "To Will (Fire)": {
+  "spread": "Witch's Pyramid",
+  "meaning": "The strength and clarity of your intent; where your will is focused or scattered."
+ },
+ "To Dare (Water)": {
+  "spread": "Witch's Pyramid",
+  "meaning": "The courage required; what you must be brave enough to feel, risk or act upon."
+ },
+ "To Keep Silent (Earth)": {
+  "spread": "Witch's Pyramid",
+  "meaning": "What to hold privately and let gestate in quiet so its power is not spent."
+ },
+ "To Go (Spirit)": {
+  "spread": "Witch's Pyramid",
+  "meaning": "The apex: how the four powers unite, and the likely outcome of your working."
+ }
+}

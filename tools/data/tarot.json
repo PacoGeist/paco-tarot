@@ -1,0 +1,1648 @@
+[
+  {
+    "id": "tarot-one-card-daily",
+    "name": "One Card Daily",
+    "description": "The simplest and most intimate spread: a single card drawn each morning as a theme, a lesson or a word of advice for the day. A daily draw builds a personal relationship with the deck faster than any other practice.",
+    "cardCount": 1,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "divination",
+      "clarity",
+      "focus",
+      "wisdom"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "Card of the Day",
+        "meaning": "The energy, lesson or advice that will color your day. Notice where it shows up by evening.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Hold this card with your morning cup and let one word come to mind. Carry that word with you, and tonight ask where it showed up."
+      }
+    ],
+    "howToUse": "Shuffle while breathing slowly and holding a simple question such as \"What do I need to know today?\" Cut once and draw the top card. Note it in a journal with the date, then review it at night to see how its meaning played out. Over weeks, patterns in repeated cards become a powerful teacher.",
+    "intention": "What do I most need to know, carry or release today?",
+    "guided": true
+  },
+  {
+    "id": "tarot-past-present-future",
+    "name": "Past, Present, Future",
+    "description": "A classic three-card line that traces the story of a situation through time. It is quick, flexible and ideal for beginners learning to read cards in relation to one another.",
+    "cardCount": 3,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "divination",
+      "clarity",
+      "wisdom",
+      "knowledge"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "Past",
+        "meaning": "The roots of the situation: past events or influences still shaping it.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Let your mind drift back. What old event or voice does this card stir up, and is it still steering you more than you realised?"
+      },
+      {
+        "n": 2,
+        "name": "Present",
+        "meaning": "Where things stand now and the energy most active around you.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Take one slow breath and stay right here. What in this card feels most alive in your life this week?"
+      },
+      {
+        "n": 3,
+        "name": "Future",
+        "meaning": "The likely direction if the current path continues. Not fixed; a forecast, not a sentence.",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Treat this as a forecast, not a verdict. If you like where it points, what keeps you on course? If not, what could you shift?"
+      }
+    ],
+    "howToUse": "Focus on one situation while shuffling. Lay three cards left to right. Read each in its position, then read them as a sentence: look at how the past card flows into the present and where the future card points. If the future card is unwelcome, draw a clarifier asking what you can change.",
+    "intention": "Show me how this came to be, where it stands, and where it is heading.",
+    "guided": true
+  },
+  {
+    "id": "tarot-mind-body-spirit",
+    "name": "Mind, Body, Spirit",
+    "description": "A three-card triangle that checks in with the whole self. It reveals what is happening in your thoughts, your physical life and your soul, and how they balance.",
+    "cardCount": 3,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "divination",
+      "balance",
+      "healing",
+      "spirituality",
+      "self-love"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "Spirit",
+        "meaning": "The state of your soul and spiritual connection; what feeds or starves it.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Close your eyes for three slow breaths, then look. Does this card feel like nourishment for your soul or hunger? Name one thing that feeds your spirit lately."
+      },
+      {
+        "n": 2,
+        "name": "Mind",
+        "meaning": "Your thoughts, mental patterns and emotional climate.",
+        "x": 0,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Notice the weather inside your head right now. Is this card a clear sky, a storm, or fog? Ask which thought keeps circling back."
+      },
+      {
+        "n": 3,
+        "name": "Body",
+        "meaning": "Your physical health, energy and material circumstances.",
+        "x": 2.4,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Feel your feet on the floor and your hands on the table. What is your body or your daily life asking for through this card?"
+      }
+    ],
+    "howToUse": "Best used during a self-care day, at the new moon or whenever you feel out of sorts. Lay Spirit at the apex, then Mind and Body at the base. Look for imbalance: a heavy card in one position and a light card in another suggests where to put your attention. Follow the reading with one practical act for each area.",
+    "intention": "Mind, body and spirit, show me where I am whole and where I need care.",
+    "guided": true
+  },
+  {
+    "id": "tarot-situation-action-outcome",
+    "name": "Situation, Action, Outcome",
+    "description": "A practical three-card line for problem-solving. It names the situation, advises the best action, and shows the likely outcome of taking that action.",
+    "cardCount": 3,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "divination",
+      "clarity",
+      "success",
+      "focus"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "Situation",
+        "meaning": "The heart of the matter as it truly stands, including what you may not see.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Look at the whole scene on this card before you look at yourself in it. What here have you been avoiding, or simply not noticed?"
+      },
+      {
+        "n": 2,
+        "name": "Action",
+        "meaning": "The approach or step that is most aligned right now.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Notice what the figure on this card is doing with their hands. What is one step like that you could take this week?"
+      },
+      {
+        "n": 3,
+        "name": "Outcome",
+        "meaning": "The probable result if you take the advised action.",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Picture yourself having already taken that step. Does this card feel like relief, effort, or something in between? Trust that first reaction."
+      }
+    ],
+    "howToUse": "Phrase your question around a decision or problem (\"How can I resolve...?\"). Shuffle and lay three cards. Treat the Action card as advice in the voice of the card: a Knight urges movement, a Four urges rest. If the outcome is unclear, draw one more card beside it for clarification.",
+    "intention": "Show me the truth of this situation and the wisest step to take.",
+    "guided": true
+  },
+  {
+    "id": "tarot-celtic-cross",
+    "name": "Celtic Cross",
+    "description": "The most famous tarot spread, popularized by A. E. Waite in 1910. Six cards form a cross and four form a staff beside it, giving a deep, many-layered reading of a single question: its heart, its obstacles, its roots, its direction and its outcome.",
+    "cardCount": 10,
+    "difficulty": "Advanced",
+    "metaphysical": [
+      "divination",
+      "clarity",
+      "wisdom",
+      "psychic powers"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Present",
+        "meaning": "The heart of the matter; the current situation and your state within it.",
+        "x": 1.6,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Start at the heart. Before reading any meaning, notice your gut reaction to this card. Does it feel like where you truly stand?"
+      },
+      {
+        "n": 2,
+        "name": "The Challenge",
+        "meaning": "Crossing card: the immediate obstacle or influence that must be worked with.",
+        "x": 1.6,
+        "y": 1.7,
+        "rotate": 90,
+        "guide": "This card lies across your path. Ask: is this something to fight, or something to learn to work with?"
+      },
+      {
+        "n": 3,
+        "name": "The Foundation",
+        "meaning": "The root beneath the situation: deeper causes, the unconscious basis.",
+        "x": 1.6,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Look beneath the surface. What old belief or buried cause might this card be pointing to at the root of it all?"
+      },
+      {
+        "n": 4,
+        "name": "The Recent Past",
+        "meaning": "What is passing away; events that have just shaped this.",
+        "x": 0,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "This is already slipping away behind you. What recent moment does it bring to mind, and what did it leave in your hands?"
+      },
+      {
+        "n": 5,
+        "name": "The Crown",
+        "meaning": "The conscious goal or best possible outcome; what you aspire to.",
+        "x": 1.6,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Lift your eyes to the top of the cross. Is this what you are consciously reaching for, or what you think you should want?"
+      },
+      {
+        "n": 6,
+        "name": "The Near Future",
+        "meaning": "What is approaching in the coming weeks.",
+        "x": 3.2,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Something is walking toward you over the next few weeks. Notice the mood of this card: how would you like to greet it?"
+      },
+      {
+        "n": 7,
+        "name": "Yourself",
+        "meaning": "Your attitude, how you see yourself and your role in the matter.",
+        "x": 4.8,
+        "y": 5.1,
+        "rotate": 0,
+        "guide": "Hold this card up like a mirror. Is this how you see yourself in the matter, and is that view kind and fair?"
+      },
+      {
+        "n": 8,
+        "name": "Environment",
+        "meaning": "Outside influences: other people, surroundings, how others see you.",
+        "x": 4.8,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Think of the people and places around you. Who in your world does this card remind you of, and how do they see you?"
+      },
+      {
+        "n": 9,
+        "name": "Hopes and Fears",
+        "meaning": "What you hope for or dread; often the same thing.",
+        "x": 4.8,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Sit with whatever stirs as you look. Does this card make your heart lift or tighten? Often it does a little of both."
+      },
+      {
+        "n": 10,
+        "name": "The Outcome",
+        "meaning": "The likely culmination if things continue as they are.",
+        "x": 4.8,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Read this one beside The Crown. Do they tell the same story? If they differ, what one change could bring them closer?"
+      }
+    ],
+    "howToUse": "Shuffle with a single clear question. Lay card 1 in the center and card 2 across it sideways (read the crossing card upright regardless of how it falls). Place 3 below, 4 left, 5 above, 6 right, then build the staff from the bottom (7) to the top (10). Read the cross as the situation and the staff as you and your path. Compare the Crown with the Outcome, and the Foundation with Hopes and Fears, for deeper insight.",
+    "intention": "Lay open the whole of this matter before me: its heart, its roots, its road and its end.",
+    "guided": true
+  },
+  {
+    "id": "tarot-horseshoe",
+    "name": "Horseshoe",
+    "description": "A seven-card arch shaped like a lucky horseshoe, an old favorite for general guidance. It moves from past through present to outcome while pointing out hidden influences and advice.",
+    "cardCount": 7,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "luck",
+      "clarity",
+      "wisdom"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Past",
+        "meaning": "Past influences bearing on the question.",
+        "x": 0,
+        "y": 2.4,
+        "rotate": 0,
+        "guide": "Think back to where this question began. What old choice or event in this card is still quietly pulling the strings?"
+      },
+      {
+        "n": 2,
+        "name": "The Present",
+        "meaning": "Current circumstances.",
+        "x": 1.2,
+        "y": 1.2,
+        "rotate": 0,
+        "guide": "Set the story aside and just describe this card as plainly as your week. Where in it do you see today?"
+      },
+      {
+        "n": 3,
+        "name": "Hidden Influences",
+        "meaning": "Factors you are unaware of or overlooking.",
+        "x": 2.4,
+        "y": 0.4,
+        "rotate": 0,
+        "guide": "Look at the edges and background of this card, the things easy to miss. What have you been overlooking in your own situation?"
+      },
+      {
+        "n": 4,
+        "name": "Obstacles",
+        "meaning": "What stands in the way.",
+        "x": 3.6,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Be honest about the block. Is this card showing a wall in the world, or a wall you built to keep yourself safe?"
+      },
+      {
+        "n": 5,
+        "name": "Outside Influences",
+        "meaning": "Other people and external conditions.",
+        "x": 4.8,
+        "y": 0.4,
+        "rotate": 0,
+        "guide": "Picture the people around this question. Whose energy does this card bring to mind, and are they lifting you or weighing on you?"
+      },
+      {
+        "n": 6,
+        "name": "Advice",
+        "meaning": "The best course of action.",
+        "x": 6,
+        "y": 1.2,
+        "rotate": 0,
+        "guide": "Imagine a wise friend handing you this card. What one small thing would they tell you to do this week?"
+      },
+      {
+        "n": 7,
+        "name": "Outcome",
+        "meaning": "The likely result.",
+        "x": 7.2,
+        "y": 2.4,
+        "rotate": 0,
+        "guide": "Hold this card loosely; it is where the road bends if nothing changes. Does it feel like luck, and if not, which earlier card could you shift?"
+      }
+    ],
+    "howToUse": "Shuffle with your question and lay the cards from left to right in an arch, open end down. Read the arc as a journey: the left side is what brought you here, the crown of the arch is the crux, and the right side shows how to move forward. The Advice and Outcome cards together suggest how much your choices can shift the result.",
+    "intention": "Bring me luck and guidance: show me my road from where I was to where I am going.",
+    "guided": true
+  },
+  {
+    "id": "tarot-relationship",
+    "name": "Relationship Spread",
+    "description": "A seven-card spread for any significant relationship, romantic or otherwise. Two columns mirror each person, and the central card reveals the bond itself.",
+    "cardCount": 7,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "love",
+      "reconciliation",
+      "communication",
+      "friendship"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "You: How You See It",
+        "meaning": "How you perceive the relationship.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Breathe and ask yourself honestly: is this card how the relationship is, or the story you have been telling about it?"
+      },
+      {
+        "n": 2,
+        "name": "You: What You Feel",
+        "meaning": "Your true feelings and emotional state.",
+        "x": 0,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Place a hand on your chest as you look. Which colour or figure in this card matches what you actually feel, not what you should feel?"
+      },
+      {
+        "n": 3,
+        "name": "You: What You Need",
+        "meaning": "What you need to feel fulfilled in this bond.",
+        "x": 0,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Say quietly, 'I need...' and let this card finish the sentence. Have you ever said that need out loud to them?"
+      },
+      {
+        "n": 4,
+        "name": "Them: How They See It",
+        "meaning": "How the other person perceives the relationship.",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Try stepping into their shoes for a moment. From where they stand, what does this card show them that you might miss?"
+      },
+      {
+        "n": 5,
+        "name": "Them: What They Feel",
+        "meaning": "Their feelings and emotional state.",
+        "x": 2.4,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Look for the softest detail in this card. Their feelings may be gentler, or more tangled, than they let you see."
+      },
+      {
+        "n": 6,
+        "name": "Them: What They Need",
+        "meaning": "What they need from the relationship.",
+        "x": 2.4,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "What would it cost you to give them what this card asks for? Notice whether your answer feels like generosity or resentment."
+      },
+      {
+        "n": 7,
+        "name": "The Bond",
+        "meaning": "The nature, strength and potential of the connection between you.",
+        "x": 1.2,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "This card sits between you both, like a candle on the table. Is its flame steady, flickering, or waiting to be tended?"
+      }
+    ],
+    "howToUse": "Hold the other person in mind gently and with respect while shuffling. Lay your column on the left, theirs on the right, and the Bond in the middle. Compare cards row by row to see where you align and where you differ. Remember that a reading reflects energies and possibilities, not the private mind of another person; use it to understand, not to control.",
+    "intention": "Show me the truth of this bond with kindness, for both our highest good.",
+    "guided": true
+  },
+  {
+    "id": "tarot-career-path",
+    "name": "Career Path",
+    "description": "Six cards climb like a staircase, each step a stage in your working life. The spread clarifies where you stand, your strengths, your obstacles and the next steps toward your goal.",
+    "cardCount": 6,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "employment",
+      "success",
+      "business",
+      "clarity"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "Where You Stand",
+        "meaning": "Your current work situation and feelings about it.",
+        "x": 0,
+        "y": 5,
+        "rotate": 0,
+        "guide": "Picture a normal workday and let this card sit over it. What feeling comes up first: pride, boredom, worry, hope? Start there."
+      },
+      {
+        "n": 2,
+        "name": "Your Strengths",
+        "meaning": "Talents and assets you can build on.",
+        "x": 1.2,
+        "y": 4,
+        "rotate": 0,
+        "guide": "Find the figure's skill or tool in this card. What talent of yours does it mirror that you tend to take for granted?"
+      },
+      {
+        "n": 3,
+        "name": "Your Obstacles",
+        "meaning": "What is holding you back, inner or outer.",
+        "x": 2.4,
+        "y": 3,
+        "rotate": 0,
+        "guide": "Ask whether this obstacle lives at your desk or in your head. What would change if it shrank by half?"
+      },
+      {
+        "n": 4,
+        "name": "Hidden Opportunity",
+        "meaning": "A door you have not noticed.",
+        "x": 3.6,
+        "y": 2,
+        "rotate": 0,
+        "guide": "Look for a doorway, a path or a glance off to the side in this card. Where at work might a door be open that you have walked past?"
+      },
+      {
+        "n": 5,
+        "name": "Next Step",
+        "meaning": "The most aligned action to take now.",
+        "x": 4.8,
+        "y": 1,
+        "rotate": 0,
+        "guide": "Choose one action this card suggests that you could take within the next seven days. Write it down before moving on."
+      },
+      {
+        "n": 6,
+        "name": "Where This Leads",
+        "meaning": "The direction your career is moving if you act.",
+        "x": 6,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Picture yourself a year from now on this road. Does this card make you want to climb faster, slow down or change staircases?"
+      }
+    ],
+    "howToUse": "Shuffle while thinking of your work life or a specific career question. Lay the cards from the bottom left, climbing to the top right. Pentacles speak of money and skill, Wands of drive and vision, Swords of strategy and conflict, Cups of satisfaction and team relationships. Turn the Next Step card into a concrete action you can take within a week.",
+    "intention": "Show me the path of my right work and the next step upon it.",
+    "guided": true
+  },
+  {
+    "id": "tarot-year-ahead",
+    "name": "Year Ahead (Zodiac Wheel)",
+    "description": "A thirteen-card wheel with one card for each astrological house, or for each month of the coming year, and a central card for the year's overall theme. Traditional at a birthday, New Year or Samhain.",
+    "cardCount": 13,
+    "difficulty": "Advanced",
+    "metaphysical": [
+      "divination",
+      "new beginnings",
+      "wisdom",
+      "clarity"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "House 1 / January",
+        "meaning": "The ascendant, laid at the left. As houses: self, identity and new beginnings. As months: the energy of January (or the first month from now).",
+        "x": 0,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "As the wheel begins, look at this card as a doorway. Who are you ready to become as you step through it?"
+      },
+      {
+        "n": 2,
+        "name": "House 2 / February",
+        "meaning": "As houses: money, possessions and values. As months: the energy of February (or the second month from now).",
+        "x": 0.46,
+        "y": 5.1,
+        "rotate": 0,
+        "guide": "Notice what this card holds or values. Ask yourself what you truly treasure, and whether your spending and time reflect it."
+      },
+      {
+        "n": 3,
+        "name": "House 3 / March",
+        "meaning": "As houses: communication, learning and siblings. As months: the energy of March (or the third month from now).",
+        "x": 1.7,
+        "y": 6.34,
+        "rotate": 0,
+        "guide": "Listen to this card as if it were speaking. What conversation, lesson or message might it bring you early in spring?"
+      },
+      {
+        "n": 4,
+        "name": "House 4 / April",
+        "meaning": "As houses: home, family and roots. As months: the energy of April (or the fourth month from now).",
+        "x": 3.4,
+        "y": 6.8,
+        "rotate": 0,
+        "guide": "Imagine this card hung by your hearth. What does it say about home, family, and the roots that hold you?"
+      },
+      {
+        "n": 5,
+        "name": "House 5 / May",
+        "meaning": "As houses: creativity, romance and joy. As months: the energy of May (or the fifth month from now).",
+        "x": 5.1,
+        "y": 6.34,
+        "rotate": 0,
+        "guide": "Let yourself smile at this card first. Where could it bring more play, romance or creative spark into your life?"
+      },
+      {
+        "n": 6,
+        "name": "House 6 / June",
+        "meaning": "As houses: health, work and daily routine. As months: the energy of June (or the sixth month from now).",
+        "x": 6.34,
+        "y": 5.1,
+        "rotate": 0,
+        "guide": "Think about an ordinary weekday as you look. What small habit or routine is this card nudging you to change?"
+      },
+      {
+        "n": 7,
+        "name": "House 7 / July",
+        "meaning": "As houses: partnerships and close relationships. As months: the energy of July (or the seventh month from now).",
+        "x": 6.8,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Who stands beside you in this card, or who is missing? Consider which partnership this card is pointing toward."
+      },
+      {
+        "n": 8,
+        "name": "House 8 / August",
+        "meaning": "As houses: shared resources, intimacy and transformation. As months: the energy of August (or the eighth month from now).",
+        "x": 6.34,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Something is shifting under the surface here. Breathe and ask what you are being invited to share, trust, or transform."
+      },
+      {
+        "n": 9,
+        "name": "House 9 / September",
+        "meaning": "As houses: travel, study, beliefs and expansion. As months: the energy of September (or the ninth month from now).",
+        "x": 5.1,
+        "y": 0.46,
+        "rotate": 0,
+        "guide": "Follow the horizon in this card with your eyes. Where does it want you to travel, study or stretch your beliefs?"
+      },
+      {
+        "n": 10,
+        "name": "House 10 / October",
+        "meaning": "As houses: career, reputation and ambition. As months: the energy of October (or the tenth month from now).",
+        "x": 3.4,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Picture this card as the face you show the world at work. Are you proud of it? What ambition is it stirring?"
+      },
+      {
+        "n": 11,
+        "name": "House 11 / November",
+        "meaning": "As houses: friends, community and hopes. As months: the energy of November (or the eleventh month from now).",
+        "x": 1.7,
+        "y": 0.46,
+        "rotate": 0,
+        "guide": "Think of your circle, your coven, your friends. How might this card show up in the community around you?"
+      },
+      {
+        "n": 12,
+        "name": "House 12 / December",
+        "meaning": "As houses: the hidden, the spiritual and endings. As months: the energy of December (or the twelfth month from now).",
+        "x": 0.46,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "As the year turns toward its dark, sit quietly with this card. What is ending, and what hidden thing is it gently revealing?"
+      },
+      {
+        "n": 13,
+        "name": "Theme of the Year",
+        "meaning": "The overarching lesson, gift or energy of the year ahead.",
+        "x": 3.4,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Lay your hand over this card at the centre of the wheel. If the whole year had one lesson, how would this card say it?"
+      }
+    ],
+    "howToUse": "Decide beforehand whether you are reading houses (areas of life) or months. Begin at the left (the ascendant) and lay cards counter-clockwise around the wheel: down, across the bottom, up the right and across the top. Place the thirteenth card in the center. Read the center first, then each position. Photograph or record the spread and revisit it month by month.",
+    "intention": "Turn the wheel and show me the year to come: its gifts, its tests and its heart.",
+    "guided": true
+  },
+  {
+    "id": "tarot-new-moon-intentions",
+    "name": "New Moon Intentions",
+    "description": "A five-card spread for the dark of the moon, the time of planting seeds. It helps you choose an intention, see what supports it and take the first step.",
+    "cardCount": 5,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "divination",
+      "moon magic",
+      "new beginnings",
+      "manifestation",
+      "wishes"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Seed",
+        "meaning": "The intention or desire most ready to be planted now.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "In the dark of the moon, hold this card close. What wish inside you does it name, the one that feels ready to plant tonight?"
+      },
+      {
+        "n": 2,
+        "name": "The Soil",
+        "meaning": "What within you supports this intention.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Feel the ground beneath you. What strength, skill or quality in this card do you already carry that can feed your intention?"
+      },
+      {
+        "n": 3,
+        "name": "The Weeds",
+        "meaning": "What could choke it: doubts, habits or distractions.",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Look honestly at what creeps in. Which doubt or habit in your life does this card echo, and how quickly does it spread?"
+      },
+      {
+        "n": 4,
+        "name": "The Water",
+        "meaning": "How to nurture it through the waxing moon.",
+        "x": 0.6,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Imagine tending this seed each night as the moon grows. What small, regular act of care does this card suggest?"
+      },
+      {
+        "n": 5,
+        "name": "The First Sprout",
+        "meaning": "A sign or result to watch for by the full moon.",
+        "x": 1.8,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Picture the full moon two weeks from now. What would this card look like as a first green shoot in your daily life?"
+      }
+    ],
+    "howToUse": "Read on the night of the new moon, ideally by candlelight. Lay three cards in a row and two beneath. Afterwards, write your intention on paper and place it under the Seed card overnight, or under a candle. Revisit the spread at the full moon to see what has grown.",
+    "intention": "Dark moon, new moon, show me the seed I am ready to plant.",
+    "guided": true,
+    "backdrop": "moon"
+  },
+  {
+    "id": "tarot-full-moon-release",
+    "name": "Full Moon Release",
+    "description": "Six cards circle a central card like the full moon's halo. The spread illuminates what has come to fruition and, above all, what is ready to be released as the moon begins to wane.",
+    "cardCount": 7,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "moon magic",
+      "release",
+      "cleansing",
+      "emotional healing"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "What Has Come to Light",
+        "meaning": "What the full moon is illuminating in your life.",
+        "x": 1.56,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Let the full moon shine on this card. What has suddenly become obvious in your life that you could not see a month ago?"
+      },
+      {
+        "n": 2,
+        "name": "What Has Grown",
+        "meaning": "What has come to fruition since the new moon.",
+        "x": 3.12,
+        "y": 0.9,
+        "rotate": 0,
+        "guide": "Think back to the last new moon and what you planted. How has it grown, and does this card surprise you?"
+      },
+      {
+        "n": 3,
+        "name": "What to Celebrate",
+        "meaning": "A success or blessing to honor.",
+        "x": 3.12,
+        "y": 2.7,
+        "rotate": 0,
+        "guide": "Pause and actually let yourself feel proud. What blessing in this card deserves a thank you, said out loud?"
+      },
+      {
+        "n": 4,
+        "name": "What to Release",
+        "meaning": "The habit, fear or tie you are ready to let go.",
+        "x": 1.56,
+        "y": 3.6,
+        "rotate": 0,
+        "guide": "Breathe out slowly as you look at this card. Which habit, fear or tie does it name, and how heavy has it been to carry?"
+      },
+      {
+        "n": 5,
+        "name": "What Blocks Release",
+        "meaning": "Why you have been holding on.",
+        "x": 0,
+        "y": 2.7,
+        "rotate": 0,
+        "guide": "Be gentle here. What has holding on given you, safety or comfort perhaps, and is that still true?"
+      },
+      {
+        "n": 6,
+        "name": "How to Let Go",
+        "meaning": "The best way to release it gracefully.",
+        "x": 0,
+        "y": 0.9,
+        "rotate": 0,
+        "guide": "Notice any movement in this card: water flowing, hands opening, a path away. How might you let go just as softly?"
+      },
+      {
+        "n": 7,
+        "name": "The Moon's Gift",
+        "meaning": "What fills the space once it is released.",
+        "x": 1.56,
+        "y": 1.8,
+        "rotate": 0,
+        "guide": "Imagine the empty space once the old thing is gone. What does this card pour into it, and how will you welcome it?"
+      }
+    ],
+    "howToUse": "Read under the full moon or near a window where moonlight falls. Lay the six outer cards clockwise from the top, then the gift in the center. Afterwards, write what you are releasing on paper and safely burn it, or tear it and give it to running water. Charge the Moon's Gift card on the windowsill overnight.",
+    "intention": "Full moon, bright moon, show me what is ready to go, and help me let it go.",
+    "guided": true,
+    "backdrop": "moon"
+  },
+  {
+    "id": "tarot-shadow-work",
+    "name": "Shadow Work",
+    "description": "A six-card spread for meeting the hidden parts of the self that have been denied, judged or forgotten. It moves from the mask, through the shadow and its origin, to its hidden gift and integration.",
+    "cardCount": 6,
+    "difficulty": "Advanced",
+    "metaphysical": [
+      "divination",
+      "shadow work",
+      "emotional healing",
+      "transformation",
+      "self-love"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Mask",
+        "meaning": "The face you show the world to protect yourself.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Notice the face this card shows. Where do you wear something like it, and what is it keeping safe?"
+      },
+      {
+        "n": 2,
+        "name": "The Shadow",
+        "meaning": "The part of yourself you hide, deny or project onto others.",
+        "x": 0,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Breathe slowly and stay with any discomfort. What in this card do you judge in others that might quietly live in you too?"
+      },
+      {
+        "n": 3,
+        "name": "The Core Wound",
+        "meaning": "Where this shadow began.",
+        "x": 1.2,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Go gently here. Does this card call up an early memory or an old hurt? Just notice it; you do not need to fix it tonight."
+      },
+      {
+        "n": 4,
+        "name": "The Trigger",
+        "meaning": "What brings it to the surface now.",
+        "x": 2.4,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Think of the last time you overreacted. What in this card might have pulled the shadow up to the surface?"
+      },
+      {
+        "n": 5,
+        "name": "The Hidden Gift",
+        "meaning": "The strength or wisdom locked inside the shadow.",
+        "x": 1.2,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Turn the card in your mind and look for the light in it. What strength has this hidden part been guarding for you all along?"
+      },
+      {
+        "n": 6,
+        "name": "Integration",
+        "meaning": "How to welcome this part home with compassion.",
+        "x": 1.2,
+        "y": 5.1,
+        "rotate": 0,
+        "guide": "Place a hand on your heart. What would it mean to welcome this part of you home rather than send it away?"
+      }
+    ],
+    "howToUse": "Choose a calm time, ideally during the waning or dark moon, and have a journal ready. Ground yourself first. Lay the mask at the top, the three shadow cards in a row beneath, then the gift and integration down the center. Do not rush. If the reading brings up difficult feelings, pause, breathe, and reach out to a trusted person or professional; shadow work is gentle, long work.",
+    "intention": "I am ready to meet what I have hidden. Show me my shadow with compassion.",
+    "guided": true
+  },
+  {
+    "id": "tarot-chakra",
+    "name": "Chakra Spread",
+    "description": "Seven cards laid in a vertical column from root to crown, one for each of the body's main energy centers. It reveals blocked, overactive or balanced chakras and how to bring them into harmony.",
+    "cardCount": 7,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "healing",
+      "balance",
+      "energy",
+      "spirituality"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "Root",
+        "meaning": "Safety, grounding, survival and the body.",
+        "x": 0,
+        "y": 10.2,
+        "rotate": 0,
+        "guide": "Press your feet into the ground and breathe low into your belly. Does this card make you feel steady and safe, or unsettled?"
+      },
+      {
+        "n": 2,
+        "name": "Sacral",
+        "meaning": "Creativity, pleasure, sexuality and emotion.",
+        "x": 0,
+        "y": 8.5,
+        "rotate": 0,
+        "guide": "Let your hips and belly soften as you look. Where is pleasure or creativity flowing in this card, and where is it dammed up?"
+      },
+      {
+        "n": 3,
+        "name": "Solar Plexus",
+        "meaning": "Will, confidence and personal power.",
+        "x": 0,
+        "y": 6.8,
+        "rotate": 0,
+        "guide": "Place a hand just above your navel. Does this card stand tall in its power, or shrink back? Which feels more like you lately?"
+      },
+      {
+        "n": 4,
+        "name": "Heart",
+        "meaning": "Love, compassion and connection.",
+        "x": 0,
+        "y": 5.1,
+        "rotate": 0,
+        "guide": "Breathe into your chest and notice how this card makes it feel: open, tender or guarded. Who are you letting in right now?"
+      },
+      {
+        "n": 5,
+        "name": "Throat",
+        "meaning": "Communication, truth and self-expression.",
+        "x": 0,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Swallow and feel your throat as you study this card. What truth have you been holding back from saying?"
+      },
+      {
+        "n": 6,
+        "name": "Third Eye",
+        "meaning": "Intuition, vision and insight.",
+        "x": 0,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Soften your gaze and let the card blur a little. What image or hunch rises first, before your thinking mind steps in?"
+      },
+      {
+        "n": 7,
+        "name": "Crown",
+        "meaning": "Spiritual connection and higher consciousness.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Sit tall and imagine light at the top of your head. How connected to something larger does this card make you feel today?"
+      }
+    ],
+    "howToUse": "Lay the cards from the bottom up, root first, building the column like the spine. Reversed or challenging cards suggest a blocked or overactive center; bright cards suggest a flowing one. Follow the reading with work for the weakest chakra: a matching crystal, color, breath practice or affirmation.",
+    "intention": "From root to crown, show me where my energy flows and where it is bound.",
+    "guided": true
+  },
+  {
+    "id": "tarot-tree-of-life",
+    "name": "Tree of Life",
+    "description": "Ten cards placed on the sephiroth of the Kabbalistic Tree of Life, from Kether (the Crown) to Malkuth (the Kingdom). A profound spread for spiritual and life-wide readings, mapping how divine energy descends into everyday life.",
+    "cardCount": 10,
+    "difficulty": "Advanced",
+    "metaphysical": [
+      "divination",
+      "spirituality",
+      "wisdom",
+      "knowledge",
+      "balance"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "Kether (Crown)",
+        "meaning": "Your highest spiritual aim; the divine spark in the matter.",
+        "x": 1.4,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Gaze up at this card as if it shines from far above. What is the highest, purest hope you hold in this matter?"
+      },
+      {
+        "n": 2,
+        "name": "Chokmah (Wisdom)",
+        "meaning": "Creative force and initiative; what you are driven to begin.",
+        "x": 2.8,
+        "y": 1,
+        "rotate": 0,
+        "guide": "Feel the spark of this card in your belly. What are you burning to start, even if you do not yet know how?"
+      },
+      {
+        "n": 3,
+        "name": "Binah (Understanding)",
+        "meaning": "Form, limitation and what you must come to understand.",
+        "x": 0,
+        "y": 1,
+        "rotate": 0,
+        "guide": "Every form has edges. Ask what limit this card is showing you, and what you might understand by accepting it."
+      },
+      {
+        "n": 4,
+        "name": "Chesed (Mercy)",
+        "meaning": "Gifts, help, generosity and expansion.",
+        "x": 2.8,
+        "y": 2.7,
+        "rotate": 0,
+        "guide": "Look for what is being offered in this card. Where is help or generosity already reaching toward you?"
+      },
+      {
+        "n": 5,
+        "name": "Geburah (Severity)",
+        "meaning": "Challenges, discipline and what must be cut away.",
+        "x": 0,
+        "y": 2.7,
+        "rotate": 0,
+        "guide": "Take a firm breath. What needs to be pruned away so the rest can flourish, and are you willing to cut it?"
+      },
+      {
+        "n": 6,
+        "name": "Tiphareth (Beauty)",
+        "meaning": "The heart of the matter; harmony and the true self.",
+        "x": 1.4,
+        "y": 3,
+        "rotate": 0,
+        "guide": "This card sits at the heart of the tree. Do you see your truest self here, the one beneath every role?"
+      },
+      {
+        "n": 7,
+        "name": "Netzach (Victory)",
+        "meaning": "Emotions, desire, love and artistic drive.",
+        "x": 2.8,
+        "y": 4.4,
+        "rotate": 0,
+        "guide": "Notice what you long for when you look at this card. Where is your desire trying to lead you?"
+      },
+      {
+        "n": 8,
+        "name": "Hod (Splendor)",
+        "meaning": "Intellect, communication and reasoning.",
+        "x": 0,
+        "y": 4.4,
+        "rotate": 0,
+        "guide": "Let your clear, thinking mind take a turn. What words or reasons would you use to explain this card to a friend?"
+      },
+      {
+        "n": 9,
+        "name": "Yesod (Foundation)",
+        "meaning": "The unconscious, dreams and imagination.",
+        "x": 1.4,
+        "y": 4.9,
+        "rotate": 0,
+        "guide": "Soften your eyes and let the card blur a little, as in a dream. What images or memories drift up from below?"
+      },
+      {
+        "n": 10,
+        "name": "Malkuth (Kingdom)",
+        "meaning": "The material outcome; how it all manifests in daily life.",
+        "x": 1.4,
+        "y": 6.6,
+        "rotate": 0,
+        "guide": "Bring it all down to earth. What will this card look like in your kitchen, your wallet, your actual days?"
+      }
+    ],
+    "howToUse": "Lay the cards in order from Kether to Malkuth, following the lightning flash down the tree. Read the right-hand Pillar of Mercy (2, 4, 7) as expansive forces, the left-hand Pillar of Severity (3, 5, 8) as restrictive forces, and the middle pillar (1, 6, 9, 10) as balance. Take time with this spread; it rewards slow, meditative reading.",
+    "intention": "From crown to kingdom, let the light descend and show me the shape of my life.",
+    "guided": true
+  },
+  {
+    "id": "tarot-pentagram",
+    "name": "Pentagram Spread",
+    "description": "Five cards placed on the points of a pentagram, one for each element and spirit at the summit. It shows how the elements of your life are balanced around a question.",
+    "cardCount": 5,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "balance",
+      "protection",
+      "spirituality"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "Spirit",
+        "meaning": "The spiritual heart of the question and your higher purpose.",
+        "x": 2.09,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Begin at the top point of the star. What deeper purpose does this card whisper about the question beneath your question?"
+      },
+      {
+        "n": 2,
+        "name": "Water",
+        "meaning": "Emotions, relationships and intuition.",
+        "x": 4.18,
+        "y": 1.52,
+        "rotate": 0,
+        "guide": "Let your feelings rise like a tide. How does this card speak to your heart, your relationships or a hunch you have been ignoring?"
+      },
+      {
+        "n": 3,
+        "name": "Fire",
+        "meaning": "Passion, will, drive and action.",
+        "x": 3.39,
+        "y": 3.98,
+        "rotate": 0,
+        "guide": "Feel for the spark. Where is your drive burning bright, and where is it smouldering low, according to this card?"
+      },
+      {
+        "n": 4,
+        "name": "Earth",
+        "meaning": "Body, home, money and practical matters.",
+        "x": 0.8,
+        "y": 3.98,
+        "rotate": 0,
+        "guide": "Ground yourself and feel your feet. What does this card say about your body, your home or your money right now?"
+      },
+      {
+        "n": 5,
+        "name": "Air",
+        "meaning": "Thoughts, plans and communication.",
+        "x": 0,
+        "y": 1.52,
+        "rotate": 0,
+        "guide": "Take a clear breath of air. What thought, plan or unspoken word does this card ask you to examine or share?"
+      }
+    ],
+    "howToUse": "Lay Spirit at the top point, then continue clockwise: Water at the upper right, Fire at the lower right, Earth at the lower left and Air at the upper left. Note any suit that falls in its own element (e.g. a Cup in Water) as especially strong. A missing or weak element suggests where to restore balance.",
+    "intention": "Earth, air, fire, water and spirit: show me how my life is balanced.",
+    "guided": true,
+    "backdrop": "altar"
+  },
+  {
+    "id": "tarot-crossroads",
+    "name": "Crossroads Decision",
+    "description": "A seven-card spread for choosing between two paths. The situation sits at the base and each option rises in its own column, showing what each road holds.",
+    "cardCount": 7,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "clarity",
+      "road opening",
+      "wisdom"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Crossroads",
+        "meaning": "The situation and what is truly at stake in the choice.",
+        "x": 1.2,
+        "y": 5.1,
+        "rotate": 0,
+        "guide": "Stand at the meeting of the roads. Before weighing either path, ask what this card says is truly at stake for you."
+      },
+      {
+        "n": 2,
+        "name": "Path A: The Approach",
+        "meaning": "What choosing the first path involves.",
+        "x": 0,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Imagine taking the first step onto Path A. What does this card ask of you just to begin?"
+      },
+      {
+        "n": 3,
+        "name": "Path A: The Journey",
+        "meaning": "What you will meet along the first path.",
+        "x": 0,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Walk a little further down Path A in your mind. Who or what does this card show you meeting along the way?"
+      },
+      {
+        "n": 4,
+        "name": "Path A: The Destination",
+        "meaning": "Where the first path leads.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Picture arriving at the end of Path A. Does this card feel like home, or like somewhere you would only pass through?"
+      },
+      {
+        "n": 5,
+        "name": "Path B: The Approach",
+        "meaning": "What choosing the second path involves.",
+        "x": 2.4,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Now turn to Path B and take its first step. How does what this card asks of you compare with Path A?"
+      },
+      {
+        "n": 6,
+        "name": "Path B: The Journey",
+        "meaning": "What you will meet along the second path.",
+        "x": 2.4,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Follow Path B a while. Notice the scenery in this card: does the journey energise you or wear you down?"
+      },
+      {
+        "n": 7,
+        "name": "Path B: The Destination",
+        "meaning": "Where the second path leads.",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Look at where Path B ends, then glance back at Path A's destination. Which card does your body lean toward?"
+      }
+    ],
+    "howToUse": "Before shuffling, clearly name Path A and Path B aloud. Lay the Crossroads at the bottom center, then build each path upward. Compare the columns card by card. If both look equal, draw one more card above the center for advice. Hecate, goddess of crossroads, may be honored with a candle before this reading.",
+    "intention": "Two roads lie before me; show me where each one leads.",
+    "guided": true
+  },
+  {
+    "id": "tarot-self-love",
+    "name": "Self-Love",
+    "description": "Six cards laid in the shape of a heart, guiding you toward a kinder relationship with yourself. It celebrates your strengths, gently names old wounds and offers ways to nurture yourself.",
+    "cardCount": 6,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "divination",
+      "self-love",
+      "emotional healing",
+      "confidence",
+      "beauty"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "What I Love About Myself",
+        "meaning": "A strength or beauty to celebrate.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Let yourself admire this card the way you would a friend. What strength or beauty in it is truly yours? Say it kindly."
+      },
+      {
+        "n": 2,
+        "name": "What Others Love in Me",
+        "meaning": "What those close to you see and value.",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Think of someone who loves you and imagine them holding this card. What would they point to and say, 'that is you'?"
+      },
+      {
+        "n": 3,
+        "name": "My Heart Now",
+        "meaning": "How your heart truly feels at this moment.",
+        "x": 1.2,
+        "y": 0.6,
+        "rotate": 0,
+        "guide": "Place a hand over your heart and take a slow breath. Without judging, how does this card say your heart really feels?"
+      },
+      {
+        "n": 4,
+        "name": "The Old Wound",
+        "meaning": "A belief or hurt that blocks self-love.",
+        "x": 0.6,
+        "y": 2.3,
+        "rotate": 0,
+        "guide": "Go slowly with this one. What old belief about yourself does this card echo, and whose voice first told you it?"
+      },
+      {
+        "n": 5,
+        "name": "How to Heal It",
+        "meaning": "A gentle way to soften that wound.",
+        "x": 1.8,
+        "y": 2.3,
+        "rotate": 0,
+        "guide": "Look for comfort in this card, a gesture, a color or a soft place. How could you offer yourself that same gentleness this week?"
+      },
+      {
+        "n": 6,
+        "name": "My Self-Love Practice",
+        "meaning": "A ritual, habit or affirmation to take into daily life.",
+        "x": 1.2,
+        "y": 4,
+        "rotate": 0,
+        "guide": "Turn this card into something you can do daily: a small ritual, a habit or a short affirmation. What would you choose?"
+      }
+    ],
+    "howToUse": "Create a soft atmosphere: a pink candle, rose petals or rose quartz. Lay the two upper lobes, the dip, the two lower cards and the point of the heart. Read lovingly, as you would for a dear friend. Write the final card as an affirmation and place it where you will see it each morning.",
+    "intention": "Show me how to love myself as tenderly as I love those I hold dear.",
+    "guided": true
+  },
+  {
+    "id": "tarot-ancestor-message",
+    "name": "Ancestor Message",
+    "description": "Six cards laid as an inverted family tree, with the eldest at the top, open a conversation with your beloved dead. The spread honors your lineage and asks what wisdom it holds for you.",
+    "cardCount": 6,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "ancestors",
+      "spirit work",
+      "wisdom",
+      "grief"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Ancestor Who Comes Forward",
+        "meaning": "The energy or nature of the ancestor speaking to you.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Light a candle if you can and greet whoever comes. What kind of person does this card feel like, and do they remind you of anyone?"
+      },
+      {
+        "n": 2,
+        "name": "Gift of the Mother Line",
+        "meaning": "A strength inherited through the maternal line.",
+        "x": 0.6,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Think of the women before you as you look. What strength in this card did you inherit from them?"
+      },
+      {
+        "n": 3,
+        "name": "Gift of the Father Line",
+        "meaning": "A strength inherited through the paternal line.",
+        "x": 1.8,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Think of the men before you as you look. Which quality in this card has passed down the paternal line to you?"
+      },
+      {
+        "n": 4,
+        "name": "Pattern to Heal",
+        "meaning": "A family pattern you can transform for those who follow.",
+        "x": 0,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Every family carries an old knot. Ask what pattern this card names, and how you might untie it for those who come after."
+      },
+      {
+        "n": 5,
+        "name": "Their Message",
+        "meaning": "What your ancestors want you to know now.",
+        "x": 1.2,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Sit quietly and listen as if a grandparent were speaking. What would they say to you through this card, in plain words?"
+      },
+      {
+        "n": 6,
+        "name": "How to Honor Them",
+        "meaning": "An offering, practice or way to keep their memory alive.",
+        "x": 2.4,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Let this card suggest an offering: a dish, a song, a story told again. How will you keep their memory warm this week?"
+      }
+    ],
+    "howToUse": "Set up an ancestor altar or simply place a photo, a candle and a glass of water nearby. Call on your loving, well ancestors only. Lay the cards from the top down. Afterwards, thank them and make the offering suggested in the last card. Adopted, chosen and spiritual ancestors are equally welcome.",
+    "intention": "Beloved and well ancestors, I honor you. Speak to me through these cards.",
+    "guided": true
+  },
+  {
+    "id": "tarot-samhain-thin-veil",
+    "name": "Samhain: Thin Veil",
+    "description": "A seven-card spread for Samhain or any night when the veil between the worlds is thin. Three cards sit on the spirit side, three on the living side, and a sideways card lies between them as the veil itself.",
+    "cardCount": 7,
+    "difficulty": "Advanced",
+    "metaphysical": [
+      "divination",
+      "ancestors",
+      "spirit work",
+      "endings",
+      "release"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "From Beyond: A Message",
+        "meaning": "A message from the spirit world.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Light a candle if you can and listen. What simple message might someone beyond the veil be trying to tell you through this card?"
+      },
+      {
+        "n": 2,
+        "name": "From Beyond: A Warning",
+        "meaning": "Something spirit wishes you to be aware of.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "This is a caution offered with love, not a threat. What in your life does this card gently ask you to watch more closely?"
+      },
+      {
+        "n": 3,
+        "name": "From Beyond: A Blessing",
+        "meaning": "A blessing offered from the other side.",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Open your hands to receive. What gift or comfort from the other side do you see in this card?"
+      },
+      {
+        "n": 4,
+        "name": "The Veil",
+        "meaning": "What separates you from spirit, and how thin it is for you now. Laid sideways.",
+        "x": 1.2,
+        "y": 1.5,
+        "rotate": 90,
+        "guide": "Look at the card lying sideways between the worlds. Does it feel like a heavy curtain or the thinnest mist for you tonight?"
+      },
+      {
+        "n": 5,
+        "name": "This Side: What Ends",
+        "meaning": "What is dying away with the old year.",
+        "x": 0,
+        "y": 3,
+        "rotate": 0,
+        "guide": "The old year is dying. What in this card is ready to be laid to rest, and can you thank it as it goes?"
+      },
+      {
+        "n": 6,
+        "name": "This Side: What Remains",
+        "meaning": "What you carry into the dark half of the year.",
+        "x": 1.2,
+        "y": 3,
+        "rotate": 0,
+        "guide": "Think of what you will carry through the long nights. What in this card is worth keeping close and warm?"
+      },
+      {
+        "n": 7,
+        "name": "This Side: What Awaits",
+        "meaning": "What is waiting to be born at the turning of the year.",
+        "x": 2.4,
+        "y": 3,
+        "rotate": 0,
+        "guide": "Something stirs in the dark, waiting to be born. What new beginning does this card hint at as the wheel turns?"
+      }
+    ],
+    "howToUse": "Read on Samhain night (October 31) or near it, by candlelight, after honoring your dead. Lay the three spirit cards above, the veil across the middle and the three living cards below. Read the columns as pairs: spirit's message with what ends, spirit's warning with what remains, spirit's blessing with what awaits. Close by extinguishing the candle with thanks.",
+    "intention": "On this night when the veil is thin, let those beyond speak, and let me hear with an open heart.",
+    "guided": true,
+    "backdrop": "halloween"
+  },
+  {
+    "id": "tarot-elemental-cross",
+    "name": "Elemental Cross",
+    "description": "Four cards for the elements at the cardinal directions surround a central card for spirit. A balanced, compact spread for checking in with every part of life.",
+    "cardCount": 5,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "divination",
+      "balance",
+      "grounding",
+      "spirituality"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "Spirit (Center)",
+        "meaning": "The core of the matter and your spiritual state.",
+        "x": 1.2,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Rest your eyes on this center card and breathe. What feels like the heart of the matter, and how is your spirit holding up?"
+      },
+      {
+        "n": 2,
+        "name": "Air (East)",
+        "meaning": "Thoughts, plans and communication.",
+        "x": 2.4,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Face east in your mind and feel a breeze of thought. Are your plans in this card clear, scattered or waiting to be spoken?"
+      },
+      {
+        "n": 3,
+        "name": "Fire (South)",
+        "meaning": "Passion, energy and action.",
+        "x": 1.2,
+        "y": 3.4,
+        "rotate": 0,
+        "guide": "Feel for heat in this card. Where is your passion burning bright right now, and where has the fire gone low?"
+      },
+      {
+        "n": 4,
+        "name": "Water (West)",
+        "meaning": "Emotions, love and intuition.",
+        "x": 0,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Let this card wash over you like a tide. What emotion surfaces first, and what is your intuition quietly telling you?"
+      },
+      {
+        "n": 5,
+        "name": "Earth (North)",
+        "meaning": "Body, money, home and stability.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Think of your home, your body and your bank balance. Does this card feel like solid ground or shifting soil?"
+      }
+    ],
+    "howToUse": "Lay the center card, then call each quarter as you place its card: east, south, west, north (north at the top, east at the right). Read each element, then see which is strongest and which is weakest. A simple elemental act, such as lighting a candle, taking a bath or walking barefoot, can restore whatever is lacking.",
+    "intention": "Guardians of the four quarters, show me the balance of my life.",
+    "guided": true,
+    "backdrop": "altar"
+  },
+  {
+    "id": "tarot-weekly",
+    "name": "Week Ahead",
+    "description": "Seven cards, one for each day of the coming week, with the traditional planetary ruler of each day to deepen the reading. A practical way to plan and prepare.",
+    "cardCount": 7,
+    "difficulty": "Beginner",
+    "metaphysical": [
+      "divination",
+      "clarity",
+      "focus",
+      "success"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "Monday (Moon)",
+        "meaning": "Emotions, home and intuition for the day.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Under the Moon's eye, check in with your feelings. Which emotion in this card might greet you as the week begins?"
+      },
+      {
+        "n": 2,
+        "name": "Tuesday (Mars)",
+        "meaning": "Action, courage and conflict for the day.",
+        "x": 1.2,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Mars asks for courage. Where in this card do you see a fight worth having, or a battle best left alone?"
+      },
+      {
+        "n": 3,
+        "name": "Wednesday (Mercury)",
+        "meaning": "Communication, errands and learning for the day.",
+        "x": 2.4,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Mercury loves a message. What conversation, email or errand does this card bring to mind for midweek?"
+      },
+      {
+        "n": 4,
+        "name": "Thursday (Jupiter)",
+        "meaning": "Growth, luck and opportunity for the day.",
+        "x": 3.6,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Jupiter opens doors. Look for the opportunity hiding in this card, and ask how you could say yes to it."
+      },
+      {
+        "n": 5,
+        "name": "Friday (Venus)",
+        "meaning": "Love, pleasure and beauty for the day.",
+        "x": 0.6,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Let Venus soften you. What pleasure or beauty does this card invite you to make time for on Friday?"
+      },
+      {
+        "n": 6,
+        "name": "Saturday (Saturn)",
+        "meaning": "Responsibility, boundaries and rest for the day.",
+        "x": 1.8,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Saturn draws the boundaries. What does this card ask you to finish, refuse, or simply rest from?"
+      },
+      {
+        "n": 7,
+        "name": "Sunday (Sun)",
+        "meaning": "Joy, success and renewal for the day.",
+        "x": 3,
+        "y": 1.7,
+        "rotate": 0,
+        "guide": "Turn your face to the Sun as you look. What joy or fresh start could this card bring to close your week?"
+      }
+    ],
+    "howToUse": "Read on Sunday evening or Monday morning. Lay four cards on the top row and three below. Note which day holds the most challenging card and plan gentle support for it. Each evening, look back at that day's card to see how it played out.",
+    "intention": "Show me the shape of the week ahead, day by day.",
+    "guided": true
+  },
+  {
+    "id": "tarot-dream-interpretation",
+    "name": "Dream Interpretation",
+    "description": "A six-card spread for unlocking a vivid or recurring dream. Five cards arc like a sleeping crescent moon, and a sixth beneath reveals the dream's message for waking life.",
+    "cardCount": 6,
+    "difficulty": "Intermediate",
+    "metaphysical": [
+      "divination",
+      "dreams",
+      "prophetic dreams",
+      "psychic powers",
+      "shadow work"
+    ],
+    "positions": [
+      {
+        "n": 1,
+        "name": "The Dream's Theme",
+        "meaning": "The central subject of the dream.",
+        "x": 0,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Recall the dream as a whole and set this card beside it. What single word would name what the dream was really about?"
+      },
+      {
+        "n": 2,
+        "name": "The Key Symbol",
+        "meaning": "The most important image and what it represents.",
+        "x": 1.2,
+        "y": 0.8,
+        "rotate": 0,
+        "guide": "Find the strongest image in this card and hold it next to your dream's key symbol. What do they share?"
+      },
+      {
+        "n": 3,
+        "name": "The Hidden Feeling",
+        "meaning": "The emotion beneath the dream.",
+        "x": 2.4,
+        "y": 1.1,
+        "rotate": 0,
+        "guide": "Remember how you felt on waking. Does this card name that feeling, or a quieter one hiding underneath it?"
+      },
+      {
+        "n": 4,
+        "name": "Its Source",
+        "meaning": "What in waking life or the unconscious stirred this dream.",
+        "x": 3.6,
+        "y": 0.8,
+        "rotate": 0,
+        "guide": "Think back to the days before the dream. What worry, encounter or old memory might this card be pointing to as its spark?"
+      },
+      {
+        "n": 5,
+        "name": "What It Asks",
+        "meaning": "What the dream is asking you to see or do.",
+        "x": 4.8,
+        "y": 0,
+        "rotate": 0,
+        "guide": "Ask the dream directly: what do you want me to see? Let this card answer in the first words that come."
+      },
+      {
+        "n": 6,
+        "name": "The Waking Message",
+        "meaning": "The guidance to carry into your days.",
+        "x": 2.4,
+        "y": 3,
+        "rotate": 0,
+        "guide": "Imagine carrying this card in your pocket tomorrow. What one thing will you do or notice differently while awake?"
+      }
+    ],
+    "howToUse": "Write down the dream in as much detail as possible first, ideally right after waking. Hold the dream in mind while shuffling. Lay the five arc cards from left to right, then the message card beneath. Compare the key symbol card with the actual dream images; the overlap often reveals the meaning. Keep a mugwort sachet or a dream journal by the bed.",
+    "intention": "Spirit of dreams, help me understand what was shown to me in the night.",
+    "guided": true
+  }
+]

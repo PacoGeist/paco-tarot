@@ -1,0 +1,1738 @@
+{
+ "Card of the Day": {
+  "ctx": "advice",
+  "lens": "the energy and lesson coloring your day"
+ },
+ "Past": {
+  "ctx": "past",
+  "lens": "the roots and past events still shaping this"
+ },
+ "Present": {
+  "ctx": "present",
+  "lens": "where things stand and what energy is active now"
+ },
+ "Future": {
+  "ctx": "future",
+  "lens": "the likely direction if your current path continues"
+ },
+ "Spirit": {
+  "ctx": "spirit",
+  "lens": "the state of your soul and spiritual connection"
+ },
+ "Mind": {
+  "ctx": "self",
+  "lens": "your thoughts, mental patterns and emotional climate"
+ },
+ "Body": {
+  "ctx": "foundation",
+  "lens": "your body, energy and material circumstances"
+ },
+ "Situation": {
+  "ctx": "present",
+  "lens": "the heart of the matter as it truly stands"
+ },
+ "Action": {
+  "ctx": "advice",
+  "lens": "the most aligned step to take right now"
+ },
+ "Outcome": {
+  "ctx": "future",
+  "lens": "the probable result of taking the advised action"
+ },
+ "The Present": {
+  "ctx": "present",
+  "lens": "the heart of the matter and your state within it"
+ },
+ "The Challenge": {
+  "ctx": "challenge",
+  "lens": "the crossing obstacle you must work with"
+ },
+ "The Foundation": {
+  "ctx": "foundation",
+  "lens": "the deeper root and unconscious basis beneath it all"
+ },
+ "The Recent Past": {
+  "ctx": "past",
+  "lens": "what is passing away and has just shaped this"
+ },
+ "The Crown": {
+  "ctx": "hopes",
+  "lens": "your conscious goal and best possible outcome"
+ },
+ "The Near Future": {
+  "ctx": "future",
+  "lens": "what is approaching in the coming weeks"
+ },
+ "Yourself": {
+  "ctx": "self",
+  "lens": "your attitude and how you see your role"
+ },
+ "Environment": {
+  "ctx": "others",
+  "lens": "outside influences and how others see you"
+ },
+ "Hopes and Fears": {
+  "ctx": "hopes",
+  "lens": "what you hope for and what you dread"
+ },
+ "The Outcome": {
+  "ctx": "future",
+  "lens": "the likely culmination if things continue as they are"
+ },
+ "The Past": {
+  "ctx": "past",
+  "lens": "past influences bearing on your question"
+ },
+ "Hidden Influences": {
+  "ctx": "shadow",
+  "lens": "the factors you are unaware of or overlooking"
+ },
+ "Obstacles": {
+  "ctx": "challenge",
+  "lens": "what stands in your way"
+ },
+ "Outside Influences": {
+  "ctx": "others",
+  "lens": "other people and external conditions at play"
+ },
+ "Advice": {
+  "ctx": "advice",
+  "lens": "the best course of action to take"
+ },
+ "You: How You See It": {
+  "ctx": "self",
+  "lens": "how you perceive this relationship"
+ },
+ "You: What You Feel": {
+  "ctx": "love",
+  "lens": "your true feelings within this bond"
+ },
+ "You: What You Need": {
+  "ctx": "love",
+  "lens": "what you need to feel fulfilled in this bond"
+ },
+ "Them: How They See It": {
+  "ctx": "others",
+  "lens": "how the other person perceives the relationship"
+ },
+ "Them: What They Feel": {
+  "ctx": "others",
+  "lens": "their feelings and emotional state toward you"
+ },
+ "Them: What They Need": {
+  "ctx": "others",
+  "lens": "what the other person needs from the relationship"
+ },
+ "The Bond": {
+  "ctx": "love",
+  "lens": "the nature and potential of the connection between you"
+ },
+ "Where You Stand": {
+  "ctx": "work",
+  "lens": "your current work situation and feelings about it"
+ },
+ "Your Strengths": {
+  "ctx": "gift",
+  "lens": "the talents and assets you can build on"
+ },
+ "Your Obstacles": {
+  "ctx": "challenge",
+  "lens": "what holds your career back, within or without"
+ },
+ "Hidden Opportunity": {
+  "ctx": "gift",
+  "lens": "a career door you have not yet noticed"
+ },
+ "Next Step": {
+  "ctx": "advice",
+  "lens": "the most aligned career action to take now"
+ },
+ "Where This Leads": {
+  "ctx": "future",
+  "lens": "where your career is heading if you act"
+ },
+ "House 1 / January": {
+  "ctx": "future",
+  "lens": "the house of self and new beginnings (January)"
+ },
+ "House 2 / February": {
+  "ctx": "future",
+  "lens": "the house of money and values (February)"
+ },
+ "House 3 / March": {
+  "ctx": "future",
+  "lens": "the house of communication and learning (March)"
+ },
+ "House 4 / April": {
+  "ctx": "future",
+  "lens": "the house of home and family (April)"
+ },
+ "House 5 / May": {
+  "ctx": "future",
+  "lens": "the house of creativity, romance and joy (May)"
+ },
+ "House 6 / June": {
+  "ctx": "future",
+  "lens": "the house of health, work and routine (June)"
+ },
+ "House 7 / July": {
+  "ctx": "future",
+  "lens": "the house of partnerships (July)"
+ },
+ "House 8 / August": {
+  "ctx": "future",
+  "lens": "the house of intimacy and transformation (August)"
+ },
+ "House 9 / September": {
+  "ctx": "future",
+  "lens": "the house of travel, study and beliefs (September)"
+ },
+ "House 10 / October": {
+  "ctx": "future",
+  "lens": "the house of career and reputation (October)"
+ },
+ "House 11 / November": {
+  "ctx": "future",
+  "lens": "the house of friends, community and hopes (November)"
+ },
+ "House 12 / December": {
+  "ctx": "future",
+  "lens": "the house of the hidden and spiritual (December)"
+ },
+ "Theme of the Year": {
+  "ctx": "foundation",
+  "lens": "the overarching lesson and energy of your year"
+ },
+ "The Seed": {
+  "ctx": "hopes",
+  "lens": "the intention most ready to be planted now"
+ },
+ "The Soil": {
+  "ctx": "gift",
+  "lens": "what within you supports this intention"
+ },
+ "The Weeds": {
+  "ctx": "challenge",
+  "lens": "the doubts and habits that could choke your intention"
+ },
+ "The Water": {
+  "ctx": "advice",
+  "lens": "how to nurture your intention through the waxing moon"
+ },
+ "The First Sprout": {
+  "ctx": "future",
+  "lens": "the sign to watch for by the full moon"
+ },
+ "What Has Come to Light": {
+  "ctx": "present",
+  "lens": "what the full moon is illuminating in your life"
+ },
+ "What Has Grown": {
+  "ctx": "past",
+  "lens": "what has come to fruition since the new moon"
+ },
+ "What to Celebrate": {
+  "ctx": "gift",
+  "lens": "the success or blessing to honor under the full moon"
+ },
+ "What to Release": {
+  "ctx": "release",
+  "lens": "the energy to release under the full moon"
+ },
+ "What Blocks Release": {
+  "ctx": "challenge",
+  "lens": "why you have been holding on"
+ },
+ "How to Let Go": {
+  "ctx": "advice",
+  "lens": "the most graceful way to release it"
+ },
+ "The Moon's Gift": {
+  "ctx": "gift",
+  "lens": "what fills the space once you have released"
+ },
+ "The Mask": {
+  "ctx": "others",
+  "lens": "the face you show the world for protection"
+ },
+ "The Shadow": {
+  "ctx": "shadow",
+  "lens": "the part of yourself you hide, deny or project"
+ },
+ "The Core Wound": {
+  "ctx": "past",
+  "lens": "where this shadow first began"
+ },
+ "The Trigger": {
+  "ctx": "challenge",
+  "lens": "what brings your shadow to the surface now"
+ },
+ "The Hidden Gift": {
+  "ctx": "gift",
+  "lens": "the strength locked inside your shadow"
+ },
+ "Integration": {
+  "ctx": "advice",
+  "lens": "how to welcome this part home with compassion"
+ },
+ "Root": {
+  "ctx": "foundation",
+  "lens": "your safety, grounding and connection to the body"
+ },
+ "Sacral": {
+  "ctx": "love",
+  "lens": "your creativity, pleasure and emotional flow"
+ },
+ "Solar Plexus": {
+  "ctx": "self",
+  "lens": "your will, confidence and personal power"
+ },
+ "Heart": {
+  "ctx": "love",
+  "lens": "what your heart needs today"
+ },
+ "Throat": {
+  "ctx": "advice",
+  "lens": "how you speak your truth and express yourself"
+ },
+ "Third Eye": {
+  "ctx": "spirit",
+  "lens": "your intuition, inner vision and insight"
+ },
+ "Crown": {
+  "ctx": "spirit",
+  "lens": "your connection to the divine and higher consciousness"
+ },
+ "Kether (Crown)": {
+  "ctx": "spirit",
+  "lens": "your highest spiritual aim; the divine spark here"
+ },
+ "Chokmah (Wisdom)": {
+  "ctx": "work",
+  "lens": "the creative force you are driven to begin"
+ },
+ "Binah (Understanding)": {
+  "ctx": "advice",
+  "lens": "the form and limits you must come to understand"
+ },
+ "Chesed (Mercy)": {
+  "ctx": "gift",
+  "lens": "the help, generosity and expansion offered to you"
+ },
+ "Geburah (Severity)": {
+  "ctx": "challenge",
+  "lens": "the discipline required and what must be cut away"
+ },
+ "Tiphareth (Beauty)": {
+  "ctx": "self",
+  "lens": "the heart of the matter and your true self"
+ },
+ "Netzach (Victory)": {
+  "ctx": "love",
+  "lens": "your emotions, desire and artistic drive"
+ },
+ "Hod (Splendor)": {
+  "ctx": "advice",
+  "lens": "your intellect, reasoning and communication"
+ },
+ "Yesod (Foundation)": {
+  "ctx": "shadow",
+  "lens": "the unconscious, dreams and imagination beneath"
+ },
+ "Malkuth (Kingdom)": {
+  "ctx": "future",
+  "lens": "how it all manifests in daily life"
+ },
+ "Water": {
+  "ctx": "love",
+  "lens": "your emotions, relationships and intuition"
+ },
+ "Fire": {
+  "ctx": "work",
+  "lens": "your passion, will and drive to act"
+ },
+ "Earth": {
+  "ctx": "foundation",
+  "lens": "your body, home, money and practical matters"
+ },
+ "Air": {
+  "ctx": "advice",
+  "lens": "your thoughts, plans and communication"
+ },
+ "The Crossroads": {
+  "ctx": "present",
+  "lens": "what is truly at stake in this choice"
+ },
+ "Path A: The Approach": {
+  "ctx": "advice",
+  "lens": "what choosing the first path involves"
+ },
+ "Path A: The Journey": {
+  "ctx": "challenge",
+  "lens": "what you will meet along the first path"
+ },
+ "Path A: The Destination": {
+  "ctx": "future",
+  "lens": "where the first path ultimately leads"
+ },
+ "Path B: The Approach": {
+  "ctx": "advice",
+  "lens": "what choosing the second path involves"
+ },
+ "Path B: The Journey": {
+  "ctx": "challenge",
+  "lens": "what you will meet along the second path"
+ },
+ "Path B: The Destination": {
+  "ctx": "future",
+  "lens": "where the second path ultimately leads"
+ },
+ "What I Love About Myself": {
+  "ctx": "gift",
+  "lens": "a strength or beauty in yourself to celebrate"
+ },
+ "What Others Love in Me": {
+  "ctx": "others",
+  "lens": "what those close to you see and value"
+ },
+ "My Heart Now": {
+  "ctx": "love",
+  "lens": "how your heart truly feels at this moment"
+ },
+ "The Old Wound": {
+  "ctx": "past",
+  "lens": "the old hurt that blocks your self-love"
+ },
+ "How to Heal It": {
+  "ctx": "advice",
+  "lens": "a gentle way to soften that wound"
+ },
+ "My Self-Love Practice": {
+  "ctx": "advice",
+  "lens": "a daily ritual or habit of self-love"
+ },
+ "The Ancestor Who Comes Forward": {
+  "ctx": "spirit",
+  "lens": "the nature of the ancestor speaking to you"
+ },
+ "Gift of the Mother Line": {
+  "ctx": "gift",
+  "lens": "a strength inherited through your maternal line"
+ },
+ "Gift of the Father Line": {
+  "ctx": "gift",
+  "lens": "a strength inherited through your paternal line"
+ },
+ "Pattern to Heal": {
+  "ctx": "foundation",
+  "lens": "a family pattern you can transform for those who follow"
+ },
+ "Their Message": {
+  "ctx": "spirit",
+  "lens": "what your ancestors want you to know now"
+ },
+ "How to Honor Them": {
+  "ctx": "advice",
+  "lens": "an offering or practice to honor your ancestors"
+ },
+ "From Beyond: A Message": {
+  "ctx": "spirit",
+  "lens": "a message carried across the thinning veil"
+ },
+ "From Beyond: A Warning": {
+  "ctx": "shadow",
+  "lens": "what spirit wishes you to be aware of"
+ },
+ "From Beyond: A Blessing": {
+  "ctx": "gift",
+  "lens": "a blessing offered from the other side"
+ },
+ "The Veil": {
+  "ctx": "spirit",
+  "lens": "what separates you from spirit, and how thinly"
+ },
+ "This Side: What Ends": {
+  "ctx": "release",
+  "lens": "what is dying away with the old year"
+ },
+ "This Side: What Remains": {
+  "ctx": "foundation",
+  "lens": "what you carry into the dark half of the year"
+ },
+ "This Side: What Awaits": {
+  "ctx": "future",
+  "lens": "what waits to be born at the year's turning"
+ },
+ "Spirit (Center)": {
+  "ctx": "spirit",
+  "lens": "the core of the matter and your spiritual state"
+ },
+ "Air (East)": {
+  "ctx": "advice",
+  "lens": "your thoughts, plans and words, from the east"
+ },
+ "Fire (South)": {
+  "ctx": "work",
+  "lens": "your passion, energy and action, from the south"
+ },
+ "Water (West)": {
+  "ctx": "love",
+  "lens": "your emotions, love and intuition, from the west"
+ },
+ "Earth (North)": {
+  "ctx": "foundation",
+  "lens": "your body, money and stability, from the north"
+ },
+ "Monday (Moon)": {
+  "ctx": "future",
+  "lens": "Monday's tides of emotion, home and intuition"
+ },
+ "Tuesday (Mars)": {
+  "ctx": "future",
+  "lens": "Tuesday's energy of action, courage and conflict"
+ },
+ "Wednesday (Mercury)": {
+  "ctx": "future",
+  "lens": "Wednesday's flow of communication and learning"
+ },
+ "Thursday (Jupiter)": {
+  "ctx": "future",
+  "lens": "Thursday's growth, luck and opportunity"
+ },
+ "Friday (Venus)": {
+  "ctx": "future",
+  "lens": "Friday's love, pleasure and beauty"
+ },
+ "Saturday (Saturn)": {
+  "ctx": "future",
+  "lens": "Saturday's responsibility, boundaries and rest"
+ },
+ "Sunday (Sun)": {
+  "ctx": "future",
+  "lens": "Sunday's joy, success and renewal"
+ },
+ "The Dream's Theme": {
+  "ctx": "present",
+  "lens": "the central subject of your dream"
+ },
+ "The Key Symbol": {
+  "ctx": "shadow",
+  "lens": "the dream's most important image and its meaning"
+ },
+ "The Hidden Feeling": {
+  "ctx": "shadow",
+  "lens": "the emotion hidden beneath the dream"
+ },
+ "Its Source": {
+  "ctx": "foundation",
+  "lens": "what in waking life or the unconscious stirred this dream"
+ },
+ "What It Asks": {
+  "ctx": "advice",
+  "lens": "what the dream asks you to see or do"
+ },
+ "The Waking Message": {
+  "ctx": "spirit",
+  "lens": "the dream's guidance to carry into your days"
+ },
+ "The Longest Night": {
+  "ctx": "past",
+  "lens": "the hardship or stillness the dark season asked of you"
+ },
+ "Gift of the Dark": {
+  "ctx": "gift",
+  "lens": "the hidden strength you gained while the light was low"
+ },
+ "What to Leave in the Old Year": {
+  "ctx": "release",
+  "lens": "the burden to let die with the old sun"
+ },
+ "The Newborn Sun": {
+  "ctx": "hopes",
+  "lens": "the fresh hope being born in you at Yule"
+ },
+ "Light to Carry Forward": {
+  "ctx": "advice",
+  "lens": "how to tend your small flame through winter"
+ },
+ "Beneath the Snow": {
+  "ctx": "shadow",
+  "lens": "the dream quietly stirring beneath the surface"
+ },
+ "Brigid's Flame": {
+  "ctx": "work",
+  "lens": "the creative fire Brigid offers you now"
+ },
+ "The Healing Well": {
+  "ctx": "release",
+  "lens": "what needs cleansing before new growth can begin"
+ },
+ "First Green Shoot": {
+  "ctx": "advice",
+  "lens": "the first small step that lets the seed break through"
+ },
+ "Light in Balance": {
+  "ctx": "gift",
+  "lens": "what is thriving and well supported in your life"
+ },
+ "Dark in Balance": {
+  "ctx": "challenge",
+  "lens": "what still needs rest, patience or attention"
+ },
+ "The Egg": {
+  "ctx": "hopes",
+  "lens": "the potential waiting to hatch within you"
+ },
+ "First Blossom": {
+  "ctx": "future",
+  "lens": "how that potential blooms over the coming season"
+ },
+ "The Maypole": {
+  "ctx": "hopes",
+  "lens": "the central desire rooting you this season"
+ },
+ "The Bonfire": {
+  "ctx": "release",
+  "lens": "the fear or hesitation to leap through and burn away"
+ },
+ "The Flower Crown": {
+  "ctx": "gift",
+  "lens": "the beauty and joy asking to be celebrated"
+ },
+ "The Ribbon Dance": {
+  "ctx": "love",
+  "lens": "the partnership or union weaving your life together"
+ },
+ "The Greenwood Blessing": {
+  "ctx": "future",
+  "lens": "the fruit that grows from honoring your passion"
+ },
+ "Ray of Strength": {
+  "ctx": "gift",
+  "lens": "where your power and confidence shine strongest"
+ },
+ "Ray of Achievement": {
+  "ctx": "past",
+  "lens": "what you have accomplished since the dark of the year"
+ },
+ "Ray of Joy": {
+  "ctx": "love",
+  "lens": "what brings you warmth and delight"
+ },
+ "Ray of Shadow": {
+  "ctx": "shadow",
+  "lens": "what the bright light reveals that you would rather not see"
+ },
+ "Ray of Abundance": {
+  "ctx": "work",
+  "lens": "what is ripening and soon ready to harvest"
+ },
+ "Ray of Turning": {
+  "ctx": "advice",
+  "lens": "what to prepare as the days begin to shorten"
+ },
+ "The Midsummer Sun": {
+  "ctx": "self",
+  "lens": "your own inner sun and how it wants to shine"
+ },
+ "The First Sheaf": {
+  "ctx": "past",
+  "lens": "the first fruit of your labors this year"
+ },
+ "The Sickle": {
+  "ctx": "release",
+  "lens": "what must be cut away so the harvest can be gathered"
+ },
+ "The Loaf": {
+  "ctx": "gift",
+  "lens": "what to share, celebrate and give thanks for"
+ },
+ "The Remaining Field": {
+  "ctx": "work",
+  "lens": "the work still ripening that needs more effort"
+ },
+ "Seed for Next Year": {
+  "ctx": "future",
+  "lens": "what to save as the seed of future growth"
+ },
+ "What I Have Gathered": {
+  "ctx": "gift",
+  "lens": "the blessings and lessons this year has given you"
+ },
+ "What I Have Lost": {
+  "ctx": "release",
+  "lens": "what has fallen away and the peace in letting go"
+ },
+ "Storing for Winter": {
+  "ctx": "foundation",
+  "lens": "what to preserve and protect as nights grow long"
+ },
+ "Into the Dark": {
+  "ctx": "spirit",
+  "lens": "the inner work and rest awaiting you this season"
+ },
+ "If Yes": {
+  "ctx": "future",
+  "lens": "what unfolds if you say yes or take this step"
+ },
+ "If No": {
+  "ctx": "future",
+  "lens": "what unfolds if you say no or hold back"
+ },
+ "The Situation": {
+  "ctx": "present",
+  "lens": "where you stand and what you are trying to achieve"
+ },
+ "The Obstacle": {
+  "ctx": "challenge",
+  "lens": "what is blocking your way right now"
+ },
+ "The Root": {
+  "ctx": "foundation",
+  "lens": "where the obstacle truly comes from"
+ },
+ "Hidden Help": {
+  "ctx": "gift",
+  "lens": "an ally, resource or strength you have overlooked"
+ },
+ "The Way Through": {
+  "ctx": "advice",
+  "lens": "the action or shift that clears the path"
+ },
+ "The Wound": {
+  "ctx": "challenge",
+  "lens": "what is hurting and asking for attention"
+ },
+ "The Lesson": {
+  "ctx": "advice",
+  "lens": "what this pain is teaching you to understand"
+ },
+ "Medicine": {
+  "ctx": "gift",
+  "lens": "what nourishes and restores you"
+ },
+ "Healed Self": {
+  "ctx": "future",
+  "lens": "who you are becoming as you heal"
+ },
+ "Current Finances": {
+  "ctx": "work",
+  "lens": "the true state of your money and resources now"
+ },
+ "Money Beliefs": {
+  "ctx": "foundation",
+  "lens": "the beliefs and family patterns shaping your money"
+ },
+ "What Drains": {
+  "ctx": "challenge",
+  "lens": "where money or energy is leaking away"
+ },
+ "What Grows": {
+  "ctx": "gift",
+  "lens": "where your resources are already multiplying"
+ },
+ "New Opportunity": {
+  "ctx": "future",
+  "lens": "a new source of income or opening to watch for"
+ },
+ "Abundant Action": {
+  "ctx": "advice",
+  "lens": "the concrete step this month to invite prosperity"
+ },
+ "The Creative Well": {
+  "ctx": "work",
+  "lens": "the state of your creative energy right now"
+ },
+ "The Block": {
+  "ctx": "challenge",
+  "lens": "what dampens your inspiration or stops you beginning"
+ },
+ "The Muse Speaks": {
+  "ctx": "spirit",
+  "lens": "the idea or image that wants to be expressed"
+ },
+ "The Craft": {
+  "ctx": "work",
+  "lens": "the skill or discipline to develop"
+ },
+ "The Work Revealed": {
+  "ctx": "future",
+  "lens": "what your creation may become if you honor the muse"
+ },
+ "Who Walks With Me": {
+  "ctx": "spirit",
+  "lens": "the nature of the guide drawing near"
+ },
+ "How They Speak": {
+  "ctx": "spirit",
+  "lens": "the signs and symbols through which your guide speaks"
+ },
+ "Deepening the Bond": {
+  "ctx": "advice",
+  "lens": "a practice that strengthens your bond with your guide"
+ },
+ "Where I Stand": {
+  "ctx": "present",
+  "lens": "you at the crossroads: your situation and mind"
+ },
+ "Hecate's Torch": {
+  "ctx": "spirit",
+  "lens": "the insight Hecate's torch offers to choose well"
+ },
+ "First Path: The Road": {
+  "ctx": "future",
+  "lens": "where the first option leads"
+ },
+ "First Path: The Price": {
+  "ctx": "challenge",
+  "lens": "what the first option asks of you or costs"
+ },
+ "Second Path: The Road": {
+  "ctx": "future",
+  "lens": "where the second option leads"
+ },
+ "Second Path: The Price": {
+  "ctx": "challenge",
+  "lens": "what the second option asks of you or costs"
+ },
+ "Third Path: The Road": {
+  "ctx": "future",
+  "lens": "where the unconsidered third option leads"
+ },
+ "Third Path: The Price": {
+  "ctx": "challenge",
+  "lens": "what the third option asks of you or costs"
+ },
+ "Hecate's Key": {
+  "ctx": "advice",
+  "lens": "the key that unlocks the right choice"
+ },
+ "The Maiden": {
+  "ctx": "hopes",
+  "lens": "what is new and beginning under the waxing moon"
+ },
+ "The Mother": {
+  "ctx": "work",
+  "lens": "what you are nurturing and bringing to fullness"
+ },
+ "The Crone": {
+  "ctx": "release",
+  "lens": "the waning moon's wisdom of endings and letting go"
+ },
+ "The Goddess Within": {
+  "ctx": "spirit",
+  "lens": "how Maiden, Mother and Crone unite in you now"
+ },
+ "The Year Behind": {
+  "ctx": "past",
+  "lens": "the main theme of the year just ending"
+ },
+ "What I Outgrew": {
+  "ctx": "release",
+  "lens": "what you can lovingly leave behind at your new age"
+ },
+ "The Birthday Self": {
+  "ctx": "self",
+  "lens": "who you are at the start of this solar year"
+ },
+ "Gift of the Year": {
+  "ctx": "gift",
+  "lens": "the blessing or opportunity your new year brings"
+ },
+ "Challenge of the Year": {
+  "ctx": "challenge",
+  "lens": "the lesson or test to prepare for this year"
+ },
+ "Birthday Wish": {
+  "ctx": "hopes",
+  "lens": "the wish the universe supports this year"
+ },
+ "New Moon": {
+  "ctx": "hopes",
+  "lens": "the intention to plant at the new moon"
+ },
+ "Waxing Crescent": {
+  "ctx": "advice",
+  "lens": "the first steps as your intention takes root"
+ },
+ "First Quarter": {
+  "ctx": "challenge",
+  "lens": "the decision point that tests your commitment"
+ },
+ "Waxing Gibbous": {
+  "ctx": "advice",
+  "lens": "what to refine and keep working on"
+ },
+ "Full Moon": {
+  "ctx": "future",
+  "lens": "what comes to fullness or is revealed"
+ },
+ "Waning Gibbous": {
+  "ctx": "gift",
+  "lens": "what to share, teach or give thanks for"
+ },
+ "Last Quarter": {
+  "ctx": "release",
+  "lens": "what to release, forgive or clear under the waning moon"
+ },
+ "Waning Crescent": {
+  "ctx": "spirit",
+  "lens": "how to rest, reflect and prepare for the next cycle"
+ },
+ "My Inner Child": {
+  "ctx": "self",
+  "lens": "how your inner child feels and appears today"
+ },
+ "The Old Hurt": {
+  "ctx": "past",
+  "lens": "a childhood wound that still shapes you"
+ },
+ "The Lost Joy": {
+  "ctx": "gift",
+  "lens": "a delight your younger self loved and set aside"
+ },
+ "What They Need": {
+  "ctx": "advice",
+  "lens": "what your inner child needs to feel safe and loved"
+ },
+ "The Loving Guardian": {
+  "ctx": "advice",
+  "lens": "how to care for and reparent yourself"
+ },
+ "What I Truly Desire": {
+  "ctx": "hopes",
+  "lens": "what your heart truly longs for in love"
+ },
+ "What Blocks Love": {
+  "ctx": "challenge",
+  "lens": "the fear or pattern keeping love at a distance"
+ },
+ "The Love Approaching": {
+  "ctx": "love",
+  "lens": "the qualities of the love coming toward you"
+ },
+ "Where We Meet": {
+  "ctx": "future",
+  "lens": "the path that brings you and new love together"
+ },
+ "How to Open the Door": {
+  "ctx": "advice",
+  "lens": "the step that makes room for love to arrive"
+ },
+ "What Ended": {
+  "ctx": "past",
+  "lens": "the truth of what this relationship was and why it ended"
+ },
+ "What I Grieve": {
+  "ctx": "release",
+  "lens": "the loss that hurts most and deserves mourning"
+ },
+ "Reclaiming My Power": {
+  "ctx": "self",
+  "lens": "the part of yourself to call back and strengthen"
+ },
+ "The Open Road": {
+  "ctx": "future",
+  "lens": "what lies ahead as your heart heals"
+ },
+ "The Old Home": {
+  "ctx": "past",
+  "lens": "what your current home gave you, and saying goodbye"
+ },
+ "What to Leave Behind": {
+  "ctx": "release",
+  "lens": "the clutter or energy that should not make the move"
+ },
+ "The Journey": {
+  "ctx": "challenge",
+  "lens": "how the move will go and what to watch for"
+ },
+ "The Spirit of the New Home": {
+  "ctx": "spirit",
+  "lens": "the character and spirit of the new home and land"
+ },
+ "Blessing the Threshold": {
+  "ctx": "advice",
+  "lens": "how to cleanse, protect and claim the new space"
+ },
+ "Life in the New Home": {
+  "ctx": "future",
+  "lens": "what awaits once you settle into the new home"
+ },
+ "Samhain": {
+  "ctx": "release",
+  "lens": "what you are ready to let die at Samhain"
+ },
+ "Yule": {
+  "ctx": "hopes",
+  "lens": "the small flame of hope to nurture through winter"
+ },
+ "Imbolc": {
+  "ctx": "advice",
+  "lens": "the seed waking and how to purify for growth (Imbolc)"
+ },
+ "Ostara": {
+  "ctx": "future",
+  "lens": "what begins to grow and flourish at Ostara"
+ },
+ "Beltane": {
+  "ctx": "love",
+  "lens": "the passion and union kindled at Beltane"
+ },
+ "Litha": {
+  "ctx": "gift",
+  "lens": "what will shine brightest at the peak of the sun"
+ },
+ "Lammas": {
+  "ctx": "work",
+  "lens": "the first harvest of your work at Lammas"
+ },
+ "Mabon": {
+  "ctx": "gift",
+  "lens": "gratitude and balance as Mabon's second harvest arrives"
+ },
+ "The Hub": {
+  "ctx": "foundation",
+  "lens": "the heart of your year; the theme that turns the wheel"
+ },
+ "Sun": {
+  "ctx": "self",
+  "lens": "where you shine and what gives you life"
+ },
+ "Moon": {
+  "ctx": "shadow",
+  "lens": "what your inner tides and intuition are telling you"
+ },
+ "Mars": {
+  "ctx": "challenge",
+  "lens": "where to fight and where to stand down"
+ },
+ "Mercury": {
+  "ctx": "advice",
+  "lens": "what to learn, say or study"
+ },
+ "Jupiter": {
+  "ctx": "gift",
+  "lens": "where blessings and expansion come from"
+ },
+ "Venus": {
+  "ctx": "love",
+  "lens": "the state of your relationships, pleasures and joys"
+ },
+ "Saturn": {
+  "ctx": "advice",
+  "lens": "the lesson, responsibility or boundary to honor"
+ },
+ "How I See Myself": {
+  "ctx": "self",
+  "lens": "your own self-image right now"
+ },
+ "How Others See Me": {
+  "ctx": "others",
+  "lens": "the impression you make on those around you"
+ },
+ "The Face I Show": {
+  "ctx": "others",
+  "lens": "the mask or persona you present to the world"
+ },
+ "The Self I Hide": {
+  "ctx": "shadow",
+  "lens": "what you keep hidden behind the mask"
+ },
+ "The Blind Spot": {
+  "ctx": "shadow",
+  "lens": "what neither you nor others see clearly yet"
+ },
+ "The True Reflection": {
+  "ctx": "self",
+  "lens": "the deeper truth of who you truly are"
+ },
+ "To Know (Air)": {
+  "ctx": "advice",
+  "lens": "what you must understand before working magic"
+ },
+ "To Will (Fire)": {
+  "ctx": "self",
+  "lens": "the strength and focus of your intent"
+ },
+ "To Dare (Water)": {
+  "ctx": "challenge",
+  "lens": "the courage you must find to feel, risk or act"
+ },
+ "To Keep Silent (Earth)": {
+  "ctx": "shadow",
+  "lens": "what to hold in quiet so its power gestates"
+ },
+ "To Go (Spirit)": {
+  "ctx": "future",
+  "lens": "how the four powers unite and your working's outcome"
+ },
+ "The Traveller": {
+  "ctx": "self",
+  "lens": "who you are as the journey begins"
+ },
+ "What's Missing": {
+  "ctx": "gift",
+  "lens": "what you must find or claim along the road"
+ },
+ "The Path Behind": {
+  "ctx": "past",
+  "lens": "the road already travelled"
+ },
+ "The Path Ahead": {
+  "ctx": "future",
+  "lens": "the next stretch of road coming toward you"
+ },
+ "The Obstacles": {
+  "ctx": "challenge",
+  "lens": "the trial on the road that must be faced"
+ },
+ "The Windfall": {
+  "ctx": "gift",
+  "lens": "the unexpected blessing waiting along the way"
+ },
+ "The Destination": {
+  "ctx": "future",
+  "lens": "where this road truly ends, and who you become"
+ },
+ "Today's Energy": {
+  "ctx": "present",
+  "lens": "the theme and atmosphere of your day"
+ },
+ "Embrace Today": {
+  "ctx": "gift",
+  "lens": "the opportunity to lean into today"
+ },
+ "Be Mindful Today": {
+  "ctx": "advice",
+  "lens": "what to handle with care today"
+ },
+ "The Moon Within": {
+  "ctx": "present",
+  "lens": "the heart of your question right now"
+ },
+ "The Crossing Shadow": {
+  "ctx": "challenge",
+  "lens": "the shadow crossing your path now"
+ },
+ "Roots Beneath the Water": {
+  "ctx": "foundation",
+  "lens": "the deeper cause beneath the surface"
+ },
+ "The Waning Light": {
+  "ctx": "past",
+  "lens": "what is fading and loosening its hold"
+ },
+ "The Silver Crown": {
+  "ctx": "hopes",
+  "lens": "your highest aim under the full moon"
+ },
+ "The Waxing Light": {
+  "ctx": "future",
+  "lens": "the next phase gathering strength"
+ },
+ "The Seeker on the Path": {
+  "ctx": "self",
+  "lens": "how you are walking this path"
+ },
+ "The Night Around You": {
+  "ctx": "others",
+  "lens": "the people and influences around you"
+ },
+ "Whispers in the Dark": {
+  "ctx": "hopes",
+  "lens": "what you secretly long for and dread"
+ },
+ "Where the Moonlit Path Leads": {
+  "ctx": "future",
+  "lens": "where this path is heading"
+ },
+ "Morning": {
+  "ctx": "present",
+  "lens": "how your day begins"
+ },
+ "Afternoon": {
+  "ctx": "future",
+  "lens": "the middle of your day as it unfolds"
+ },
+ "Evening": {
+  "ctx": "future",
+  "lens": "how your day closes and what the night brings"
+ },
+ "Today's Focus": {
+  "ctx": "present",
+  "lens": "where to put your attention today"
+ },
+ "Today's Challenge": {
+  "ctx": "challenge",
+  "lens": "what may trip you up today"
+ },
+ "Today's Advice": {
+  "ctx": "advice",
+  "lens": "how to meet the day well"
+ },
+ "Head": {
+  "ctx": "self",
+  "lens": "your thoughts and how to see clearly today"
+ },
+ "Hands": {
+  "ctx": "advice",
+  "lens": "the practical step to take today"
+ },
+ "Start": {
+  "ctx": "advice",
+  "lens": "something new to begin today"
+ },
+ "Stop": {
+  "ctx": "release",
+  "lens": "what to let go of today"
+ },
+ "Continue": {
+  "ctx": "gift",
+  "lens": "what is already working for you"
+ },
+ "Gratitude": {
+  "ctx": "gift",
+  "lens": "a blessing to give thanks for"
+ },
+ "Growth": {
+  "ctx": "challenge",
+  "lens": "where you are invited to stretch and grow"
+ },
+ "Guidance": {
+  "ctx": "spirit",
+  "lens": "a message from spirit for today"
+ },
+ "The Curling Stem": {
+  "ctx": "foundation",
+  "lens": "what roots and nourishes you"
+ },
+ "The Watchful Left Eye": {
+  "ctx": "self",
+  "lens": "the inner matter needing attention"
+ },
+ "The Watchful Right Eye": {
+  "ctx": "others",
+  "lens": "outside forces worth watching closely"
+ },
+ "The Candle Within": {
+  "ctx": "spirit",
+  "lens": "the inner flame to protect"
+ },
+ "The Grin's Left Corner": {
+  "ctx": "challenge",
+  "lens": "a fear smaller than it seems"
+ },
+ "The First Carved Tooth": {
+  "ctx": "release",
+  "lens": "what you cut away for light"
+ },
+ "The Middle Tooth": {
+  "ctx": "advice",
+  "lens": "how to ward off unwelcome energy"
+ },
+ "The Last Carved Tooth": {
+  "ctx": "spirit",
+  "lens": "the friendly spirit coming home"
+ },
+ "The Grin's Right Corner": {
+  "ctx": "future",
+  "lens": "delight waiting as the season turns"
+ },
+ "The Costume You Wear": {
+  "ctx": "self",
+  "lens": "the role or disguise you wear"
+ },
+ "The Trick at the Door": {
+  "ctx": "challenge",
+  "lens": "what is fooling or testing you"
+ },
+ "The Treat in the Bowl": {
+  "ctx": "gift",
+  "lens": "the sweet reward coming your way"
+ },
+ "The Dusty Attic": {
+  "ctx": "past",
+  "lens": "something forgotten that still matters"
+ },
+ "The Lit Window": {
+  "ctx": "self",
+  "lens": "what you show the world"
+ },
+ "The Shuttered Window": {
+  "ctx": "shadow",
+  "lens": "what you keep hidden away"
+ },
+ "The Parlour Ghost": {
+  "ctx": "release",
+  "lens": "a lingering memory ready to rest"
+ },
+ "The Creaking Door": {
+  "ctx": "future",
+  "lens": "the threshold you must cross"
+ },
+ "The Cellar Stair": {
+  "ctx": "shadow",
+  "lens": "the deeper fear holding hidden strength"
+ },
+ "The Black Cat on the Step": {
+  "ctx": "advice",
+  "lens": "your familiar's lucky guidance"
+ },
+ "The Evergreen Trunk": {
+  "ctx": "foundation",
+  "lens": "what kept you standing this year"
+ },
+ "The Low Bough of Memory": {
+  "ctx": "past",
+  "lens": "a treasured memory worth keeping"
+ },
+ "The Tinsel Bough": {
+  "ctx": "present",
+  "lens": "what made the year sparkle"
+ },
+ "The Low Bough of Lessons": {
+  "ctx": "challenge",
+  "lens": "a hard lesson that made you stronger"
+ },
+ "The Garland of Kin": {
+  "ctx": "others",
+  "lens": "loved ones woven around you"
+ },
+ "The Bough of Wishes": {
+  "ctx": "hopes",
+  "lens": "your heartfelt wish for next year"
+ },
+ "The Star at the Top": {
+  "ctx": "spirit",
+  "lens": "the guiding light crowning your year"
+ },
+ "The Gift You Give": {
+  "ctx": "gift",
+  "lens": "what you are ready to offer"
+ },
+ "The Gift You Receive": {
+  "ctx": "gift",
+  "lens": "the blessing waiting to be unwrapped"
+ },
+ "The Woollen Cuff": {
+  "ctx": "hopes",
+  "lens": "what you hang up hoping for"
+ },
+ "The Long Wool Leg": {
+  "ctx": "present",
+  "lens": "what already fills and warms you"
+ },
+ "The Heel's Turn": {
+  "ctx": "past",
+  "lens": "the turning point you walked through"
+ },
+ "The Treat in the Toe": {
+  "ctx": "gift",
+  "lens": "a small sweet surprise ahead"
+ },
+ "The Wonder Within": {
+  "ctx": "self",
+  "lens": "the awe still living in you"
+ },
+ "The Star Rising": {
+  "ctx": "hopes",
+  "lens": "the vision worth following"
+ },
+ "The Long Winter Night": {
+  "ctx": "challenge",
+  "lens": "the darkness you travel through"
+ },
+ "The Gift You Carry": {
+  "ctx": "gift",
+  "lens": "the treasure you bring along"
+ },
+ "The Fellow Travellers": {
+  "ctx": "others",
+  "lens": "companions and guides beside you"
+ },
+ "The Arrival at Dawn": {
+  "ctx": "future",
+  "lens": "where the star is leading you"
+ },
+ "The First Chime": {
+  "ctx": "future",
+  "lens": "the beginning the new year rings in"
+ },
+ "The Winding Key": {
+  "ctx": "gift",
+  "lens": "what keeps your energy turning"
+ },
+ "The Swinging Pendulum": {
+  "ctx": "advice",
+  "lens": "the balance to find between extremes"
+ },
+ "The Slow Hour": {
+  "ctx": "challenge",
+  "lens": "where patience pays off slowly"
+ },
+ "The Half-Past Lesson": {
+  "ctx": "challenge",
+  "lens": "the midyear test and its teaching"
+ },
+ "The Ticking Doubt": {
+  "ctx": "shadow",
+  "lens": "the background fear to quiet"
+ },
+ "The Gilded Hour": {
+  "ctx": "hopes",
+  "lens": "the golden joy waiting ahead"
+ },
+ "The Last Chime of the Year": {
+  "ctx": "future",
+  "lens": "where the year comes full circle"
+ },
+ "The Stroke of Twelve": {
+  "ctx": "spirit",
+  "lens": "the heartbeat of the coming year"
+ },
+ "The Foot of the Glass": {
+  "ctx": "foundation",
+  "lens": "last year's gift that steadies you"
+ },
+ "The Slender Stem": {
+  "ctx": "advice",
+  "lens": "the habit that holds your resolve"
+ },
+ "The Golden Pour": {
+  "ctx": "gift",
+  "lens": "what fills your year with sparkle"
+ },
+ "The Rising Bubble": {
+  "ctx": "hopes",
+  "lens": "the resolution ready to rise"
+ },
+ "The Clink of Glasses": {
+  "ctx": "others",
+  "lens": "who raises a glass with you"
+ },
+ "The Last Ember of the Old Year": {
+  "ctx": "release",
+  "lens": "what to honour and let burn out"
+ },
+ "What Stays Behind the Door": {
+  "ctx": "release",
+  "lens": "the burden you leave behind"
+ },
+ "The Blessing Over the Lintel": {
+  "ctx": "spirit",
+  "lens": "the blessing guarding your crossing"
+ },
+ "The Key in Your Hand": {
+  "ctx": "advice",
+  "lens": "what unlocks the way forward"
+ },
+ "The Threshold Stone": {
+  "ctx": "challenge",
+  "lens": "the step needed to cross over"
+ },
+ "The First Footer": {
+  "ctx": "future",
+  "lens": "the first luck through the door"
+ },
+ "The Warm Room Within": {
+  "ctx": "hopes",
+  "lens": "what welcomes you on the other side"
+ },
+ "The Lace Edge": {
+  "ctx": "love",
+  "lens": "how you receive love"
+ },
+ "The Paper Heart": {
+  "ctx": "love",
+  "lens": "how you give and show love"
+ },
+ "The Cleft of the Heart": {
+  "ctx": "hopes",
+  "lens": "the longing you hold most tenderly"
+ },
+ "The Old Love Letter": {
+  "ctx": "past",
+  "lens": "a past love still shaping you"
+ },
+ "The Sweet Surprise": {
+  "ctx": "gift",
+  "lens": "the unexpected sweetness arriving"
+ },
+ "The Thorn on the Rose": {
+  "ctx": "shadow",
+  "lens": "the fear that makes love prickly"
+ },
+ "The Ribbon and Bow": {
+  "ctx": "advice",
+  "lens": "what binds love together securely"
+ },
+ "The Beating Heart": {
+  "ctx": "present",
+  "lens": "the true pulse of your love life"
+ },
+ "The Point of the Heart": {
+  "ctx": "future",
+  "lens": "where your love is heading"
+ },
+ "The Upper Fletching": {
+  "ctx": "hopes",
+  "lens": "the wish that guides love's flight"
+ },
+ "The Lower Fletching": {
+  "ctx": "shadow",
+  "lens": "the doubt that bends the aim"
+ },
+ "The Drawn Bowstring": {
+  "ctx": "self",
+  "lens": "the courage behind your feelings"
+ },
+ "The Arrow in Flight": {
+  "ctx": "present",
+  "lens": "how the spark is travelling now"
+ },
+ "The Struck Heart": {
+  "ctx": "others",
+  "lens": "the heart love is aimed at"
+ },
+ "The Arrowhead's Mark": {
+  "ctx": "future",
+  "lens": "what follows when love lands"
+ },
+ "Dear Me": {
+  "ctx": "self",
+  "lens": "how you greet yourself lately"
+ },
+ "The Sweet Nothing": {
+  "ctx": "love",
+  "lens": "the kind words you deserve"
+ },
+ "The Box of Chocolates": {
+  "ctx": "gift",
+  "lens": "the treat to give yourself"
+ },
+ "With Love, From Me": {
+  "ctx": "self",
+  "lens": "the quality worth celebrating"
+ },
+ "The Wax Seal": {
+  "ctx": "advice",
+  "lens": "the promise sealed to yourself"
+ },
+ "The Leaf of the Heart": {
+  "ctx": "love",
+  "lens": "where love is quietly growing"
+ },
+ "The Leaf of the Hearth": {
+  "ctx": "foundation",
+  "lens": "the state of home and kin"
+ },
+ "The Leaf of Hope": {
+  "ctx": "hopes",
+  "lens": "the dream unfurling toward light"
+ },
+ "The Shamrock Stem": {
+  "ctx": "foundation",
+  "lens": "the root that feeds everything"
+ },
+ "The Lucky Fourth Leaf": {
+  "ctx": "gift",
+  "lens": "a rare blessing ready to find you"
+ },
+ "The First Raindrop": {
+  "ctx": "past",
+  "lens": "the storm that started it all"
+ },
+ "The Red Band": {
+  "ctx": "self",
+  "lens": "the courage that lifts you"
+ },
+ "The Golden Band": {
+  "ctx": "present",
+  "lens": "joy that carries the effort"
+ },
+ "The Green Band": {
+  "ctx": "advice",
+  "lens": "the steady work at the peak"
+ },
+ "The Blue Band": {
+  "ctx": "advice",
+  "lens": "the honest truth guiding descent"
+ },
+ "The Violet Band": {
+  "ctx": "spirit",
+  "lens": "intuition for the last stretch"
+ },
+ "The Pot of Gold": {
+  "ctx": "future",
+  "lens": "the true worth of the reward"
+ },
+ "The Heart of the Knot": {
+  "ctx": "self",
+  "lens": "the centre every thread passes"
+ },
+ "The Tangle": {
+  "ctx": "challenge",
+  "lens": "the snag knotting your luck"
+ },
+ "The Loop of Fortune": {
+  "ctx": "gift",
+  "lens": "where chance and fortune gather"
+ },
+ "The Thread to Fortune": {
+  "ctx": "others",
+  "lens": "how luck flows to loved ones"
+ },
+ "The Loop of Kinship": {
+  "ctx": "love",
+  "lens": "kin and friends woven in"
+ },
+ "The Thread Beneath": {
+  "ctx": "foundation",
+  "lens": "inherited gifts running beneath"
+ },
+ "The Loop of Wisdom": {
+  "ctx": "advice",
+  "lens": "lessons for spending luck wisely"
+ },
+ "The Thread Returning": {
+  "ctx": "future",
+  "lens": "how the knot returns to luck"
+ },
+ "The Crown of the Shell": {
+  "ctx": "hopes",
+  "lens": "the brightest hope of spring"
+ },
+ "The Left Brushstroke": {
+  "ctx": "past",
+  "lens": "old colours still showing"
+ },
+ "The Right Brushstroke": {
+  "ctx": "future",
+  "lens": "a fresh colour being added"
+ },
+ "The Shell's Strength": {
+  "ctx": "foundation",
+  "lens": "what shields the fragile new"
+ },
+ "The Golden Yolk": {
+  "ctx": "self",
+  "lens": "the new life forming inside"
+ },
+ "The Hairline Crack": {
+  "ctx": "release",
+  "lens": "where the shell is ready to give"
+ },
+ "The Hatching": {
+  "ctx": "future",
+  "lens": "what emerges into the light"
+ },
+ "The Egg Under the Hedge": {
+  "ctx": "gift",
+  "lens": "gifts hidden in daily routine"
+ },
+ "The Egg in the Tall Grass": {
+  "ctx": "self",
+  "lens": "a talent grown over"
+ },
+ "The Egg by the Garden Gate": {
+  "ctx": "others",
+  "lens": "a gift arriving through others"
+ },
+ "The Brimming Basket": {
+  "ctx": "advice",
+  "lens": "what to carry home and share"
+ },
+ "The Listening Ear": {
+  "ctx": "others",
+  "lens": "messages from the world around"
+ },
+ "The Inward Ear": {
+  "ctx": "spirit",
+  "lens": "the quiet inner voice"
+ },
+ "The Hare's Bright Eye": {
+  "ctx": "present",
+  "lens": "how clearly you see now"
+ },
+ "The Racing Heart": {
+  "ctx": "love",
+  "lens": "what quickens your pulse"
+ },
+ "The Grounded Forepaws": {
+  "ctx": "foundation",
+  "lens": "what keeps you still and steady"
+ },
+ "The Leaping Hind Leg": {
+  "ctx": "advice",
+  "lens": "where and when to leap"
+ },
+ "The Curled Tip": {
+  "ctx": "past",
+  "lens": "the humble seed of plenty"
+ },
+ "The Widening Horn": {
+  "ctx": "foundation",
+  "lens": "effort and help that widened it"
+ },
+ "The Woven Rim": {
+  "ctx": "present",
+  "lens": "what holds the plenty together"
+ },
+ "The Open Mouth": {
+  "ctx": "self",
+  "lens": "how open you are to receive"
+ },
+ "The Spilled Apples": {
+  "ctx": "gift",
+  "lens": "daily blessings taken for granted"
+ },
+ "The Gourd and the Grain": {
+  "ctx": "future",
+  "lens": "nourishment for the cold months"
+ },
+ "The Overflowing Share": {
+  "ctx": "others",
+  "lens": "what to give from the overflow"
+ },
+ "The Head of the Table": {
+  "ctx": "self",
+  "lens": "your role in the circle"
+ },
+ "The Guest Who Feeds You": {
+  "ctx": "others",
+  "lens": "who nourishes you"
+ },
+ "The Seat of Old Memories": {
+  "ctx": "past",
+  "lens": "memories still at the table"
+ },
+ "The Guest Who Challenges": {
+  "ctx": "challenge",
+  "lens": "tension asking for patience"
+ },
+ "The Unspoken Grace": {
+  "ctx": "hopes",
+  "lens": "thanks not yet said aloud"
+ },
+ "The Harvest Centrepiece": {
+  "ctx": "gift",
+  "lens": "the blessing everyone gathers around"
+ },
+ "The Empty Chair": {
+  "ctx": "future",
+  "lens": "who you make room for next"
+ },
+ "The Thankful Prong": {
+  "ctx": "gift",
+  "lens": "what you hold onto with thanks"
+ },
+ "The Letting-Go Prong": {
+  "ctx": "release",
+  "lens": "what you are ready to release"
+ },
+ "The Wish That Snaps Free": {
+  "ctx": "hopes",
+  "lens": "the wish that breaks free"
+ }
+}

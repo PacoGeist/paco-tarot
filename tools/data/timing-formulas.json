@@ -1,0 +1,758 @@
+{
+  "oil-abramelin": {
+    "bestTime": "Summer, Litha (around June 21) when the Sun is strongest; also any Sunday for consecration",
+    "moonPhases": [
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "oil-florida-water-style": {
+    "bestTime": "Year-round; especially spring (Ostara to Beltane) when cleansing and fresh starts are favoured",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "oil-four-thieves": {
+    "bestTime": "Autumn into winter (Mabon to Yule, Sep–Dec), the traditional season of illness and protection",
+    "moonPhases": [
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent",
+      "Dark Moon"
+    ]
+  },
+  "oil-fiery-wall-of-protection": {
+    "bestTime": "Midsummer (Litha, June) for peak solar fire, or any time protection is needed",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "oil-van-van": {
+    "bestTime": "Late winter to spring (Imbolc to Ostara, Feb–Mar), the season of clearing and fresh starts",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent"
+    ]
+  },
+  "oil-road-opener": {
+    "bestTime": "Spring (Ostara, March), when new paths open with the growing year",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "First Quarter"
+    ]
+  },
+  "oil-come-to-me": {
+    "bestTime": "Beltane (May 1) and late spring, the season of love and attraction",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "oil-money-drawing": {
+    "bestTime": "Lammas to Mabon (Aug–Sep), the harvest season of abundance; any waxing moon year-round",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "oil-crown-of-success": {
+    "bestTime": "Summer, Litha (June) when solar power peaks",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "oil-uncrossing": {
+    "bestTime": "Late autumn to winter (Samhain to Yule), the season of release",
+    "moonPhases": [
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent"
+    ]
+  },
+  "oil-peaceful-home": {
+    "bestTime": "Imbolc (Feb 1-2), traditional time of hearth and home blessing",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "oil-psychic-vision": {
+    "bestTime": "Samhain (Oct 31), when the veil is thin; any full moon",
+    "moonPhases": [
+      "Full Moon"
+    ]
+  },
+  "oil-full-moon": {
+    "bestTime": "Any month's full moon; most potent at the Harvest Moon (Sep) or Hunter's Moon (Oct)",
+    "moonPhases": [
+      "Full Moon"
+    ]
+  },
+  "oil-dragons-blood-power": {
+    "bestTime": "Midsummer (Litha, June) for maximum fire and power",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "oil-attraction": {
+    "bestTime": "Beltane through midsummer (May–June), when attraction and growth peak",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "oil-healing": {
+    "bestTime": "Spring (Imbolc to Ostara), the season of renewal and returning vitality",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "oil-banishing": {
+    "bestTime": "Late autumn (Samhain to Yule, Oct–Dec) as the year wanes",
+    "moonPhases": [
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent",
+      "Dark Moon"
+    ]
+  },
+  "oil-commanding-compelling": {
+    "bestTime": "Summer (Litha to Lammas, Jun–Aug) when solar authority is strongest",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "oil-steady-work": {
+    "bestTime": "Lammas (Aug 1) and harvest season, honouring steady labour and its rewards",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "oil-sleep-and-dreams": {
+    "bestTime": "Winter (Yule to Imbolc), the season of long nights and rest",
+    "moonPhases": [
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent"
+    ]
+  },
+  "oil-cleopatra-glamour": {
+    "bestTime": "Beltane (May 1) and late spring, Venus's season of beauty",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "oil-hecate": {
+    "bestTime": "Samhain (Oct 31) and late autumn, Hecate's season; monthly at the Deipnon",
+    "moonPhases": [
+      "Waning Crescent",
+      "Dark Moon"
+    ]
+  },
+  "oil-ancestor": {
+    "bestTime": "Samhain (Oct 31), when the veil is thinnest; also loved ones' anniversaries",
+    "moonPhases": [
+      "Waning Crescent",
+      "Dark Moon"
+    ]
+  },
+  "oil-courage": {
+    "bestTime": "Spring (March, the month of Mars) through midsummer",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "incense-kyphi": {
+    "bestTime": "Year-round evening devotion; traditionally blended slowly in autumn and winter",
+    "moonPhases": [
+      "Full Moon"
+    ]
+  },
+  "incense-temple": {
+    "bestTime": "Year-round; especially major sabbats and summer Sundays",
+    "moonPhases": [
+      "Full Moon"
+    ]
+  },
+  "incense-protection": {
+    "bestTime": "Samhain (Oct 31) and the dark half of the year, or whenever protection is needed",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "incense-exorcism-banishing": {
+    "bestTime": "Samhain to Yule (Oct–Dec), as the year wanes",
+    "moonPhases": [
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent",
+      "Dark Moon"
+    ]
+  },
+  "incense-full-moon": {
+    "bestTime": "Any full moon; especially the Harvest Moon (Sep) and Hunter's Moon (Oct)",
+    "moonPhases": [
+      "Full Moon"
+    ]
+  },
+  "incense-new-moon": {
+    "bestTime": "Any new moon; especially at Yule or Imbolc for new beginnings",
+    "moonPhases": [
+      "Dark Moon",
+      "New Moon"
+    ]
+  },
+  "incense-samhain": {
+    "bestTime": "Samhain, October 31 (Southern Hemisphere: April 30), the thin-veil festival",
+    "moonPhases": [
+      "Waning Crescent",
+      "Dark Moon",
+      "New Moon"
+    ]
+  },
+  "incense-beltane": {
+    "bestTime": "Beltane, May 1 (Southern Hemisphere: October 31), the fertility festival",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "incense-yule": {
+    "bestTime": "Yule, winter solstice around Dec 21 (Southern Hemisphere: June 21), the Sun's rebirth",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent"
+    ]
+  },
+  "incense-litha": {
+    "bestTime": "Litha, summer solstice around June 21 (Southern Hemisphere: Dec 21), the Sun at its peak",
+    "moonPhases": [
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "incense-ostara": {
+    "bestTime": "Ostara, spring equinox around March 20 (Southern Hemisphere: Sep 22), balance and new growth",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "First Quarter"
+    ]
+  },
+  "incense-imbolc": {
+    "bestTime": "Imbolc, February 1-2 (Southern Hemisphere: Aug 1), first stirrings of spring",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent"
+    ]
+  },
+  "incense-mabon": {
+    "bestTime": "Mabon, autumn equinox around Sep 22 (Southern Hemisphere: March 20), harvest balance",
+    "moonPhases": [
+      "Full Moon",
+      "Waning Gibbous"
+    ]
+  },
+  "incense-lammas": {
+    "bestTime": "Lammas, August 1 (Southern Hemisphere: Feb 1), the first grain harvest",
+    "moonPhases": [
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "incense-money": {
+    "bestTime": "Lammas to Mabon (Aug–Sep), the harvest season of abundance; any waxing moon",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "incense-love": {
+    "bestTime": "Beltane (May 1) and late spring, the season of love",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "incense-psychic-vision": {
+    "bestTime": "Samhain (Oct 31) when the veil is thin; any full moon",
+    "moonPhases": [
+      "Full Moon"
+    ]
+  },
+  "incense-dream": {
+    "bestTime": "Winter (Yule to Imbolc), the season of long nights",
+    "moonPhases": [
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent"
+    ]
+  },
+  "incense-healing": {
+    "bestTime": "Spring (Imbolc to Ostara), the season of renewal",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "incense-purification": {
+    "bestTime": "Imbolc (Feb 1-2), the traditional festival of purification; year-round before ritual",
+    "moonPhases": [
+      "Dark Moon",
+      "New Moon"
+    ]
+  },
+  "incense-planetary-sun": {
+    "bestTime": "Summer, Litha (June) when the Sun is strongest",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "incense-planetary-moon": {
+    "bestTime": "Any month on a Monday; especially autumn and winter nights",
+    "moonPhases": [
+      "New Moon",
+      "Full Moon"
+    ]
+  },
+  "incense-planetary-mars": {
+    "bestTime": "Spring (March, Mars's month) through early summer",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "incense-planetary-venus": {
+    "bestTime": "Beltane (May) and late spring, Venus's season",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "tincture-calming-lavender-lemon-balm": {
+    "bestTime": "Midsummer (June–July), when lavender is in bloom and lemon balm is at its freshest before flowering",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "tincture-sleep-valerian-passionflower-hops": {
+    "bestTime": "Late summer to autumn (Aug–Oct), when hops and passionflower are ripe and valerian root is dug",
+    "moonPhases": [
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent",
+      "Dark Moon"
+    ]
+  },
+  "tincture-elderberry-immune": {
+    "bestTime": "Late summer to Samhain (Aug–Oct), when elderberries ripen, ready for cold-and-flu season",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "tincture-digestive-bitters": {
+    "bestTime": "Autumn (Sep–Oct), when bitter roots like dandelion and burdock hold the most potency",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "tincture-chamomile": {
+    "bestTime": "Early to midsummer (June–July), when chamomile flowers are freshest at peak bloom",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "tincture-echinacea": {
+    "bestTime": "Autumn (Sep–Oct) for roots after the plant dies back; late summer for flowers",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "tincture-st-johns-wort": {
+    "bestTime": "Midsummer, St. John's Eve (June 23-24), when the flowers are at peak bloom and oil content",
+    "moonPhases": [
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "tincture-nettle": {
+    "bestTime": "Spring (Mar–May), when young nettle tops are freshest before flowering",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "tincture-dandelion-root-liver": {
+    "bestTime": "Early spring (Mar) before flowering, or autumn, when roots are richest",
+    "moonPhases": [
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent",
+      "Dark Moon"
+    ]
+  },
+  "tincture-ginger-warming": {
+    "bestTime": "Late autumn into winter (Oct–Jan), when fresh ginger is plentiful and warmth is needed",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "tincture-yarrow": {
+    "bestTime": "Midsummer (Litha, June–July), when yarrow is in full flower",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "tincture-mugwort-dream": {
+    "bestTime": "Midsummer to Lammas (June–Aug), when mugwort leaves and buds are freshest just before flowering",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "tincture-rosemary-memory": {
+    "bestTime": "Late spring to summer (May–Aug), when rosemary's new growth is most aromatic",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "tincture-hawthorn-heart": {
+    "bestTime": "Autumn (Sep–Oct, Mabon to Samhain), when hawthorn berries ripen; flowers at Beltane",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "tincture-skullcap-stress": {
+    "bestTime": "Summer (July–Aug), when skullcap is in flower and potency peaks",
+    "moonPhases": [
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent",
+      "Dark Moon"
+    ]
+  },
+  "tincture-motherwort": {
+    "bestTime": "Early to midsummer (June–July), when motherwort is in flower",
+    "moonPhases": [
+      "Full Moon"
+    ]
+  },
+  "tincture-peppermint": {
+    "bestTime": "Midsummer (June–Aug), just before peppermint flowers when oils are strongest",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "tincture-calendula-external": {
+    "bestTime": "Summer (June–Sep), when calendula blooms are freshest and resinous",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "tincture-damiana": {
+    "bestTime": "Beltane (May) and late spring for love workings; dried damiana keeps year-round",
+    "moonPhases": [
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "tincture-thyme-cough": {
+    "bestTime": "Early summer (June), when thyme flowers and its oils peak, ready for winter coughs",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "tincture-vervain": {
+    "bestTime": "Midsummer (Litha, June–July), vervain's traditional gathering time while in flower",
+    "moonPhases": [
+      "Full Moon"
+    ]
+  },
+  "tincture-childrens-tummy-glycerite": {
+    "bestTime": "Summer (June–Aug), when chamomile, lemon balm and fennel are freshest",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "brew-full-moon-water": {
+    "bestTime": "Any month's full moon; especially the Harvest Moon (Sep) and Blue Moons",
+    "moonPhases": [
+      "Full Moon"
+    ]
+  },
+  "brew-sun-water": {
+    "bestTime": "Summer, Litha (around June 21), when sunlight is longest and strongest",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "brew-storm-water": {
+    "bestTime": "Late spring to summer (May–Aug), the thunderstorm season",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon",
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent"
+    ]
+  },
+  "brew-rose-water": {
+    "bestTime": "Late spring to early summer (May–June), when roses are in fullest bloom",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "brew-florida-water": {
+    "bestTime": "Spring (Imbolc to Ostara) for seasonal cleansing; year-round as needed",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "brew-kitchen-witch-love-tea": {
+    "bestTime": "Beltane (May 1) and summer, when rose and other love herbs are fresh",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "brew-prosperity-tea": {
+    "bestTime": "Lammas to Mabon (Aug–Sep), the harvest season of abundance",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "brew-psychic-tea": {
+    "bestTime": "Samhain (Oct 31), when the veil is thin; autumn evenings",
+    "moonPhases": [
+      "New Moon",
+      "Full Moon"
+    ]
+  },
+  "brew-dream-tea": {
+    "bestTime": "Winter (Yule to Imbolc), the season of long nights and dreaming",
+    "moonPhases": [
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "brew-protection-tea": {
+    "bestTime": "Samhain and the dark half of the year (Oct–Jan)",
+    "moonPhases": [
+      "Full Moon",
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent"
+    ]
+  },
+  "brew-witchs-cold-flu": {
+    "bestTime": "Autumn through winter (Oct–Mar), cold and flu season",
+    "moonPhases": [
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent"
+    ]
+  },
+  "brew-fire-cider": {
+    "bestTime": "Autumn (Mabon to Samhain, Sep–Oct), when garlic, onion and horseradish are harvested, ready for winter",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "brew-golden-milk": {
+    "bestTime": "Autumn and winter (Oct–Feb), when warmth and solar energy are most needed",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "brew-samhain-spiced-cider": {
+    "bestTime": "Samhain (Oct 31) and the apple harvest of autumn",
+    "moonPhases": [
+      "Waning Crescent",
+      "Dark Moon",
+      "Full Moon"
+    ]
+  },
+  "brew-yule-wassail": {
+    "bestTime": "Yule, winter solstice (around Dec 21) through Twelfth Night (Jan 5-6)",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "Full Moon"
+    ]
+  },
+  "brew-beltane-may-wine": {
+    "bestTime": "Beltane (Apr 30 – May 1), when sweet woodruff is fresh and in flower",
+    "moonPhases": [
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "brew-lunar-chamomile-sleep": {
+    "bestTime": "Summer to make with fresh chamomile; winter's long nights for drinking",
+    "moonPhases": [
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent"
+    ]
+  },
+  "brew-hangover-detox": {
+    "bestTime": "Year-round; especially the New Year and spring cleansing (Imbolc to Ostara)",
+    "moonPhases": [
+      "Waning Gibbous",
+      "Last Quarter",
+      "New Moon"
+    ]
+  },
+  "brew-cleansing-floor-wash": {
+    "bestTime": "Late winter to spring (Imbolc, Feb, for traditional spring cleaning)",
+    "moonPhases": [
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent",
+      "Dark Moon"
+    ]
+  },
+  "brew-uncrossing-spiritual-bath": {
+    "bestTime": "Samhain to Yule (Oct–Dec) to shed the year's burdens; any time needed",
+    "moonPhases": [
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent",
+      "Dark Moon"
+    ]
+  },
+  "brew-goddess-rose-hibiscus": {
+    "bestTime": "Summer (June–Aug), when roses and hibiscus are freshest",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "brew-courage-tea": {
+    "bestTime": "Spring (March, Mars's month) through midsummer",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "brew-grounding-root-brew": {
+    "bestTime": "Autumn (Mabon to Samhain), when roots are harvested and energy turns inward",
+    "moonPhases": [
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent"
+    ]
+  },
+  "brew-abundance-moon-milk": {
+    "bestTime": "Harvest season (Lammas to Mabon), especially the Harvest Moon in September",
+    "moonPhases": [
+      "Full Moon"
+    ]
+  }
+}

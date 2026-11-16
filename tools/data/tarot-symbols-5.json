@@ -1,0 +1,226 @@
+[
+ {
+  "name": "Ace of Swords",
+  "symbols": [
+   {"feature": "Hand emerging from a cloud", "where": "centre-left, a white hand issuing from a grey cloud on the left edge", "meaning": "The divine hand offers the gift of the suit from beyond the human world. In the Swords it is the gift of intellect, truth and clear decision, given rather than earned."},
+   {"feature": "Upright double-edged sword", "where": "centre, rising vertically through the card", "meaning": "The sword is the instrument of the mind: it cuts through confusion and separates truth from illusion. Held upright, it is often read as justice, clarity and a decisive breakthrough."},
+   {"feature": "Golden crown at the sword's tip", "where": "top centre, the blade passing through it", "meaning": "The crown traditionally signifies victory, mastery and authority won through clear thought. Waite links it to triumph and the power of the will."},
+   {"feature": "Olive branch hanging from the crown", "where": "top left, green leaves with small red berries", "meaning": "The olive branch is a classic emblem of peace and mercy. Its presence suggests that the sharp power of the sword can serve reconciliation."},
+   {"feature": "Palm frond hanging from the crown", "where": "top right, long green-gold leaf", "meaning": "The palm is a symbol of victory and spiritual triumph, often after struggle. Paired with the olive, it shows that clarity can bring both success and peace."},
+   {"feature": "Falling golden yods", "where": "around the blade, six golden drops in the air", "meaning": "These Hebrew-letter-shaped drops are traditionally read as divine grace descending into the material world. They mark the Ace as a pure spark of inspiration from above."},
+   {"feature": "Grey swirling cloud", "where": "left edge, beside the hand", "meaning": "Clouds are linked to the element of Air and the realm of thought. Their grey colour hints that the mind's gifts often emerge out of confusion or turbulence."},
+   {"feature": "Halo of light around the hand", "where": "centre, small radiating lines around the fist", "meaning": "The faint radiance marks the gift as sacred or inspired. It is often read as a flash of insight or illumination."},
+   {"feature": "Barren mountain range", "where": "bottom of the card, low blue-brown peaks across the width", "meaning": "Mountains traditionally represent challenges and lofty aspirations. Here they lie far below the sword, suggesting that clear thought rises above obstacles but must still face a stark, demanding terrain."},
+   {"feature": "Pale grey-white background", "where": "whole sky behind the sword", "meaning": "The cool, colourless field fits the airy, intellectual nature of the suit. It is often read as objectivity, detachment and mental clarity rather than emotion."},
+   {"feature": "Firm grip on the hilt", "where": "centre, fist clasped around the crossguard and grip", "meaning": "The hand holds the sword securely, showing that this power must be wielded with control and responsibility. It suggests the need to take hold of a decision."}
+  ]
+ },
+ {
+  "name": "Two of Swords",
+  "symbols": [
+   {"feature": "Blindfolded woman", "where": "centre, seated facing the viewer, white cloth over her eyes", "meaning": "The blindfold shows that she cannot or will not see the full situation. It is often read as avoidance, a stalemate, or a decision being made without all the facts."},
+   {"feature": "Arms crossed over the heart holding two swords", "where": "centre, swords crossing her chest and rising to either side", "meaning": "The crossed arms form a defensive barrier over the heart, keeping feelings guarded. The balanced swords show two options held in tense equilibrium, neither yet chosen."},
+   {"feature": "Long white robe", "where": "covering the seated figure to her feet", "meaning": "White traditionally signifies innocence and purity of intention. It suggests her impasse comes from uncertainty rather than wrongdoing."},
+   {"feature": "Crescent moon", "where": "top right, in the blue sky", "meaning": "The moon is linked to intuition, cycles and hidden things. A waxing crescent is often read as a sign to trust inner knowing when outer sight is blocked."},
+   {"feature": "Sea behind her", "where": "background, a broad stretch of water across the card", "meaning": "Water represents emotion and the subconscious. With her back to it, she is often read as setting aside feelings to keep the balance."},
+   {"feature": "Rocks jutting from the water", "where": "middle distance, left and right of the figure", "meaning": "The rocks are obstacles hidden in emotional waters. They warn that ignored feelings or unseen problems lie beneath an apparently calm surface."},
+   {"feature": "Grey stone bench", "where": "centre, beneath the seated figure", "meaning": "The stone seat suggests stability, but also rigidity and stillness. She is fixed in place, holding a position rather than moving forward."},
+   {"feature": "Pale blue sky", "where": "upper half of the card", "meaning": "Blue sky traditionally conveys calm, spirit and intuition. The serenity of the scene shows that the conflict is internal rather than outward."},
+   {"feature": "Distant shoreline", "where": "far background, a low yellow-brown line of land", "meaning": "The far shore is a resolution not yet reached. It hints that there is solid ground beyond the current deadlock."},
+   {"feature": "Yellow shoes", "where": "bottom centre, at her feet", "meaning": "Yellow is linked to intellect and consciousness. Her feet are grounded in reason even while her sight is covered."},
+   {"feature": "Grey stone floor", "where": "foreground, across the bottom of the card", "meaning": "The bare grey ground echoes neutrality and suspended judgement. It reinforces the sense of a pause between choices."},
+   {"feature": "Roman numeral II", "where": "top centre", "meaning": "Two is the number of duality, choice and balance. It underlines the card's theme of two opposing options held in tension."}
+  ]
+ },
+ {
+  "name": "Three of Swords",
+  "symbols": [
+   {"feature": "Red heart", "where": "centre, large and floating in the air", "meaning": "The heart is the seat of love and emotion. Its plain, stylised form makes the card a direct image of emotional pain."},
+   {"feature": "Three swords piercing the heart", "where": "centre, entering from above and passing through", "meaning": "The swords bring the sharp force of truth or words into the heart, often read as heartbreak, grief or painful realisation. Three can suggest a third party or a hurt that comes through relationships."},
+   {"feature": "Central vertical sword", "where": "centre, plunging straight down through the heart", "meaning": "The straight central blade shows a clean, unmistakable cut. It suggests that the truth, however painful, is clear and cannot be denied."},
+   {"feature": "Two angled swords", "where": "left and right, crossing diagonally through the heart", "meaning": "The angled swords spread the wound, showing pain coming from more than one direction. Together with the centre sword they form a symmetrical, almost formal composition of sorrow."},
+   {"feature": "Driving rain", "where": "across the card, diagonal grey lines", "meaning": "Rain is traditionally read as tears and grief, but also as cleansing. It suggests that sorrow, once released, can wash the way clear."},
+   {"feature": "Heavy storm clouds", "where": "top and right edges, white-grey clouds", "meaning": "Clouds are linked to Air and the mind. Gathered storm clouds show turbulent thoughts and the emotional weather of a painful moment."},
+   {"feature": "Grey sky", "where": "entire background", "meaning": "A grey sky traditionally signals sorrow, uncertainty and conflict. It sets the bleak emotional tone of the card."},
+   {"feature": "Absence of any figure", "where": "the whole scene", "meaning": "No person appears, making the pain universal and impersonal. The card shows the feeling itself rather than a story about someone."},
+   {"feature": "Roman numeral III", "where": "top centre", "meaning": "Three is often a number of growth and expression. Here it can hint that heartbreak is a stage that leads to understanding and healing."}
+  ]
+ },
+ {
+  "name": "Four of Swords",
+  "symbols": [
+   {"feature": "Effigy of a knight on a tomb", "where": "centre, lying full length on a stone tomb", "meaning": "The recumbent knight is traditionally read as rest, retreat and recovery rather than death. Waite calls it vigilance, retreat and solitude."},
+   {"feature": "Hands joined in prayer", "where": "centre, raised above the chest", "meaning": "The praying hands signify contemplation, meditation and turning inward to the spirit. Rest here is a sacred pause, not mere idleness."},
+   {"feature": "Golden-yellow armour", "where": "the reclining figure, head to foot", "meaning": "The armour shows a warrior who has laid down the fight. Its yellow colour links to the mind and consciousness, suggesting thoughts gathered in stillness."},
+   {"feature": "Three swords hanging on the wall", "where": "upper right, pointing down", "meaning": "The three hanging swords are past conflicts and worries set aside for now. Pointing downward, they suggest the mind grounding itself."},
+   {"feature": "Single sword along the tomb", "where": "lower part of the card, lying horizontal on the side of the tomb", "meaning": "The fourth sword lies beneath the figure, at rest. It is often read as the one matter still to be faced when the rest is over."},
+   {"feature": "Stained-glass window", "where": "upper left, coloured panes with figures", "meaning": "The window shows a kneeling figure before a holy or haloed figure, linking the scene to sanctuary and blessing. It suggests that renewal comes through spiritual connection during the retreat."},
+   {"feature": "Church or chapel interior", "where": "whole setting, grey walls and enclosed space", "meaning": "The enclosed sacred space signifies sanctuary and withdrawal from the world. It is a place of protection while healing takes place."},
+   {"feature": "Closed eyes", "where": "the figure's face, near the right side", "meaning": "Closed eyes show sleep, rest or meditation. The mind is deliberately turned away from outer stimulation."},
+   {"feature": "Grey walls and muted palette", "where": "background", "meaning": "The quiet grey tones convey stillness and withdrawal. Grey here reads less as sorrow than as a neutral, restful pause."},
+   {"feature": "Stone tomb", "where": "bottom half of the card, yellow-gold stone", "meaning": "The tomb suggests a symbolic death and rebirth: one phase is laid to rest before the next begins. It points to the restorative power of stillness."},
+   {"feature": "Roman numeral IV", "where": "top centre", "meaning": "Four is the number of stability and structure. In the Swords it brings a pause, a firm foundation from which the mind can recover."}
+  ]
+ },
+ {
+  "name": "Five of Swords",
+  "symbols": [
+   {"feature": "Smirking figure gathering swords", "where": "right foreground, young man looking over his shoulder", "meaning": "The central figure has won and collected the swords, but his sly expression suggests a hollow or unfair victory. He is often read as self-interest, winning at all costs or gloating."},
+   {"feature": "Two swords over his shoulder", "where": "right, held in his left arm", "meaning": "He holds more swords than he can use, the spoils of conflict. It suggests taking more than is needed or claiming what belonged to others."},
+   {"feature": "Third sword point-down in his hand", "where": "right centre, point resting on the ground", "meaning": "The lowered sword shows the fight is over. He leans on it as a sign of the conflict's outcome and his claim to victory."},
+   {"feature": "Two swords lying on the ground", "where": "bottom left, scattered", "meaning": "The abandoned swords are the weapons of the defeated. They signal loss, surrender and discarded efforts."},
+   {"feature": "Two figures walking away", "where": "left middle distance, toward the water", "meaning": "The defeated walk off dejected, one seemingly holding his head. They show the cost of conflict: humiliation, estrangement and broken relationships."},
+   {"feature": "Gaze directed at the departing figures", "where": "the central figure's head turned toward the left", "meaning": "He watches the losers rather than looking ahead. It is often read as taunting, or as a victory that still keeps him tied to the conflict."},
+   {"feature": "Jagged, torn clouds", "where": "across the sky, grey-white streaks", "meaning": "The ragged clouds signal turbulent thoughts and tension in the air. They show that the conflict has disturbed the peace."},
+   {"feature": "Blue sky behind the clouds", "where": "upper half", "meaning": "The blue suggests calm still exists beyond the storm. It hints that the strife is passing."},
+   {"feature": "Sea and distant land", "where": "middle background", "meaning": "Water represents emotion; the defeated retreat toward it, toward grief or reflection. The distant shore suggests separation."},
+   {"feature": "Green tunic with red sleeves and red hose", "where": "the central figure's clothing", "meaning": "Green can suggest youth or envy; red signals passion, aggression and drive. Together they hint at the ambitious, combative energy behind the victory."},
+   {"feature": "Grey ground", "where": "foreground", "meaning": "The bare grey ground reflects the dull aftermath of conflict. Nothing grows from this victory."},
+   {"feature": "Roman numeral V", "where": "top centre", "meaning": "Five is the number of instability and disruption in the Minor Arcana. Here it shows conflict, loss and the breakdown of harmony."}
+  ]
+ },
+ {
+  "name": "Six of Swords",
+  "symbols": [
+   {"feature": "Ferryman poling the boat", "where": "left of centre, standing figure seen from behind", "meaning": "The ferryman is a guide who moves others toward safety. He is often read as help offered in a time of transition."},
+   {"feature": "Cloaked, hooded woman", "where": "centre right, seated in the boat", "meaning": "Her bowed head and covering cloak show sorrow, weariness or grief carried with her. She is leaving something painful behind."},
+   {"feature": "Child beside her", "where": "centre, small figure partly hidden next to the woman", "meaning": "The child is often read as vulnerability, innocence or the future being protected. It suggests a move made for the sake of others."},
+   {"feature": "Six swords standing upright in the boat", "where": "right side of the boat, a row of vertical swords", "meaning": "The swords travel with the passengers, showing that memories and worries are still carried along. Yet they stand still, no longer actively wounding."},
+   {"feature": "Long wooden punt pole", "where": "diagonally from the ferryman's hands down into the water", "meaning": "The pole shows steady, deliberate effort and navigation. Progress is made patiently, push by push."},
+   {"feature": "Rough water on the right", "where": "bottom right, rippled waves beside the boat", "meaning": "Water represents emotion; the rough water is the turmoil being left behind. It is traditionally read as the troubled side of the passage."},
+   {"feature": "Calm water ahead", "where": "left and middle background, smooth water toward the shore", "meaning": "The smooth water ahead promises emotional calm. Waite describes the card as a journey by water and passage away from difficulty."},
+   {"feature": "Distant shore with trees", "where": "far background, a low line of trees", "meaning": "The far shore is a destination of rest and recovery. It suggests a better place or state of mind lies ahead."},
+   {"feature": "Pale grey-white sky", "where": "upper part of the card", "meaning": "The muted sky signals a subdued, reflective mood. Neither bright nor stormy, it fits a time of quiet transition."},
+   {"feature": "Ferryman's orange tunic", "where": "on the standing figure", "meaning": "The warm orange colour suggests vitality and purpose. The guide brings energy to a journey the passengers are too weary to make alone."},
+   {"feature": "Roman numeral VI", "where": "top centre", "meaning": "Six is the number of harmony and restoration. In the Swords it signals recovery after conflict and a movement toward balance."}
+  ]
+ },
+ {
+  "name": "Seven of Swords",
+  "symbols": [
+   {"feature": "Man tiptoeing away", "where": "centre, figure stepping lightly toward the left", "meaning": "His careful, stealthy walk suggests secrecy, cunning or getting away with something. It is often read as strategy, evasion or deception."},
+   {"feature": "Five swords carried in his arms", "where": "centre, bundled diagonally", "meaning": "He holds swords by their blades in an awkward grip, showing a risky plan. It suggests taking what one can, perhaps more than is safe."},
+   {"feature": "Two swords left standing", "where": "right of centre, stuck upright in the ground", "meaning": "Not everything could be taken. The swords left behind hint that the plan is incomplete or that something has been overlooked."},
+   {"feature": "Backward glance over his shoulder", "where": "the figure's head turned toward the camp", "meaning": "He looks back to see if he has been noticed. It suggests guilt, watchfulness or fear of being caught."},
+   {"feature": "Smile on his face", "where": "the figure's face", "meaning": "His slight grin shows confidence and pleasure in his own cleverness. It can also hint at overconfidence."},
+   {"feature": "Military camp with tents", "where": "right background, colourful tents and pennants", "meaning": "The tents are the camp he is leaving, the source of the swords. They suggest taking from a group or acting alone against others."},
+   {"feature": "Distant figures", "where": "far left background, a small group by the tents", "meaning": "The small figures in the distance seem unaware of him. They emphasise the secret, unseen nature of his actions."},
+   {"feature": "Bright yellow sky", "where": "entire background", "meaning": "Yellow traditionally signals consciousness, intellect and optimism. Here it suggests a quick, clever mind at work, in plain daylight."},
+   {"feature": "Red fez-like cap and red boots", "where": "on his head and feet", "meaning": "Red conveys energy, daring and drive. His bold colours sit at odds with his attempt to go unnoticed."},
+   {"feature": "Mottled brown tunic", "where": "on the figure", "meaning": "The earthy, patterned tunic suggests practicality and perhaps camouflage. He blends into the scene as a trickster figure."},
+   {"feature": "Yellow ground", "where": "foreground", "meaning": "The ground shares the colour of the sky, keeping the whole scene in the realm of the mind and strategy."},
+   {"feature": "Roman numeral VII", "where": "top centre", "meaning": "Seven is often linked to assessment and challenge. In the Swords it suggests testing one's wits and acting independently."}
+  ]
+ },
+ {
+  "name": "Eight of Swords",
+  "symbols": [
+   {"feature": "Blindfolded woman", "where": "centre, standing among the swords", "meaning": "The blindfold means she cannot see her way out. It is traditionally read as confusion, self-doubt or a restricted point of view."},
+   {"feature": "Loosely bound body", "where": "centre, white bands wrapped around her arms and torso", "meaning": "Her binding is loose and her legs are free, suggesting the trap is not as complete as it seems. It is often read as feeling powerless while able to walk away."},
+   {"feature": "Eight swords around her", "where": "three on the left and five on the right, upright in the ground", "meaning": "The swords form a partial enclosure, a fence of fears and limiting thoughts. There is an open way out in front of her."},
+   {"feature": "Red-brown robe", "where": "the woman's gown", "meaning": "The warm red tones suggest passion and life-force, still present though restrained. It hints that her vitality is intact under the restriction."},
+   {"feature": "Castle on a cliff", "where": "right background, on a rocky height", "meaning": "The castle is home, authority or security in the distance. It can represent the structure she is cut off from, or a goal still within reach."},
+   {"feature": "Pools of water on the ground", "where": "bottom of the card, puddles in the muddy earth", "meaning": "Water represents emotion; the shallow pools suggest tears and feelings seeping into her situation. Shallow water can be crossed, hinting the trap can be escaped."},
+   {"feature": "Muddy ground", "where": "foreground, yellow-brown earth", "meaning": "The soft, uncertain footing shows unstable conditions. Moving forward will take care but is possible."},
+   {"feature": "Pale grey sky", "where": "upper half", "meaning": "Grey traditionally signals sorrow, uncertainty and conflict. It adds to the mood of isolation and indecision."},
+   {"feature": "Rocky hills in the distance", "where": "middle background, behind the right-hand swords", "meaning": "The rocky ground suggests challenges ahead. It sets the castle and the way out at a distance."},
+   {"feature": "Lowered head", "where": "the figure's head, slightly bowed", "meaning": "Her bowed posture shows passivity and resignation. It suggests she has not yet chosen to act."},
+   {"feature": "Roman numeral VIII", "where": "top centre", "meaning": "Eight is often associated with movement and power. In the Swords it reminds that the power to move is held back only by the mind."}
+  ]
+ },
+ {
+  "name": "Nine of Swords",
+  "symbols": [
+   {"feature": "Woman sitting up in bed", "where": "centre, upright with legs under the quilt", "meaning": "She has woken in the night, unable to rest. The card is traditionally read as anxiety, nightmares and sleepless worry."},
+   {"feature": "Face buried in her hands", "where": "centre, both hands covering her face", "meaning": "Her gesture shows despair, grief or overwhelming thoughts. She cannot face what troubles her."},
+   {"feature": "Nine horizontal swords", "where": "left side and across the black background, stacked in rows", "meaning": "The swords hang in the air without touching her, showing that the torment is mental. They are fears and thoughts that loom larger than reality."},
+   {"feature": "Black background", "where": "entire upper half", "meaning": "Black traditionally signals despair, the unknown and night. The darkness magnifies her fears, as worries often grow at night."},
+   {"feature": "Quilt with roses", "where": "bottom right, quilt over her legs", "meaning": "The red roses are often read as passion and beauty still present in her life. They hint that comfort is near, even in distress."},
+   {"feature": "Astrological signs on the quilt", "where": "bottom right, symbols in the quilt squares", "meaning": "The planetary and zodiac symbols suggest the larger order of fate and the cosmos. They imply that her troubles are part of a cycle that will pass."},
+   {"feature": "Carving on the bed", "where": "bottom left, carved panel on the bed frame", "meaning": "The carving shows one figure attacking or defeating another. It is often read as the conflict or memory replaying in her mind."},
+   {"feature": "White nightgown", "where": "on the seated woman", "meaning": "White suggests innocence and vulnerability. Her distress may come from worry rather than guilt."},
+   {"feature": "Wooden bed and pillow", "where": "bottom left, under and behind her", "meaning": "The bed is a place of rest turned into a place of torment. It emphasises how anxiety invades even the most private moments."},
+   {"feature": "Roman numeral IX", "where": "top centre", "meaning": "Nine is the number of near-completion. In the Swords it shows mental suffering at its height, just before the end of a cycle."}
+  ]
+ },
+ {
+  "name": "Ten of Swords",
+  "symbols": [
+   {"feature": "Figure lying face down", "where": "bottom of the card, stretched across the ground", "meaning": "The prone figure represents a painful ending, defeat or the absolute bottom of a situation. It is often read as the end of a cycle rather than literal death."},
+   {"feature": "Ten swords in his back", "where": "centre, a row of swords piercing him from neck to legs", "meaning": "The excess of swords makes the scene almost theatrical, suggesting a final, total collapse. It can also signal betrayal, or that the worst is now over."},
+   {"feature": "Red cloth draped over him", "where": "bottom, covering the lower body", "meaning": "Red signifies passion, life and suffering. The cloth spread over him resembles spilled life-force and the drama of the ending."},
+   {"feature": "Black sky", "where": "upper half of the card", "meaning": "Black traditionally represents despair, night and the unknown. It shows the darkness of the situation at its deepest."},
+   {"feature": "Yellow band of dawn on the horizon", "where": "middle, between the black sky and the water", "meaning": "The light breaking at the horizon promises a new day. It is traditionally read as hope and renewal after the darkest hour."},
+   {"feature": "Calm water", "where": "middle background, a still blue strip", "meaning": "Water represents emotion; its stillness suggests that the turmoil has passed. Peace follows the end."},
+   {"feature": "Distant mountains", "where": "far background along the horizon", "meaning": "Mountains represent challenges and aspirations. Their distance suggests future goals that will be faced once recovery begins."},
+   {"feature": "Hand in a blessing gesture", "where": "bottom left, the figure's outstretched right hand", "meaning": "His fingers form a gesture similar to a benediction. It is often read as acceptance or surrender, and as a sign that something sacred remains even in defeat."},
+   {"feature": "Face turned away", "where": "bottom right, the figure's head", "meaning": "We do not see his face, so the figure stands for anyone at a moment of complete ending."},
+   {"feature": "Roman numeral X", "where": "top centre", "meaning": "Ten is the number of completion. It marks the close of the Swords cycle and the space for a fresh beginning."}
+  ]
+ },
+ {
+  "name": "Page of Swords",
+  "symbols": [
+   {"feature": "Youth holding an upright sword", "where": "centre, both hands on the hilt, blade pointing upward", "meaning": "The Page holds the sword of the mind ready, eager and alert. It is often read as curiosity, new ideas and a quick, watchful intelligence."},
+   {"feature": "Gaze turned to the side", "where": "the figure's head turned toward the left", "meaning": "He looks away from the direction of his body, as if watching for something. It suggests vigilance, a curious mind, and sometimes restlessness."},
+   {"feature": "Windblown hair", "where": "top of the figure's head", "meaning": "The wind marks the element of Air, which rules the Swords. It shows a mind full of fast-moving thoughts."},
+   {"feature": "Standing on uneven high ground", "where": "bottom, green and yellow hilltop", "meaning": "Standing on a rise gives him a wide view. It suggests perspective and a readiness to survey the situation."},
+   {"feature": "Flock of birds", "where": "top left, small dark birds in the sky", "meaning": "Birds are creatures of the air, linked to thought and communication. They suggest messages, news and freedom of mind."},
+   {"feature": "Billowing white clouds", "where": "behind the figure, both sides", "meaning": "Clouds are linked to Air and intellect. White clouds suggest fresh, active thinking more than turmoil."},
+   {"feature": "Blue sky", "where": "upper background", "meaning": "Blue traditionally conveys calm, spirit and intuition. It gives the scene a clear, open mood."},
+   {"feature": "Trees bending in the wind", "where": "lower left, distant trees", "meaning": "The leaning trees show a strong wind blowing. They emphasise the dynamic, changeable energy of Air."},
+   {"feature": "Rose tunic with yellow sleeves and yellow hose", "where": "the figure's clothing", "meaning": "Yellow is linked to intellect and consciousness. The combination suggests youthful energy guided by the mind."},
+   {"feature": "Red boots", "where": "bottom, on his feet", "meaning": "Red signals energy and readiness for action. He is prepared to move quickly."},
+   {"feature": "Distant hills and water", "where": "lower right, far background", "meaning": "The far landscape hints at the wider world his curiosity reaches toward. It suggests exploration and learning."}
+  ]
+ },
+ {
+  "name": "Knight of Swords",
+  "symbols": [
+   {"feature": "Charging white horse", "where": "centre, galloping to the left", "meaning": "The horse at full gallop shows speed, force and urgency. White can suggest purity of intent, but the pace suggests rashness."},
+   {"feature": "Armoured knight", "where": "centre, riding the horse", "meaning": "The fully armoured rider is ready for battle. He represents ambition, assertiveness and driving straight at a goal."},
+   {"feature": "Sword raised high", "where": "top left, held aloft in his right hand", "meaning": "The raised sword shows decisive, aggressive action. It is often read as a determined mind charging into conflict."},
+   {"feature": "Red cape streaming behind", "where": "behind the knight's shoulders", "meaning": "Red signals passion, courage and drive. The streaming cape emphasises his speed and intensity."},
+   {"feature": "Helmet with red plume", "where": "on the knight's head", "meaning": "The plume adds to the image of a bold warrior. It emphasises his fiery commitment to his cause."},
+   {"feature": "Torn, windblown clouds", "where": "across the sky", "meaning": "Clouds are linked to Air; their ragged shapes show strong winds and turbulent thought. They signal conflict and fast-changing circumstances."},
+   {"feature": "Trees bending in the wind", "where": "lower left, windswept trees", "meaning": "The trees bending sharply show a powerful wind. They emphasise the force and haste of the scene."},
+   {"feature": "Butterflies and birds on the horse's trappings", "where": "on the harness and caparison", "meaning": "Butterflies and birds are symbols of Air and transformation. They link the knight to the intellectual element of the suit."},
+   {"feature": "Blue sky", "where": "upper background", "meaning": "Blue traditionally conveys spirit and intuition. Here it is crossed by clouds, suggesting clarity disturbed by haste."},
+   {"feature": "Yellow ground", "where": "bottom of the card", "meaning": "Yellow links to intellect and consciousness. The bright ground suggests a mind-driven path."},
+   {"feature": "Horse's open mouth and wild eye", "where": "left, the horse's head", "meaning": "The horse looks frantic, adding to the sense of reckless momentum. It warns that speed can outrun judgement."}
+  ]
+ },
+ {
+  "name": "Queen of Swords",
+  "symbols": [
+   {"feature": "Queen seated in profile", "where": "centre, facing to the right", "meaning": "Her side-on pose suggests focus and a direct, discerning gaze. She is often read as clear judgement, honesty and independent thought."},
+   {"feature": "Upright sword", "where": "centre, held vertically in her right hand", "meaning": "The vertical sword signals truth, justice and clear thinking. She uses her intellect to cut through deception."},
+   {"feature": "Raised, outstretched left hand", "where": "right, hand extended in the air", "meaning": "Her open hand suggests welcome or a gesture of invitation, balancing her sharp sword. It is often read as fairness and openness to those who are honest."},
+   {"feature": "Butterfly crown", "where": "on her head, yellow-gold", "meaning": "Butterflies are symbols of the soul, Air and transformation. They mark her as a queen of thought and change."},
+   {"feature": "Stone throne with carvings", "where": "centre left, grey throne", "meaning": "The throne carries a winged head and other carved figures, often read as sylphs or air spirits. It emphasises her connection to Air and the intellect."},
+   {"feature": "Winged cherub's head on the throne", "where": "centre, on the base of the throne", "meaning": "The winged face is often read as a sylph, an air spirit, or as innocence and spiritual guidance. It shows her authority is touched by grace."},
+   {"feature": "Cloak patterned with clouds", "where": "on her shoulders and back", "meaning": "The cloud-patterned cloak connects her to the element of Air. It suggests a mind that has passed through storms."},
+   {"feature": "Single bird in the sky", "where": "top centre, high above", "meaning": "A lone bird is often read as clarity of vision and independence. It suggests a mind that sees far."},
+   {"feature": "Clouds below and behind", "where": "right and lower background", "meaning": "Clouds gathered low suggest the troubles she rises above. They link to the turbulence of thought she has mastered."},
+   {"feature": "Trees in the background", "where": "lower left", "meaning": "The trees suggest growth and stability. They are calmer than in the Knight, showing a more steady mind."},
+   {"feature": "Blue sky", "where": "upper background", "meaning": "Blue traditionally conveys calm, spirit and intuition. It gives her realm a clear, cool atmosphere."},
+   {"feature": "Tassel or cord on her wrist", "where": "on her raised left wrist", "meaning": "The small tassel is often read as a reminder of past ties or sorrows. It hints that her wisdom has come through experience."}
+  ]
+ },
+ {
+  "name": "King of Swords",
+  "symbols": [
+   {"feature": "King seated facing forward", "where": "centre, frontal on the throne", "meaning": "His direct, frontal pose suggests openness, authority and judgement. He is often read as intellectual power and ethical leadership."},
+   {"feature": "Upright sword", "where": "left, held slightly tilted in his right hand", "meaning": "The upright sword signals truth, justice and decisive judgement. Its slight tilt is sometimes read as readiness to act."},
+   {"feature": "Blue robe", "where": "on the seated figure", "meaning": "Blue conveys calm, spirit and wisdom. It shows his authority grounded in clear and steady thought."},
+   {"feature": "Purple-red cloak", "where": "over his shoulders", "meaning": "Purple is traditionally the colour of royalty and wisdom, red of power and passion. Together they suggest a king who rules with authority and conviction."},
+   {"feature": "Golden crown", "where": "on his head", "meaning": "The crown signifies mastery and authority. He is the ruler of the Swords suit, master of mind."},
+   {"feature": "Throne carved with butterflies and crescent shapes", "where": "behind him, the throne back", "meaning": "Butterflies represent transformation and the soul; crescent shapes link to the moon and intuition. Together they link him to the element of Air and to wisdom."},
+   {"feature": "Two birds in the sky", "where": "upper right", "meaning": "Birds are creatures of the air, linked to thought. A pair can suggest balance or a meeting of minds."},
+   {"feature": "Clouds", "where": "right and behind the throne", "meaning": "Clouds are linked to Air and intellect. Their calm presence suggests a mind in control."},
+   {"feature": "Trees on either side", "where": "left and right background", "meaning": "The steady trees suggest stability and rootedness. Unlike the windblown scenes of the Knight and Page, they stand still."},
+   {"feature": "Blue sky", "where": "upper background", "meaning": "Blue traditionally conveys calm, spirit and intuition. It reflects his clear, composed mind."},
+   {"feature": "Rocky ground", "where": "bottom of the card", "meaning": "The uneven ground suggests challenges that he meets with steadiness. He is firmly seated above them."}
+  ]
+ }
+]

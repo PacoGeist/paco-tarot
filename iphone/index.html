@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0812">
+<title>Paco Morningstar's Tarot</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Paco Tarot">
+<script>try{var r=document.documentElement;r.dataset.mode=localStorage.getItem('theme')||'night';if(r.dataset.mode==='night'){var v=JSON.parse(localStorage.getItem('bgvars')||'{}');for(var k in v)r.style.setProperty(k,v[k])}}catch(e){document.documentElement.dataset.mode='night'}</script>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<header class="appbar">
+  <button class="iconbtn" id="backBtn" aria-label="Back"></button>
+  <div class="title" id="title"></div>
+  <a class="iconbtn" href="#/more" id="menuBtn" aria-label="Menu"></a>
+</header>
+<main id="view"><div class="empty" style="padding-top:40vh">Opening the grimoire…</div></main>
+<nav class="tabbar">
+  <a href="#/" data-tab="home"><span data-art="home"></span>Home</a>
+  <a href="#/list/tarot" data-tab="layouts"><span data-art="tarot"></span>Layouts</a>
+  <a href="#/deck" data-tab="deck"><span data-art="eye"></span>Deck</a>
+  <a href="#/journal" data-tab="journal"><span data-art="book"></span>Journal</a>
+  <a href="#/search" data-tab="search"><span data-art="search"></span>Search</a>
+</nav>
+<div class="toast" id="toast"></div>
+<script src="js/config.js"></script>
+<script src="js/version.js"></script>
+<script src="js/art.js"></script>
+<script src="js/backdrop.js"></script>
+<script src="js/backdrop-themes.js"></script>
+<script src="js/moon.js"></script>
+<script src="js/tarot-deck.js"></script>
+<script src="js/tarot-meanings.js"></script>
+<script src="js/data.js"></script>
+<script src="js/decks-data.js"></script>
+<script src="js/db.js"></script>
+<script src="js/decks.js"></script>
+<script src="js/core.js"></script>
+<script src="js/views.js"></script>
+<script src="js/forms.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/journal.js"></script>
+<script src="js/tarot.js"></script>
+<script src="js/school.js"></script>
+<script src="js/cards.js"></script>
+<script src="js/mydecks.js"></script>
+<script src="js/moonalerts.js"></script>
+<script src="js/updates.js"></script>
+<script src="js/trends.js"></script>
+<script>
+(async function () {
+  $$('[data-art]').forEach(s => s.innerHTML = ART[s.dataset.art]);
+  $('#backBtn').innerHTML = ART.back; $('#menuBtn').innerHTML = ART.menu;
+  $('#backBtn').onclick = () => { if (history.length > 1) history.back(); else location.hash = '#/'; };
+  await Store.load();
+  await DeckPhotos.load(); await MyDecks.load(); await CardStore.load();
+  if (baseDeck(deckId()) === 'thoth') await ThothFaces.wait();
+  await Journal.load();
+  await Workings.load();
+  applyTheme();
+  window.addEventListener('hashchange', render);
+  render();
+  Updates.boot();
+  MoonAlerts.boot();
+  // Android hardware back: let the page close modals first
+  window.appBack = function () { const lb = document.querySelector('.lightbox'); if (lb) { lb._close(); return true; } const m = document.querySelector('.modal'); if (m) { m.remove(); return true; } if (location.hash && location.hash !== '#/' && location.hash !== '#') { history.back(); return true; } return false; };
+})();
+</script>
+</body>
+</html>

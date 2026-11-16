@@ -1,0 +1,636 @@
+{
+  "spell-witch-bottle": {
+    "bestTime": "Autumn into winter, Mabon to Samhain (Sep–Oct), when protective work is traditionally renewed before the dark half of the year",
+    "moonPhases": [
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent",
+      "Dark Moon"
+    ]
+  },
+  "spell-salt-circle": {
+    "bestTime": "Year-round; especially potent at the sabbats, above all Samhain (Oct 31), when spirits move freely",
+    "moonPhases": [
+      "Full Moon",
+      "New Moon"
+    ]
+  },
+  "spell-protection-sachet": {
+    "bestTime": "Autumn, Mabon to Samhain (Sep–Oct), when protective herbs are freshly harvested and dried",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "spell-rose-quartz-self-love": {
+    "bestTime": "Spring to early summer, Ostara to Beltane (Mar–May), the season of blossoming love and renewal",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "spell-honey-jar-sweetening": {
+    "bestTime": "Late spring, around Beltane (Apr–May), when love, union and goodwill are at their seasonal height",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "spell-green-candle-money": {
+    "bestTime": "Late summer harvest, Lughnasadh to Mabon (Aug–Sep), the season of reaping abundance",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "spell-cinnamon-doorway-blessing": {
+    "bestTime": "Any month on the 1st; most potent in January and around Lughnasadh (Aug 1) for fresh-start and harvest prosperity",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "Full Moon"
+    ]
+  },
+  "spell-cord-cutting-banishing": {
+    "bestTime": "Late autumn, Samhain (Oct–Nov), the season of endings and letting go",
+    "moonPhases": [
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent",
+      "Dark Moon"
+    ]
+  },
+  "spell-uncrossing-bath": {
+    "bestTime": "Late autumn to winter, Samhain to Yule (Oct–Dec), clearing old conditions before the solar year turns",
+    "moonPhases": [
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent",
+      "Dark Moon"
+    ]
+  },
+  "spell-home-blessing": {
+    "bestTime": "Spring, Imbolc to Ostara (Feb–Mar), the traditional season of spring cleaning and fresh starts; or whenever you move in",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "spell-prophetic-dream-pillow": {
+    "bestTime": "Autumn to winter, Samhain to Yule (Oct–Dec), when the veil is thin and nights are long",
+    "moonPhases": [
+      "Full Moon"
+    ]
+  },
+  "spell-full-moon-release": {
+    "bestTime": "Year-round on each full moon; especially strong in autumn, Mabon to Samhain (Sep–Oct)",
+    "moonPhases": [
+      "Full Moon"
+    ]
+  },
+  "spell-new-moon-intention": {
+    "bestTime": "Year-round on each new moon; especially potent in midwinter–early spring, Yule to Imbolc (Dec–Feb), as the light returns",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent"
+    ]
+  },
+  "spell-bay-leaf-wish": {
+    "bestTime": "Midsummer, Litha (Jun), when the Sun is strongest; or Yule (Dec) for wishes for the new year",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "spell-freezer-binding-gossip": {
+    "bestTime": "Winter, Yule to Imbolc (Dec–Feb), the frozen season that mirrors the spell's stilling of words",
+    "moonPhases": [
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent",
+      "Dark Moon"
+    ]
+  },
+  "spell-road-opener": {
+    "bestTime": "Spring, Imbolc to Ostara (Feb–Mar), when the year opens and new paths appear",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "spell-job-employment": {
+    "bestTime": "Late summer to early autumn, Lughnasadh to Mabon (Aug–Sep), the season of labour and reward; or January for new-year starts",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "spell-courage": {
+    "bestTime": "Summer, Beltane to Litha (May–Jun), when solar and fiery energy peaks",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "spell-healing-candle": {
+    "bestTime": "Spring, Imbolc to Ostara (Feb–Mar), the season of returning life and renewal",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon",
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent"
+    ]
+  },
+  "spell-peaceful-sleep": {
+    "bestTime": "Autumn and winter, Mabon to Yule (Sep–Dec), as nights lengthen and the year turns inward",
+    "moonPhases": [
+      "Full Moon",
+      "Waning Gibbous",
+      "Waning Crescent"
+    ]
+  },
+  "spell-glamour-beauty": {
+    "bestTime": "Spring, Ostara to Beltane (Mar–May), the season of bloom and allure",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "spell-ancestor-altar-offering": {
+    "bestTime": "Autumn, Samhain and Day of the Dead (Oct 31–Nov 2), when the veil between worlds is thinnest",
+    "moonPhases": [
+      "Dark Moon",
+      "Waning Crescent",
+      "Full Moon"
+    ]
+  },
+  "spell-mirror-reflection-protection": {
+    "bestTime": "Autumn into winter, Samhain to Yule (Oct–Dec), the dark half of the year suited to protective returns",
+    "moonPhases": [
+      "Full Moon",
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent"
+    ]
+  },
+  "spell-luck-mojo-bag": {
+    "bestTime": "Midsummer, Litha (Jun), at the Sun's peak; or Lughnasadh (Aug) for harvest luck",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "spell-safe-travel": {
+    "bestTime": "Summer, Litha to Lughnasadh (Jun–Aug), the main travel season; or the day before any journey",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "spell-lost-object-finding": {
+    "bestTime": "Year-round as needed; spring and autumn equinoxes (Mar, Sep) favour balance and clarity",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Full Moon"
+    ]
+  },
+  "spell-peace-in-the-home": {
+    "bestTime": "Midwinter, Yule (Dec), when families gather and household harmony matters most",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent"
+    ]
+  },
+  "spell-grief-emotional-healing": {
+    "bestTime": "Late autumn, Samhain (Oct–Nov), the season for honouring loss and the dead",
+    "moonPhases": [
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent",
+      "Dark Moon"
+    ]
+  },
+  "spell-success-in-court": {
+    "bestTime": "Late summer to early autumn, Lughnasadh to Mabon (Aug–Sep), the season of judgement and just reward; or whenever the date is set",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "spell-creative-fertility": {
+    "bestTime": "Spring, Ostara to Beltane (Mar–May), the season of fertility and new growth",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "sigil-algiz": {
+    "bestTime": "Autumn into winter, Samhain to Yule (Oct–Dec), when protection is most needed in the dark half",
+    "moonPhases": [
+      "Full Moon",
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent"
+    ]
+  },
+  "sigil-fehu": {
+    "bestTime": "Late summer harvest, Lughnasadh (Aug), the season of reaping wealth; or spring for new ventures",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "sigil-uruz": {
+    "bestTime": "Late spring to summer, Beltane to Litha (May–Jun), when vital, physical energy is at its height",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "sigil-sowilo": {
+    "bestTime": "Midsummer, Litha (Jun), the Sun's peak",
+    "moonPhases": [
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "sigil-tiwaz": {
+    "bestTime": "Late summer to autumn equinox, Lughnasadh to Mabon (Aug–Sep), a season of balance and judgement",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "sigil-berkano": {
+    "bestTime": "Spring, Ostara to Beltane (Mar–May), when the birch leafs and new life begins",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "sigil-othala": {
+    "bestTime": "Midwinter, Yule (Dec), when family and home are gathered; or Samhain for ancestral ties",
+    "moonPhases": [
+      "Full Moon",
+      "Waxing Gibbous"
+    ]
+  },
+  "sigil-ansuz": {
+    "bestTime": "Spring and autumn equinoxes (Mar, Sep), Air-aligned seasons of clarity and communication",
+    "moonPhases": [
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "sigil-bindrune-protection": {
+    "bestTime": "Autumn into winter, Samhain to Yule (Oct–Dec), the dark half of the year",
+    "moonPhases": [
+      "Full Moon",
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent",
+      "Dark Moon"
+    ]
+  },
+  "sigil-bindrune-prosperity": {
+    "bestTime": "Late summer harvest, Lughnasadh to Mabon (Aug–Sep), the season of gathering in",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "sigil-pentacle": {
+    "bestTime": "Year-round; especially the sabbats, above all Samhain (Oct 31) and Beltane (May 1)",
+    "moonPhases": [
+      "Full Moon",
+      "New Moon"
+    ]
+  },
+  "sigil-triple-moon": {
+    "bestTime": "Year-round with every lunar cycle; especially Samhain (Oct 31), honouring the Crone",
+    "moonPhases": [
+      "Waxing Crescent",
+      "Full Moon",
+      "Waning Crescent"
+    ]
+  },
+  "sigil-hecates-wheel": {
+    "bestTime": "Late autumn, Samhain to Hecate's Night (Oct 31–Nov 16), the season of crossroads and the dark goddess",
+    "moonPhases": [
+      "Dark Moon",
+      "Waning Crescent",
+      "New Moon"
+    ]
+  },
+  "sigil-triquetra": {
+    "bestTime": "Year-round; especially Beltane (May 1) for bonds and fidelity",
+    "moonPhases": [
+      "Full Moon",
+      "Waxing Gibbous"
+    ]
+  },
+  "sigil-protective-eye": {
+    "bestTime": "Year-round; especially Samhain (Oct 31) and midsummer, when protection against envy is traditionally renewed",
+    "moonPhases": [
+      "Full Moon",
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent"
+    ]
+  },
+  "sigil-witchs-knot": {
+    "bestTime": "Winter, Yule to Imbolc (Dec–Feb), when households are sealed against the cold and dark",
+    "moonPhases": [
+      "Full Moon",
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent",
+      "Dark Moon"
+    ]
+  },
+  "sigil-hexafoil": {
+    "bestTime": "Autumn to winter, Samhain to Yule (Oct–Dec), traditional season for marking protective house marks",
+    "moonPhases": [
+      "Full Moon",
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent"
+    ]
+  },
+  "sigil-seal-of-solomon": {
+    "bestTime": "Autumn equinox to Samhain (Sep–Oct), balance tipping toward the spirit-rich dark half",
+    "moonPhases": [
+      "Full Moon",
+      "Waxing Gibbous"
+    ]
+  },
+  "sigil-alchemical-elements": {
+    "bestTime": "Equinoxes (Mar 20, Sep 22), when day and night are in balance",
+    "moonPhases": [
+      "First Quarter",
+      "Last Quarter",
+      "Full Moon"
+    ]
+  },
+  "sigil-sun-cross": {
+    "bestTime": "The solstices and equinoxes, especially Litha (Jun) and Yule (Dec), the turning points of the solar wheel",
+    "moonPhases": [
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "sigil-ankh": {
+    "bestTime": "Spring to midsummer, Ostara to Litha (Mar–Jun), the season of rising life and solar strength",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "sigil-spiral-of-growth": {
+    "bestTime": "Spring, Imbolc to Ostara (Feb–Mar), as the year begins its growth; or Yule for rebirth",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "sigil-chaos-star": {
+    "bestTime": "Year-round; especially the equinoxes (Mar, Sep), thresholds where all directions are open",
+    "moonPhases": [
+      "New Moon",
+      "Full Moon",
+      "Dark Moon"
+    ]
+  },
+  "sigil-money-flows-to-me": {
+    "bestTime": "Late summer harvest, Lughnasadh (Aug); or New Year (Jan) for fresh financial starts",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "tarot-one-card-daily": {
+    "bestTime": "Year-round, every day; especially at the start of each new season or sabbat",
+    "moonPhases": [
+      "New Moon",
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon",
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent",
+      "Dark Moon"
+    ]
+  },
+  "tarot-past-present-future": {
+    "bestTime": "Year-round; equinoxes (Mar, Sep) for balanced reflection",
+    "moonPhases": [
+      "Full Moon",
+      "New Moon"
+    ]
+  },
+  "tarot-mind-body-spirit": {
+    "bestTime": "Spring, Imbolc to Ostara (Feb–Mar), the season of renewal and self-care",
+    "moonPhases": [
+      "Full Moon",
+      "Waxing Gibbous"
+    ]
+  },
+  "tarot-situation-action-outcome": {
+    "bestTime": "Year-round when a decision arises; spring is ideal for planning action",
+    "moonPhases": [
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "tarot-celtic-cross": {
+    "bestTime": "Autumn to winter, Samhain to Yule (Oct–Dec), when the veil is thin and divination is strongest",
+    "moonPhases": [
+      "Full Moon",
+      "Dark Moon"
+    ]
+  },
+  "tarot-horseshoe": {
+    "bestTime": "Midsummer, Litha (Jun), or New Year for luck and guidance",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "tarot-relationship": {
+    "bestTime": "Late spring, Beltane (May), the season of love and union; or around Valentine's (Feb)",
+    "moonPhases": [
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "tarot-career-path": {
+    "bestTime": "Late summer, Lughnasadh to Mabon (Aug–Sep), the season of labour and harvest; or January for goal-setting",
+    "moonPhases": [
+      "New Moon",
+      "First Quarter",
+      "Waxing Gibbous"
+    ]
+  },
+  "tarot-year-ahead": {
+    "bestTime": "Samhain (Oct 31, the witches' new year), Yule (Dec) or New Year's (Jan 1)",
+    "moonPhases": [
+      "New Moon",
+      "Full Moon",
+      "Dark Moon"
+    ]
+  },
+  "tarot-new-moon-intentions": {
+    "bestTime": "Year-round on each new moon; especially Imbolc to Ostara (Feb–Mar) for seeding the year",
+    "moonPhases": [
+      "Dark Moon",
+      "New Moon"
+    ]
+  },
+  "tarot-full-moon-release": {
+    "bestTime": "Year-round on each full moon; especially Mabon to Samhain (Sep–Oct), the season of letting go",
+    "moonPhases": [
+      "Full Moon",
+      "Waning Gibbous"
+    ]
+  },
+  "tarot-shadow-work": {
+    "bestTime": "Late autumn to midwinter, Samhain to Yule (Oct–Dec), the dark half of the year suited to inner work",
+    "moonPhases": [
+      "Dark Moon",
+      "Waning Gibbous",
+      "Last Quarter",
+      "Waning Crescent"
+    ]
+  },
+  "tarot-chakra": {
+    "bestTime": "Spring, Ostara (Mar), when energy reawakens and seeks balance",
+    "moonPhases": [
+      "Full Moon",
+      "Waxing Gibbous"
+    ]
+  },
+  "tarot-tree-of-life": {
+    "bestTime": "Midwinter, Yule (Dec), the season of the evergreen and reflection on one's whole path",
+    "moonPhases": [
+      "Full Moon",
+      "New Moon"
+    ]
+  },
+  "tarot-pentagram": {
+    "bestTime": "Year-round; especially Samhain (Oct 31) and Beltane (May 1), the great cross-quarter sabbats",
+    "moonPhases": [
+      "Full Moon",
+      "New Moon"
+    ]
+  },
+  "tarot-crossroads": {
+    "bestTime": "Late autumn, Samhain (Oct–Nov), sacred to Hecate, goddess of the crossroads; or whenever a choice arises",
+    "moonPhases": [
+      "Dark Moon",
+      "New Moon",
+      "Full Moon"
+    ]
+  },
+  "tarot-self-love": {
+    "bestTime": "Spring, Ostara to Beltane (Mar–May), the season of blossoming and love",
+    "moonPhases": [
+      "Waxing Crescent",
+      "First Quarter",
+      "Waxing Gibbous",
+      "Full Moon"
+    ]
+  },
+  "tarot-ancestor-message": {
+    "bestTime": "Samhain and Day of the Dead (Oct 31–Nov 2), when the veil is thinnest",
+    "moonPhases": [
+      "Dark Moon",
+      "Waning Crescent",
+      "Full Moon"
+    ]
+  },
+  "tarot-samhain-thin-veil": {
+    "bestTime": "Samhain night (Oct 31) and the days around it",
+    "moonPhases": [
+      "Dark Moon",
+      "Waning Crescent",
+      "Full Moon"
+    ]
+  },
+  "tarot-elemental-cross": {
+    "bestTime": "Equinoxes and solstices, the four quarter days of the wheel of the year",
+    "moonPhases": [
+      "Full Moon",
+      "First Quarter",
+      "Last Quarter"
+    ]
+  },
+  "tarot-weekly": {
+    "bestTime": "Year-round, at the start of each week; especially the week of a sabbat",
+    "moonPhases": [
+      "New Moon",
+      "First Quarter",
+      "Full Moon",
+      "Last Quarter"
+    ]
+  },
+  "tarot-dream-interpretation": {
+    "bestTime": "Autumn to winter, Samhain to Yule (Oct–Dec), when nights are long and dreams vivid",
+    "moonPhases": [
+      "Full Moon",
+      "Waning Crescent"
+    ]
+  }
+}
