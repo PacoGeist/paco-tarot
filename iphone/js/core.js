@@ -299,7 +299,7 @@ function setTab(path) {
   const sub = path.split('/')[1];
   $$('.tabbar a').forEach(a => {
     const t = a.dataset.tab;
-    a.classList.toggle('on', (t === 'home' && top === '') || (t === 'layouts' && top === 'list') || (t === 'deck' && (top === 'deck' || top === 'card')) || (t === 'journal' && top === 'journal') || (t === 'moon' && top === 'moon') || (t === 'search' && top === 'search'));
+    a.classList.toggle('on', (t === 'home' && top === '') || (t === 'layouts' && top === 'list') || (t === 'settings' && (top === 'settings' || top === 'homelayout' || top === 'credits')) || (t === 'journal' && top === 'journal') || (t === 'moon' && top === 'moon') || (t === 'search' && top === 'search'));
   });
 }
 /* night-mode background colours: purple is the original look; the others are built from one hue */

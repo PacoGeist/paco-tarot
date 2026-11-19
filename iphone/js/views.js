@@ -44,7 +44,7 @@ const HOME_TILES = [
   ['deck', 'Card by Card'], ['learn', 'Tarot Basics'], ['school', 'Tarot School'],
   ['record', 'Record Reading'], ['journal', 'Journal'], ['moon', 'Moon Tracker'],
   ['favs', 'Favourites'], ['mine', 'My Spreads'], ['flash', 'Flashcards'],
-  ['stats', 'Card Stats'], ['mydecks', 'My Decks'], ['more', 'More'],
+  ['stats', 'Card Stats'], ['mydecks', 'My Decks'], ['more', 'Settings'],
 ];
 const HOME_DEFAULT_HIDDEN = [];
 function homeTileOrder() {
@@ -81,8 +81,8 @@ route('', async v => {
     flash: tile('#/learn/flash', 'shuffle', 'Flashcards', (() => { const d = baseDeck(deckId()), m = Object.entries(CardStore.flash).filter(([k, r]) => k.startsWith(d + '|') && r.box >= 4).length; return m ? `${m} of 78 mastered` : 'test yourself'; })()),
     school: tile('#/school', 'star', 'Tarot School', 'learn & quiz, card by card'),
     stats: tile('#/stats', 'eye', 'Card Stats', 'your daily cards & favourites'),
-    mydecks: tile('#/mydecks', 'image', 'My Decks', MyDecks.list.length ? `${MyDecks.list.length} of your own` : 'photograph your deck'),
-    more: tile('#/more', 'pentacle', 'More', 'settings, backup'),
+    mydecks: tile('#/mydecks', 'image', 'My Decks', `using ${DECKS[deckId()].name}`),
+    more: tile('#/settings', 'gear', 'Settings', 'settings & backup'),
   };
   // Android 1.0 is a new app (new app ID): help people bring their readings across from the old one
   const moveHint = !!window.AndroidBridge && !nRead && !Store.settings.moveHintDone;
@@ -452,26 +452,8 @@ route('phase/:p', async (v, [p]) => {
 });
 
 /* ---------- MORE / SETTINGS ---------- */
-route('more', async v => {
-  setTitle('More');
-  const L = (href, icon, b, s) => `<a href="${href}">${ART[icon]}<div><b>${b}</b><span>${s}</span></div></a>`;
-  v.innerHTML = `<div class="menu-list">
-    ${L('#/journal', 'book', 'Journal', 'Your readings, with notes, results and trends')}
-    ${L('#/list/tarot', 'tarot', 'All Layouts', 'Every spread, from one card to the Celtic Cross')}
-    ${L('#/list/tarot?d=1', 'sun', 'Daily Spreads', 'Quick morning and evening draws')}
-    ${L('#/list/tarot?h=1', 'leaf', 'Holiday & Seasonal Spreads', 'Sabbats, seasons and holidays')}
-    ${L('#/learn', 'book', 'Tarot Basics', 'Basics, symbols and flashcards')}
-    ${L('#/stats', 'eye', 'Card Stats', 'Your Card of the Day patterns and favourite cards')}
-    ${L('#/mydecks', 'image', 'My Decks', 'Photograph your own deck and draw with it')}
-    ${L('#/deck', 'eye', 'The Tarot Deck', 'All 78 Rider–Waite–Smith cards with their meanings')}
-    ${L('#/record', 'edit', 'Record a Tarot Reading', 'Log a reading you did with your own deck')}
-    ${L('#/mine', 'plus', 'My Spreads', 'Layouts you have designed or edited')}
-    ${L('#/favorites', 'star', 'Favourites', 'Everything you have starred')}
-    ${L('#/moon', 'triplemoon', 'Moon Tracker', 'Phases, full moon names, sabbats')}
-    ${L('#/settings', 'gear', 'Settings & Backup', 'Theme, home screen, export & import')}
-    ${L('#/credits', 'hand', 'About & Credits', 'Sources, credits, disclaimer')}
-  </div>`;
-});
+// the old More page: its button and the ☰ menu now open Settings & Backup
+route('more', async () => { location.replace('#/settings'); });
 route('favorites', async v => {
   setTitle('Favourites');
   const favs = [...Store.favs].map(id => Store.get(id)).filter(Boolean), cards = CardStore.favsHTML();
@@ -484,52 +466,12 @@ route('mine', async v => {
   v.innerHTML = `<div class="grid" style="margin-bottom:14px">${TYPE_ORDER.map(t => `<a class="tile" href="#/edit/${t}" style="min-height:90px">${ART.plus}<b>New ${TYPES[t].one}</b></a>`).join('')}</div>` +
     (mine.length ? `<div class="list">${mine.map(i => rowHTML(i, `<span class="muted">${TYPES[i.type].one}${i.edited ? ' · edited' : ''}</span>`)).join('')}</div>` : `<div class="empty">${ART.tarot}Spreads you design or edit will appear here.</div>`);
 });
-route('settings', async v => {
-  setTitle('Settings');
-  const s = Store.settings;
-  v.innerHTML = `<div class="form">
-    <div class="switch"><div><b class="fell">Theme</b><div class="small muted">Night mode is easy on the eyes after dark</div></div><div class="seg" id="theme"><button data-t="night">Night</button><button data-t="day">Day</button></div></div>
-    <div id="set-deck"></div>
-    <div class="bg-pick"><b class="fell">Background colour</b><div class="small muted" id="bgnote"></div>
-      <div class="bg-sw" id="bgsw">${BG_PRESETS.map(p => `<button type="button" data-b="${p[0]}" style="--sw:radial-gradient(circle at 68% 28%,hsl(${p[2]} ${Math.round(46 * p[3])}% 46%),hsl(${p[2]} ${Math.round(38 * p[3])}% 11%) 72%)"><i></i><span>${p[1]}</span></button>`).join('')}
-        <label class="bg-custom" data-b="custom"><input type="color" id="bgc" value="${s.bgHue != null ? hslToHex(+s.bgHue, Math.round(46 * s.bgSat), 46) : '#3a6ea5'}"><i></i><span>Custom</span></label></div></div>
-    <label>App title</label><input type="text" id="title" value="${esc(s.title || "Paco Morningstar's Tarot")}">
-    <label>Motto</label><input type="text" id="motto" value="${esc(s.motto || 'Cards, candlelight & the turning moon')}">
-    <div class="switch"><div><b class="fell">Moon view</b><div class="small muted">Southern hemisphere skies see the moon turned around</div></div><div class="seg" id="hemi"><button data-h="north">North</button><button data-h="south">South</button></div></div>
-    <div class="switch"><div style="flex:1"><b class="fell">Moon brightness</b><div class="small muted">How brightly the sunlit part of the moon shines</div>
-      <div class="mb-row"><span class="small muted">Soft</span><input type="range" id="mbright" min="0.6" max="1.6" step="0.05" value="${+s.moonBright || 1}" aria-label="Moon brightness"><span class="small muted">Brilliant</span></div>
-      <div class="small muted" id="mbval"></div></div><div class="mb-prev" id="mbprev"></div></div>
-    <div id="set-moon"></div>
-    <div class="section-title"><h2>Home Screen</h2></div>
-    <p class="small">Arrange the Grimoire buttons on the home page in the order that matters most to you. Use the arrows to move a button, and the eye to show or hide it.</p>
+/* ---------- arranging the home screen (from Settings) ---------- */
+route('homelayout', async v => {
+  setTitle('Home Screen');
+  v.innerHTML = `<p class="small" style="margin:6px 2px 10px">Use the arrows to move a button, and the eye to show or hide it. Changes are saved as you go.</p>
     <div class="tile-order" id="tord"></div>
-    <div class="actions"><button class="btn ghost" id="treset">Reset to the original order</button></div>
-    <div class="section-title"><h2>Backup</h2></div>
-    <p class="small">Everything you add lives only on this phone. Export a backup file now and then (and before uninstalling) to keep your readings safe. Backups from Paco Morningstar's Witches' Companion can be imported here too: your readings and spreads come across.</p>
-    <div class="actions"><button class="btn" id="exp">Export backup</button><button class="btn ghost" id="imp">Import backup</button></div>
-    <div id="set-updates"></div>
-    <div class="section-title"><h2>Hidden entries</h2></div>
-    <p class="small">${Store.hidden.size} built-in entr${Store.hidden.size === 1 ? 'y is' : 'ies are'} hidden.</p>
-    <div class="actions"><button class="btn ghost" id="unhide" ${Store.hidden.size ? '' : 'disabled'}>Restore hidden entries</button></div>
-  </div>`;
-  const paintBg = () => {
-    const cur = Store.settings.bgTheme || 'purple', night = (Store.settings.theme || 'night') === 'night';
-    $$('#bgsw [data-b]', v).forEach(b => b.classList.toggle('on', b.dataset.b === cur));
-    if (Store.settings.bgHue != null) $('#bgsw .bg-custom', v).style.setProperty('--sw', `radial-gradient(circle at 68% 28%,hsl(${+Store.settings.bgHue} ${Math.round(46 * Store.settings.bgSat)}% 46%),hsl(${+Store.settings.bgHue} ${Math.round(38 * Store.settings.bgSat)}% 11%) 72%)`);
-    $('#bgnote', v).textContent = night ? 'Purple is the original. The gold stays gold whichever you choose.' : 'This colour shows in Night mode. Switch the theme to Night to see it.';
-  };
-  paintBg();
-  $('#bgsw', v).onclick = async e => { const b = e.target.closest('button[data-b]'); if (!b) return; await Store.setSetting('bgTheme', b.dataset.b); applyTheme(); paintBg(); };
-  $('#bgc', v).oninput = e => { const [h, k] = hexToHue(e.target.value); Object.assign(Store.settings, { bgTheme: 'custom', bgHue: h, bgSat: k }); applyTheme(); paintBg(); };
-  $('#bgc', v).onchange = async () => { await DB.set('settings', Store.settings); };
-  $('#bgsw .bg-custom', v).onclick = async e => { if (e.target.id === 'bgc' || Store.settings.bgHue == null || Store.settings.bgTheme === 'custom') return; e.preventDefault(); await Store.setSetting('bgTheme', 'custom'); applyTheme(); paintBg(); };
-  const paint = () => { $$('#theme button', v).forEach(b => b.classList.toggle('on', b.dataset.t === (Store.settings.theme || 'night'))); $$('#hemi button', v).forEach(b => b.classList.toggle('on', b.dataset.h === (Store.settings.hemisphere || 'north'))); };
-  const paintMoon = () => { const b = MOON.bright || 1; $('#mbprev', v).innerHTML = MOON.photo(0.4, 64); $('#mbval', v).innerHTML = `${Math.round(b * 100)}%${Math.abs(b - 1) < .001 ? ' (original)' : ' · <a href="javascript:void 0" id="mbreset">reset</a>'}`; };
-  paintMoon();
-  $('#mbright', v).oninput = e => { MOON.bright = +e.target.value; paintMoon(); };
-  $('#mbright', v).onchange = async e => { await Store.setSetting('moonBright', +e.target.value); };
-  $('#mbval', v).onclick = async e => { if (!e.target.closest('#mbreset')) return; MOON.bright = 1; $('#mbright', v).value = 1; paintMoon(); await Store.setSetting('moonBright', 1); toast('Moon brightness restored'); };
-  $('#hemi', v).onclick = async e => { const b = e.target.closest('button'); if (!b) return; await Store.setSetting('hemisphere', b.dataset.h); MOON.south = b.dataset.h === 'south'; paint(); paintMoon(); toast(b.dataset.h === 'south' ? 'Southern hemisphere moon' : 'Northern hemisphere moon'); };
+    <div class="actions" style="margin-top:14px"><a class="btn primary" href="#/">${ART.home} Home</a><button class="btn ghost" id="treset">Revert to the original layout</button></div>`;
   const label = k => (HOME_TILES.find(t => t[0] === k) || [k, k])[1];
   const paintTiles = (flash) => {
     const order = homeTileOrder(), hid = homeTileHidden();
@@ -550,8 +492,56 @@ route('settings', async v => {
     }
     paintTiles(k);
   };
-  $('#treset', v).onclick = async () => { await Store.setSetting('homeOrder', []); await Store.setSetting('homeHidden', null); delete Store.settings.homeHidden; await Store.setSetting('homeOrder', []); paintTiles(); toast('Home screen order restored'); };
+  $('#treset', v).onclick = async () => { await Store.setSetting('homeOrder', []); delete Store.settings.homeHidden; await DB.set('settings', Store.settings); paintTiles(); toast('Home screen layout restored'); };
   paintTiles();
+});
+route('settings', async v => {
+  setTitle('Settings');
+  const s = Store.settings;
+  v.innerHTML = `<div class="form">
+    <div class="switch"><div><b class="fell">Theme</b><div class="small muted">Night mode is easy on the eyes after dark</div></div><div class="seg" id="theme"><button data-t="night">Night</button><button data-t="day">Day</button></div></div>
+    <div id="set-deck"></div>
+    <div class="bg-pick"><b class="fell">Background colour</b><div class="small muted" id="bgnote"></div>
+      <div class="bg-sw" id="bgsw">${BG_PRESETS.map(p => `<button type="button" data-b="${p[0]}" style="--sw:radial-gradient(circle at 68% 28%,hsl(${p[2]} ${Math.round(46 * p[3])}% 46%),hsl(${p[2]} ${Math.round(38 * p[3])}% 11%) 72%)"><i></i><span>${p[1]}</span></button>`).join('')}
+        <label class="bg-custom" data-b="custom"><input type="color" id="bgc" value="${s.bgHue != null ? hslToHex(+s.bgHue, Math.round(46 * s.bgSat), 46) : '#3a6ea5'}"><i></i><span>Custom</span></label></div></div>
+    <label>App title</label><input type="text" id="title" value="${esc(s.title || "Paco Morningstar's Tarot")}">
+    <label>Motto</label><input type="text" id="motto" value="${esc(s.motto || 'Cards, candlelight & the turning moon')}">
+    <div class="switch"><div><b class="fell">Moon view</b><div class="small muted">Southern hemisphere skies see the moon turned around</div></div><div class="seg" id="hemi"><button data-h="north">North</button><button data-h="south">South</button></div></div>
+    <div class="switch"><div style="flex:1"><b class="fell">Moon brightness</b><div class="small muted">How brightly the sunlit part of the moon shines</div>
+      <div class="mb-row"><span class="small muted">Soft</span><input type="range" id="mbright" min="0.6" max="1.6" step="0.05" value="${+s.moonBright || 1}" aria-label="Moon brightness"><span class="small muted">Brilliant</span></div>
+      <div class="small muted" id="mbval"></div></div><div class="mb-prev" id="mbprev"></div></div>
+    <div id="set-moon"></div>
+    <div class="section-title"><h2>Home Screen</h2></div>
+    <p class="small">Choose the order of the buttons on the home screen, and which ones show.</p>
+    <div class="actions"><a class="btn" href="#/homelayout">${ART.home} Arrange the home screen</a></div>
+    <div class="section-title"><h2>Backup</h2></div>
+    <p class="small">Everything you add lives only on this phone. Export a backup file now and then (and before uninstalling) to keep your readings safe. Backups from Paco Morningstar's Witches' Companion can be imported here too: your readings and spreads come across.</p>
+    <div class="actions"><button class="btn" id="exp">Export backup</button><button class="btn ghost" id="imp">Import backup</button></div>
+    <div id="set-updates"></div>
+    <div class="section-title"><h2>Hidden entries</h2></div>
+    <p class="small">${Store.hidden.size} built-in entr${Store.hidden.size === 1 ? 'y is' : 'ies are'} hidden.</p>
+    <div class="actions"><button class="btn ghost" id="unhide" ${Store.hidden.size ? '' : 'disabled'}>Restore hidden entries</button></div>
+    <div class="section-title"><h2>About</h2></div>
+    <div class="actions"><a class="btn ghost" href="#/credits">${ART.hand} About &amp; Credits</a></div>
+  </div>`;
+  const paintBg = () => {
+    const cur = Store.settings.bgTheme || 'purple', night = (Store.settings.theme || 'night') === 'night';
+    $$('#bgsw [data-b]', v).forEach(b => b.classList.toggle('on', b.dataset.b === cur));
+    if (Store.settings.bgHue != null) $('#bgsw .bg-custom', v).style.setProperty('--sw', `radial-gradient(circle at 68% 28%,hsl(${+Store.settings.bgHue} ${Math.round(46 * Store.settings.bgSat)}% 46%),hsl(${+Store.settings.bgHue} ${Math.round(38 * Store.settings.bgSat)}% 11%) 72%)`);
+    $('#bgnote', v).textContent = night ? 'Purple is the original. The gold stays gold whichever you choose.' : 'This colour shows in Night mode. Switch the theme to Night to see it.';
+  };
+  paintBg();
+  $('#bgsw', v).onclick = async e => { const b = e.target.closest('button[data-b]'); if (!b) return; await Store.setSetting('bgTheme', b.dataset.b); applyTheme(); paintBg(); };
+  $('#bgc', v).oninput = e => { const [h, k] = hexToHue(e.target.value); Object.assign(Store.settings, { bgTheme: 'custom', bgHue: h, bgSat: k }); applyTheme(); paintBg(); };
+  $('#bgc', v).onchange = async () => { await DB.set('settings', Store.settings); };
+  $('#bgsw .bg-custom', v).onclick = async e => { if (e.target.id === 'bgc' || Store.settings.bgHue == null || Store.settings.bgTheme === 'custom') return; e.preventDefault(); await Store.setSetting('bgTheme', 'custom'); applyTheme(); paintBg(); };
+  const paint = () => { $$('#theme button', v).forEach(b => b.classList.toggle('on', b.dataset.t === (Store.settings.theme || 'night'))); $$('#hemi button', v).forEach(b => b.classList.toggle('on', b.dataset.h === (Store.settings.hemisphere || 'north'))); };
+  const paintMoon = () => { const b = MOON.bright || 1; $('#mbprev', v).innerHTML = MOON.photo(0.4, 64); $('#mbval', v).innerHTML = `${Math.round(b * 100)}%${Math.abs(b - 1) < .001 ? ' (original)' : ' · <a href="javascript:void 0" id="mbreset">reset</a>'}`; };
+  paintMoon();
+  $('#mbright', v).oninput = e => { MOON.bright = +e.target.value; paintMoon(); };
+  $('#mbright', v).onchange = async e => { await Store.setSetting('moonBright', +e.target.value); };
+  $('#mbval', v).onclick = async e => { if (!e.target.closest('#mbreset')) return; MOON.bright = 1; $('#mbright', v).value = 1; paintMoon(); await Store.setSetting('moonBright', 1); toast('Moon brightness restored'); };
+  $('#hemi', v).onclick = async e => { const b = e.target.closest('button'); if (!b) return; await Store.setSetting('hemisphere', b.dataset.h); MOON.south = b.dataset.h === 'south'; paint(); paintMoon(); toast(b.dataset.h === 'south' ? 'Southern hemisphere moon' : 'Northern hemisphere moon'); };
   paint();
   $('#theme', v).onclick = async e => { const b = e.target.closest('button'); if (!b) return; await Store.setSetting('theme', b.dataset.t); applyTheme(); paint(); paintBg(); };
   $('#title', v).onchange = e => Store.setSetting('title', e.target.value.trim());

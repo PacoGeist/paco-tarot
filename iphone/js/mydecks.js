@@ -20,28 +20,60 @@ const MyDecks = {
   async merge(list) { for (const d of arr(list)) if (d && d.id && !this.get(d.id)) { this.list.push(d); this.register(d); } await this.save(); },
 };
 
-/* ---- the list of your decks ---- */
+/* ---- every deck you can read with: choose one, edit your own, add or import a deck ---- */
+const DECK_BLURB = { rws: 'Most modern decks: scenes on every card, Strength is VIII', marseille: 'Patterned number cards, Justice is VIII, the Valet', thoth: 'Lust, Art, the Aeon; Princesses & Princes, Disks' };
+async function useDeck(id) {
+  await Store.setSetting('deck', id); if (baseDeck(id) === 'thoth') await ThothFaces.wait();
+  toast(`Readings now use ${DECKS[id].name} ✶`);
+}
 route('mydecks', async v => {
   setTitle('My Decks');
-  const cur = Store.settings.deck || 'rws';
-  v.innerHTML = `<p class="center small muted" style="margin:6px 4px 10px">Photograph your own deck, card by card, and draw your readings with it. Choose the kind of deck it is, so each card is read with the right meaning.</p>
-    ${MyDecks.list.length ? `<div class="list">${MyDecks.list.map(d => { const n = MyDecks.done(d.id); return `<a class="row" href="#/mydecks/${d.id}"><div class="thumb sch-thumb"><img src="${tarotImg('XVII · The Star', d.id)}" alt=""></div><div class="txt"><div class="nm">${esc(d.name)}${cur === d.id ? ' <span class="chip gold" style="font-size:.7rem;padding:0 7px">in use</span>' : ''}</div><div class="sb">Read as ${esc(DECKS[DECKS[d.id].base].name)} · ${n} of 78 photographed</div><div class="sq-bar" style="margin-top:5px"><i style="width:${Math.round(n / 78 * 100)}%"></i></div></div></a>`; }).join('')}</div>` : `<div class="empty">${ART.image}<p>You haven’t added a deck of your own yet.</p></div>`}
-    <div class="block frame" style="margin-top:14px"><h3>${ART.plus}Add a deck</h3>
-      <div class="form"><label for="mdn">Name</label><input type="text" id="mdn" placeholder="e.g. My Wild Unknown, Grandma’s Marseille" maxlength="40">
-      <label>What kind of deck is it?</label>
-      <div class="md-types" id="mdt">${DECK_ORDER.map(k => `<button type="button" data-b="${k}" class="${k === 'rws' ? 'on' : ''}"><img src="${tarotImg('XVII · The Star', k)}" alt=""><b>${esc(DECKS[k].name)}</b><span>${{ rws: 'Most modern decks: scenes on every card, Strength is VIII', marseille: 'Patterned number cards, Justice is VIII, the Valet', thoth: 'Lust, Art, the Aeon; Princesses & Princes, Disks' }[k]}</span></button>`).join('')}</div>
-      <p class="small muted">Not sure? If your deck’s little book follows Rider–Waite–Smith meanings (most do), choose that.</p></div>
-      <div class="actions"><button class="btn primary" id="mdadd">${ART.image} Start photographing</button></div></div>
-    <div class="block frame"><h3>${ART.book}Import a deck</h3><p class="small" style="margin-top:0">Someone shared a deck with you? Choose the deck file they sent (it ends in <b>.tarotdeck.json</b>) and it’s added here, ready to draw with.</p>
-      <div class="actions" style="margin:6px 0 0"><button class="btn" id="mdimp">Import a deck file</button></div></div>`;
-  let base = 'rws';
-  $('#mdt', v).onclick = e => { const b = e.target.closest('[data-b]'); if (!b) return; base = b.dataset.b; $$('#mdt button', v).forEach(x => x.classList.toggle('on', x === b)); };
-  $('#mdadd', v).onclick = async () => { const d = await MyDecks.add($('#mdn', v).value.trim(), base); location.hash = `#/mydecks/${d.id}`; };
+  const cur = deckId();
+  const row = (id, sub, own) => `<div class="row md-row ${cur === id ? 'on' : ''}" data-use="${id}" role="button" tabindex="0">
+      <div class="thumb sch-thumb"><img src="${tarotImg('XVII · The Star', id)}" alt=""></div>
+      <div class="txt"><div class="nm">${esc(DECKS[id].name)}${cur === id ? ' <span class="chip gold" style="font-size:.7rem;padding:0 7px">in use</span>' : ''}</div><div class="sb">${sub}</div>
+        ${own ? `<div class="sq-bar" style="margin-top:5px"><i style="width:${Math.round(MyDecks.done(id) / 78 * 100)}%"></i></div>` : ''}</div>
+      ${own ? `<a class="btn small ghost md-edit" href="#/mydecks/${id}">${ART.edit} Edit</a>` : `<span class="md-tick">${cur === id ? '✓' : ''}</span>`}</div>`;
+  v.innerHTML = `<p class="center small muted" style="margin:6px 4px 10px">Tap a deck to draw your readings with it.</p>
+    <div class="section-title"><h2>Built-in decks</h2></div>
+    <div class="list">${DECK_ORDER.map(k => row(k, esc(DECKS[k].sub))).join('')}</div>
+    <div class="section-title"><h2>Your own decks</h2></div>
+    ${MyDecks.list.length ? `<div class="list">${MyDecks.list.map(d => row(d.id, `Read as ${esc(DECKS[DECKS[d.id].base].name)} · ${MyDecks.done(d.id)} of 78 photographed`, true)).join('')}</div>`
+      : `<p class="small muted center" style="margin:4px 8px 8px">Photograph your own deck, card by card, and draw your readings with it.</p>`}
+    <div class="actions" style="margin-top:12px"><a class="btn primary" href="#/mydecks/new">${ART.plus} Add a new deck</a><button class="btn ghost" id="mdimp">Import a deck file</button></div>
+    <p class="small muted center" style="margin:6px 8px 0">Someone shared a deck with you? Import the file they sent (it ends in <b>.tarotdeck.json</b>).</p>`;
+  v.querySelectorAll('[data-use]').forEach(r => {
+    const go = async e => { if (e.target.closest('.md-edit')) return; const id = r.dataset.use; if (id === deckId()) return; await useDeck(id); render(); };
+    r.onclick = go; r.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(e); } };
+  });
   $('#mdimp', v).onclick = async () => { const d = await importDeckFromFile(); if (d) location.hash = `#/mydecks/${d.id}`; };
 });
 
+/* ---- adding a deck: name it, choose its kind, then start photographing ---- */
+route('mydecks/new', async v => {
+  setTitle('Add a Deck');
+  v.innerHTML = `<div class="block frame" style="margin-top:6px"><div class="form">
+      <label for="mdn">1. Name your deck</label><input type="text" id="mdn" placeholder="e.g. My Wild Unknown, Grandma’s Marseille" maxlength="40" autocomplete="off">
+      <label>2. What kind of deck is it?</label>
+      <div class="md-types" id="mdt">${DECK_ORDER.map(k => `<button type="button" data-b="${k}" class="${k === 'rws' ? 'on' : ''}"><img src="${tarotImg('XVII · The Star', k)}" alt=""><b>${esc(DECKS[k].name)}</b><span>${DECK_BLURB[k]}</span></button>`).join('')}</div>
+      <p class="small muted">Not sure? If your deck’s little book follows Rider–Waite–Smith meanings (most do), choose that.</p></div>
+      <div class="actions"><button class="btn primary" id="mdadd" disabled>${ART.image} Start photographing</button><a class="btn ghost" href="#/mydecks">Cancel</a></div>
+      <p class="small muted center" id="mdhint" style="margin:4px 0 0">Give your deck a name first.</p></div>`;
+  let base = 'rws';
+  const name = $('#mdn', v), add = $('#mdadd', v);
+  name.oninput = () => { const ok = !!name.value.trim(); add.disabled = !ok; $('#mdhint', v).style.visibility = ok ? 'hidden' : ''; };
+  $('#mdt', v).onclick = e => { const b = e.target.closest('[data-b]'); if (!b) return; base = b.dataset.b; $$('#mdt button', v).forEach(x => x.classList.toggle('on', x === b)); };
+  add.onclick = async () => {
+    const n = name.value.trim(); if (!n) return name.focus();
+    add.disabled = true;
+    const d = await MyDecks.add(n, base);
+    location.replace(`#/mydecks/${d.id}?scan=1`);
+  };
+  setTimeout(() => name.focus(), 50);
+});
+
 /* ---- one deck: progress, every card, and the scanner ---- */
-route('mydecks/:id', async (v, [id]) => {
+route('mydecks/:id', async (v, [id], qs) => {
   const d = MyDecks.get(id); if (!d) return (location.hash = '#/mydecks');
   setTitle(d.name);
   window.__deckOverride = id;
@@ -75,6 +107,8 @@ route('mydecks/:id', async (v, [id]) => {
   if ($('#mdbackadj', v)) $('#mdbackadj', v).onclick = () => scanCards(id, [BACK_KEY], { adjust: true }).then(render);
   if ($('#mdbackx', v)) $('#mdbackx', v).onclick = async () => { await DeckPhotos.set(id, BACK_KEY, ''); toast('Back to the designed back'); render(); };
   if ($('#mdgo', v)) $('#mdgo', v).onclick = () => scanCards(id, missing.map(c => c.name)).then(render);
+  // straight from "Add a new deck": open the scanner on the first card
+  if (qs && qs.scan === '1') { history.replaceState(null, '', `#/mydecks/${id}`); if (missing.length) scanCards(id, missing.map(c => c.name)).then(render); }
   if ($('#mduse', v)) $('#mduse', v).onclick = async () => { await Store.setSetting('deck', id); toast(`Readings now use ${d.name} ✶`); render(); };
   $('#mdexp', v).onclick = () => exportDeck(id);
   $('#mdname', v).onchange = async e => { await MyDecks.update(id, { name: e.target.value.trim() || 'My deck' }); setTitle(MyDecks.get(id).name); };

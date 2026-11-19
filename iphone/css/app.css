@@ -661,3 +661,7 @@ img[src*="img/marseille/"]{object-fit:contain!important;background:transparent}
 .walk-back.pic span{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);white-space:nowrap;background:rgba(11,8,18,.78);padding:4px 10px;border-radius:12px}
 .md-back-row{display:flex;gap:12px;align-items:flex-start}
 .md-back-row>img{width:74px;aspect-ratio:7/12;object-fit:cover;border-radius:7px;border:1.5px solid var(--gold);flex:none;box-shadow:0 3px 10px rgba(0,0,0,.5)}
+.md-row{cursor:pointer;align-items:center}
+.md-row.on{border-color:var(--gold);box-shadow:0 0 0 2px rgba(212,173,90,.25)}
+.md-row .md-edit{flex:none;margin-left:6px}
+.md-tick{flex:none;width:24px;text-align:center;color:var(--gold2);font-size:1.1rem}

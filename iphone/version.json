@@ -1,10 +1,12 @@
 {
-  "version": "1.2",
-  "androidVersionCode": 14,
+  "version": "1.3",
+  "androidVersionCode": 15,
   "date": "2026-11-18",
   "notes": [
-    "Android: fixes \"Update now\", which stopped with \"Unexpected download address\".",
-    "Includes everything from 1.1: every spread opens face down with Draw or Guided draw, designed card backs, and a photo of the back for your own decks."
+    "My Decks is now where you choose your deck: tap Rider–Waite–Smith, Tarot de Marseille, Thoth or one of your own decks to draw your readings with it. The home tile shows which deck you're using.",
+    "Your own decks have an Edit button. To add one, tap Add a new deck, name it, choose its kind, then tap Start photographing.",
+    "The bottom bar has a Settings button in place of Deck (Card by Card is still on the home screen). The More button and the ☰ menu now open Settings & Backup.",
+    "Settings → Arrange the home screen opens its own page, with a Home button and Revert to the original layout at the bottom. About & Credits is at the end of Settings."
   ],
-  "apk": "https://raw.githubusercontent.com/PacoGeist/paco-tarot/apk/PacoTarot-14.apk"
+  "apk": "https://raw.githubusercontent.com/PacoGeist/paco-tarot/apk/PacoTarot-15.apk"
 }

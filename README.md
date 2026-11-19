@@ -29,8 +29,10 @@ You can choose full moons, new moons, quarters and sabbats, the time of the aler
 - **Android:** turn on **Moon notifications**. The phone schedules them itself, so they arrive even with no connection.
 - **iPhone:** web apps can't send their own reminders. Instead, tap **Add moon alerts to my Calendar**, then choose **Calendar** in the share sheet. If Calendar isn't offered, choose **Save to Files**, open the file in the Files app, and tap **Add All**. Your Calendar then reminds you. This covers about 13 months, and the app reminds you when it's time to add more.
 
-### Your own deck (☰ → My Decks)
-Name your deck, choose which kind it is (Rider–Waite–Smith, Marseille or Thoth), then photograph each card. The app guides you through all 78 cards with a card-shaped frame; you can also use photos you already have. After each photo you can drag, pinch to zoom, twist to rotate, center and fit the card before saving. You can also photograph the **back** of your cards once (they all share it), and it shows on every face-down card.
+### Choosing a deck, and your own decks (☰ → My Decks)
+My Decks lists the three built-in decks and any of your own: tap one to draw your readings with it. The My Decks tile on the home screen shows which deck you're using.
+
+To add your own deck, tap **Add a new deck**, name it, choose which kind it is (Rider–Waite–Smith, Marseille or Thoth), then tap **Start photographing**. Use **Edit** on one of your decks to retake photos, add the back, rename, share or delete it. The app guides you through all 78 cards with a card-shaped frame; you can also use photos you already have. After each photo you can drag, pinch to zoom, twist to rotate, center and fit the card before saving. You can also photograph the **back** of your cards once (they all share it), and it shows on every face-down card.
 
 To **share a deck**, open it in My Decks and tap **Share or export this deck**. It makes one `.tarotdeck.json` file. The person you send it to uses **My Decks → Import a deck**, and the app checks every picture before adding it. Please share only decks you have the right to share.
 
