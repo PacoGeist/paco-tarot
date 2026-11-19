@@ -53,6 +53,10 @@ route('mydecks/:id', async (v, [id]) => {
       <div class="actions" style="margin:12px 0 2px">${missing.length ? `<button class="btn primary" id="mdgo">${ART.image} ${n ? 'Carry on photographing' : 'Photograph the cards'}</button>` : '<b>Every card is photographed ✶</b>'}
         ${inUse ? '' : `<button class="btn ${missing.length ? 'ghost' : 'primary'}" id="mduse">Draw readings with this deck</button>`}</div>
       ${inUse ? `<p class="small" style="margin:6px 0 0">Your readings use this deck.${missing.length ? ` The ${missing.length} cards not photographed yet show their ${esc(DECKS[base].name)} picture.` : ''}</p>` : ''}</div>
+    <div class="block frame md-back"><h3>${ART.image}The back of the cards</h3>
+      <div class="md-back-row"><img src="${cardBack(id)}" alt="The back of the cards">
+        <div><p class="small" style="margin-top:0">${DeckPhotos.get(id, BACK_KEY) ? 'Your photo of the back. It shows on face-down cards before you draw and in the guided draw.' : 'All the cards in a deck share the same back, so one photo is enough. Until you add one, the designed back is used.'}</p>
+        <div class="actions" style="margin:6px 0 0"><button class="btn small" id="mdback">${ART.image} ${DeckPhotos.get(id, BACK_KEY) ? 'Photograph it again' : 'Photograph the back'}</button>${DeckPhotos.get(id, BACK_KEY) ? `<button class="btn small ghost" id="mdbackadj">Adjust</button><button class="btn small ghost" id="mdbackx">Use the designed back</button>` : ''}</div></div></div></div>
     <p class="small muted center" style="margin:10px 4px">Tap any card to photograph it again or adjust its photo. Lessons, Tarot School and flashcards keep the built-in decks; this one is for your readings.</p>
     <div class="chips scroll" id="mda"><button class="chip on" data-a="">All</button>${ARCANA.map(x => `<button class="chip" data-a="${x}">${x === 'Major' ? 'Major Arcana' : esc(suitLabel(x, id))}</button>`).join('')}</div>
     <div class="deck-grid" id="mdg"></div>
@@ -67,6 +71,9 @@ route('mydecks/:id', async (v, [id]) => {
   grid();
   $('#mda', v).onclick = e => { const b = e.target.closest('[data-a]'); if (!b) return; arc = b.dataset.a; $$('#mda .chip', v).forEach(x => x.classList.toggle('on', x === b)); grid(); };
   $('#mdg', v).onclick = e => { const b = e.target.closest('[data-k]'); if (b) scanCards(id, [b.dataset.k]).then(render); };
+  $('#mdback', v).onclick = () => scanCards(id, [BACK_KEY]).then(render);
+  if ($('#mdbackadj', v)) $('#mdbackadj', v).onclick = () => scanCards(id, [BACK_KEY], { adjust: true }).then(render);
+  if ($('#mdbackx', v)) $('#mdbackx', v).onclick = async () => { await DeckPhotos.set(id, BACK_KEY, ''); toast('Back to the designed back'); render(); };
   if ($('#mdgo', v)) $('#mdgo', v).onclick = () => scanCards(id, missing.map(c => c.name)).then(render);
   if ($('#mduse', v)) $('#mduse', v).onclick = async () => { await Store.setSetting('deck', id); toast(`Readings now use ${d.name} ✶`); render(); };
   $('#mdexp', v).onclick = () => exportDeck(id);
@@ -88,8 +95,8 @@ function scanCards(id, keys, opts = {}) {
     const close = () => { stop(); el.remove(); window.removeEventListener('hashchange', close); if (saved) toast(`${saved} card${saved === 1 ? '' : 's'} saved ✶`); done(saved); };
     window.addEventListener('hashchange', close);
     const head = () => { const k = keys[i]; return `<div class="sc-head"><button class="iconbtn" id="scx" aria-label="Close">${ART.close}</button>
-      <div class="sc-title"><small>${keys.length > 1 ? `Card ${i + 1} of ${keys.length}` : 'Photograph this card'}</small><b>${esc(cardLabel(k, id))}</b>${cardTitle(k, id) ? `<small>${esc(cardTitle(k, id))}</small>` : ''}</div>
-      <img class="sc-ref" src="${tarotImg(k, base)}" alt="" title="What this card looks like in the ${esc(DECKS[base].name)} deck"></div>`; };
+      <div class="sc-title"><small>${keys.length > 1 ? `Card ${i + 1} of ${keys.length}` : 'Photograph this card'}</small><b>${k === BACK_KEY ? 'The back of the cards' : esc(cardLabel(k, id))}</b>${k !== BACK_KEY && cardTitle(k, id) ? `<small>${esc(cardTitle(k, id))}</small>` : ''}</div>
+      <img class="sc-ref" src="${k === BACK_KEY ? designedBack(base) : tarotImg(k, base)}" alt="" title="${k === BACK_KEY ? 'Any card, turned face down' : `What this card looks like in the ${esc(DECKS[base].name)} deck`}"></div>`; };
     const frameBox = view => { const W = view.clientWidth, H = view.clientHeight; const fh = Math.min(H * .8, W * .8 / ratio); return { fw: fh * ratio, fh }; };
     const wire = () => { $('#scx', el).onclick = close; };
     const loadImg = src => new Promise((res, rej) => { const im = new Image(); im.onload = () => res(im); im.onerror = rej; im.src = src; });
@@ -205,6 +212,7 @@ async function exportDeck(id) {
   const n = Object.keys(cards).length;
   if (!n) { toast('Photograph some cards first'); return; }
   const data = { format: DECK_FILE, version: 1, name: d.name, base: DECKS[id].base, count: n, exported: new Date().toISOString(), app: (window.APP_VERSION || {}).version || '', cards };
+  if (DeckPhotos.get(id, BACK_KEY)) data.back = DeckPhotos.get(id, BACK_KEY);
   const text = JSON.stringify(data), mb = (text.length / 1048576).toFixed(1);
   const slug = d.name.replace(/[^\w\- ]+/g, '').trim().replace(/\s+/g, '-').toLowerCase() || 'my-deck';
   const ok = await saveFile(`${slug}.tarotdeck.json`, 'application/json', text);
@@ -234,6 +242,7 @@ async function importDeck(data) {
   for (const k of keys) { const ph = await cleanPhoto(data.cards[k], ratio); if (ph) good[k] = ph; }
   const n = Object.keys(good).length;
   if (!n) { toast('None of the pictures in that file could be used'); return null; }
+  if (data.back) { const b = await cleanPhoto(data.back, ratio); if (b) good[BACK_KEY] = b; }
   const d = await MyDecks.add(name, base);
   DeckPhotos.map[d.id] = good; await DB.set('deckPhotos', DeckPhotos.map);
   toast(`${name}: ${n} cards added ✶`);

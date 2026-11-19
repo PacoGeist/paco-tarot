@@ -30,7 +30,7 @@ You can choose full moons, new moons, quarters and sabbats, the time of the aler
 - **iPhone:** web apps can't send their own reminders. Instead, tap **Add moon alerts to my Calendar**, then choose **Calendar** in the share sheet. If Calendar isn't offered, choose **Save to Files**, open the file in the Files app, and tap **Add All**. Your Calendar then reminds you. This covers about 13 months, and the app reminds you when it's time to add more.
 
 ### Your own deck (☰ → My Decks)
-Name your deck, choose which kind it is (Rider–Waite–Smith, Marseille or Thoth), then photograph each card. The app guides you through all 78 cards with a card-shaped frame; you can also use photos you already have. After each photo you can drag, pinch to zoom, twist to rotate, center and fit the card before saving.
+Name your deck, choose which kind it is (Rider–Waite–Smith, Marseille or Thoth), then photograph each card. The app guides you through all 78 cards with a card-shaped frame; you can also use photos you already have. After each photo you can drag, pinch to zoom, twist to rotate, center and fit the card before saving. You can also photograph the **back** of your cards once (they all share it), and it shows on every face-down card.
 
 To **share a deck**, open it in My Decks and tap **Share or export this deck**. It makes one `.tarotdeck.json` file. The person you send it to uses **My Decks → Import a deck**, and the app checks every picture before adding it. Please share only decks you have the right to share.
 
@@ -52,7 +52,7 @@ This uses the free **GitHub Desktop** app, so you don't need the command line. T
 The folder layout on the computer is:
 
 ```
-C:\Claude Projects\TarotApp\
+C:\Claude Projects\Tarot_App\
     paco-tarot\     <- this repository (GitHub Desktop commits and pushes from here)
     keys\           <- the private Android signing key; NEVER inside paco-tarot, never uploaded
 ```
@@ -64,8 +64,8 @@ C:\Claude Projects\TarotApp\
 ### 2. Connect this folder with GitHub Desktop and publish it
 1. Install **GitHub Desktop** from https://desktop.github.com and sign in.
 2. **File → Options → Git**: set the name and a personal email address. Every commit records them publicly.
-3. **File → Add local repository…** → choose `C:\Claude Projects\TarotApp\paco-tarot` → click **create a repository**.
-4. Name **paco-tarot**, local path `C:\Claude Projects\TarotApp`, no README, Git ignore **None**, license **None** → **Create repository**.
+3. **File → Add local repository…** → choose `C:\Claude Projects\Tarot_App\paco-tarot` → click **create a repository**.
+4. Name **paco-tarot**, local path `C:\Claude Projects\Tarot_App`, no README, Git ignore **None**, license **None** → **Create repository**.
 5. Click **Publish repository**, untick **Keep this code private**, and publish.
 
 The `keys` folder is outside the repository, and `.gitignore` blocks keystores as a second safety net.

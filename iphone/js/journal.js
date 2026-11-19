@@ -112,7 +112,7 @@ route('reading/:id', async (v, [id], qs) => {
   await Journal.load();
   setTitle('Reading');
   let question = '';
-  const draw = async () => {
+  const draw = async (guided) => {
     const deck = TAROT_DECK.slice();
     for (let i = deck.length - 1; i > 0; i--) { const r = new Uint32Array(1); crypto.getRandomValues(r); const j = r[0] % (i + 1);[deck[i], deck[j]] = [deck[j], deck[i]]; }
     const ps = arr(it.positions);
@@ -124,7 +124,14 @@ route('reading/:id', async (v, [id], qs) => {
       cards: ps.map((p, i) => ({ n: p.n, pos: p.name, posMeaning: p.meaning || '', card: deck[i].name, arcana: deck[i].arcana, meaning: deck[i].up })),
     };
     await Journal.add(r);
-    show(r);
+    if (guided !== true) return show(r);
+    // guided draw: the cards stay hidden behind the walk, which turns them one at a time; the full reading shows when it closes
+    const url = `#/reading/${encodeURIComponent(id)}?r=${r.id}`;
+    history.replaceState(null, '', url);
+    window.__deckOverride = readingDeck(r);
+    v.innerHTML = `<div class="dhead" style="margin-top:6px"><div class="type">${esc(it.name)}</div><h1>Your Reading</h1></div>
+      <div class="block frame">${layoutHTML(readingLayout(r), null, it.lines, it.backdrop, cardBack(readingDeck(r)))}</div>`;
+    guidedWalk(r, () => { if (location.hash === url) show(Journal.get(r.id) || r); });
   };
   // the URL remembers the reading so going back or reloading doesn't draw a new one
   const show = r => {
@@ -143,12 +150,29 @@ route('reading/:id', async (v, [id], qs) => {
       <p class="disclaimer">All cards are read upright.</p>`;
     const q = $('#rq', v); bindAutosave(q, Journal, r.id, 'question'); q.addEventListener('input', () => question = q.value.trim());
     bindAutosave($('#rn', v), Journal, r.id, 'notes');
-    $('#again', v).onclick = () => { window.scrollTo(0, 0); draw(); };
+    $('#again', v).onclick = () => { window.scrollTo(0, 0); history.replaceState(null, '', `#/reading/${encodeURIComponent(id)}`); ask(); };
     $('#copy', v).onclick = () => copyText(readingText(Journal.get(r.id) || r), 'Reading copied');
     $('#discard', v).onclick = async () => { await Journal.remove(r.id); toast('Reading removed from the journal'); history.back(); };
   };
+  // every reading starts face down: the spread, the question box, and a choice of Draw or Guided draw
+  const ask = () => {
+    const n = arr(it.positions).length;
+    window.__deckOverride = null;
+    v.innerHTML = `<div class="dhead" style="margin-top:6px"><div class="type">${esc(it.name)}</div><h1>${n === 1 ? 'Your Card' : 'Your Reading'}</h1><div class="latin">${fmtDate(new Date(), { weekday: 'long', month: 'long', day: 'numeric' })} · ${esc(moonNow())}</div></div>
+      ${it.intention ? `<p class="intention">“${esc(it.intention)}”</p>` : ''}
+      <div class="form" style="margin:8px 0 12px"><label for="rq">Your question (optional)</label><input type="text" id="rq" placeholder="What do I need to know about…" value="${esc(question)}"></div>
+      <div class="block frame">${layoutHTML(it.positions, null, it.lines, it.backdrop, cardBack(deckId()))}</div>
+      <p class="small muted" style="text-align:center;margin:4px 0 10px">Take a breath and hold your question in mind. Draw when you're ready.</p>
+      <div class="actions" style="justify-content:center"><button class="btn primary" id="drawnow">${ART.shuffle} Draw</button><button class="btn primary" id="drawguided">${ART.moon} Guided draw</button></div>
+      <p class="small muted" style="text-align:center;margin:2px 0 8px"><b>Draw</b> shows ${n === 1 ? 'your card' : 'all the cards'} at once. <b>Guided draw</b> turns ${n === 1 ? 'it' : 'them one at a time'}, with a prompt for each position.</p>
+      <div class="actions" style="justify-content:center;margin-top:4px"><a class="btn small ghost" href="#/view/${encodeURIComponent(it.id)}">About this spread</a></div>`;
+    const q = $('#rq', v); q.addEventListener('input', () => question = q.value.trim());
+    const go = guided => { $$('#drawnow, #drawguided', v).forEach(b => b.disabled = true); question = q.value.trim(); window.scrollTo(0, 0); draw(guided); };
+    $('#drawnow', v).onclick = () => go(false);
+    $('#drawguided', v).onclick = () => go(true);
+  };
   const existing = qs.r && Journal.get(qs.r);
-  if (existing) show(existing); else draw();
+  if (existing) show(existing); else ask();
 });
 
 /* ---------- the Journal ---------- */

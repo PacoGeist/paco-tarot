@@ -35,6 +35,28 @@ function cardImg(key, d = deckId()) {
   return c.img;
 }
 window.tarotImg = (name, d) => cardImg(name, d || deckId());
+
+/* ---- the back of the cards: a designed back for the built-in decks, or a photo of the back of your own deck ---- */
+const BACK_KEY = '__back';   // stored with the deck's photos (DeckPhotos), so it goes into backups and deck files
+const BACK_PAL = { rws: ['#3d2a66', '#140c24'], marseille: ['#5c1f24', '#1c0a0c'], thoth: ['#163c46', '#081518'] };
+const _backs = {};
+function designedBack(base) {
+  if (_backs[base]) return _backs[base];
+  const [c1, c2] = BACK_PAL[base] || BACK_PAL.rws, g = '#d4ad5a';
+  // mirrored top and bottom, so the back looks the same either way up
+  const star = (x, y, r) => `<path d="M${x} ${y - r}L${x + r * .28} ${y - r * .28}L${x + r} ${y}L${x + r * .28} ${y + r * .28}L${x} ${y + r}L${x - r * .28} ${y + r * .28}L${x - r} ${y}L${x - r * .28} ${y - r * .28}Z" fill="${g}"/>`;
+  const dots = [[40, 70], [160, 70], [100, 52], [62, 112], [138, 112], [40, 250], [160, 250], [100, 268], [62, 208], [138, 208], [28, 160], [172, 160]].map(([x, y]) => `<circle cx="${x}" cy="${y}" r="1.6" fill="${g}" opacity=".75"/>`).join('');
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 320"><defs><radialGradient id="b" cx="50%" cy="50%" r="70%"><stop offset="0" stop-color="${c1}"/><stop offset="1" stop-color="${c2}"/></radialGradient></defs>
+<rect width="200" height="320" fill="url(#b)"/><rect x="9" y="9" width="182" height="302" rx="10" fill="none" stroke="${g}" stroke-width="2.5"/><rect x="16" y="16" width="168" height="288" rx="7" fill="none" stroke="${g}" stroke-width=".8" opacity=".8"/>
+${dots}<g fill="none" stroke="${g}" stroke-width="1.2" opacity=".85"><circle cx="100" cy="160" r="46"/><circle cx="100" cy="160" r="52" stroke-dasharray="2 4"/><path d="M100 100L100 40M100 220L100 280M40 160L56 160M144 160L160 160"/></g>
+<path d="M112 136a28 28 0 1 0 0 48a22 22 0 1 1 0-48z" fill="${g}"/>
+${star(100, 32, 7)}${star(100, 288, 7)}${star(124, 160, 5)}${star(30, 30, 4)}${star(170, 30, 4)}${star(30, 290, 4)}${star(170, 290, 4)}</svg>`;
+  return (_backs[base] = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg));
+}
+function cardBack(d = deckId()) {
+  if (!DECKS[d]) d = 'rws';
+  return DeckPhotos.get(d, BACK_KEY) || designedBack(baseDeck(d));
+}
 // keywords for a card in a deck, used in lists and the lightbox
 const cardKeywords = (key, d) => { const m = deckMeaning(key, d); return m && m.keywords ? m.keywords : String((TAROT_BY_NAME[key] || {}).up || '').split(', '); };
 
@@ -43,7 +65,7 @@ const DeckPhotos = {
   map: {},
   async load() { this.map = (await DB.get('deckPhotos', {})) || {}; },
   get(d, key) { return (this.map[d] || {})[key] || ''; },
-  count(d) { return Object.keys(this.map[d] || {}).length; },
+  count(d) { return Object.keys(this.map[d] || {}).filter(k => k !== BACK_KEY).length; },
   async set(d, key, url) { (this.map[d] = this.map[d] || {})[key] = url; if (!url) delete this.map[d][key]; await DB.set('deckPhotos', this.map); },
   async drop(d) { delete this.map[d]; await DB.set('deckPhotos', this.map); },
   async merge(m) { for (const d in m || {}) for (const k in m[d]) if (!this.get(d, k)) (this.map[d] = this.map[d] || {})[k] = m[d][k]; await DB.set('deckPhotos', this.map); },

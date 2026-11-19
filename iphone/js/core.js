@@ -26,11 +26,12 @@ function toast(msg) {
   let t = $('#toast'); t.textContent = msg; t.classList.add('show');
   clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove('show'), 2200);
 }
-function modal(html, onMount) {
+function modal(html, onMount, onClose) {
   const m = document.createElement('div'); m.className = 'modal';
   m.innerHTML = `<div class="sheet fade-in">${html}</div>`;
   m.addEventListener('click', e => { if (e.target === m) close(); });
-  const close = () => { m.remove(); window.removeEventListener('hashchange', close); };
+  let closed = false;
+  const close = () => { if (closed) return; closed = true; m.remove(); window.removeEventListener('hashchange', close); onClose && onClose(); };
   window.addEventListener('hashchange', close);
   document.body.appendChild(m);
   onMount && onMount(m, close);

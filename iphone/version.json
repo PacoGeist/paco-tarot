@@ -1,12 +1,11 @@
 {
-  "version": "1.0",
-  "androidVersionCode": 12,
-  "date": "2026-11-12",
+  "version": "1.1",
+  "androidVersionCode": 13,
+  "date": "2026-11-18",
   "notes": [
-    "Paco Morningstar's Tarot starts fresh at version 1.0.",
-    "iPhone: nothing to do. The app moves to the new version by itself.",
-    "Android: this is a NEW app that installs next to the old one. BEFORE downloading, open ☰ → Settings & Backup → Export backup and save the file. Then install the new app, open it, use Import backup and choose that file. When your readings are there, uninstall the old app.",
-    "New on Android: updates download and install inside the app, and with Automatic updates on (Settings & Backup → Updates) they happen by themselves."
+    "Every spread now opens face down. Type your question if you like, then choose Draw to see all the cards at once, or Guided draw to turn them over one at a time with a prompt for each position.",
+    "Cards now have backs: a designed back for each built-in deck (purple Rider–Waite–Smith, red Marseille, teal Thoth).",
+    "My Decks: photograph the back of your own deck once (open the deck → The back of the cards) and it shows on every face-down card. The back is included in backups and shared deck files."
   ],
   "apk": "https://github.com/PacoGeist/paco-tarot/releases/latest/download/PacoTarot.apk"
 }

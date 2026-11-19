@@ -339,7 +339,7 @@ function walkButtonHTML(r) {
   return `<div class="actions" style="margin:4px 0 10px"><button class="btn primary walk-btn" data-walk="${r.id}">${ART.moon} Guided walk, card by card</button></div>`;
 }
 document.addEventListener('click', e => { const b = e.target.closest('[data-walk]'); if (b) { const r = Journal.get(b.dataset.walk); if (r) guidedWalk(r); } });
-function guidedWalk(r) {
+function guidedWalk(r, onClose) {
   const sp = Store.get(r.spreadId);
     const steps = r.cards.filter(c => c.card);
   let i = 0; const turned = new Set();
@@ -354,7 +354,7 @@ function guidedWalk(r) {
         <h2 style="margin:4px 0 2px">${esc(c.pos)}</h2>
         <p class="small muted center" style="margin:0 0 8px">${esc(c.posMeaning || '')}</p>
         ${g ? `<p class="walk-guide">${esc(g)}</p>` : ''}
-        <div class="walk-card ${up ? 'up' : ''}" id="wc">${up ? `<img src="${tarotImg(c.card)}" alt="">` : `<div class="walk-back">${ART.moon}<span>Tap to turn the card</span></div>`}</div>
+        <div class="walk-card ${up ? 'up' : ''}" id="wc">${up ? `<img src="${tarotImg(c.card)}" alt="">` : `<div class="walk-back pic"><img src="${cardBack()}" alt=""><span>Tap to turn the card</span></div>`}</div>
         ${up ? `<div class="center fade-in"><div class="card-name" style="font-family:'Cinzel Decorative';color:var(--violet);font-weight:700;margin-top:8px">${esc(cardLabel(c.card))}</div>
           <div class="interp-lens">${esc(CTX_LABEL[it.ctx] || '')}${it.lens ? ` · <i>${esc(it.lens)}</i>` : ''}</div>
           <p style="text-align:left">${esc(it.text)}</p></div>` : ''}
@@ -366,5 +366,5 @@ function guidedWalk(r) {
       m.querySelector('.sheet').scrollTop = 0;
     };
     draw();
-  });
+  }, onClose);
 }

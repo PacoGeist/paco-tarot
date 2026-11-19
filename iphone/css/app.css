@@ -653,3 +653,11 @@ img[src*="img/marseille/"]{object-fit:contain!important;background:transparent}
 .basics-item>div{flex:1;min-width:0}
 .basics-go{align-self:center;color:var(--gold);font-size:1.6rem;line-height:1}
 .basics-item:active{transform:scale(.99)}
+/* card backs (1.1): face-down cards before drawing, the guided draw, and My Decks */
+.layout .card.back{cursor:default}
+.layout .card.back img{border-radius:5px}
+.walk-back.pic{position:relative;padding:0;background:#140e20;overflow:hidden;border:0}
+.walk-back.pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;animation:none}
+.walk-back.pic span{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);white-space:nowrap;background:rgba(11,8,18,.78);padding:4px 10px;border-radius:12px}
+.md-back-row{display:flex;gap:12px;align-items:flex-start}
+.md-back-row>img{width:74px;aspect-ratio:7/12;object-fit:cover;border-radius:7px;border:1.5px solid var(--gold);flex:none;box-shadow:0 3px 10px rgba(0,0,0,.5)}

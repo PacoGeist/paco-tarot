@@ -304,7 +304,7 @@ function layoutGeom(positions, maxW = 330) {
   const s = Math.min(maxW / (maxX - minX), 70, 420 / (maxY - minY));
   return { s, w: (maxX - minX) * s, h: (maxY - minY) * s, minX, minY, ps };
 }
-function layoutHTML(positions, drawn, lines, theme) {
+function layoutHTML(positions, drawn, lines, theme, back) {
   const g = layoutGeom(positions, 300); if (!g.s) return '<p class="muted">No positions yet.</p>';
   const P = 16, kind = backdropKind(theme), wide = true;
   // themed stages fill the frame so the scenery isn't hidden behind small spreads
@@ -317,6 +317,8 @@ function layoutHTML(positions, drawn, lines, theme) {
     const left = (+p.x - g.minX) * g.s, top = (+p.y - g.minY) * g.s;
     const d = drawn && drawn[i];
     const img = d && d.card && tarotImg(d.card.name);
+    // face down: the back of the deck, with the position number
+    if (!d && back) return `<div class="card pic back" data-i="${i}" style="left:${left}px;top:${top}px;width:${g.s}px;height:${g.s * 1.5}px;${p.rotate == 90 ? 'transform:rotate(90deg);' : ''}"><img src="${back}" alt=""><b class="pn">${p.n}</b></div>`;
     return `<div class="card ${d ? 'drawn' + (p.rotate == 90 ? '' : ' flip') : ''} ${img ? 'pic' : ''} ${!d && under(p) ? 'under' : ''} ${!d && p.rotate == 90 ? 'side' : ''} ${d && d.rev ? 'rev' : ''}" data-i="${i}" ${img ? `data-card="${esc(d.card.name)}"` : ''} style="left:${left}px;top:${top}px;width:${g.s}px;height:${g.s * 1.5}px;${p.rotate == 90 ? 'transform:rotate(90deg);' : ''}font-size:${d ? Math.max(8, g.s * .19) : Math.max(10, g.s * .32)}px;${d ? `animation-delay:${i * 0.12}s` : ''}">${img ? `<img src="${img}" alt="${esc(d.card.name)}" loading="lazy"><b class="pn">${p.n}</b>` : d ? `<span>${esc(d.card.name.replace(/^[0IVXL]+ · /, ''))}</span>` : `<span class="num">${p.n}</span>`}</div>`;
   }).join('');
   return `<div class="spread-stage bd-${kind}" data-theme="${esc(theme || '')}" data-w="${W}" data-h="${H}" data-lines='${JSON.stringify(segs)}' style="width:${W}px;height:${H}px">${backdropSVG(kind, W, H, segs)}<div class="layout" style="left:${OX}px;top:${OY}px;width:${g.w}px;height:${g.h}px">${cards}</div></div>${backdropPickerHTML()}`;
