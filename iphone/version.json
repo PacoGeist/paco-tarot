@@ -1,11 +1,10 @@
 {
-  "version": "1.1",
-  "androidVersionCode": 13,
+  "version": "1.2",
+  "androidVersionCode": 14,
   "date": "2026-11-18",
   "notes": [
-    "Every spread now opens face down. Type your question if you like, then choose Draw to see all the cards at once, or Guided draw to turn them over one at a time with a prompt for each position.",
-    "Cards now have backs: a designed back for each built-in deck (purple Rider–Waite–Smith, red Marseille, teal Thoth).",
-    "My Decks: photograph the back of your own deck once (open the deck → The back of the cards) and it shows on every face-down card. The back is included in backups and shared deck files."
+    "Android: fixes \"Update now\", which stopped with \"Unexpected download address\".",
+    "Includes everything from 1.1: every spread opens face down with Draw or Guided draw, designed card backs, and a photo of the back for your own decks."
   ],
-  "apk": "https://github.com/PacoGeist/paco-tarot/releases/latest/download/PacoTarot.apk"
+  "apk": "https://raw.githubusercontent.com/PacoGeist/paco-tarot/apk/PacoTarot-14.apk"
 }

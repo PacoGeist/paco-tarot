@@ -30,6 +30,16 @@ jobs:
           node tools/build_data.js
           pip install --quiet pillow
           python3 tools/build_web.py
+      - name: Point Android updates at this version's APK
+        # The file only exists once "Build the Android app" has finished. Until then the phone gets a clear
+        # "answered 404, try again" instead of quietly reinstalling the previous version.
+        run: |
+          python3 - <<'PY'
+          import json
+          p = 'iphone/version.json'; v = json.load(open(p, encoding='utf-8'))
+          v['apk'] = f"https://raw.githubusercontent.com/${{ github.repository }}/apk/PacoTarot-{v['androidVersionCode']}.apk"
+          open(p, 'w', encoding='utf-8').write(json.dumps(v, ensure_ascii=False, indent=2) + '\n')
+          PY
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

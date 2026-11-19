@@ -79,7 +79,7 @@ class UpdateInstaller {
             int code = con.getResponseCode();
             if (code >= 300 && code < 400) {
                 String next = con.getHeaderField("Location"); con.disconnect();
-                if (next == null || !next.startsWith("https://") || !(allowedUrl(next.split("\\?")[0]) || next.matches("https://[a-z.]*githubusercontent\\.com/.*"))) throw new Exception("Unexpected download address");
+                if (next == null || !next.startsWith("https://") || !(allowedUrl(next.split("\\?")[0]) || next.matches("https://([a-z0-9-]+\\.)*githubusercontent\\.com/.*"))) throw new Exception("Unexpected download address");
                 u = next; continue;
             }
             if (code != 200) { con.disconnect(); throw new Exception("The update site answered " + code); }

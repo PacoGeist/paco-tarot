@@ -6,8 +6,9 @@
 #   KEYSTORE_BASE64  the signing key (keys/tarot.keystore) as base64 text
 #   KS_PASS          the keystore password (the value after KS_PASS= in keys/signing.env)
 #
-# The newest APK is always at https://github.com/PacoGeist/paco-tarot/releases/latest/download/PacoTarot.apk
-# (iphone/version.json "apk" points the in-app updater there).
+# The newest APK is at https://github.com/PacoGeist/paco-tarot/releases/latest/download/PacoTarot.apk (for people),
+# and on the "apk" branch as PacoTarot-<versionCode>.apk (for the in-app updater: raw.githubusercontent.com
+# answers directly, which version 1.0's updater needs). pages.yml points version.json "apk" at that file.
 name: Build the Android app
 
 on:
@@ -74,3 +75,18 @@ jobs:
           else
             gh release create "v$V" android/releases/PacoTarot.apk --title "Paco Morningstar's Tarot $V" --notes-file notes.md --latest
           fi
+
+      - name: Put the APK on the apk branch for the in-app updater
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          C=$(python3 -c "import json;print(json.load(open('iphone/version.json'))['androidVersionCode'])")
+          D="$RUNNER_TEMP/apkbranch"; mkdir -p "$D"
+          cp android/releases/PacoTarot.apk "$D/PacoTarot-$C.apk"
+          cp android/releases/PacoTarot.apk "$D/PacoTarot.apk"
+          cd "$D"
+          git init -q -b apk
+          git add .
+          git -c user.name="github-actions[bot]" -c user.email="41898283+github-actions[bot]@users.noreply.github.com" commit -q -m "Android APK, versionCode $C"
+          # one commit only, replaced every release, so old APKs don't pile up in the repository
+          git push -f -q "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" apk
